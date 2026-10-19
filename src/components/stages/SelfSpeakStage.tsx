@@ -66,12 +66,8 @@ export function SelfSpeakStage({ vi, en, phon, when, label = 'Tự nói', onDone
       {revealed && (
         <>
           <div className="mt-3 flex gap-3">
-            <SpeakButton text={en} className="btn btn-ghost flex-1">
-              🔊 Nghe mẫu
-            </SpeakButton>
-            <SpeakButton text={en} rate={0.6} className="btn btn-ghost flex-1">
-              🐢 Chậm
-            </SpeakButton>
+            <SpeakButton text={en} className="btn btn-ghost flex-1" />
+            <SpeakButton text={en} rate={0.6} className="btn btn-ghost flex-1" />
           </div>
 
           <div className="card mt-4 p-4">
@@ -87,7 +83,7 @@ export function SelfSpeakStage({ vi, en, phon, when, label = 'Tự nói', onDone
             )}
             <button
               type="button"
-              className={`btn btn-big w-full ${rec.recording ? 'bg-flag text-white' : 'btn-ghost'}`}
+              className={`btn btn-big w-full ${rec.recording ? 'btn-red' : 'btn-ghost'}`}
               onClick={() => (rec.recording ? rec.stop() : void rec.start())}
             >
               {rec.recording ? '⏹ Dừng thu âm' : '🎤 Thu giọng mình đọc'}

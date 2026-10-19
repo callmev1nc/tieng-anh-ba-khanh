@@ -48,8 +48,10 @@ export function saveProgress(p: Progress): void {
   }
 }
 
-/** Register a word when the learner sees it. Idempotent: never resets a due date. */
-export function learnWord(p: Progress, en: string): void {
+/** Register a word when the learner actively answers its meaning gate.
+ * Idempotent: never resets a due date. `ok` = did they pick the right meaning
+ * on first sight (sorts failed words first in tomorrow's review). */
+export function learnWord(p: Progress, en: string, ok = true): void {
   if (p.words[en]) return
   const meta = lookupWord(en)
   p.words[en] = {
@@ -57,7 +59,7 @@ export function learnWord(p: Progress, en: string): void {
     due: addDaysISO(todayISO(), INTERVALS[0]),
     learned: todayISO(),
     lessonId: meta?.lessonId ?? '',
-    lastOk: true,
+    lastOk: ok,
   }
 }
 

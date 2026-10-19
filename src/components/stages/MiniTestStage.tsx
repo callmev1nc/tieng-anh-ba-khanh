@@ -7,6 +7,9 @@ import {
   type BuildItem,
 } from '../../lib/exercises'
 import { SpeakButton } from '../SpeakButton'
+import { AnswerBanner } from '../AnswerBanner'
+import { sfxCorrect, sfxTap, sfxWrong } from '../../lib/sfx'
+import { SpeakerIcon } from '../icons'
 import { SelfSpeakStage } from './SelfSpeakStage'
 
 interface Props {
@@ -22,7 +25,7 @@ const KIND_LABEL: Record<string, string> = {
   selfspeak: '🗣 Tự nói',
 }
 
-/** The Friday-style 5-question mixed test, freshly shuffled every attempt. */
+/** The final 5-question mixed test, freshly shuffled every attempt. */
 export function MiniTestStage({ lesson, onDone }: Props) {
   const rand = useMemo(() => freshRand(), [])
   const items = useMemo(() => buildMiniTest(lesson, rand), [lesson, rand])
@@ -79,9 +82,14 @@ export function MiniTestStage({ lesson, onDone }: Props) {
 
 function ListenMini({ item, onResult }: { item: ListenItem; onResult: (ok: boolean) => void }) {
   const [picked, setPicked] = useState<number | null>(null)
+  const answered = picked !== null
+  const isRight = picked === item.answer
+
   const pick = (idx: number) => {
     if (picked !== null) return
     setPicked(idx)
+    if (idx === item.answer) sfxCorrect()
+    else sfxWrong()
   }
   return (
     <div>
@@ -91,7 +99,7 @@ function ListenMini({ item, onResult }: { item: ListenItem; onResult: (ok: boole
           text={item.audio}
           className="mx-auto mt-4 flex h-24 w-24 items-center justify-center rounded-full bg-primary text-4xl text-white shadow-lg"
         >
-          🔊
+          <SpeakerIcon size={36} />
         </SpeakButton>
       </div>
       <div className="mt-4 space-y-3">
@@ -101,13 +109,13 @@ function ListenMini({ item, onResult }: { item: ListenItem; onResult: (ok: boole
             type="button"
             data-testid="opt"
             className={
-              picked === null
-                ? 'btn btn-ghost justify-start text-left'
+              !answered
+                ? 'btn btn-ghost btn-opt'
                 : idx === item.answer
-                  ? 'btn justify-start text-left border-2 border-ok bg-ok text-white'
+                  ? 'btn btn-opt btn-opt-right'
                   : idx === picked
-                    ? 'btn justify-start text-left border-2 border-flag bg-flagsoft text-flag'
-                    : 'btn btn-ghost justify-start text-left opacity-50'
+                    ? 'btn btn-opt btn-opt-wrong'
+                    : 'btn btn-ghost btn-opt btn-opt-dim'
             }
             onClick={() => pick(idx)}
           >
@@ -115,12 +123,16 @@ function ListenMini({ item, onResult }: { item: ListenItem; onResult: (ok: boole
           </button>
         ))}
       </div>
-      {picked !== null && (
-        <div className="mt-4 flex gap-3">
-          <button type="button" className="btn btn-ok btn-big flex-1" onClick={() => onResult(picked === item.answer)}>
-            Tính điểm →
-          </button>
-        </div>
+      {answered && (
+        <>
+          <div className="h-44" aria-hidden />
+          <AnswerBanner
+            correct={isRight}
+            title={isRight ? '🎉 Câu chuẩn!' : `Câu vừa nghe là: “${item.options[item.answer].en}”`}
+            actionLabel="Tính điểm →"
+            onAction={() => onResult(isRight)}
+          />
+        </>
       )}
     </div>
   )
@@ -135,9 +147,14 @@ function ReplyMini({
 }) {
   const [picked, setPicked] = useState<number | null>(null)
   if (!s) return null
+  const answered = picked !== null
+  const isRight = picked === s.answer
+
   const pick = (n: number) => {
     if (picked !== null) return
     setPicked(n)
+    if (n === s.answer) sfxCorrect()
+    else sfxWrong()
   }
   return (
     <div>
@@ -155,13 +172,13 @@ function ReplyMini({
             type="button"
             data-testid="opt"
             className={
-              picked === null
-                ? 'btn btn-ghost justify-start text-left'
+              !answered
+                ? 'btn btn-ghost btn-opt justify-start text-left'
                 : n === s.answer
-                  ? 'btn justify-start text-left border-2 border-ok bg-ok text-white'
+                  ? 'btn btn-opt btn-opt-right'
                   : n === picked
-                    ? 'btn justify-start text-left border-2 border-flag bg-flagsoft text-flag'
-                    : 'btn btn-ghost justify-start text-left opacity-50'
+                    ? 'btn btn-opt btn-opt-wrong'
+                    : 'btn btn-ghost btn-opt btn-opt-dim'
             }
             onClick={() => pick(n)}
           >
@@ -169,12 +186,16 @@ function ReplyMini({
           </button>
         ))}
       </div>
-      {picked !== null && (
-        <div className="mt-4">
-          <button type="button" className="btn btn-ok btn-big w-full" onClick={() => onResult(picked === s.answer)}>
-            Tính điểm →
-          </button>
-        </div>
+      {answered && (
+        <>
+          <div className="h-44" aria-hidden />
+          <AnswerBanner
+            correct={isRight}
+            title={isRight ? '🎉 Chuẩn mực luôn!' : `Câu khéo hơn: “${s.options[s.answer].en}”`}
+            actionLabel="Tính điểm →"
+            onAction={() => onResult(isRight)}
+          />
+        </>
       )}
     </div>
   )
@@ -182,29 +203,44 @@ function ReplyMini({
 
 function BuildMini({ item, onResult }: { item: BuildItem; onResult: (ok: boolean) => void }) {
   const [chosen, setChosen] = useState<number[]>([])
-  const [done, setDone] = useState<null | boolean>(null)
+  const [submitted, setSubmitted] = useState(false)
   const allUsed = chosen.length === item.tokens.length
+  const built = chosen.map(k => item.tokens[k]).join(' ')
+  const isRight = built === item.phrase
 
   const tap = (idx: number) => {
-    if (done !== null) return
+    if (submitted) return
+    sfxTap()
     setChosen(chosen.includes(idx) ? chosen.filter(c => c !== idx) : [...chosen, idx])
   }
 
   const submit = () => {
-    const built = chosen.map(k => item.tokens[k]).join(' ')
-    setDone(built === item.phrase)
+    setSubmitted(true)
+    if (isRight) sfxCorrect()
+    else sfxWrong()
   }
 
-  if (done !== null) {
+  if (submitted) {
     return (
       <div>
-        <div className={`card p-5 text-center ${done ? '' : 'border-flag bg-flagsoft'}`}>
-          {done ? '🎉 Câu chuẩn!' : `Đáp án: “${item.phrase}”`}
-          <p className="mt-1 font-display text-2xl font-extrabold">{item.phrase}</p>
+        <div className={`card p-5 text-center ${isRight ? '' : 'border-flag bg-flagsoft'}`}>
+          {isRight ? (
+            <p className="font-display text-2xl font-extrabold text-ok">{item.phrase}</p>
+          ) : (
+            <>
+              <p className="text-sm font-semibold text-flag">Đáp án đúng là:</p>
+              <p className="mt-1 font-display text-2xl font-extrabold">{item.phrase}</p>
+            </>
+          )}
         </div>
-        <button type="button" className="btn btn-ok btn-big mt-4 w-full" onClick={() => onResult(done)}>
-          Tính điểm →
-        </button>
+        <div className="h-44" aria-hidden />
+        <AnswerBanner
+          correct={isRight}
+          title={isRight ? '🎉 Câu chuẩn!' : 'Xếp chưa đúng — xem đáp án nhé'}
+          detail={`“${item.phrase}”`}
+          actionLabel="Tính điểm →"
+          onAction={() => onResult(isRight)}
+        />
       </div>
     )
   }
@@ -237,7 +273,7 @@ function BuildMini({ item, onResult }: { item: BuildItem; onResult: (ok: boolean
       </div>
       <button
         type="button"
-        className="btn btn-primary btn-big mt-4 w-full"
+        className="btn btn-primary btn-raise btn-big mt-4 w-full"
         onClick={submit}
         disabled={!allUsed}
         style={!allUsed ? { opacity: 0.45 } : undefined}
@@ -262,6 +298,8 @@ function NumbersMini({
   onResult: (ok: boolean) => void
 }) {
   const [picked, setPicked] = useState<number | null>(null)
+  const answered = picked !== null
+  const isRight = picked === answer
   return (
     <div>
       <div className="card p-5 text-center">
@@ -269,7 +307,7 @@ function NumbersMini({
           text={say}
           className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-primary text-4xl text-white shadow-lg"
         >
-          🔊
+          <SpeakerIcon size={36} />
         </SpeakButton>
         {phon && <p className="mt-3 text-sm font-bold text-primary">{phon}</p>}
       </div>
@@ -280,24 +318,35 @@ function NumbersMini({
             type="button"
             data-testid="opt"
             className={
-              picked === null
+              !answered
                 ? 'btn btn-ghost'
                 : k === answer
-                  ? 'btn border-2 border-ok bg-ok text-white'
+                  ? 'btn btn-opt-right'
                   : k === picked
-                    ? 'btn border-2 border-flag bg-flagsoft text-flag'
-                    : 'btn btn-ghost opacity-50'
+                    ? 'btn btn-opt-wrong'
+                    : 'btn btn-ghost btn-opt-dim'
             }
-            onClick={() => picked === null && setPicked(k)}
+            onClick={() => {
+              if (picked !== null) return
+              setPicked(k)
+              if (k === answer) sfxCorrect()
+              else sfxWrong()
+            }}
           >
             <span className="font-display text-xl font-extrabold">{o}</span>
           </button>
         ))}
       </div>
-      {picked !== null && (
-        <button type="button" className="btn btn-ok btn-big mt-4 w-full" onClick={() => onResult(picked === answer)}>
-          Tính điểm →
-        </button>
+      {answered && (
+        <>
+          <div className="h-44" aria-hidden />
+          <AnswerBanner
+            correct={isRight}
+            title={isRight ? '🎉 Đúng rồi!' : `Đáp án: “${options[answer]}”`}
+            actionLabel="Tính điểm →"
+            onAction={() => onResult(isRight)}
+          />
+        </>
       )}
     </div>
   )

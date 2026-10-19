@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
-import { speak, stopSpeaking, ttsAvailable } from '../lib/speech'
+import { speak, speakSlow, stopSpeaking, ttsAvailable } from '../lib/speech'
+import { buzz } from '../lib/sfx'
+import { SpeakerIcon, TurtleIcon } from './icons'
 
 interface Props {
   text: string
-  /** 0.85 = normal, 0.6 = slow for beginners */
+  /** 0.85 = normal, 0.6 or lower = guaranteed-slow playback */
   rate?: number
   className?: string
   children?: ReactNode
@@ -20,6 +22,7 @@ export function SpeakButton({
 }: Props) {
   const [playing, setPlaying] = useState(false)
   const timerRef = useRef<number | null>(null)
+  const slow = rate < 0.7
 
   useEffect(() => {
     return () => {
@@ -34,9 +37,16 @@ export function SpeakButton({
       setPlaying(false)
       return
     }
-    // Safety net: some iOS versions never fire onend.
-    const ms = text.length * 140 + 3500
-    const started = speak(text, rate, {
+    buzz(12)
+    // Safety net: some iOS versions never fire onend (slower text = longer window).
+    const ms = slow ? text.length * 420 + 5200 : text.length * 140 + 3500
+    const started = slow ? speakSlow(text, {
+      onStart: () => setPlaying(true),
+      onEnd: () => {
+        setPlaying(false)
+        if (timerRef.current) window.clearTimeout(timerRef.current)
+      },
+    }) : speak(text, rate, {
       onStart: () => setPlaying(true),
       onEnd: () => {
         setPlaying(false)
@@ -53,11 +63,16 @@ export function SpeakButton({
   return (
     <button
       type="button"
-      className={`${className}${playing ? ' bg-primary text-white border-primary' : ''}`}
+      className={`${className}${playing ? ' btn-playing' : ''}`}
       onClick={handle}
       aria-label={ariaLabel ?? `Nghe: ${text}`}
+      aria-pressed={playing}
     >
-      {children ?? (playing ? '⏹ Đang nghe…' : '🔊 Nghe')}
+      {children ?? (playing ? '⌁ Đang nghe…' : (
+        <>
+          {slow ? <TurtleIcon size={19} /> : <SpeakerIcon size={19} />} {slow ? 'Chậm' : 'Nghe'}
+        </>
+      ))}
     </button>
   )
 }

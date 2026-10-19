@@ -36,7 +36,7 @@ export function SpeakStage({ phrases, onDone }: Props) {
         <span>
           Luyện nói {i + 1} / {phrases.length}
         </span>
-        <span>📣 Đọc theo mẫu</span>
+        <span>Đọc theo mẫu</span>
       </div>
 
       <div className="card p-5">
@@ -52,12 +52,8 @@ export function SpeakStage({ phrases, onDone }: Props) {
       </div>
 
       <div className="mt-3 flex gap-3">
-        <SpeakButton text={p.en} className="btn btn-ghost flex-1">
-          🔊 Nghe
-        </SpeakButton>
-        <SpeakButton text={p.en} rate={0.6} className="btn btn-ghost flex-1">
-          🐢 Nghe chậm
-        </SpeakButton>
+        <SpeakButton text={p.en} className="btn btn-ghost flex-1" />
+        <SpeakButton text={p.en} rate={0.6} className="btn btn-ghost flex-1" />
       </div>
 
       <div className="card mt-4 p-4">
@@ -74,7 +70,7 @@ export function SpeakStage({ phrases, onDone }: Props) {
         <button
           type="button"
           className={`btn btn-big w-full ${
-            rec.recording ? 'bg-flag text-white' : 'btn-primary'
+            rec.recording ? 'btn-red' : 'btn-primary btn-raise'
           }`}
           onClick={() => (rec.recording ? rec.stop() : void rec.start())}
         >
@@ -86,7 +82,7 @@ export function SpeakStage({ phrases, onDone }: Props) {
         </p>
       </div>
 
-      <button type="button" className="btn btn-primary btn-big mt-4 w-full" onClick={advance}>
+      <button type="button" className="btn btn-primary btn-raise btn-big mt-4 w-full" onClick={advance}>
         {isLast ? 'Xong luyện nói ✓' : 'Tiếp câu →'}
       </button>
     </div>

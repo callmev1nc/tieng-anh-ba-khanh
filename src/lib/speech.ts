@@ -10,6 +10,15 @@ const FEMALE_RE =
   /female|serena|kate|moira|tessa|fiona|samantha|zira|susan|hazel|google uk english female|google us english/i
 const MALE_RE = /male|daniel|alex|fred|david|george|oliver|arthur/i
 
+/** iPhones largely flatten the `rate` property (known WebKit quirk with the
+ * downloaded/enhanced voices), so slow playback there is built from chunks. */
+export function isAppleSpeech(): boolean {
+  if (typeof navigator === 'undefined') return false
+  if (/iphone|ipad|ipod/i.test(navigator.userAgent)) return true
+  // iPadOS 13+ reports as Mac but is still touch
+  return 'ontouchend' in document && /macintosh/i.test(navigator.userAgent)
+}
+
 function pickVoice(): SpeechSynthesisVoice | null {
   const voices = window.speechSynthesis.getVoices()
   if (voices.length === 0) return null
@@ -120,6 +129,67 @@ export function speak(text: string, rate = 0.85, cb?: SpeakCallbacks): boolean {
   }
 }
 
+/* ================= Slow playback that survives iOS =================
+ *
+ * iOS SpeechSynthesis applies `rate` inconsistently: 0.6 and 0.85 can sound
+ * identical on the enhanced/Siri voices. So slow speed is built physically:
+ * speak the text in small word-groups with real pauses between groups.
+ * On platforms where `rate` works, one utterance at 0.55 is enough.
+ */
+
+let slowSeq = 0
+const CHUNK_GAP_MS = 320
+
+/** 1–2-word groups: pause lands mid-sentence where a learner listens hardest. */
+function chunkWords(text: string): string[] {
+  const words = text.trim().split(/\s+/)
+  const chunks: string[] = []
+  for (let i = 0; i < words.length; i += 2) chunks.push(words.slice(i, i + 2).join(' '))
+  return chunks.length > 1 ? chunks : [text]
+}
+
+/** Guaranteed-slow playback. Returns false only when TTS is unavailable. */
+export function speakSlow(text: string, cb?: SpeakCallbacks): boolean {
+  if (!ttsAvailable) return false
+  const mySeq = ++slowSeq
+  const alive = (): boolean => mySeq === slowSeq
+  const apple = isAppleSpeech()
+  const groups = apple ? chunkWords(text) : [text]
+  const rate = apple ? 0.8 : 0.55
+  const finished = new Set<number>()
+
+  const advance = (idx: number): void => {
+    if (!alive() || finished.has(idx)) return
+    finished.add(idx)
+    if (idx + 1 >= groups.length) {
+      cb?.onEnd?.()
+      return
+    }
+    window.setTimeout(() => speakChunk(idx + 1), CHUNK_GAP_MS)
+  }
+
+  const speakChunk = (idx: number): void => {
+    if (!alive() || idx >= groups.length || finished.has(idx)) return
+    const chunkCb: SpeakCallbacks = {
+      onStart: idx === 0 ? () => cb?.onStart?.() : undefined,
+      onEnd: () => advance(idx),
+    }
+    const ok = speak(groups[idx], rate, chunkCb)
+    if (!ok) {
+      // Voice missing / cancelled — walk the chain so onEnd still lands.
+      advance(idx)
+      return
+    }
+    // Watchdog: some iOS voices never fire onend.
+    const est = Math.max(1500, groups[idx].length * 220 + 900)
+    window.setTimeout(() => advance(idx), est)
+  }
+
+  speakChunk(0)
+  return true
+}
+
 export function stopSpeaking(): void {
+  slowSeq++ // invalidate any slow chain in flight
   if (ttsAvailable) window.speechSynthesis.cancel()
 }

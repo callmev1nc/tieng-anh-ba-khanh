@@ -1,6 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import type { ListenItem } from '../../lib/exercises'
 import { speak, stopSpeaking, ttsAvailable } from '../../lib/speech'
+import { AnswerBanner } from '../AnswerBanner'
+import { sfxCorrect, sfxWrong } from '../../lib/sfx'
+import { SpeakerIcon } from '../icons'
 
 interface Props {
   title: string
@@ -15,11 +18,11 @@ export function ListenStage({ title, items, onDone }: Props) {
   const [correct, setCorrect] = useState(0)
   const item = items[i]
   const isLast = i + 1 >= items.length
-  const timerRef = useRef<number | null>(null)
+  const answered = picked !== null
+  const isRight = picked === item?.answer
 
   useEffect(() => {
     return () => {
-      if (timerRef.current) window.clearTimeout(timerRef.current)
       stopSpeaking()
     }
   }, [])
@@ -32,20 +35,18 @@ export function ListenStage({ title, items, onDone }: Props) {
   if (!item) return null
 
   const replay = () => {
-    const ms = item.audio.length * 140 + 4000
-    speak(item.audio, 0.85, {
-      onEnd: () => {
-        if (timerRef.current) window.clearTimeout(timerRef.current)
-      },
-    })
-    if (timerRef.current) window.clearTimeout(timerRef.current)
-    timerRef.current = window.setTimeout(() => {}, ms)
+    speak(item.audio, 0.85)
   }
 
   const pick = (idx: number) => {
     if (picked !== null) return
     setPicked(idx)
-    if (idx === item.answer) setCorrect(c => c + 1)
+    if (idx === item.answer) {
+      setCorrect(c => c + 1)
+      sfxCorrect()
+    } else {
+      sfxWrong()
+    }
   }
 
   const advance = () => {
@@ -72,12 +73,12 @@ export function ListenStage({ title, items, onDone }: Props) {
         </p>
         <button
           type="button"
-          className="mx-auto mt-4 grid h-28 w-28 place-items-center rounded-full bg-primary text-5xl text-white shadow-lg transition-transform active:scale-95"
+          className="mx-auto mt-4 grid h-28 w-28 place-items-center rounded-full bg-primary text-white shadow-lg transition-transform active:scale-95"
           onClick={replay}
           disabled={!ttsAvailable}
           aria-label="Nghe lại câu vừa rồi"
         >
-          🔊
+          <SpeakerIcon size={44} />
         </button>
         <p className="mt-3 text-sm font-bold text-primary">Bấm để nghe (nghe bao nhiêu lần cũng được)</p>
       </div>
@@ -89,17 +90,17 @@ export function ListenStage({ title, items, onDone }: Props) {
             type="button"
             data-testid="opt"
             className={
-              picked === null
-                ? 'btn btn-ghost justify-start text-left'
+              !answered
+                ? 'btn btn-ghost btn-opt'
                 : idx === item.answer
-                  ? 'btn justify-start text-left border-2 border-ok bg-ok text-white'
+                  ? 'btn btn-opt btn-opt-right'
                   : idx === picked
-                    ? 'btn justify-start text-left border-2 border-flag bg-flagsoft text-flag'
-                    : 'btn btn-ghost justify-start text-left opacity-50'
+                    ? 'btn btn-opt btn-opt-wrong'
+                    : 'btn btn-ghost btn-opt btn-opt-dim'
             }
             onClick={() => pick(idx)}
           >
-            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-mist text-sm font-bold text-ink">
+            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-mist text-sm font-bold text-ink opacity-100">
               {String.fromCharCode(65 + idx)}
             </span>
             <span className="min-w-0">
@@ -110,27 +111,18 @@ export function ListenStage({ title, items, onDone }: Props) {
         ))}
       </div>
 
-      {picked !== null && (
-        <div
-          className={`mt-4 rounded-2xl p-4 text-center font-bold ${
-            picked === item.answer ? 'bg-oksoft text-ok' : 'bg-flagsoft text-flag'
-          }`}
-          role="status"
-        >
-          {picked === item.answer ? '🎉 Tai chuẩn đấy!' : `Câu đúng là: “${item.options[item.answer].en}”`}
-          <span className="mt-1 block text-sm font-semibold opacity-80">{item.vi}</span>
-        </div>
+      {answered && (
+        <>
+          <div className="h-44" aria-hidden />
+          <AnswerBanner
+            correct={isRight}
+            title={isRight ? '🎉 Tai chuẩn đấy!' : `Câu đúng là: “${item.options[item.answer].en}”`}
+            detail={item.vi || undefined}
+            actionLabel={isLast ? 'Xong nghe ✓' : 'Tiếp câu →'}
+            onAction={advance}
+          />
+        </>
       )}
-
-      <button
-        type="button"
-        className="btn btn-primary btn-big mt-4 w-full"
-        onClick={advance}
-        disabled={picked === null}
-        style={picked === null ? { opacity: 0.45 } : undefined}
-      >
-        {isLast ? 'Xong nghe ✓' : 'Tiếp câu →'}
-      </button>
     </div>
   )
 }

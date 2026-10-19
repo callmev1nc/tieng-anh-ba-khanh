@@ -1,10 +1,11 @@
 import type { TabId } from '../types'
+import { BookIcon, HomeIcon, LettersIcon, RepeatIcon } from './icons'
 
-const TABS: { id: TabId; label: string; icon: string }[] = [
-  { id: 'home', label: 'Hôm nay', icon: '🏠' },
-  { id: 'lessons', label: 'Bài học', icon: '📚' },
-  { id: 'review', label: 'Ôn tập', icon: '🔁' },
-  { id: 'words', label: 'Từ của tôi', icon: '🔤' },
+const TABS: { id: TabId; label: string; icon: typeof HomeIcon }[] = [
+  { id: 'home', label: 'Hôm nay', icon: HomeIcon },
+  { id: 'lessons', label: 'Bài học', icon: BookIcon },
+  { id: 'review', label: 'Ôn tập', icon: RepeatIcon },
+  { id: 'words', label: 'Từ của tôi', icon: LettersIcon },
 ]
 
 interface Props {
@@ -16,9 +17,10 @@ interface Props {
 export function TabBar({ active, dueCount, onChange }: Props) {
   return (
     <nav className="tabbar fixed inset-x-0 bottom-0 z-40 border-t border-mist bg-white/95 backdrop-blur">
-      <div className="mx-auto grid max-w-xl grid-cols-4 gap-1 px-2 pt-2">
+      <div className="mx-auto grid max-w-xl grid-cols-4 gap-1 px-2 pt-1.5">
         {TABS.map((t) => {
           const isActive = active === t.id
+          const Icon = t.icon
           return (
             <button
               key={t.id}
@@ -31,7 +33,7 @@ export function TabBar({ active, dueCount, onChange }: Props) {
                   : 'text-inksoft active:bg-mist'
               }`}
             >
-              <span className="text-xl leading-none">{t.icon}</span>
+              <Icon size={22} />
               <span className="text-[11px] font-bold">{t.label}</span>
               {t.id === 'review' && dueCount > 0 && (
                 <span className="absolute right-2 top-1 grid h-5 min-w-5 place-items-center rounded-full bg-flag px-1 text-[11px] font-bold text-white">

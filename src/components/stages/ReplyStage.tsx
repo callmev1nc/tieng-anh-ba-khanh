@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import type { Lesson, Situation } from '../../types'
 import { SpeakButton } from '../SpeakButton'
+import { AnswerBanner } from '../AnswerBanner'
+import { sfxCorrect, sfxWrong } from '../../lib/sfx'
 
 interface Props {
   lesson: Lesson
-  /** Limit the number of situations played this round (keep flow short) */
+  /** Limit the number of situations played this round (keep the flow short) */
   max?: number
   onDone: (correct: number, total: number) => void
 }
@@ -27,11 +29,18 @@ export function ReplyStage({ lesson, max = 3, onDone }: Props) {
     return null
   }
   const s = items[i]
+  const answered = picked !== null
+  const isRight = picked === s.answer
 
   const pick = (idx: number) => {
     if (picked !== null) return
     setPicked(idx)
-    if (idx === s.answer) setCorrect(c => c + 1)
+    if (idx === s.answer) {
+      setCorrect(c => c + 1)
+      sfxCorrect()
+    } else {
+      sfxWrong()
+    }
   }
 
   const advance = () => {
@@ -76,17 +85,17 @@ export function ReplyStage({ lesson, max = 3, onDone }: Props) {
             type="button"
             data-testid="opt"
             className={
-              picked === null
-                ? 'btn btn-ghost justify-start text-left'
+              !answered
+                ? 'btn btn-ghost btn-opt'
                 : idx === s.answer
-                  ? 'btn justify-start text-left border-2 border-ok bg-ok text-white'
+                  ? 'btn btn-opt btn-opt-right'
                   : idx === picked
-                    ? 'btn justify-start text-left border-2 border-flag bg-flagsoft text-flag'
-                    : 'btn btn-ghost justify-start text-left opacity-50'
+                    ? 'btn btn-opt btn-opt-wrong'
+                    : 'btn btn-ghost btn-opt btn-opt-dim'
             }
             onClick={() => pick(idx)}
           >
-            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-mist text-sm font-bold text-ink">
+            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-mist text-sm font-bold text-ink opacity-100">
               {String.fromCharCode(65 + idx)}
             </span>
             <span className="min-w-0">
@@ -97,27 +106,18 @@ export function ReplyStage({ lesson, max = 3, onDone }: Props) {
         ))}
       </div>
 
-      {picked !== null && (
-        <div
-          className={`mt-4 rounded-2xl p-4 font-bold ${
-            picked === s.answer ? 'bg-oksoft text-ok' : 'bg-flagsoft text-flag'
-          }`}
-          role="status"
-        >
-          {picked === s.answer ? '🎉 Chuẩn mực luôn!' : `Câu khéo hơn: “${s.options[s.answer].en}”`}
-          {s.explain && <span className="mt-1 block text-sm font-semibold opacity-90">💡 {s.explain}</span>}
-        </div>
+      {answered && (
+        <>
+          <div className="h-44" aria-hidden />
+          <AnswerBanner
+            correct={isRight}
+            title={isRight ? '🎉 Chuẩn mực luôn!' : `Câu khéo hơn: “${s.options[s.answer].en}”`}
+            detail={s.explain ? `💡 ${s.explain}` : undefined}
+            actionLabel={isLast ? 'Xong đáp lại ✓' : 'Tình huống tiếp →'}
+            onAction={advance}
+          />
+        </>
       )}
-
-      <button
-        type="button"
-        className="btn btn-primary btn-big mt-4 w-full"
-        onClick={advance}
-        disabled={picked === null}
-        style={picked === null ? { opacity: 0.45 } : undefined}
-      >
-        {isLast ? 'Xong đáp lại ✓' : 'Tình huống tiếp →'}
-      </button>
     </div>
   )
 }

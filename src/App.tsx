@@ -4,6 +4,7 @@ import { TabBar } from './components/TabBar'
 import { InstallHint } from './components/InstallHint'
 import { Session } from './components/Session'
 import { ReviewSession } from './components/ReviewSession'
+import { ScissorsIcon, FlameIcon, StarIcon } from './components/icons'
 import { HomePage } from './pages/Home'
 import { LessonsPage } from './pages/Lessons'
 import { ReviewPage } from './pages/Review'
@@ -78,7 +79,7 @@ export default function App() {
     page = lesson ? (
       <Session
         lesson={lesson}
-        onWordSeen={(en) => commit((p) => learnWord(p, en))}
+        onWordSeen={(en, ok) => commit((p) => learnWord(p, en, ok))}
         onFinish={(_correct, _total, miniCorrect, miniTotal) => {
           let gained = 0
           commit((p) => {
@@ -148,7 +149,7 @@ export default function App() {
                   className="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-primary font-display text-xl text-white"
                   aria-hidden
                 >
-                  ✂
+                  <ScissorsIcon size={22} />
                 </span>
                 <div className="min-w-0">
                   <p className="truncate font-display text-lg font-extrabold leading-tight">
@@ -158,8 +159,14 @@ export default function App() {
                 </div>
               </div>
               <div className="flex shrink-0 gap-1.5 text-sm font-bold">
-                <span className="chip bg-flagsoft text-flag">🔥{progress.streak}</span>
-                <span className="chip bg-[#FEF3C7] text-[#B45309]">⭐{progress.xp}</span>
+                <span className="chip bg-flagsoft text-flag">
+                  <FlameIcon size={14} />
+                  {progress.streak}
+                </span>
+                <span className="chip bg-[#FEF3C7] text-[#B45309]">
+                  <StarIcon size={14} />
+                  {progress.xp}
+                </span>
               </div>
             </div>
           </div>

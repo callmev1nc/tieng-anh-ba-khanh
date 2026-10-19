@@ -1,8 +1,16 @@
-import { useMemo, useRef, useState } from 'react'
-import { useEffect } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+import { XIcon } from './icons'
 import type { Lesson } from '../types'
 import { PoleBar } from './PoleBar'
+import { Mascot } from './Mascot'
 import { stopSpeaking } from '../lib/speech'
+import { fireConfetti } from '../lib/confetti'
+import { sfxFanfare } from '../lib/sfx'
+import {
+  StarIcon,
+  TrophyIcon,
+  ScissorsIcon,
+} from './icons'
 import {
   buildListenItems,
   lessonPhrasePool,
@@ -32,8 +40,8 @@ const STAGE_LABEL: Record<string, string> = {
 
 interface Props {
   lesson: Lesson
-  /** Register a word as learned (called when its card is shown) */
-  onWordSeen: (en: string) => void
+  /** Word passed (or failed) its meaning gate — register in SRS */
+  onWordSeen: (en: string, ok: boolean) => void
   /** Lesson complete: quiz correct/total + mini-test result. Returns XP earned. */
   onFinish: (correct: number, total: number, miniCorrect: number, miniTotal: number) => number
   onExit: () => void
@@ -72,6 +80,15 @@ export function Session({ lesson, onWordSeen, onFinish, onExit }: Props) {
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: 0 })
   }, [stage])
+
+  // Lesson-complete celebration: fires once, when the result screen mounts.
+  useEffect(() => {
+    if (result) {
+      fireConfetti()
+      sfxFanfare()
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [result])
 
   const exit = () => {
     stopSpeaking()
@@ -154,8 +171,9 @@ export function Session({ lesson, onWordSeen, onFinish, onExit }: Props) {
               type="button"
               className="btn btn-ghost min-h-[42px] shrink-0 whitespace-nowrap px-4 py-1.5 text-sm"
               onClick={exit}
+              aria-label="Thoát bài học"
             >
-              ✕ Thoát
+              <XIcon size={16} /> Thoát
             </button>
             <div className="min-w-0 text-center">
               <p className="truncate font-display text-base font-extrabold">
@@ -163,11 +181,13 @@ export function Session({ lesson, onWordSeen, onFinish, onExit }: Props) {
               </p>
               <p className="text-xs font-bold text-inksoft">
                 {stage >= last
-                  ? '🎉 Hoàn thành'
+                  ? 'Hoàn thành!'
                   : `Bước ${step} · ${STAGE_LABEL[stages[stage]]}`}
               </p>
             </div>
-            <span className="w-[68px] shrink-0" aria-hidden />
+            <span className="grid h-[42px] w-[54px] shrink-0 place-items-center rounded-xl bg-primarysoft text-primary" aria-hidden>
+              <ScissorsIcon size={20} />
+            </span>
           </div>
           <div className="mt-3">
             <PoleBar value={value} label="Tiến độ bài học" />
@@ -177,53 +197,71 @@ export function Session({ lesson, onWordSeen, onFinish, onExit }: Props) {
 
       <div className="flex-1 overflow-y-auto" ref={scrollRef}>
         <div className="mx-auto max-w-xl px-4 py-5 pb-12">
-          {stage >= last && result ? (
-            <div className="flex flex-col items-center pt-6 text-center">
-              <div className="text-6xl" aria-hidden>
-                🎉
-              </div>
-              <h2 className="mt-4 font-display text-2xl font-extrabold">
-                Xong bài “{lesson.title}”!
-              </h2>
-              <div className="mt-4 flex flex-wrap justify-center gap-2">
-                <span className="chip bg-[#FEF3C7] text-[#B45309]">⭐ +{result.xp} XP</span>
-                <span className="chip bg-oksoft text-ok">
-                  📝 Quiz đúng {quizScore.correct}/{quizScore.total}
-                </span>
-                {miniScore.total > 0 && (
+          <div key={stage} className="stage-in">
+            {stage >= last && result ? (
+              <div className="flex flex-col items-center pt-2 text-center">
+                <div className="relative">
+                  <Mascot state="celebrate" size={150} />
+                  <span className="float-up absolute -right-6 top-6 rounded-full bg-[#FEF3C7] px-3 py-1 text-sm font-extrabold text-[#B45309] shadow">
+                    +{result.xp} XP
+                  </span>
+                </div>
+                <h2 className="mt-2 font-display text-2xl font-extrabold">
+                  {lesson.order >= 40
+                    ? 'Tốt nghiệp 40 ngày!'
+                    : `Xong bài “${lesson.title}”!`}
+                </h2>
+                <div className="mt-4 flex flex-wrap justify-center gap-2">
+                  <span className="chip pop-in bg-[#FEF3C7] text-[#B45309]">
+                    <StarIcon size={14} /> +{result.xp} XP
+                  </span>
                   <span
-                    className={`chip ${
-                      miniScore.correct === miniScore.total
-                        ? 'bg-oksoft text-ok'
-                        : 'bg-mist text-ink'
-                    }`}
+                    className="chip pop-in bg-oksoft text-ok"
+                    style={{ animationDelay: '80ms' }}
                   >
-                    🎯 Mini test {Math.max(miniScore.correct, 0)}/{miniScore.total}
+                    Quiz đúng {quizScore.correct}/{quizScore.total}
                   </span>
-                )}
-                {lesson.order >= 40 && (
-                  <span className="chip bg-[#FCE7F3] text-[#BE185D]">
-                    🎓 Chứng nhận khóa {lesson.order} ngày!
-                  </span>
-                )}
+                  {miniScore.total > 0 && (
+                    <span
+                      className={`chip pop-in ${
+                        miniScore.correct === miniScore.total
+                          ? 'bg-oksoft text-ok'
+                          : 'bg-mist text-ink'
+                      }`}
+                      style={{ animationDelay: '160ms' }}
+                    >
+                      🎯 Mini test {Math.max(miniScore.correct, 0)}/{miniScore.total}
+                    </span>
+                  )}
+                  {lesson.order >= 40 && (
+                    <span
+                      className="chip pop-in bg-[#FCE7F3] text-[#BE185D]"
+                      style={{ animationDelay: '240ms' }}
+                    >
+                      <TrophyIcon size={14} /> Chứng nhận 40 ngày học
+                    </span>
+                  )}
+                </div>
+                <p className="mt-4 max-w-sm text-inksoft">
+                  Các từ hôm nay sẽ tự đến hạn ôn sau 1, 2, 4, 7… ngày. Ôn đúng hạn thì nhớ
+                  lâu.
+                </p>
+                <button
+                  type="button"
+                  className="btn btn-primary btn-raise btn-big mt-8 w-full"
+                  onClick={exit}
+                  data-testid="done-home"
+                >
+                  Về trang chủ
+                </button>
               </div>
-              <p className="mt-4 max-w-sm text-inksoft">
-                Các từ hôm nay sẽ tự đến hạn ôn sau 1, 2, 4, 7… ngày. Ôn đúng hạn thì nhớ
-                lâu.
-              </p>
-              <button
-                type="button"
-                className="btn btn-primary btn-big mt-8 w-full"
-                onClick={exit}
-              >
-                🏠 Về trang chủ
-              </button>
-            </div>
-          ) : (
-            currentStage()
-          )}
+            ) : (
+              currentStage()
+            )}
+          </div>
         </div>
       </div>
+
     </div>
   )
 }
