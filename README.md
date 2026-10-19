@@ -4,9 +4,11 @@ English learning PWA for a barber / salon owner — Duolingo-style lessons, expl
 in Vietnamese, with barber-specific content (consultation, hair color, booking,
 payment). Built to be **installed on the iPhone Home Screen** — no App Store needed.
 
-**v1.5** — 40 lessons (30-day program + days 31–40), 6 exercise types, a lesson
-mini-test, a reply stage ("hỏi — đáp") in every lesson, and number drills for
-money/time lessons.
+**v1.6** — 40 lessons (30-day program + days 31–40), 6 exercise types, a lesson
+mini-test, a reply stage ("hỏi — đáp") in every lesson, number drills, a
+Duolingo-style lesson path, forced-retrieval review drills (VI→EN, listening,
+tap-pairs), a meaning gate on new words, sound effects + confetti, an "Ông Ba"
+mascot, and chunk-based slow playback that actually stays slow on iPhone.
 
 ## Exercise types (v1.5 lesson flow)
 
@@ -88,10 +90,13 @@ Rules:
 
 ## Progress model
 
-- Finishing a lesson: **+50 XP**, streak bumped, words scheduled for review in
-  1, 2, 4, 7, 14, 30 days (spaced repetition boxes).
-- Review session: **+20 XP**. "Nhớ rồi" moves the word to the next box,
-  "Chưa nhớ" sends it back to tomorrow.
+- Finishing a lesson: **+50 XP**, streak bumped. New words must pass a one-tap
+  **meaning gate** (pick the right VI meaning) to enter review scheduling —
+  spaced repetition boxes at 1, 2, 4, 7, 14, 30 days.
+- Review session: **+20 XP**. Review is forced retrieval, not self-grading:
+  VI→EN recall, EN→VI recognition, listen-and-pick, and tap-pairs matching
+  (a word only counts as "nhớ" if its pair matched without a wrong tap).
+  Misses go back to tomorrow.
 - Data lives in `localStorage` under `tk-progress-v1` (per device).
 
 ## Deploy to Vercel
@@ -122,10 +127,15 @@ quiz → mini-test — and fails on any console/page error.
 2. Tap **Share** → **Add to Home Screen** → **Add**.
 3. It opens full-screen like a native app and works offline.
 
-## Notes / known limits (v1.5)
+## Notes / known limits (v1.6)
 
 - Speaking practice is self-checked (listen → repeat → optional record & compare).
   No AI pronunciation scoring (on purpose — keep it simple and private).
 - TTS voice/speed is selectable in-app (Giọng đọc card on Home); quality depends
   on the iPhone's installed English voices
   (Settings → Accessibility → Spoken Content → Voices → English).
+- **Slow playback** (🐢) is built from word-group chunks with pauses on
+  Apple devices, because iOS largely ignores the `rate` property — the turtle
+  button stays meaningfully slower than normal speed.
+- Sound effects are synthesized with WebAudio (no audio files), so the offline
+  PWA precache stays tiny; toggle on Home (Hiệu ứng âm thanh).

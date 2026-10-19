@@ -65,9 +65,7 @@ export function WordsPage({ progress }: Props) {
                 text={w.en}
                 className="btn btn-ghost min-h-[46px] shrink-0 px-4"
                 ariaLabel={`Nghe: ${w.en}`}
-              >
-                🔊
-              </SpeakButton>
+              />
             </div>
           )
         })}

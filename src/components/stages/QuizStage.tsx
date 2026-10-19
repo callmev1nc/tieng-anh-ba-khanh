@@ -1,5 +1,7 @@
 import { useState } from 'react'
 import type { QuizQuestion } from '../../types'
+import { AnswerBanner } from '../AnswerBanner'
+import { sfxCorrect, sfxWrong } from '../../lib/sfx'
 
 interface Props {
   quiz: QuizQuestion[]
@@ -13,11 +15,18 @@ export function QuizStage({ quiz, onDone }: Props) {
   const [correct, setCorrect] = useState(0)
   const q = quiz[i]
   const isLast = i + 1 >= quiz.length
+  const answered = picked !== null
+  const isRight = picked === q.answer
 
   const pick = (idx: number) => {
     if (picked !== null) return
     setPicked(idx)
-    if (idx === q.answer) setCorrect(correct + 1)
+    if (idx === q.answer) {
+      setCorrect(correct + 1)
+      sfxCorrect()
+    } else {
+      sfxWrong()
+    }
   }
 
   const advance = () => {
@@ -30,11 +39,10 @@ export function QuizStage({ quiz, onDone }: Props) {
   }
 
   const optionClass = (idx: number) => {
-    if (picked === null) return 'btn btn-ghost justify-start text-left'
-    if (idx === q.answer) return 'btn justify-start text-left border-2 border-ok bg-ok text-white'
-    if (idx === picked)
-      return 'btn justify-start text-left border-2 border-flag bg-flagsoft text-flag'
-    return 'btn btn-ghost justify-start text-left opacity-50'
+    if (!answered) return 'btn btn-ghost btn-opt'
+    if (idx === q.answer) return 'btn btn-opt btn-opt-right'
+    if (idx === picked) return 'btn btn-opt btn-opt-wrong'
+    return 'btn btn-ghost btn-opt btn-opt-dim'
   }
 
   return (
@@ -53,7 +61,7 @@ export function QuizStage({ quiz, onDone }: Props) {
       <div className="mt-4 space-y-3">
         {q.options.map((opt, idx) => (
           <button key={idx} type="button" data-testid="opt" className={optionClass(idx)} onClick={() => pick(idx)}>
-            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-mist text-sm font-bold text-ink">
+            <span className="grid h-7 w-7 shrink-0 place-items-center rounded-full bg-mist text-sm font-bold text-ink opacity-100">
               {String.fromCharCode(65 + idx)}
             </span>
             <span className="font-semibold">{opt}</span>
@@ -61,28 +69,19 @@ export function QuizStage({ quiz, onDone }: Props) {
         ))}
       </div>
 
-      {picked !== null && (
-        <div
-          className={`mt-4 rounded-2xl p-4 text-center font-bold ${
-            picked === q.answer ? 'bg-oksoft text-ok' : 'bg-flagsoft text-flag'
-          }`}
-          role="status"
-        >
-          {picked === q.answer
-            ? '🎉 Đúng rồi!'
-            : `Chưa đúng — đáp án đúng là: “${q.options[q.answer]}”`}
-        </div>
+      {answered && (
+        <div className="h-44" aria-hidden />
       )}
 
-      <button
-        type="button"
-        className="btn btn-primary btn-big mt-4 w-full"
-        onClick={advance}
-        style={picked === null ? { opacity: 0.45 } : undefined}
-        disabled={picked === null}
-      >
-        {isLast ? 'Xong bài kiểm tra ✓' : 'Tiếp câu hỏi →'}
-      </button>
+      {answered && (
+        <AnswerBanner
+          correct={isRight}
+          title={isRight ? '🎉 Đúng rồi!' : 'Chưa đúng — đáp án đúng là:'}
+          detail={isRight ? undefined : `“${q.options[q.answer]}”`}
+          actionLabel={isLast ? 'Xong bài kiểm tra ✓' : 'Tiếp câu hỏi →'}
+          onAction={advance}
+        />
+      )}
     </div>
   )
 }

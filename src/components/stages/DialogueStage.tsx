@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import type { Lesson } from '../../types'
 import { SpeakButton } from '../SpeakButton'
+import { ChatIcon, EarIcon, ScissorsIcon } from '../icons'
 
 type Role = 'barber' | 'client' | 'listen'
 
@@ -10,10 +11,16 @@ interface Props {
 }
 
 const ROLE_LABEL: Record<Role, string> = {
-  barber: '✂️ Thợ tóc',
-  client: '🧑 Khách',
-  listen: '👂 Nghe mẫu',
+  barber: 'Thợ tóc',
+  client: 'Khách',
+  listen: 'Nghe mẫu',
 }
+
+const ROLE_ICON = {
+  barber: <ScissorsIcon size={18} />,
+  client: <ChatIcon size={18} />,
+  listen: <EarIcon size={18} />,
+} as const
 
 /** Step-by-step conversation practice: pick a role, read your lines aloud. */
 export function DialogueStage({ dialogue, onDone }: Props) {
@@ -40,12 +47,12 @@ export function DialogueStage({ dialogue, onDone }: Props) {
               key={r}
               type="button"
               className={`btn btn-big w-full justify-start px-5 ${
-                r === 'listen' ? 'btn-ghost' : 'btn-primary'
+                r === 'listen' ? 'btn-ghost' : 'btn-primary btn-raise'
               }`}
               onClick={() => setRole(r)}
             >
-              <span className="text-xl">{ROLE_LABEL[r].slice(0, 2)}</span>
-              <span>{ROLE_LABEL[r].slice(3)}</span>
+              {ROLE_ICON[r]}
+              <span>{ROLE_LABEL[r]}</span>
             </button>
           ))}
         </div>
@@ -80,10 +87,10 @@ export function DialogueStage({ dialogue, onDone }: Props) {
       >
         <span className="flex flex-wrap items-center gap-2">
           <span className={`chip ${line.who === 'barber' ? '' : 'bg-mist text-ink'}`}>
-            {line.who === 'barber' ? '✂️ Thợ tóc' : '🧑 Khách'}
+            {line.who === 'barber' ? ROLE_ICON.barber : ROLE_ICON.client} {ROLE_LABEL[line.who]}
           </span>
           {mine && (
-            <span className="chip bg-[#FEF3C7] text-[#B45309]">👉 ĐỌC TO CÂU NÀY</span>
+            <span className="chip bg-[#FEF3C7] text-[#B45309]">ĐỌC TO CÂU NÀY</span>
           )}
         </span>
         <span className="mt-3 block font-display text-3xl font-extrabold leading-snug">
@@ -112,7 +119,7 @@ export function DialogueStage({ dialogue, onDone }: Props) {
         </button>
         <button
           type="button"
-          className="btn btn-primary btn-big flex-[2]"
+          className="btn btn-primary btn-raise btn-big flex-[2]"
           onClick={() => (isLast ? onDone() : setI(i + 1))}
         >
           {isLast ? 'Xong hội thoại ✓' : 'Tiếp →'}

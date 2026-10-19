@@ -1,6 +1,7 @@
 import type { Progress } from '../types'
 import { dueWords, upcomingWords } from '../lib/progress'
 import { SpeakButton } from '../components/SpeakButton'
+import { Mascot } from '../components/Mascot'
 
 interface Props {
   progress: Progress
@@ -24,8 +25,8 @@ export function ReviewPage({ progress, onStart }: Props) {
           <p className="text-inksoft">Mỗi từ sẽ quay lại đúng hạn để bạn không quên.</p>
         </div>
         <section className="card p-6 text-center">
-          <div className="text-5xl" aria-hidden>
-            🔭
+          <div className="mx-auto grid place-items-center">
+            <Mascot state="idle" size={110} />
           </div>
           <h2 className="mt-3 font-display text-xl font-extrabold">
             Chưa có từ nào đến hạn
@@ -64,7 +65,7 @@ export function ReviewPage({ progress, onStart }: Props) {
     <div className="space-y-4">
       <div>
         <h1 className="font-display text-2xl font-extrabold">Ôn tập</h1>
-        <p className="text-inksoft">Chạm thẻ để xem nghĩa — nhớ hay chưa, bạn tự chấm.</p>
+        <p className="text-inksoft">Trắc nghiệm nhanh: chọn nghĩa, ghép cặp — đúng thì nhớ lâu.</p>
       </div>
 
       <section className="card overflow-hidden">
@@ -96,9 +97,7 @@ export function ReviewPage({ progress, onStart }: Props) {
                 text={w.en}
                 className="btn btn-ghost min-h-[44px] shrink-0 px-4"
                 ariaLabel={`Nghe: ${w.en}`}
-              >
-                🔊
-              </SpeakButton>
+              />
             </li>
           ))}
         </ul>
