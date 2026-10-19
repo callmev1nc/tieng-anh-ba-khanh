@@ -1,0 +1,284 @@
+{
+  "id": "26-tre-em-gia-dinh",
+  "order": 26,
+  "title": "Trẻ em & gia đình",
+  "goal": "Cắt tóc cho bé và nói chuyện với bố mẹ: bé mấy tuổi, đi học chưa, làm nhẹ tay.",
+  "words": [
+    {
+      "en": "child",
+      "vi": "đứa trẻ",
+      "phon": "chai-đờ",
+      "note": "\"One child\" = Một bé. Hai bé là \"two children\"."
+    },
+    {
+      "en": "boy",
+      "vi": "bé trai",
+      "phon": "boi"
+    },
+    {
+      "en": "girl",
+      "vi": "bé gái",
+      "phon": "gơ-ồ"
+    },
+    {
+      "en": "mom",
+      "vi": "mẹ",
+      "phon": "mom",
+      "note": "\"Mom is waiting\" = Mẹ đang chờ."
+    },
+    {
+      "en": "dad",
+      "vi": "bố",
+      "phon": "đát"
+    },
+    {
+      "en": "birthday",
+      "vi": "sinh nhật",
+      "phon": "bớt-đây",
+      "note": "\"Happy birthday!\" = Chúc mừng sinh nhật!"
+    },
+    {
+      "en": "school",
+      "vi": "trường học",
+      "phon": "sờ-kun",
+      "note": "\"Tomorrow is school day\" = Mai đi học rồi."
+    },
+    {
+      "en": "brother",
+      "vi": "anh / em trai",
+      "phon": "bờ-rớ-đờ"
+    },
+    {
+      "en": "sister",
+      "vi": "chị / em gái",
+      "phon": "sít-sờ-tờ"
+    },
+    {
+      "en": "gentle",
+      "vi": "nhẹ nhàng",
+      "phon": "chen-tồ",
+      "note": "\"I'll be gentle\" = Em làm nhẹ nhàng thôi."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "How old is he?",
+      "vi": "Bé bao nhiêu tuổi rồi anh/chị?",
+      "phon": "hao âu ịt hi",
+      "when": "Hỏi bố mẹ"
+    },
+    {
+      "en": "He is five years old.",
+      "vi": "Bé nhà tôi năm tuổi.",
+      "phon": "hi ịt phaiv yi-ờz âu-đờ",
+      "when": "Bố mẹ trả lời"
+    },
+    {
+      "en": "I'll be gentle. Don't worry.",
+      "vi": "Em làm nhẹ nhàng. Anh/chị đừng lo.",
+      "phon": "ai-ồ bi chen-tồ. đôn quơ-ri",
+      "when": "Bé có vẻ sợ"
+    },
+    {
+      "en": "Does he go to school?",
+      "vi": "Bé đi học chưa?",
+      "phon": "đớz hi gâu tu sờ-kun",
+      "when": "Nói chuyện cho bé đỡ sợ"
+    },
+    {
+      "en": "Happy birthday, little man!",
+      "vi": "Chúc mừng sinh nhật, chàng trai nhỏ nhé!",
+      "phon": "hép-pi bớt-đây, lít-tồ men",
+      "when": "Bé sinh nhật, khách quen"
+    }
+  ],
+  "dialogue": {
+    "title": "Bố dẫn con trai đi cắt tóc",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hello! A father and son today?",
+        "vi": "Chào anh! Hôm nay bố cho con đi cắt tóc à?",
+        "phon": "hê-lô! ờ pha-đờ en sần tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "Yes! My son needs a haircut for school.",
+        "vi": "Đúng rồi! Thằng bé cần cắt tóc để đi học.",
+        "phon": "dét! mai sần nít ờ he-cớt pho sờ-kun"
+      },
+      {
+        "who": "barber",
+        "en": "How old is he?",
+        "vi": "Bé bao nhiêu tuổi rồi anh?",
+        "phon": "hao âu ịt hi"
+      },
+      {
+        "who": "client",
+        "en": "He is five. His sister is ten.",
+        "vi": "Bé năm tuổi. Chị nó mười tuổi.",
+        "phon": "hi ịt phaiv. hiz sít-sờ-tờ ịt ten"
+      },
+      {
+        "who": "barber",
+        "en": "OK, little man. Please sit here. I'll be gentle.",
+        "vi": "Được rồi, chàng trai nhỏ. Ngồi đây nhé. Em làm nhẹ nhàng thôi.",
+        "phon": "ô-kê, lít-tồ men. pliz sít hia. ai-ồ bi chen-tồ"
+      },
+      {
+        "who": "client",
+        "en": "He is a little shy. Don't worry, he is fine.",
+        "vi": "Thằng bé hơi nhút nhát. Không sao đâu, từ từ là được.",
+        "phon": "hi ịt ờ lít-tồ shai. đôn quơ-ri, hi ịt phain"
+      },
+      {
+        "who": "barber",
+        "en": "He is a big boy! Does he go to school?",
+        "vi": "Bé là anh lớn rồi! Đi học chưa vậy?",
+        "phon": "hi ịt ờ bích boi! đớz hi gâu tu sờ-kun"
+      },
+      {
+        "who": "client",
+        "en": "Yes, first year. He starts next week.",
+        "vi": "Rồi, năm đầu tiên. Tuần sau bé vào học.",
+        "phon": "dét, phớt yi-ờ. hi sờ-tát-sờ nek quy-k"
+      },
+      {
+        "who": "barber",
+        "en": "Great! All done. Look, very handsome!",
+        "vi": "Tuyệt! Xong hết rồi. Nhìn kìa, đẹp trai ghê!",
+        "phon": "grêit! o đăn. lúc, ve-ri hen-sầm"
+      },
+      {
+        "who": "client",
+        "en": "Thank you! He loves it. See you next month.",
+        "vi": "Cảm ơn anh! Thằng bé thích lắm. Hẹn gặp tháng sau.",
+        "phon": "then-kiu! hi lấvs ịt. si diu nek măn-th"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Đứa trẻ\" (số ít) là:",
+      "options": [
+        "child",
+        "chilly",
+        "chalk",
+        "chin"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"How ___ is he?\" (Bé bao nhiêu tuổi?)",
+      "options": [
+        "big",
+        "old",
+        "tall",
+        "many"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Bé gái\" là:",
+      "options": [
+        "girl",
+        "gull",
+        "goal",
+        "gill"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I'll be ___. Don't worry.\" (Làm nhẹ nhàng thôi)",
+      "options": [
+        "general",
+        "gentle",
+        "gentleman",
+        "grand"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Sinh nhật\" là:",
+      "options": [
+        "birthday",
+        "bath day",
+        "bird day",
+        "bad day"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Đi học chưa?\" nói là:",
+      "options": [
+        "Does he go to school?",
+        "Does he like soccer?",
+        "Is he old?",
+        "Can he swim?"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "My son is scared of scissors, boss.",
+        "vi": "Con tôi sợ kéo, anh ạ.",
+        "phon": "mai xon iz xeche ố xi-chơ, boss"
+      },
+      "hint": "Biết dữ của gia đình",
+      "options": [
+        {
+          "en": "How old is he?",
+          "vi": "Bé bao nhiêu tuổi rồi anh/chị?",
+          "phon": "hao âu ịt hi",
+          "when": "Hỏi bố mẹ"
+        },
+        {
+          "en": "He is five years old.",
+          "vi": "Bé nhà tôi năm tuổi.",
+          "phon": "hi ịt phaiv yi-ờz âu-đờ",
+          "when": "Bố mẹ trả lời"
+        },
+        {
+          "en": "I'll be gentle. Don't worry.",
+          "vi": "Em làm nhẹ nhàng. Anh/chị đừng lo.",
+          "phon": "ai-ồ bi chen-tồ. đôn quơ-ri",
+          "when": "Bé có vẻ sợ"
+        }
+      ],
+      "answer": 2,
+      "explain": "Nhẹ nhàng, an lòng người bố mẹ trước tiên — trẻ đỡ sợ, bố dễ thoài lòng."
+    },
+    {
+      "client": {
+        "en": "What a nice kid you have, boss.",
+        "vi": "Bé dễ thương thật anh nhỉ.",
+        "phon": "uách ờ naich kit diu hèp, boss"
+      },
+      "hint": "Khen con — hỏi học hành theo đuợc",
+      "options": [
+        {
+          "en": "Does he go to school?",
+          "vi": "Bé đi học chưa?",
+          "phon": "đớz hi gâu tu sờ-kun",
+          "when": "Nói chuyện cho bé đỡ sợ"
+        },
+        {
+          "en": "How old is he?",
+          "vi": "Bé bao nhiêu tuổi rồi anh/chị?",
+          "phon": "hao âu ịt hi",
+          "when": "Hỏi bố mẹ"
+        },
+        {
+          "en": "He is five years old.",
+          "vi": "Bé nhà tôi năm tuổi.",
+          "phon": "hi ịt phaiv yi-ờz âu-đờ",
+          "when": "Bố mẹ trả lời"
+        }
+      ],
+      "answer": 0,
+      "explain": "Khen bé + hỏi học hành — câu hỏi gắn kết thân, bố mẹ mở lòng ngay."
+    }
+  ]
+}

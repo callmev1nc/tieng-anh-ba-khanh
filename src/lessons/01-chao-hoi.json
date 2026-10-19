@@ -1,0 +1,283 @@
+{
+  "id": "01-chao-hoi",
+  "order": 1,
+  "title": "Chào hỏi & làm quen",
+  "goal": "Chào khách khi vào tiệm, giới thiệu bản thân, nói cảm ơn khi khách ra về.",
+  "words": [
+    {
+      "en": "hello",
+      "vi": "xin chào",
+      "phon": "hê-lô",
+      "note": "Nói với mọi khách, mọi lúc."
+    },
+    {
+      "en": "welcome",
+      "vi": "mời vào / chào mừng",
+      "phon": "quen-cầm",
+      "note": "\"Welcome to my shop\" = Mời anh vào tiệm ạ."
+    },
+    {
+      "en": "sit down",
+      "vi": "mời ngồi / ngồi đi",
+      "phon": "sít-đao",
+      "note": "\"Please, sit down\" = Mời anh ngồi."
+    },
+    {
+      "en": "how are you?",
+      "vi": "anh khỏe không?",
+      "phon": "hao a diu",
+      "note": "Câu xã giao — khách trả lời nhanh là bình thường."
+    },
+    {
+      "en": "nice to meet you",
+      "vi": "rất vui được gặp anh/chị",
+      "phon": "nai tờ mít diu",
+      "note": "Lần đầu gặp khách mới."
+    },
+    {
+      "en": "I'm Khanh",
+      "vi": "tôi là Khanh",
+      "phon": "ai em Khanh",
+      "note": "Đổi \"Khanh\" thành tên của mình."
+    },
+    {
+      "en": "thank you",
+      "vi": "cảm ơn",
+      "phon": "then-kiu",
+      "note": "Khách trả tiền rồi: \"Thank you.\""
+    },
+    {
+      "en": "see you later",
+      "vi": "hẹn gặp lại",
+      "phon": "si diu lây-tơ",
+      "note": "Khách ra về: \"See you next time!\""
+    },
+    {
+      "en": "sorry",
+      "vi": "xin lỗi",
+      "phon": "so-ri",
+      "note": "Lỡ để khách đợi: \"Sorry for the wait.\""
+    },
+    {
+      "en": "of course",
+      "vi": "đương nhiên / được chứ",
+      "phon": "ốp coọc",
+      "note": "Khách hỏi \"Can I sit here?\" -> \"Of course!\""
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Hello! Welcome, please have a seat.",
+      "vi": "Xin chào! Mời anh vào, mời ngồi ạ.",
+      "phon": "hê-lô! quen-cầm, pliz hèv ờ sít",
+      "when": "Khách mới bước vào tiệm"
+    },
+    {
+      "en": "How are you today?",
+      "vi": "Hôm nay anh khỏe không?",
+      "phon": "hao a diu tu-đây",
+      "when": "Nói chuyện trong lúc gội đầu"
+    },
+    {
+      "en": "I'm Khanh, nice to meet you.",
+      "vi": "Tôi là Khanh, rất vui được gặp anh.",
+      "phon": "ai em Khanh, nai tờ mít diu",
+      "when": "Lần đầu gặp khách"
+    },
+    {
+      "en": "Thank you, see you next time!",
+      "vi": "Cảm ơn anh, hẹn gặp lại ạ!",
+      "phon": "then-kiu, si diu nek taim",
+      "when": "Khách ra về"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách mới lần đầu đến tiệm",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hello! Welcome to my shop!",
+        "vi": "Xin chào! Mời anh vào tiệm ạ!",
+        "phon": "hê-lô! quen-cầm tu mai sóp"
+      },
+      {
+        "who": "client",
+        "en": "Hi! Do you cut hair here?",
+        "vi": "Chào! Tiệm có cắt tóc không anh?",
+        "phon": "hai! đu diu cút he hia"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, of course. Please, sit down.",
+        "vi": "Có ạ. Mời anh ngồi.",
+        "phon": "dét, ốp coọc. pliz, sít-đao"
+      },
+      {
+        "who": "barber",
+        "en": "I'm Khanh. Nice to meet you.",
+        "vi": "Tôi là Khanh. Rất vui được gặp anh.",
+        "phon": "ai em Khanh. nai tờ mít diu"
+      },
+      {
+        "who": "client",
+        "en": "Nice to meet you too.",
+        "vi": "Cũng rất vui được gặp anh.",
+        "phon": "nai tờ mít diu tu"
+      },
+      {
+        "who": "barber",
+        "en": "How are you today?",
+        "vi": "Hôm nay anh khỏe không?",
+        "phon": "hao a diu tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "I'm good, thank you.",
+        "vi": "Tôi khỏe, cảm ơn.",
+        "phon": "ai em gút, then-kiu"
+      },
+      {
+        "who": "barber",
+        "en": "Thank you, see you next time!",
+        "vi": "Cảm ơn anh, hẹn gặp lại ạ!",
+        "phon": "then-kiu, si diu nek taim"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Xin chào\" nghĩa là gì?",
+      "options": [
+        "Hello",
+        "Sorry",
+        "Goodbye",
+        "Welcome"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khách bước vào, bạn nói: \"___, please sit down.\"",
+      "options": [
+        "Goodbye",
+        "Hello",
+        "Thank you",
+        "Sorry"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Mời ngồi\" nói bằng tiếng Anh là:",
+      "options": [
+        "Sit down",
+        "Stand up",
+        "Lie down",
+        "Walk away"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Nice to ___ you.\"",
+      "options": [
+        "see",
+        "sit",
+        "say",
+        "run"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Cảm ơn anh, hẹn gặp lại\" là câu nào?",
+      "options": [
+        "Sorry, see you",
+        "How are you?",
+        "Thank you, see you next time",
+        "You're welcome"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Điền từ còn thiếu: \"How ___ you today?\"",
+      "options": [
+        "is",
+        "are",
+        "am",
+        "be"
+      ],
+      "answer": 1
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Hi, is this the barber shop?",
+        "vi": "Thì ra đây là tiệm cắt à?",
+        "phon": "ha, iz dis đờ bá-bờ xáp?"
+      },
+      "hint": "Khách mới vừa mở cửa",
+      "options": [
+        {
+          "en": "Yes! Welcome — please have a seat.",
+          "phon": "dét! quen-cầm — pliz hèp ờ xít"
+        },
+        {
+          "en": "No, this is my house.",
+          "phon": "nâu, dis iz mai hauch"
+        },
+        {
+          "en": "Why you ask me this?",
+          "phon": "uai diu ahen mi dis?"
+        }
+      ],
+      "answer": 0,
+      "explain": "Chưa nghe rõ vẫn chào vui — 'please have a seat' mời ghế ngay."
+    },
+    {
+      "client": {
+        "en": "You look busy. I can come back later.",
+        "vi": "Tiệm đông quá, lát tôi qua lại.",
+        "phon": "diu lục bi-đi. ai can khầm bét lây-tờ"
+      },
+      "hint": "Khách nhường chỗ cho mình",
+      "options": [
+        {
+          "en": "No no, ten minutes. One moment, please.",
+          "phon": "nâu nâu, ten mi-nút. uân mâu-mần, pliz"
+        },
+        {
+          "en": "Busy? Go home now.",
+          "phon": "bi-đi? gâu hảum nau"
+        },
+        {
+          "en": "You pay more later.",
+          "phon": "diu pey mô lây-tờ"
+        }
+      ],
+      "answer": 0,
+      "explain": "Giữ khách bằng một con số + 'One moment' — chờ '10 phút' là khách sẽ yên tâm."
+    },
+    {
+      "client": {
+        "en": "Best haircut ever. Thank you, boss!",
+        "vi": "Kiểu này đẹp nhất từ trước tới giờ. Cảm ơn!",
+        "phon": "best hey-cút ê-vờ. then-kiu, boss!"
+      },
+      "hint": "Khách khen thật",
+      "options": [
+        {
+          "en": "Thank you! See you next time.",
+          "phon": "then-kiu! si diu néch taim"
+        },
+        {
+          "en": "Yes, my taste is the best.",
+          "phon": "dét, mai têch iz đờ best"
+        },
+        {
+          "en": "Only thank you?",
+          "phon": "âun-li then-kiu?"
+        }
+      ],
+      "answer": 0,
+      "explain": "Nhận lời khen + hẹn lần sau — 'thank you' tự nhiên vẫn ăn điểm tuyệt đối."
+    }
+  ]
+}

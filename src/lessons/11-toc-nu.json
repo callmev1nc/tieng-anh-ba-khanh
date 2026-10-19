@@ -1,0 +1,283 @@
+{
+  "id": "11-toc-nu",
+  "order": 11,
+  "title": "Tóc nữ: bob, tỉa lớp, chẻ ngọn",
+  "goal": "Tư vấn cho khách nữ: tỉa lớp, độ phồng, tóc chẻ ngọn, búi, tết, kẹp tóc.",
+  "words": [
+    {
+      "en": "bob",
+      "vi": "tóc bob ngắn",
+      "phon": "bóp",
+      "note": "Kiểu tóc nữ ngắn tới cằm."
+    },
+    {
+      "en": "layer",
+      "vi": "tỉa lớp",
+      "phon": "lêi-ờ",
+      "note": "\"Do you want layers?\" = Chị muốn tỉa lớp không?"
+    },
+    {
+      "en": "curl",
+      "vi": "lọn xoăn",
+      "phon": "cớ-ồ",
+      "note": "Tóc uốn thành lọn."
+    },
+    {
+      "en": "volume",
+      "vi": "độ phồng",
+      "phon": "vo-li-um",
+      "note": "\"This gives volume\" = Cách này cho tóc phồng."
+    },
+    {
+      "en": "split ends",
+      "vi": "tóc chẻ ngọn",
+      "phon": "sờ-plít en-zờ",
+      "note": "\"You have a lot of split ends\" = Tóc chị chẻ ngọn nhiều."
+    },
+    {
+      "en": "bun",
+      "vi": "búi tóc",
+      "phon": "băn",
+      "note": "Khách búi cao cho gọn."
+    },
+    {
+      "en": "braid",
+      "vi": "tết tóc",
+      "phon": "brêi-đờ",
+      "note": "Tết 2 hoặc 3 nhánh."
+    },
+    {
+      "en": "hair tie",
+      "vi": "dây buộc tóc",
+      "phon": "he tai",
+      "note": "\"Do you have a hair tie?\" = Có dây buộc tóc không?"
+    },
+    {
+      "en": "hair clip",
+      "vi": "kẹp tóc",
+      "phon": "he clíp",
+      "note": "Kẹp giữ tóc."
+    },
+    {
+      "en": "pixie cut",
+      "vi": "kiểu tóc pixie (ngắn cá tính)",
+      "phon": "píc-xi cắt",
+      "note": "Tóc nữ ngắn cá tính."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Do you want layers?",
+      "vi": "Chị muốn tỉa lớp không?",
+      "phon": "đu diu quón lêi-ờz",
+      "when": "Tư vấn tóc nữ"
+    },
+    {
+      "en": "Your hair has beautiful volume.",
+      "vi": "Tóc chị phồng đẹp tự nhiên.",
+      "phon": "yo he hèv biu-ti-phồ vo-li-um",
+      "when": "Khen khách"
+    },
+    {
+      "en": "You have a lot of split ends.",
+      "vi": "Tóc chị chẻ ngọn hơi nhiều đó.",
+      "phon": "diu hèv ờ lót ộp sờ-plít en-zờ",
+      "when": "Nói khéo khi tỉa"
+    },
+    {
+      "en": "Do you want your hair up or down?",
+      "vi": "Chị muốn búi tóc lên hay xõa xuống?",
+      "phon": "đu diu quón yo he ớp o đao",
+      "when": "Khách đi dự tiệc, đám cưới"
+    },
+    {
+      "en": "I'll trim the ends first.",
+      "vi": "Em tỉa phần đuôi tóc trước nhé.",
+      "phon": "ai-ồ trim đờ en-zờ phớt",
+      "when": "Bắt đầu làm tóc nữ"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách nữ tỉa lớp và cắt chẻ ngọn",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hi! Your hair is beautiful. What can I do today?",
+        "vi": "Chào chị! Tóc chị đẹp quá. Hôm nay làm gì ạ?",
+        "phon": "hai! yo he ịt biu-ti-phồ. quát ken ai đu tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "I want layers, and my split ends are bad.",
+        "vi": "Tôi muốn tỉa lớp, với tóc chẻ ngọn nhiều quá.",
+        "phon": "ai quón lêi-ờz, en mai sờ-plít en-zờ a bát"
+      },
+      {
+        "who": "barber",
+        "en": "OK. I'll trim the ends first.",
+        "vi": "Được. Em tỉa đuôi tóc trước nhé.",
+        "phon": "ô-kê. ai-ồ trim đờ en-zờ phớt"
+      },
+      {
+        "who": "barber",
+        "en": "Your hair has beautiful volume. Layers will look great.",
+        "vi": "Tóc chị phồng đẹp. Tỉa lớp sẽ rất hợp.",
+        "phon": "yo he hèv biu-ti-phồ vo-li-um. lêi-ờz quyu lúc grêit"
+      },
+      {
+        "who": "client",
+        "en": "Thank you! I also want a bob, but shorter.",
+        "vi": "Cảm ơn! Tôi cũng muốn kiểu bob, nhưng ngắn hơn.",
+        "phon": "then-kiu! ai ao-sâu quón ờ bóp, bớt soọc-tơ"
+      },
+      {
+        "who": "barber",
+        "en": "A long bob is perfect for you.",
+        "vi": "Kiểu bob dài hợp với chị lắm.",
+        "phon": "ờ loong bóp ịt pơ-phịt pho diu"
+      },
+      {
+        "who": "client",
+        "en": "Great. Do you have a hair tie? Or a hair clip?",
+        "vi": "Tốt quá. Có dây buộc tóc hay kẹp tóc không?",
+        "phon": "grêit. đu diu hèv ờ he tai? o ờ he clíp"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. Or I can style it up in a bun.",
+        "vi": "Có ạ. Hoặc em búi tóc lên cho chị cũng được.",
+        "phon": "dét. o ai ken sờ-tai-ồ ịt ớp in ờ băn"
+      },
+      {
+        "who": "client",
+        "en": "A bun, please! I love it.",
+        "vi": "Búi tóc đi ạ! Tôi thích lắm.",
+        "phon": "ờ băn, pliz! ai lấv ịt"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Tỉa lớp\" là:",
+      "options": [
+        "layer",
+        "lawyer",
+        "leather",
+        "ladder"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"You have a lot of ___ ends.\" (Tóc chẻ ngọn)",
+      "options": [
+        "splash",
+        "split",
+        "spit",
+        "sport"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Búi tóc\" là:",
+      "options": [
+        "ban",
+        "bun",
+        "bus",
+        "bell"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tết tóc\" là:",
+      "options": [
+        "bread",
+        "braid",
+        "brain",
+        "brick"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Dây buộc tóc\" là:",
+      "options": [
+        "hair tie",
+        "hair pie",
+        "hair dye",
+        "hair lice"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Do you want your hair ___ or down?\" (Búi lên hay xõa)",
+      "options": [
+        "up",
+        "out",
+        "off",
+        "on"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "The ends look messy, I think.",
+        "vi": "Phần đuôi tóc trông rối lắm.",
+        "phon": "đờ ến lục mey-xi, ai think"
+      },
+      "hint": "Chẻ ngọn nhẹ",
+      "options": [
+        {
+          "en": "Do you want layers?",
+          "vi": "Chị muốn tỉa lớp không?",
+          "phon": "đu diu quón lêi-ờz",
+          "when": "Tư vấn tóc nữ"
+        },
+        {
+          "en": "Your hair has beautiful volume.",
+          "vi": "Tóc chị phồng đẹp tự nhiên.",
+          "phon": "yo he hèv biu-ti-phồ vo-li-um",
+          "when": "Khen khách"
+        },
+        {
+          "en": "I'll trim the ends first.",
+          "vi": "Em tỉa phần đuôi tóc trước nhé.",
+          "phon": "ai-ồ trim đờ en-zờ phớt",
+          "when": "Bắt đầu làm tóc nữ"
+        }
+      ],
+      "answer": 2,
+      "explain": "Tỉa phần đuôi trước — nói bước đầu tiên là khách yên tâm."
+    },
+    {
+      "client": {
+        "en": "My hair sits flat on my head, boss.",
+        "vi": "Tóc em lúc nào cũng bẹp hín.",
+        "phon": "mai hey xãs phlét ốp mai hét, boss"
+      },
+      "hint": "Tóc bẹp — thậtاحة lớp",
+      "options": [
+        {
+          "en": "Do you want layers?",
+          "vi": "Chị muốn tỉa lớp không?",
+          "phon": "đu diu quón lêi-ờz",
+          "when": "Tư vấn tóc nữ"
+        },
+        {
+          "en": "Your hair has beautiful volume.",
+          "vi": "Tóc chị phồng đẹp tự nhiên.",
+          "phon": "yo he hèv biu-ti-phồ vo-li-um",
+          "when": "Khen khách"
+        },
+        {
+          "en": "You have a lot of split ends.",
+          "vi": "Tóc chị chẻ ngọn hơi nhiều đó.",
+          "phon": "diu hèv ờ lót ộp sờ-plít en-zờ",
+          "when": "Nói khéo khi tỉa"
+        }
+      ],
+      "answer": 0,
+      "explain": "Tỉa lớp làm tóc phồng — đây là rộng lời chỉ đăng cho tóc bẹp."
+    }
+  ]
+}

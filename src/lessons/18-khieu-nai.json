@@ -1,0 +1,288 @@
+{
+  "id": "18-khieu-nai",
+  "order": 18,
+  "title": "Khiếu nại & sửa lại cho khách",
+  "goal": "Xử lý khi khách chê: quá ngắn, quá dài, không hài lòng — xin lỗi và sửa lại khéo léo.",
+  "words": [
+    {
+      "en": "dislike",
+      "vi": "không thích",
+      "phon": "đít-laik",
+      "note": "Khách nói \"I dislike it\" = Tôi không thích."
+    },
+    {
+      "en": "fix",
+      "vi": "sửa / chỉnh lại",
+      "phon": "phích-sờ",
+      "note": "\"I'll fix it for you\" = Em sửa lại cho anh."
+    },
+    {
+      "en": "apology",
+      "vi": "lời xin lỗi",
+      "phon": "ờ-pó-lờ-ji",
+      "note": "\"My apology\" = Tôi xin lỗi."
+    },
+    {
+      "en": "refund",
+      "vi": "hoàn tiền",
+      "phon": "ri-phăn-đờ",
+      "note": "\"A full refund\" = Hoàn tiền đầy đủ."
+    },
+    {
+      "en": "remake",
+      "vi": "làm lại",
+      "phon": "ri-mêik",
+      "note": "\"We remake it, no charge\" = Làm lại, không tính tiền."
+    },
+    {
+      "en": "too short",
+      "vi": "ngắn quá",
+      "phon": "tu soọc",
+      "note": "Khách thường nói: \"It's too short!\""
+    },
+    {
+      "en": "too long",
+      "vi": "dài quá",
+      "phon": "tu loong"
+    },
+    {
+      "en": "ruined",
+      "vi": "hỏng / nát",
+      "phon": "ru-in-đờ",
+      "note": "\"My hair is ruined!\" = Tóc tôi hỏng hết rồi!"
+    },
+    {
+      "en": "agree",
+      "vi": "đồng ý",
+      "phon": "ờ-grí",
+      "note": "\"I agree with you\" = Tôi đồng ý với anh."
+    },
+    {
+      "en": "upset",
+      "vi": "buồn / bực",
+      "phon": "ớp-sét",
+      "note": "\"I understand you are upset\" = Tôi hiểu anh đang bực."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "I'm so sorry about that.",
+      "vi": "Em rất xin lỗi anh về chuyện đó.",
+      "phon": "ai em sô so-ri ờ-bao đát",
+      "when": "Khách đang bực"
+    },
+    {
+      "en": "Let me fix it for you.",
+      "vi": "Để em sửa lại cho anh nhé.",
+      "phon": "lét mi phích-sờ ịt pho diu",
+      "when": "Nhận lỗi và xử lý"
+    },
+    {
+      "en": "We can remake it, no charge.",
+      "vi": "Bên em làm lại, không tính tiền.",
+      "phon": "quy ken ri-mêik ịt, nâu chạc",
+      "when": "Đền bù cho khách"
+    },
+    {
+      "en": "I understand you are upset.",
+      "vi": "Em hiểu anh đang bực.",
+      "phon": "ai ăn-đờ-sờ-tan điu a ớp-sét",
+      "when": "Lắng nghe khách"
+    },
+    {
+      "en": "Next time it will be perfect.",
+      "vi": "Lần sau nhất định sẽ hoàn hảo ạ.",
+      "phon": "nek taim ịt quyu bi pơ-phịt",
+      "when": "Dàn xếp ổn thỏa"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách chê cắt ngắn quá",
+    "lines": [
+      {
+        "who": "client",
+        "en": "Excuse me. This is too short!",
+        "vi": "Anh ơi. Cắt ngắn quá rồi!",
+        "phon": "ích-kiuz mi. đít ịt tu soọc"
+      },
+      {
+        "who": "barber",
+        "en": "Oh no. I'm so sorry about that.",
+        "vi": "Ôi không. Em rất xin lỗi anh.",
+        "phon": "âu nâu. ai em sô so-ri ờ-bao đát"
+      },
+      {
+        "who": "client",
+        "en": "I really dislike it. My hair is ruined.",
+        "vi": "Tôi không thích chút nào. Tóc tôi hỏng rồi.",
+        "phon": "ai ri-li đít-laik ịt. mai he ịt ru-in-đờ"
+      },
+      {
+        "who": "barber",
+        "en": "I understand you are upset. Let me fix it for you.",
+        "vi": "Em hiểu anh đang bực. Để em sửa lại cho anh.",
+        "phon": "ai ăn-đờ-sờ-tan điu a ớp-sét. lét mi phích-sờ ịt pho diu"
+      },
+      {
+        "who": "client",
+        "en": "Can you really fix it?",
+        "vi": "Sửa được thật không anh?",
+        "phon": "ken diu ri-li phích-sờ ịt"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. I'll make the top a little longer and soft. No charge.",
+        "vi": "Được ạ. Em để phần trên dài hơn chút cho mềm mại. Không tính tiền.",
+        "phon": "dét. ai-ồ mêik đờ tốp ờ lít-tồ loong-gơ en sóp-phờ. nâu chạc"
+      },
+      {
+        "who": "client",
+        "en": "OK... And if I still don't like it?",
+        "vi": "Được... Còn nếu tôi vẫn không thích thì sao?",
+        "phon": "ô-kê... en íp ai sờ-tiu đôn laik ịt"
+      },
+      {
+        "who": "barber",
+        "en": "Then we can remake it next week, or you get a refund.",
+        "vi": "Vậy tuần sau mình làm lại, hoặc anh được hoàn tiền.",
+        "phon": "đen quy ken ri-mêik ịt nek quy-k, o diu ghét ờ ri-phăn-đờ"
+      },
+      {
+        "who": "client",
+        "en": "I agree with that. OK, fix it, please.",
+        "vi": "Tôi đồng ý vậy. Được, sửa lại giúp tôi.",
+        "phon": "ai ờ-grí quyđ đát. ô-kê, phích-sờ ịt, pliz"
+      },
+      {
+        "who": "barber",
+        "en": "Thank you for telling me. Next time it will be perfect.",
+        "vi": "Cảm ơn anh đã nói với em. Lần sau sẽ hoàn hảo ạ.",
+        "phon": "then-kiu pho te-ling mi. nek taim ịt quyu bi pơ-phịt"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Khách bực, bạn mở đầu:",
+      "options": [
+        "I'm so sorry about that",
+        "You are wrong",
+        "Pay now",
+        "Come back tomorrow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Let me ___ it for you.\" (Để em sửa lại)",
+      "options": [
+        "fix",
+        "fish",
+        "fax",
+        "fit"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Làm lại, không tính tiền\" là:",
+      "options": [
+        "We remake it, no charge",
+        "We sell it again",
+        "Come again tomorrow",
+        "Nothing today"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I understand you are ___.\" (Em hiểu anh đang bực)",
+      "options": [
+        "happy",
+        "upset",
+        "upstairs",
+        "open"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Hoàn tiền\" là:",
+      "options": [
+        "refund",
+        "remind",
+        "rewind",
+        "refill"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khách nói \"It's too short\", nghĩa là:",
+      "options": [
+        "Ngắn quá",
+        "Dài quá",
+        "Đẹp quá",
+        "Bẩn quá"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "It is too short on the left side!",
+        "vi": "Bên trái cắt quá ngắn rồi!",
+        "phon": "ét iz tu xốt ốp đờ left sai-d!"
+      },
+      "hint": "Chê đầu tiên — dừng và nhận",
+      "options": [
+        {
+          "en": "Let me fix it for you.",
+          "vi": "Để em sửa lại cho anh nhé.",
+          "phon": "lét mi phích-sờ ịt pho diu",
+          "when": "Nhận lỗi và xử lý"
+        },
+        {
+          "en": "We can remake it, no charge.",
+          "vi": "Bên em làm lại, không tính tiền.",
+          "phon": "quy ken ri-mêik ịt, nâu chạc",
+          "when": "Đền bù cho khách"
+        },
+        {
+          "en": "I'm so sorry about that.",
+          "vi": "Em rất xin lỗi anh về chuyện đó.",
+          "phon": "ai em sô so-ri ờ-bao đát",
+          "when": "Khách đang bực"
+        }
+      ],
+      "answer": 2,
+      "explain": "Không cãi nên nhận lỗi ngay, rồi sửa — khách biết sự tween."
+    },
+    {
+      "client": {
+        "en": "Please redo it today if you can, boss.",
+        "vi": "Làm lại giúp tôi hôm nay được không anh?",
+        "phon": "pliz ri-đú et tu-đey if diu can, boss"
+      },
+      "hint": "Khách xin sửa — nhận ngay",
+      "options": [
+        {
+          "en": "We can remake it, no charge.",
+          "vi": "Bên em làm lại, không tính tiền.",
+          "phon": "quy ken ri-mêik ịt, nâu chạc",
+          "when": "Đền bù cho khách"
+        },
+        {
+          "en": "I'm so sorry about that.",
+          "vi": "Em rất xin lỗi anh về chuyện đó.",
+          "phon": "ai em sô so-ri ờ-bao đát",
+          "when": "Khách đang bực"
+        },
+        {
+          "en": "Let me fix it for you.",
+          "vi": "Để em sửa lại cho anh nhé.",
+          "phon": "lét mi phích-sờ ịt pho diu",
+          "when": "Nhận lỗi và xử lý"
+        }
+      ],
+      "answer": 0,
+      "explain": "Làm lại miễn phí — câu giữ khách rõ nhất có thể trả."
+    }
+  ]
+}

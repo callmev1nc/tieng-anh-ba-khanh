@@ -1,0 +1,20 @@
+{
+  "02-lich-hen-tien": [
+    { "say": "two hundred thousand dong", "phon": "tu hân-đờ-it thâu-dzần đông", "options": ["20.000đ", "200.000đ", "2.000.000đ"], "answer": 1 },
+    { "say": "half past ten", "phon": "háp past ten", "options": ["10:15", "10:30", "9:30"], "answer": 1 },
+    { "say": "seven o'clock", "phon": "se-vơn ờ-cốc", "options": ["7:00", "7:15", "17:00"], "answer": 0 },
+    { "say": "fifteen minutes", "phon": "phi-tiên mí-nút", "options": ["15 phút", "50 phút", "5 phút"], "answer": 0 }
+  ],
+  "16-combo-khuyen-mai": [
+    { "say": "ten percent off", "phon": "ten pơ-xentan ốc", "options": ["-10%", "-9%", "-19%"], "answer": 0 },
+    { "say": "fifty percent off", "phon": "phi-ti pơ-xentan ốc", "options": ["-15%", "-50%", "-5%"], "answer": 1 },
+    { "say": "save you fifty thousand", "phon": "xêch diu phi-ti thâu-dzần", "options": ["tiết kiệm 15.000đ", "tiết kiệm 50.000đ", "tiết kiệm 5.000đ"], "answer": 1 },
+    { "say": "one free wash", "phon": "uân phri uốc", "options": ["tặng 1 lượt gội", "tặng 1 chai nước", "tặng 1 cái ghế"], "answer": 0 }
+  ],
+  "17-thanh-toan": [
+    { "say": "the total is three hundred", "phon": "đờ tô-pâu iz thri hân-đờ-it", "options": ["300.000đ", "3.000.000đ", "30.000đ"], "answer": 0 },
+    { "say": "your change is fifty thousand", "phon": "diu chein-ch iz phi-ti thâu-dzần", "options": ["tiền thừa 15.000đ", "tiền thừa 50.000đ", "tiền thừa 500.000đ"], "answer": 1 },
+    { "say": "card or cash", "phon": "cét ố céc", "options": ["thẻ hay tiền mặt", "together bắt chước", "cắt đều được"], "answer": 0 },
+    { "say": "see you at half past eight", "phon": "xi diu ết háp past éch", "options": ["8:08", "8:30", "7:30"], "answer": 1 }
+  ]
+}

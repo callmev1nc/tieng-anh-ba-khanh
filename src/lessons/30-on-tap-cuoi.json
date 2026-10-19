@@ -1,0 +1,329 @@
+{
+  "id": "30-on-tap-cuoi",
+  "order": 30,
+  "title": "Ngày 30 — Tổng duyệt cuối tháng",
+  "goal": "Không học từ mới. Tổng duyệt toàn bộ 1 tháng: đón khách, tư vấn, làm tóc, thu tiền, giữ khách.",
+  "words": [
+    {
+      "en": "appointment",
+      "vi": "lịch hẹn",
+      "phon": "ờ-poi-mần",
+      "note": "Ôn lại bài 02."
+    },
+    {
+      "en": "style",
+      "vi": "kiểu tóc",
+      "phon": "stai",
+      "note": "Ôn lại bài 03."
+    },
+    {
+      "en": "hair color",
+      "vi": "màu nhuộm",
+      "phon": "he cà-lơ",
+      "note": "Ôn lại bài 04."
+    },
+    {
+      "en": "towel",
+      "vi": "khăn",
+      "phon": "tau-ồ",
+      "note": "Ôn lại bài 05."
+    },
+    {
+      "en": "shampoo",
+      "vi": "gội đầu / dầu gội",
+      "phon": "sam-pu",
+      "note": "Ôn lại bài 08."
+    },
+    {
+      "en": "beard",
+      "vi": "râu",
+      "phon": "bia-đờ",
+      "note": "Ôn lại bài 09."
+    },
+    {
+      "en": "side part",
+      "vi": "rẽ ngôi lệch",
+      "phon": "sai pạc",
+      "note": "Ôn lại bài 10."
+    },
+    {
+      "en": "perm",
+      "vi": "uốn tóc",
+      "phon": "pơm",
+      "note": "Ôn lại bài 12."
+    },
+    {
+      "en": "ashy",
+      "vi": "màu tro",
+      "phon": "a-shi",
+      "note": "Ôn lại bài 13."
+    },
+    {
+      "en": "discount",
+      "vi": "giảm giá",
+      "phon": "đít-cao",
+      "note": "Ôn lại bài 16."
+    },
+    {
+      "en": "tip",
+      "vi": "tiền tip",
+      "phon": "típ",
+      "note": "Ôn lại bài 17."
+    },
+    {
+      "en": "weather",
+      "vi": "thời tiết",
+      "phon": "quê-đờ",
+      "note": "Ôn lại bài 20."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Hello! Welcome, please have a seat.",
+      "vi": "Xin chào! Mời anh vào, mời ngồi.",
+      "phon": "hê-lô! quen-cầm, pliz hèv ờ sít",
+      "when": "Đón khách"
+    },
+    {
+      "en": "Do you have an appointment?",
+      "vi": "Anh có đặt lịch trước không ạ?",
+      "phon": "đu diu hèv ờn ờ-poi-mần",
+      "when": "Khách vào tiệm"
+    },
+    {
+      "en": "How do you want your hair today?",
+      "vi": "Hôm nay anh muốn cắt kiểu gì ạ?",
+      "phon": "hao đu diu quón yo he tu-đây",
+      "when": "Bắt đầu làm"
+    },
+    {
+      "en": "Do you want a shave too?",
+      "vi": "Anh cạo râu luôn không?",
+      "phon": "đu diu quón ờ sêiv tu",
+      "when": "Sau khi cắt"
+    },
+    {
+      "en": "Do you want to book for next time?",
+      "vi": "Anh có muốn đặt lịch lần sau luôn không?",
+      "phon": "đu diu quón tu búc pho nek taim",
+      "when": "Tiễn khách"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách Tây quay lại — làm trọn gói như tháng trước",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Good afternoon! Welcome back. Do you have an appointment?",
+        "vi": "Chào buổi chiều! Mừng anh quay lại. Anh có hẹn trước không ạ?",
+        "phon": "gút áp-phờ-nun! quen-cầm béc. đu diu hèv ờn ờ-poi-mần"
+      },
+      {
+        "who": "client",
+        "en": "Yes, at three. Same as last month.",
+        "vi": "Có, 3 giờ. Như tháng trước ấy.",
+        "phon": "dét, at sờ-ri. sêim en lást măn-th"
+      },
+      {
+        "who": "barber",
+        "en": "I remember you! How is the weather in your country now?",
+        "vi": "Em nhớ anh rồi! Bên anh giờ thời tiết thế nào?",
+        "phon": "ai ri-mem-bờ diu! hao ịt đờ quê-đờ in yo khăn-tri nau"
+      },
+      {
+        "who": "client",
+        "en": "Cold! That's why I am here. Ha ha.",
+        "vi": "Lạnh lắm! Nên tôi trốn sang đây nè. Ha ha.",
+        "phon": "câu-đờ! đát-sờ quai ai em hia. ha ha"
+      },
+      {
+        "who": "barber",
+        "en": "Ha ha! Now, how do you want your hair today?",
+        "vi": "Ha ha! Giờ anh muốn cắt kiểu gì hôm nay?",
+        "phon": "ha ha! nau, hao đu diu quón yo he tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "A side part, medium on the sides. And check my beard.",
+        "vi": "Rẽ ngôi lệch, hai bên vừa vừa. Xem luôn râu giúp tôi.",
+        "phon": "ờ sai pạc, mi-đi-ầm on đờ saits. en chéch mai bia-đờ"
+      },
+      {
+        "who": "barber",
+        "en": "OK. I'll shampoo first, then cut. And a little trim for the beard.",
+        "vi": "Được ạ. Em gội trước, rồi cắt. Rồi tỉa râu gọn một chút.",
+        "phon": "ô-kê. ai-ồ sam-pu phớt, đen cắt. en ờ lít-tồ trim pho đờ bia-đờ"
+      },
+      {
+        "who": "client",
+        "en": "Perfect. And my wife wants a hair color. Ashy tone.",
+        "vi": "Tuyệt. Vợ tôi muốn nhuộm tóc. Tông tro.",
+        "phon": "pơ-phịt. en mai quaif quón-ts ờ he cà-lơ. a-shi tôn"
+      },
+      {
+        "who": "barber",
+        "en": "Ashy, yes. Today there is a discount, ten percent. And free wash.",
+        "vi": "Tro, được ạ. Hôm nay có giảm giá 10%. Tặng gội đầu luôn.",
+        "phon": "a-shi, dét. tu-đây đe-rờ ịt ờ đít-cao, ten pờ-xen. en phờ-ri quóach"
+      },
+      {
+        "who": "client",
+        "en": "Great value! Does she need an appointment?",
+        "vi": "Đáng tiền ghê! Cô ấy có cần đặt lịch không?",
+        "phon": "grêit quen-liu! đớz shi nít ờn ờ-poi-mần"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, please book for her. Saturday has open slots in the morning.",
+        "vi": "Có ạ, anh đặt lịch giúp chị nhé. Thứ Bảy sáng còn khung trống.",
+        "phon": "dét, pliz búc pho hơ. sát-đờ-đây hèz âu-pần sờ-lóts in đờ mo-ning"
+      },
+      {
+        "who": "client",
+        "en": "I'll text her now. Here is the payment, keep the change as a tip!",
+        "vi": "Tôi nhắn cho cô ấy ngay. Tiền đây, chỗ thừa coi như tip nhé!",
+        "phon": "ai-ồ tếch-sờ hơ nau. hia ịt đờ pêi-mần, kip đờ chêin-gờ en ờ típ"
+      },
+      {
+        "who": "barber",
+        "en": "Thank you so much! See you and your wife next month!",
+        "vi": "Cảm ơn anh nhiều lắm! Hẹn tháng sau gặp anh và chị nhé!",
+        "phon": "then-kiu sô mớch! si diu en yo quaif nek măn-th"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Điền từ còn thiếu: \"Do you have an ___?\" (Lịch hẹn)",
+      "options": [
+        "application",
+        "appointment",
+        "apartment",
+        "apple pie"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Rẽ ngôi lệch\" là:",
+      "options": [
+        "side part",
+        "side dish",
+        "right part",
+        "sidewalk"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khách muốn nhuộm tông tro, bạn nói:",
+      "options": [
+        "Happy tone",
+        "Foggy tone",
+        "Slow tone",
+        "Ashy tone"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "\"Gội đầu\" là:",
+      "options": [
+        "shampool",
+        "champoo",
+        "shampoo",
+        "sand pool"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Today there is a ___, ten percent.\" (Giảm giá)",
+      "options": [
+        "disco",
+        "discount",
+        "account",
+        "count"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tiền tip\" là:",
+      "options": [
+        "tip",
+        "top",
+        "tap",
+        "tape"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Do you want to ___ for next time?\" (Đặt lịch lần sau)",
+      "options": [
+        "cook",
+        "look",
+        "back",
+        "book"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "\"Thời tiết\" là:",
+      "options": [
+        "water",
+        "winter",
+        "weather",
+        "whether"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "\"Tóc râu\" — khách nói \"check my ___\" nghĩa là kiểm tra:",
+      "options": [
+        "bird",
+        "beard",
+        "bread",
+        "board"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Khách ra về hài lòng, bạn nói:",
+      "options": [
+        "See you next time!",
+        "No more customers!",
+        "Pay double!",
+        "Go home now!"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Full visit today — wash, cut, beard, all.",
+        "vi": "Trọn bộ hôm nay — gội, cắt, râu luôn.",
+        "phon": "hềch vi-đít tu-đey — uốc, cát, bi-ét, ôl"
+      },
+      "hint": "Tổng duyệt — cả ngày đầy đủ",
+      "options": [
+        {
+          "en": "Hello! Welcome, please have a seat.",
+          "vi": "Xin chào! Mời anh vào, mời ngồi.",
+          "phon": "hê-lô! quen-cầm, pliz hèv ờ sít",
+          "when": "Đón khách"
+        },
+        {
+          "en": "Do you have an appointment?",
+          "vi": "Anh có đặt lịch trước không ạ?",
+          "phon": "đu diu hèv ờn ờ-poi-mần",
+          "when": "Khách vào tiệm"
+        },
+        {
+          "en": "Do you want to book for next time?",
+          "vi": "Anh có muốn đặt lịch lần sau luôn không?",
+          "phon": "đu diu quón tu búc pho nek taim",
+          "when": "Tiễn khách"
+        }
+      ],
+      "answer": 2,
+      "explain": "Kết thúc bằng hẹn lịch lần sau — vòng đời khách của mình khép trọn."
+    }
+  ]
+}

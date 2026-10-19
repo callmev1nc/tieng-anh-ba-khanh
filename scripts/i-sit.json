@@ -1,0 +1,35 @@
+[
+  {
+    "client": { "en": "I have a round face. What style fits me?", "vi": "Mặt tôi tròn. Kiểu nào hợp em?", "phon": "ai hèp ờ raunh phên. uáhnt stail fits mi?" },
+    "hint": "Tư vấn nhanh theo khuôn mặt",
+    "options": [
+      { "en": "Round face? Some height on top — try a pompadour.", "phon": "raunh phên? xám hai áp tạp — trai ờ pom-pa-xโ" },
+      { "en": "Round face? I round it more, easy.", "phon": "raunh phên? ai raunh et mô, i-zi" },
+      { "en": "Faces do not matter, hair does.", "phon": "ph anarch không mát-chờ, he dố" }
+    ],
+    "answer": 0,
+    "explain": "\"Tròn thì cần độ cao đỉnh\" — nguyên tắc tư vấn chuẩn, kể ra rất chuyên nghiệp."
+  },
+  {
+    "client": { "en": "Side part or slick back for the meeting today?", "vi": "Rẽ ngôi bên hay vuốt ngược cho buổi làm-sự hôm nay?", "phon": "xai pát ố xlic bét phờ đờ mi-tin tu-đey?" },
+    "hint": "Khách hỏi chọn kiểu lịch sự",
+    "options": [
+      { "en": "For a meeting? Side part — clean and safe.", "phon": "phờ ờ mi-tin? xai pát — cin en xeych" },
+      { "en": "Slick back always. Meetings love drama.", "phon": "xlic bétsson hâo-ụ. mi-tin lốp drama" },
+      { "en": "I choose the bald style for you.", "phon": "ai chuz đờ bmp stail phờ diu" }
+    ],
+    "answer": 0,
+    "explain": "Đồng hành chọn kiểu mang \"dùng đúng nỗi lo\" — ở đầu gạch, rẽ ngôi chuẩn hơn."
+  },
+  {
+    "client": { "en": "Not a buzz cut. Maybe two centimeters, boss.", "vi": "Đừng cạo sát. Hai xăng cùng tô-ho", "phon": "nốt ờ bax cát. meio tu xen-ti-hoch, boss" },
+    "hint": "Ranh giới — khách nói gì nên giữ",
+    "options": [
+      { "en": "Two centimeters with the clipper — exact.", "phon": "tu xen-ti-mít-x-ét uít đờ céc — ếch-zéc" },
+      { "en": "Zero is best. Buzz cut forever.", "phon": "di-lâuro iz best. バッチ cát pho-rê-vờ" },
+      { "en": "Numbers and hair — new math.", "phon": "nâhємо فيه — new méch" }
+    ],
+    "answer": 0,
+    "explain": "\(moment) Clipper gắn lưỡi hai xăng" — khách anh nghe coi mình giữ đúng con số."
+  }
+]

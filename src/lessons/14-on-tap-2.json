@@ -1,0 +1,273 @@
+{
+  "id": "14-on-tap-2",
+  "order": 14,
+  "title": "Ngày 14 — Ôn tập tay nghề",
+  "goal": "Không học từ mới. Ôn lại gội sấy, cạo râu, kiểu nam nữ, uốn duỗi, màu nhuộm.",
+  "words": [
+    {
+      "en": "hair dryer",
+      "vi": "máy sấy tóc",
+      "phon": "he đrai-ờ",
+      "note": "Ôn lại bài 05."
+    },
+    {
+      "en": "shampoo",
+      "vi": "gội đầu / dầu gội",
+      "phon": "sam-pu",
+      "note": "Ôn lại bài 08."
+    },
+    {
+      "en": "dandruff",
+      "vi": "gàu",
+      "phon": "đen-đrớp",
+      "note": "Ôn lại bài 08."
+    },
+    {
+      "en": "shave",
+      "vi": "cạo râu",
+      "phon": "sêiv",
+      "note": "Ôn lại bài 09."
+    },
+    {
+      "en": "beard",
+      "vi": "râu",
+      "phon": "bia-đờ",
+      "note": "Ôn lại bài 09."
+    },
+    {
+      "en": "mustache",
+      "vi": "râu mép",
+      "phon": "mớs-tash",
+      "note": "Ôn lại bài 09."
+    },
+    {
+      "en": "crew cut",
+      "vi": "cắt đầu đinh",
+      "phon": "cru cắt",
+      "note": "Ôn lại bài 10."
+    },
+    {
+      "en": "layer",
+      "vi": "tỉa lớp",
+      "phon": "lêi-ờ",
+      "note": "Ôn lại bài 11."
+    },
+    {
+      "en": "perm",
+      "vi": "uốn tóc",
+      "phon": "pơm",
+      "note": "Ôn lại bài 12."
+    },
+    {
+      "en": "ashy",
+      "vi": "màu tro",
+      "phon": "a-shi",
+      "note": "Ôn lại bài 13."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Let me wash your hair first.",
+      "vi": "Để em gội đầu cho anh trước.",
+      "phon": "lét mi quóach yo he phớt",
+      "when": "Bắt đầu làm tóc"
+    },
+    {
+      "en": "Do you want a shave too?",
+      "vi": "Anh cạo râu luôn không?",
+      "phon": "đu diu quón ờ sêiv tu",
+      "when": "Sau khi cắt"
+    },
+    {
+      "en": "This style needs styling every day.",
+      "vi": "Kiểu này phải tạo kiểu mỗi ngày.",
+      "phon": "đít stai nít sờ-tai-ling ev-ri đây",
+      "when": "Tư vấn kiểu"
+    },
+    {
+      "en": "Do you want your hair up or down?",
+      "vi": "Chị muốn búi lên hay xõa xuống?",
+      "phon": "đu diu quón yo he ớp o đao",
+      "when": "Khách nữ đi tiệc"
+    },
+    {
+      "en": "This ashy tone will cover your gray hair.",
+      "vi": "Tông tro này che được tóc bạc.",
+      "phon": "đít a-shi tôn quyu cớ-vờ yo grây he",
+      "when": "Tư vấn màu"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách nam làm trọn gói: cắt, gội, cạo",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hello! What can I do today?",
+        "vi": "Xin chào! Hôm nay anh làm gì ạ?",
+        "phon": "hê-lô! quát ken ai đu tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "A crew cut, a wash, and a shave, please.",
+        "vi": "Cắt đầu đinh, gội đầu, với cạo râu luôn.",
+        "phon": "ờ cru cắt, ờ quóach, en ờ sêiv, pliz"
+      },
+      {
+        "who": "barber",
+        "en": "Sure. Let me wash your hair first.",
+        "vi": "Được ạ. Để em gội đầu cho anh trước.",
+        "phon": "so-ờ. lét mi quóach yo he phớt"
+      },
+      {
+        "who": "barber",
+        "en": "You have a little dandruff. Use warm water at home.",
+        "vi": "Anh hơi có gàu. Ở nhà dùng nước ấm nhé.",
+        "phon": "diu hèv ờ lít-tồ đen-đrớp. diuz quoom quó-tờ at hôm"
+      },
+      {
+        "who": "client",
+        "en": "OK. Keep the mustache, and just a trim for the beard.",
+        "vi": "Được. Giữ râu mép, còn râu thì tỉa gọn thôi.",
+        "phon": "ô-kê. kip đờ mớs-tash, en chớst ờ trim pho đờ bia-đờ"
+      },
+      {
+        "who": "barber",
+        "en": "Sure. I'll use the hair dryer after the wash.",
+        "vi": "Được. Em sấy tóc sau khi gội nhé.",
+        "phon": "so-ờ. ai-ồ diuz đờ he đrai-ờ áp-phờ đờ quóach"
+      },
+      {
+        "who": "client",
+        "en": "Good. My wife wants me to try a perm too.",
+        "vi": "Tốt. Vợ tôi còn muốn tôi thử uốn tóc nữa.",
+        "phon": "gút. mai quaif quón-ts mi tu trai ờ pơm tu"
+      },
+      {
+        "who": "barber",
+        "en": "A perm? Maybe next time. With your hair, a crew cut is best.",
+        "vi": "Uốn à? Để lần sau đi. Tóc anh cắt đầu đinh là đẹp nhất.",
+        "phon": "ờ pơm? mêi-bi nek taim. quyđ yo he, ờ cru cắt ịt bét"
+      },
+      {
+        "who": "client",
+        "en": "You are right! See you next time.",
+        "vi": "Anh nói đúng! Hẹn gặp lần sau.",
+        "phon": "diu a rait! si diu nek taim"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Điền từ còn thiếu: \"Let me ___ your hair first.\"",
+      "options": [
+        "watch",
+        "wash",
+        "wear",
+        "walk"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Gàu\" là:",
+      "options": [
+        "dandruff",
+        "handcuff",
+        "sandal",
+        "day off"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Cắt đầu đinh\" là:",
+      "options": [
+        "crew cut",
+        "cry cut",
+        "new cut",
+        "blue cut"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"A little bit of ___ is OK.\" (Uốn nhẹ thì được)",
+      "options": [
+        "pearl",
+        "perm",
+        "pork",
+        "peak"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tóc chẻ ngọn\" là:",
+      "options": [
+        "split ends",
+        "spicy ends",
+        "sport ends",
+        "spend"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khách muốn che tóc bạc, bạn gợi ý:",
+      "options": [
+        "ashy tone",
+        "happy tone",
+        "old tone",
+        "slow tone"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Râu mép\" là:",
+      "options": [
+        "mustard",
+        "mustache",
+        "machine",
+        "moustrap"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tỉa lớp\" là:",
+      "options": [
+        "lawyer",
+        "layer",
+        "leather",
+        "leader"
+      ],
+      "answer": 1
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Shave and grey color today, please.",
+        "vi": "Cạo râu và nhuộm tóc bạc hôm nay nhé.",
+        "phon": "xêch en grét kú-lơ tu-đey, pliz"
+      },
+      "hint": "Ôn tuần 2 — gội + cạo + màu",
+      "options": [
+        {
+          "en": "Let me wash your hair first.",
+          "vi": "Để em gội đầu cho anh trước.",
+          "phon": "lét mi quóach yo he phớt",
+          "when": "Bắt đầu làm tóc"
+        },
+        {
+          "en": "Do you want a shave too?",
+          "vi": "Anh cạo râu luôn không?",
+          "phon": "đu diu quón ờ sêiv tu",
+          "when": "Sau khi cắt"
+        },
+        {
+          "en": "This style needs styling every day.",
+          "vi": "Kiểu này phải tạo kiểu mỗi ngày.",
+          "phon": "đít stai nít sờ-tai-ling ev-ri đây",
+          "when": "Tư vấn kiểu"
+        }
+      ],
+      "answer": 1,
+      "explain": "Hỏi cạo kèm luôn là cách gói dịch vụ nhanh nhất."
+    }
+  ]
+}

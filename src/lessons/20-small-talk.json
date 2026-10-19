@@ -1,0 +1,289 @@
+{
+  "id": "20-small-talk",
+  "order": 20,
+  "title": "Nói chuyện xã giao (small talk)",
+  "goal": "Bắt chuyện với khách về thời tiết, gia đình, bóng đá, cà phê — câu ngắn dễ nói.",
+  "words": [
+    {
+      "en": "weather",
+      "vi": "thời tiết",
+      "phon": "quê-đờ",
+      "note": "\"How is the weather today?\" = Hôm nay thời tiết sao?"
+    },
+    {
+      "en": "rain",
+      "vi": "mưa",
+      "phon": "rêin",
+      "note": "\"It will rain later\" = Lát nữa mưa đó."
+    },
+    {
+      "en": "sunny",
+      "vi": "nắng",
+      "phon": "sắn-ni",
+      "note": "\"A sunny day\" = Ngày nắng đẹp."
+    },
+    {
+      "en": "weekend",
+      "vi": "cuối tuần",
+      "phon": "quy-k-en",
+      "note": "\"Any plans for the weekend?\" = Cuối tuần có kế hoạch gì chưa?"
+    },
+    {
+      "en": "family",
+      "vi": "gia đình",
+      "phon": "phe-mờ-li",
+      "note": "\"How is your family?\" = Gia đình anh khỏe không?"
+    },
+    {
+      "en": "kids",
+      "vi": "con cái / trẻ con",
+      "phon": "kít-sờ",
+      "note": "\"Do you have kids?\" = Anh có con chưa?"
+    },
+    {
+      "en": "soccer",
+      "vi": "bóng đá",
+      "phon": "sóc-cờ",
+      "note": "\"Do you like soccer?\" = Anh có thích bóng đá không?"
+    },
+    {
+      "en": "food",
+      "vi": "đồ ăn",
+      "phon": "phút",
+      "note": "\"I love Vietnamese food\" — khách hay nói câu này."
+    },
+    {
+      "en": "coffee",
+      "vi": "cà phê",
+      "phon": "có-phi",
+      "note": "\"Do you drink coffee?\" = Anh uống cà phê không?"
+    },
+    {
+      "en": "holiday",
+      "vi": "ngày lễ / kỳ nghỉ",
+      "phon": "hó-lờ-đây",
+      "note": "\"Happy holiday!\" = Chúc kỳ nghỉ vui vẻ!"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "How is the weather today?",
+      "vi": "Hôm nay thời tiết thế nào anh?",
+      "phon": "hao ịt đờ quê-đờ tu-đây",
+      "when": "Bắt chuyện khi khách ngồi chờ"
+    },
+    {
+      "en": "It's very sunny today.",
+      "vi": "Hôm nay nắng đẹp nhỉ.",
+      "phon": "ịts ve-ri sắn-ni tu-đây",
+      "when": "Khen thời tiết"
+    },
+    {
+      "en": "Do you have kids?",
+      "vi": "Anh có con chưa?",
+      "phon": "đu diu hèv kít-sờ",
+      "when": "Khi khách quen, nói chuyện thoải mái"
+    },
+    {
+      "en": "Do you drink Vietnamese coffee?",
+      "vi": "Anh uống cà phê Việt Nam chưa?",
+      "phon": "đu diu đrin ki-ệt-nàm có-phi",
+      "when": "Mời khách trải nghiệm"
+    },
+    {
+      "en": "Any plans for the weekend?",
+      "vi": "Cuối tuần anh có kế hoạch gì chưa?",
+      "phon": "e-ni plen-zờ pho đờ quy-k-en",
+      "when": "Khách vào thứ Sáu, thứ Bảy"
+    }
+  ],
+  "dialogue": {
+    "title": "Nói chuyện trong lúc gội đầu",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "How is the weather today?",
+        "vi": "Hôm nay thời tiết thế nào anh?",
+        "phon": "hao ịt đờ quê-đờ tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "Very hot! But I love it here.",
+        "vi": "Nóng lắm! Nhưng tôi thích ở đây.",
+        "phon": "ve-ri hót! bớt ai lấv ịt hia"
+      },
+      {
+        "who": "barber",
+        "en": "Do you drink Vietnamese coffee?",
+        "vi": "Anh uống cà phê Việt Nam chưa?",
+        "phon": "đu diu đrin ki-ệt-nàm có-phi"
+      },
+      {
+        "who": "client",
+        "en": "Yes! Every morning. I love the food too.",
+        "vi": "Có chứ! Sáng nào cũng uống. Đồ ăn cũng rất ngon.",
+        "phon": "dét! ev-ri mo-ning. ai lấv đờ phút tu"
+      },
+      {
+        "who": "barber",
+        "en": "Do you have kids?",
+        "vi": "Anh có con chưa?",
+        "phon": "đu diu hèv kít-sờ"
+      },
+      {
+        "who": "client",
+        "en": "Two boys. They love soccer!",
+        "vi": "Hai bé trai. Tụi nó mê bóng đá lắm!",
+        "phon": "tu boiz. đêi lấv sóc-cờ"
+      },
+      {
+        "who": "barber",
+        "en": "Ha ha. My son plays soccer too.",
+        "vi": "Ha ha. Con trai em cũng chơi bóng đá.",
+        "phon": "ha ha. mai sần plêiz sóc-cờ tu"
+      },
+      {
+        "who": "client",
+        "en": "Nice! Any plans for the weekend?",
+        "vi": "Hay quá! Cuối tuần anh có kế hoạch gì chưa?",
+        "phon": "nais! e-ni plen-zờ pho đờ quy-k-en"
+      },
+      {
+        "who": "barber",
+        "en": "Family time. Relax with my kids.",
+        "vi": "Dành thời gian cho gia đình. Thư giãn với con.",
+        "phon": "phe-mờ-li taim. ri-lách-sờ quyđ mai kít-sờ"
+      },
+      {
+        "who": "client",
+        "en": "That's great. Thank you, very nice talk!",
+        "vi": "Hay đó. Cảm ơn, nói chuyện vui quá!",
+        "phon": "đát grêit. then-kiu, ve-ri nais tóok"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Thời tiết\" là:",
+      "options": [
+        "weather",
+        "winter",
+        "water",
+        "waiter"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Any plans for the ___?\" (Cuối tuần)",
+      "options": [
+        "weak end",
+        "weekend",
+        "weekday",
+        "weekendy"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Gia đình\" là:",
+      "options": [
+        "family",
+        "finally",
+        "famous",
+        "friendly"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Do you have ___?\" (Anh có con chưa?)",
+      "options": [
+        "keys",
+        "kids",
+        "cars",
+        "cats"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Bóng đá\" là:",
+      "options": [
+        "soccer",
+        "sucker",
+        "socket",
+        "sauerkraut"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Cà phê\" là:",
+      "options": [
+        "copy",
+        "coffee",
+        "cough",
+        "cup tea"
+      ],
+      "answer": 1
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "So hot today, right, boss?",
+        "vi": "Hôm nay nóng nhỉ anh?",
+        "phon": "xâo hót tu-đey, rai, boss?"
+      },
+      "hint": "Thời tiết làm mở lời",
+      "options": [
+        {
+          "en": "How is the weather today?",
+          "vi": "Hôm nay thời tiết thế nào anh?",
+          "phon": "hao ịt đờ quê-đờ tu-đây",
+          "when": "Bắt chuyện khi khách ngồi chờ"
+        },
+        {
+          "en": "It's very sunny today.",
+          "vi": "Hôm nay nắng đẹp nhỉ.",
+          "phon": "ịts ve-ri sắn-ni tu-đây",
+          "when": "Khen thời tiết"
+        },
+        {
+          "en": "Do you have kids?",
+          "vi": "Anh có con chưa?",
+          "phon": "đu diu hèv kít-sờ",
+          "when": "Khi khách quen, nói chuyện thoải mái"
+        }
+      ],
+      "answer": 1,
+      "explain": "Bắt đống chuyện bằng nghỉ thời tiết — lên n sung cũng đều dễ."
+    },
+    {
+      "client": {
+        "en": "I feel sleepy this morning, boss.",
+        "vi": "Sáng nay buồn ngủ quá anh ơi.",
+        "phon": "ai phít xlíp-hi dis móp-nin, boss"
+      },
+      "hint": "mời một tách cà phê",
+      "options": [
+        {
+          "en": "How is the weather today?",
+          "vi": "Hôm nay thời tiết thế nào anh?",
+          "phon": "hao ịt đờ quê-đờ tu-đây",
+          "when": "Bắt chuyện khi khách ngồi chờ"
+        },
+        {
+          "en": "Do you drink Vietnamese coffee?",
+          "vi": "Anh uống cà phê Việt Nam chưa?",
+          "phon": "đu diu đrin ki-ệt-nàm có-phi",
+          "when": "Mời khách trải nghiệm"
+        },
+        {
+          "en": "It's very sunny today.",
+          "vi": "Hôm nay nắng đẹp nhỉ.",
+          "phon": "ịts ve-ri sắn-ni tu-đây",
+          "when": "Khen thời tiết"
+        }
+      ],
+      "answer": 1,
+      "explain": "Mời cà phê Việt — câu xã giao quen thuộc khách Tây đều thích."
+    }
+  ]
+}

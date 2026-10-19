@@ -1,0 +1,352 @@
+{
+  "id": "09-cao-rau",
+  "order": 9,
+  "title": "Cạo râu & tỉa râu",
+  "goal": "Tư vấn kiểu râu, cạo râu an toàn, dùng khăn hấp, dầu dưỡng sau cạo.",
+  "words": [
+    {
+      "en": "shave",
+      "vi": "cạo râu",
+      "phon": "sêiv",
+      "note": "\"Do you want a shave too?\" = Anh cạo râu luôn không?"
+    },
+    {
+      "en": "beard",
+      "vi": "râu (râu cằm, râu quai nón)",
+      "phon": "bia-đờ"
+    },
+    {
+      "en": "mustache",
+      "vi": "râu mép",
+      "phon": "mớs-tash"
+    },
+    {
+      "en": "foam",
+      "vi": "bọt cạo râu",
+      "phon": "phôm",
+      "note": "Bọt xoa lên trước khi cạo."
+    },
+    {
+      "en": "blade",
+      "vi": "lưỡi dao",
+      "phon": "bờ-lêi-đờ",
+      "note": "Lưỡi dao sắc, cẩn thận."
+    },
+    {
+      "en": "steam towel",
+      "vi": "khăn hấp nóng",
+      "phon": "sờ-tim tau-ồ",
+      "note": "Hấp khăn nóng cho râu mềm ra."
+    },
+    {
+      "en": "trimmer",
+      "vi": "máy tỉa râu",
+      "phon": "tri-mờ"
+    },
+    {
+      "en": "aftershave",
+      "vi": "dầu dưỡng sau cạo",
+      "phon": "áp-phờ-sêiv",
+      "note": "\"The aftershave feels cool\" = Dầu dưỡng mát lạnh."
+    },
+    {
+      "en": "sideburns",
+      "vi": "tóc mai",
+      "phon": "sai-đờ-bơn-zờ",
+      "note": "\"How long do you want your sideburns?\" = Tóc mai để dài bao nhiêu?"
+    },
+    {
+      "en": "goatee",
+      "vi": "râu dê (râu cằm nhọn)",
+      "phon": "gô-ti",
+      "note": "Kiểu râu chỉ để phần cằm."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Do you want a shave too?",
+      "vi": "Anh cạo râu luôn không?",
+      "phon": "đu diu quón ờ sêiv tu",
+      "when": "Sau khi cắt tóc"
+    },
+    {
+      "en": "I'll use a steam towel first.",
+      "vi": "Em hấp khăn nóng cho anh trước nhé.",
+      "phon": "ai-ồ diuz ờ sờ-tim tau-ồ phớt",
+      "when": "Chuẩn bị cạo râu"
+    },
+    {
+      "en": "How do you want your beard?",
+      "vi": "Anh muốn để râu kiểu gì?",
+      "phon": "hao đu diu quón yo bia-đờ",
+      "when": "Tỉa râu"
+    },
+    {
+      "en": "Just a trim for the beard, please.",
+      "vi": "Tỉa gọn râu giúp tôi là được.",
+      "phon": "chớst ờ trim pho đờ bia-đờ, pliz",
+      "when": "Khách yêu cầu (khách nói)"
+    },
+    {
+      "en": "The aftershave feels cool, right?",
+      "vi": "Dầu dưỡng mát lạnh phải không anh?",
+      "phon": "đờ áp-phờ-sêiv phiu-zờ kul, rait",
+      "when": "Sau khi cạo xong"
+    }
+  ],
+  "dialogue": {
+    "title": "Cạo râu và tỉa gọn",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "We are done with the hair. Do you want a shave too?",
+        "vi": "Cắt tóc xong rồi. Anh cạo râu luôn không?",
+        "phon": "quy a đăn quy đờ he. đu diu quón ờ sêiv tu"
+      },
+      {
+        "who": "client",
+        "en": "Yes, please. Just a trim for the beard.",
+        "vi": "Có ạ. Tỉa gọn râu giúp tôi là được.",
+        "phon": "dét, pliz. chớst ờ trim pho đờ bia-đờ"
+      },
+      {
+        "who": "barber",
+        "en": "OK. I'll use a steam towel first.",
+        "vi": "Được. Em hấp khăn nóng trước nhé.",
+        "phon": "ô-kê. ai-ồ diuz ờ sờ-tim tau-ồ phớt"
+      },
+      {
+        "who": "barber",
+        "en": "The foam will make it easy. Then I use the blade.",
+        "vi": "Bọt cạo sẽ giúp cạo dễ hơn. Rồi em dùng lưỡi dao.",
+        "phon": "đờ phôm quyu mêik ịt i-zi. đen ai diuz đờ bờ-lêi-đờ"
+      },
+      {
+        "who": "client",
+        "en": "OK. Keep the mustache, please.",
+        "vi": "Được. Giữ lại râu mép giúp tôi nhé.",
+        "phon": "ô-kê. kip đờ mớs-tash, pliz"
+      },
+      {
+        "who": "barber",
+        "en": "Sure. How long do you want your sideburns?",
+        "vi": "Được ạ. Anh muốn tóc mai dài bao nhiêu?",
+        "phon": "so-ờ. hao loong đu diu quón yo sai-đờ-bơn-zờ"
+      },
+      {
+        "who": "client",
+        "en": "A little shorter, please.",
+        "vi": "Cắt ngắn bớt chút ạ.",
+        "phon": "ờ lít-tồ soọc-tơ, pliz"
+      },
+      {
+        "who": "barber",
+        "en": "Done. The aftershave feels cool, right?",
+        "vi": "Xong rồi. Dầu dưỡng mát lạnh phải không anh?",
+        "phon": "đăn. đờ áp-phờ-sêiv phiu-zờ kul, rait"
+      },
+      {
+        "who": "client",
+        "en": "Yes! It smells good too. How much?",
+        "vi": "Đúng vậy! Thơm nữa. Bao nhiêu tiền?",
+        "phon": "dét! ịt sờ-men-zờ gút tu. hao mớch"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Cạo râu\" là:",
+      "options": [
+        "shave",
+        "save",
+        "shine",
+        "shop"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"How do you want your ___?\" (Muốn để râu kiểu gì?)",
+      "options": [
+        "beer",
+        "beard",
+        "bird",
+        "board"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Râu mép\" là:",
+      "options": [
+        "mustache",
+        "moustake",
+        "must see",
+        "machine"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I'll use a ___ towel first.\" (Hấp khăn nóng trước)",
+      "options": [
+        "scream",
+        "steam",
+        "stone",
+        "stream"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tóc mai\" là:",
+      "options": [
+        "sideburns",
+        "sidewalks",
+        "sundays",
+        "sunburns"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Dầu dưỡng sau cạo\" là:",
+      "options": [
+        "aftershave",
+        "afternoon",
+        "aftermath",
+        "afterwork"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "My skin burns after shaving. Care today, boss.",
+        "vi": "Da tôi hay rát sau khi cạo. Nhẹ tay hôm nay nhé.",
+        "phon": "mai xki bưn áp-tơ xêch-vin. kech tu-đey, boss"
+      },
+      "hint": "Khách da nhạy cảm",
+      "options": [
+        {
+          "en": "Foam first, then steam towel. Skin safe with me.",
+          "phon": "phâum phớt, hên xtím thâu-ờ. xki xeych uít mi"
+        },
+        {
+          "en": "Burning skin is a normal barber game.",
+          "phon": "bưn-in xki iz ờ nố-mạn bá-bờ ghêm"
+        },
+        {
+          "en": "I use three blades. Triple the burn.",
+          "phon": "ai úch thri blêch. tríp-ou đờ bưn"
+        }
+      ],
+      "answer": 0,
+      "explain": "Bọt + khăn hấp trước — kể đúng trình tự an toàn, khách da nhạy cảm nghe là yên."
+    },
+    {
+      "client": {
+        "en": "Should I keep my mustache or go clean?",
+        "vi": "Em giữ chít râu hay cạo sạch luôn anh?",
+        "phon": "xu ai kíp mai mú-xạch ố gâu cin?"
+      },
+      "hint": "Hỏi soi — khách chần chừ",
+      "options": [
+        {
+          "en": "The mustache looks young. I trim it clean.",
+          "phon": "đờ mú-xạch lục yang. ai trím et cin"
+        },
+        {
+          "en": "Mustache? I only know school mustaches.",
+          "phon": "mú-xạch? ai âu-nli nâu xcul mú-xạch"
+        },
+        {
+          "en": "Shave everything, always, forever.",
+          "phon": "xêch ev-ri-thin, hâo-ụ, pho-rê-vờ"
+        }
+      ],
+      "answer": 0,
+      "explain": "Đưa ý kiến riêng cho khuôn mặt từng người — khách cần câu trả lời dứt khoát nhẹ nhàng."
+    },
+    {
+      "client": {
+        "en": "Which is better: trimmer or razor for my beard?",
+        "vi": "Máy tỉa hay dao cạo tốt hơn cho râu em?",
+        "phon": "uítch iz bét-chờ: trím-mơ o rey-chờ phờ mai bi-ét?"
+      },
+      "hint": "Giải thích công cụ cụ thể",
+      "options": [
+        {
+          "en": "Trimmer today, razor next time — both zero pain.",
+          "phon": "trím-mơ tu-đey, rey-chờ néch taim — bâu di-lâu phain"
+        },
+        {
+          "en": "Razor always. Trimmers are for rookies.",
+          "phon": "rey-chờ hâo-ụ. trím-mơ a phờ ru-xi"
+        },
+        {
+          "en": "I cut beard with my fingers only.",
+          "phon": "ai cát bi-ét uít mai fing-chơ âu-nli"
+        }
+      ],
+      "answer": 0,
+      "explain": "Máy trước, dao sau — giải thích ngắn về dụng cụ, khách thấy mình chuyên thật sự."
+    },
+    {
+      "client": {
+        "en": "I want to look fresh for my evening date.",
+        "vi": "Tôi muốn hồi thật gọn cho buổi hẹn tối.",
+        "phon": "ai uốn tu lục phrét phờ mai đi-v nhất ding"
+      },
+      "hint": "Khách cần tươi mới",
+      "options": [
+        {
+          "en": "Do you want a shave too?",
+          "vi": "Anh cạo râu luôn không?",
+          "phon": "đu diu quón ờ sêiv tu",
+          "when": "Sau khi cắt tóc"
+        },
+        {
+          "en": "I'll use a steam towel first.",
+          "vi": "Em hấp khăn nóng cho anh trước nhé.",
+          "phon": "ai-ồ diuz ờ sờ-tim tau-ồ phớt",
+          "when": "Chuẩn bị cạo râu"
+        },
+        {
+          "en": "The aftershave feels cool, right?",
+          "vi": "Dầu dưỡng mát lạnh phải không anh?",
+          "phon": "đờ áp-phờ-sêiv phiu-zờ kul, rait",
+          "when": "Sau khi cạo xong"
+        }
+      ],
+      "answer": 2,
+      "explain": "Hết công đoạn là dầu dưỡng mát — kể cảm giác khách sẽ có ngay."
+    },
+    {
+      "client": {
+        "en": "Please shave me slow today, boss.",
+        "vi": "Cạo chậm rãi cho tôi nha anh.",
+        "phon": "pliz xêch mi slâu tu-đey, boss"
+      },
+      "hint": "Khách muốn nhàn rỗi",
+      "options": [
+        {
+          "en": "Do you want a shave too?",
+          "vi": "Anh cạo râu luôn không?",
+          "phon": "đu diu quón ờ sêiv tu",
+          "when": "Sau khi cắt tóc"
+        },
+        {
+          "en": "I'll use a steam towel first.",
+          "vi": "Em hấp khăn nóng cho anh trước nhé.",
+          "phon": "ai-ồ diuz ờ sờ-tim tau-ồ phớt",
+          "when": "Chuẩn bị cạo râu"
+        },
+        {
+          "en": "How do you want your beard?",
+          "vi": "Anh muốn để râu kiểu gì?",
+          "phon": "hao đu diu quón yo bia-đờ",
+          "when": "Tỉa râu"
+        }
+      ],
+      "answer": 1,
+      "explain": "Khăn hấp trước — trình tự nhất định không bỏ."
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "id": "32-so-tien-gio",
+  "order": 32,
+  "title": "Số, tiền & giờ",
+  "goal": "Nghe số không lú: thirteen khác thirty, báo giá hai trăm năm mươi, hẹn giờ rưỡi — trả lời sai số là mất tiền thật.",
+  "words": [
+    { "en": "thirteen", "vi": "13 — mười ba", "phon": "phớt-tiên", "note": "NHẤN CUỐI: thir-TEEN. Khác hẳn thirty (ba mươi)." },
+    { "en": "thirty", "vi": "30 — ba mươi", "phon": "phớt-ti", "note": "NHẤN ĐẦU: THIR-ty. Rút ruột 'ti' ngắn." },
+    { "en": "fifteen", "vi": "15 — mười lăm", "phon": "phíp-tiên", "note": "Nhấn cuối: fif-TEEN." },
+    { "en": "fifty", "vi": "50 — năm mươi", "phon": "phíp-ti", "note": "Nhấn đầu: FIF-ty. Cặp 15/50 gây thiệt lớn nhất nếu nhầm." },
+    { "en": "hundred", "vi": "trăm", "phon": "hân-đờ-it", "note": "\"Two hundred\" = hai trăm. Không bao giờ có chữ s." },
+    { "en": "thousand", "vi": "nghìn / ngàn", "phon": "thâu-dzần", "note": "\"Fifty thousand\" = năm mươi nghìn." },
+    { "en": "million", "vi": "triệu", "phon": "mí-liân", "note": "\"One million\" = một triệu — dùng cho doanh thu, không phải giá cắt." },
+    { "en": "half", "vi": "một nửa / rưỡi", "phon": "háp", "note": "\"Half past nine\" = 9 giờ rưỡi." },
+    { "en": "quarter", "vi": "15 phút / một phần tư", "phon": "quoa-tờ", "note": "\"Quarter past three\" = 3:15. \"Quarter to four\" = 3:45." },
+    { "en": "o'clock", "vi": "đúng giờ ấy", "phon": "ờ-cóc", "note": "\"Seven o'clock\" = 7 giờ đúng. Chỉ dùng với giờ chẵn." }
+  ],
+  "phrases": [
+    { "en": "It's thirteen, not thirty.", "vi": "Là mười ba, không phải ba mươi.", "phon": "ét sờ phớt-tiên, nốt phớt-ti", "when": "Sửa khi khách nghe nhầm con số" },
+    { "en": "The price is two hundred and fifty thousand.", "vi": "Giá là hai trăm năm mươi nghìn.", "phon": "đờ prai ờ tu hân-đờ-it en phíp-ti thâu-dzần", "when": "Báo giá thường gặp nhất" },
+    { "en": "Come back at half past two.", "vi": "Hai giờ rưỡi quay lại nhé.", "phon": "khầm bắt ết háp past tu", "when": "Hẹn giờ khách quay lại" },
+    { "en": "I have a slot at quarter to five.", "vi": "Còn khung giờ 4:45.", "phon": "ai hèv ờ slot ết quoa-tờ tu phaip", "when": "Khách gọi điện hỏi giờ trống" },
+    { "en": "Let me count: one, two, three.", "vi": "Để tôi đếm: một, hai, ba.", "phon": "let mi caun-t: uân, tu, thri", "when": "Chỉ số lượng cho khách xem" }
+  ],
+  "numbers": [
+    { "say": "thirteen minutes", "phon": "phớt-tiên mí-nít", "options": ["30 phút", "13 phút", "3 phút"], "answer": 1 },
+    { "say": "thirty minutes", "phon": "phớt-ti mí-nít", "options": ["30 phút", "13 phút", "15 phút"], "answer": 0 },
+    { "say": "two hundred and fifty thousand dong", "phon": "tu hân-đờ-it en phíp-ti thâu-dzần", "options": ["2.500.000đ", "250.000đ", "25.000đ"], "answer": 1 },
+    { "say": "fifty thousand dong", "phon": "phíp-ti thâu-dzần đông", "options": ["50.000đ", "15.000đ", "500.000đ"], "answer": 0 },
+    { "say": "half past nine", "phon": "háp past nai", "options": ["9:15", "9:30", "7:30"], "answer": 1 },
+    { "say": "quarter to four", "phon": "quoa-tờ tu pho", "options": ["4:15", "4:45", "3:45"], "answer": 2 },
+    { "say": "a hundred and twenty thousand", "phon": "ờ hân-đờ-it en tuen-ti thâu-dzần", "options": ["120.000đ", "200.000đ", "22.000đ"], "answer": 0 },
+    { "say": "seven o'clock", "phon": "se-vơn ờ-cóc", "options": ["7:00", "7:15", "7:45"], "answer": 0 }
+  ],
+  "dialogue": {
+    "title": "Giá mấy? Bao nhiêu phút?",
+    "lines": [
+      { "who": "client", "en": "How much is a trim?", "vi": "Chỉnh gọn bao nhiêu?", "phon": "hau mâge ờ trím" },
+      { "who": "barber", "en": "Fifty thousand, boss.", "vi": "Năm mươi nghìn thôi ạ.", "phon": "phíp-ti thâu-dzần, boss" },
+      { "who": "client", "en": "Fifteen?? That's so cheap!", "vi": "Mười lăm á? Rẻ quá vậy!", "phon": "phíp-tiên? ét s sâo chíp!" },
+      { "who": "barber", "en": "No, fifty — fi-f-ty. Not fifteen.", "vi": "Không, phíp-ti. Năm mươi. Không phải mười lăm.", "phon": "nâu, phíp-ti — phi-ph-ti. nốt phíp-tiên" },
+      { "who": "client", "en": "Ah, fifty thousand. Got it!", "vi": "À, năm mươi nghìn. Hiểu rồi!", "phon": "a, phíp-ti thâu-dzần. gót ét!" },
+      { "who": "client", "en": "And how long does it take?", "vi": "Mất bao lâu vậy?", "phon": "en hau lông đơ ết tay-k" },
+      { "who": "barber", "en": "Thirty minutes. Not thirteen!", "vi": "Ba mươi phút. Không phải mười ba!", "phon": "phớt-ti mí-nít. nốt phớt-tiên!" },
+      { "who": "client", "en": "Ha! You're good with numbers.", "vi": "Ha! Anh rành số ghê.", "phon": "ha! diu ỏ gút uít nâm-bớ" },
+      { "who": "barber", "en": "See you at half past ten.", "vi": "Hẹn anh mười giờ rưỡi.", "phon": "si diu ết háp past ten" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "Wait — did you say fifteen or fifty?", "vi": "Khoan — anh nói mười lăm hay năm mươi?", "phon": "uây-t — di điu say phíp-tiên ố phíp-ti" },
+      "hint": "Sự cố kinh điển 15 / 50",
+      "options": [
+        { "en": "Fifty — five, zero. Fifty thousand dong.", "phon": "phíp-ti — phaip, di-lâu. phíp-ti thâu-dzần đông" },
+        { "en": "Thirteen or thirty, same thing.", "phon": "phớt-tiên ố phớt-ti, same thin" },
+        { "en": "Sorry, my numbers are broken.", "phon": "so-ri, mai nâm-bơ a rơ-bơ-en" }
+      ],
+      "answer": 0,
+      "explain": "Nói chậm từng bước, nhấn âm cần phân biệt — 'five... zero' là cách cứu phải nhớ."
+    },
+    {
+      "client": { "en": "Is my slot at three or four o'clock?", "vi": "Giờ của tôi là ba hay bốn giờ?", "phon": "ờ mai slot ết thri ố pho ờ-cóc" },
+      "hint": "Nhầm lẫn giờ hẹn",
+      "options": [
+        { "en": "Three o'clock. See you at three.", "phon": "thri ờ-cóc. si diu ết thri" },
+        { "en": "Sorry. We close at three o'clock.", "phon": "so-ri. ui câu ết thri ờ-cóc" },
+        { "en": "Four is a very big number.", "phon": "pho ờs ve-ri big nâm-bơ" }
+      ],
+      "answer": 0,
+      "explain": "Trả lời trúng giờ, và nhắc lại giờ đấy — khách nhớ ngay, khỏi hỏi lần nữa."
+    },
+    {
+      "client": { "en": "Two hundred? That's a lot!", "vi": "Hai trăm á? Nhiều dữ!", "phon": "tu hân-đờ-it? ét a lốt!" },
+      "hint": "Khách than giá",
+      "options": [
+        { "en": "Only two thousand more than last time.", "phon": "âun-li tu thâu-dzần mô than last taim" },
+        { "en": "One hundred. I make a mistake on my price.", "phon": "uân hân-đờ-it. ai meik ờ mi-stey-k" },
+        { "en": "Numbers are difficult for me.", "phon": "nâm-bơ a đi-fi-khần pho mi" }
+      ],
+      "answer": 1,
+      "explain": "Nếu mình lỡ nói sai giá thì nhận lỗi thẳng và nói lại con số đúng — khách kính trọng sự thật hơn cãi nhau."
+    }
+  ],
+  "quiz": [
+    { "q": "\"thirteen\" là số nào?", "options": ["13", "30", "23", "33"], "answer": 0 },
+    { "q": "\"thirty\" là số nào?", "options": ["13", "3", "30", "43"], "answer": 2 },
+    { "q": "\"Năm mươi nghìn\" đọc là:", "options": ["Fifteen thousand", "Fifty thousand", "Five thousand", "Fifty hundred"], "answer": 1 },
+    { "q": "9:30 đọc là:", "options": ["half past nine", "quarter past nine", "nine quarter", "past half nine"], "answer": 0 },
+    { "q": "3:45 đọc là:", "options": ["quarter past four", "quarter to four", "half past four", "quarter to five"], "answer": 1 },
+    { "q": "Điền: \"The total is ___ thousand dong.\" (hai trăm)", "options": ["two hundred", "twenty hundred", "two hundreds", "ten hundred"], "answer": 0 },
+    { "q": "Cách nói 7:00 chuẩn nhất:", "options": ["seven hour", "o'clock seven", "seven o'clock", "seven minutes"], "answer": 2 }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "29-mot-ngay-salon",
+  "order": 29,
+  "title": "Một ngày ở salon",
+  "goal": "Nói về giờ mở/đóng cửa, giờ nghỉ, khách quen — và những câu tổng hợp của một ngày làm việc.",
+  "words": [
+    {
+      "en": "open",
+      "vi": "mở cửa",
+      "phon": "âu-pần",
+      "note": "\"We open at eight\" = Tiệm mở cửa 8 giờ."
+    },
+    {
+      "en": "close",
+      "vi": "đóng cửa",
+      "phon": "clâu-zờ",
+      "note": "\"We close at eight\" = Tiệm đóng cửa 8 giờ tối."
+    },
+    {
+      "en": "early",
+      "vi": "sớm",
+      "phon": "ơ-li",
+      "note": "\"You are early today!\" = Hôm nay anh đến sớm ghê!"
+    },
+    {
+      "en": "late",
+      "vi": "trễ / muộn",
+      "phon": "lêit",
+      "note": "\"Sorry, I'm late\" = Xin lỗi, tôi tới trễ."
+    },
+    {
+      "en": "break",
+      "vi": "giờ nghỉ",
+      "phon": "bờ-rêik",
+      "note": "\"I take a break at noon\" = Trưa em nghỉ một chút."
+    },
+    {
+      "en": "customer",
+      "vi": "khách hàng",
+      "phon": "khách-sờ-tờ-mờ",
+      "note": "\"Every customer is a friend\" = Khách nào cũng như người nhà."
+    },
+    {
+      "en": "regular",
+      "vi": "khách quen",
+      "phon": "ré-ghiu-lờ",
+      "note": "\"A regular customer\" = Khách quen của tiệm."
+    },
+    {
+      "en": "young",
+      "vi": "trẻ",
+      "phon": "dang",
+      "note": "\"Young people like this style\" = Bạn trẻ thích kiểu này."
+    },
+    {
+      "en": "old",
+      "vi": "lớn tuổi / cũ",
+      "phon": "âu-đờ",
+      "note": "\"Old customers become family\" = Khách lâu năm thành người nhà."
+    },
+    {
+      "en": "help",
+      "vi": "giúp / giúp đỡ",
+      "phon": "hép",
+      "note": "\"Can I help you?\" = Anh cần gì ạ?"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "We open at eight and close at eight.",
+      "vi": "Tiệm mở 8 giờ sáng, đóng 8 giờ tối.",
+      "phon": "quy âu-pần at êit en clâu-zờ at êit",
+      "when": "Khách hỏi giờ mở cửa"
+    },
+    {
+      "en": "Sorry, we are closed now.",
+      "vi": "Xin lỗi, tiệm đóng cửa rồi ạ.",
+      "phon": "so-ri, quy a clâu-zờ nau",
+      "when": "Khách đến muộn"
+    },
+    {
+      "en": "I take a short break at noon.",
+      "vi": "Trưa em nghỉ một chút ạ.",
+      "phon": "ai têik ờ soọc bờ-rêik at nun",
+      "when": "Buổi trưa"
+    },
+    {
+      "en": "He is a regular customer.",
+      "vi": "Anh đó là khách quen của tiệm.",
+      "phon": "hi ịt ờ ré-ghiu-lờ khách-sờ-tờ-mờ",
+      "when": "Giới thiệu khách quen"
+    },
+    {
+      "en": "Can I help you?",
+      "vi": "Anh cần gì ạ?",
+      "phon": "ken ai hép diu",
+      "when": "Chào khách"
+    }
+  ],
+  "dialogue": {
+    "title": "Một ngày làm việc ở tiệm",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Good morning! We open at eight. Can I help you?",
+        "vi": "Chào buổi sáng! Tiệm mở 8 giờ. Anh cần gì ạ?",
+        "phon": "gút mo-ning! quy âu-pần at êit. ken ai hép diu"
+      },
+      {
+        "who": "client",
+        "en": "You are early today! I have an appointment at eight.",
+        "vi": "Anh mở sớm ghê! Tôi có hẹn 8 giờ.",
+        "phon": "diu a ơ-li tu-đây! ai hèv ờn ờ-poi-mần at êit"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, you are my first customer. Please, sit down.",
+        "vi": "Vâng, anh là khách đầu tiên của em. Mời anh ngồi.",
+        "phon": "dét, diu a mai phớt khách-sờ-tờ-mờ. pliz, sít-đao"
+      },
+      {
+        "who": "client",
+        "en": "Thanks. At noon I need to go, so please be quick.",
+        "vi": "Cảm ơn. Trưa tôi phải đi rồi, làm nhanh giúp nhé.",
+        "phon": "thenks. at nun ai nít tu gâu, sô pliz bi quy-k"
+      },
+      {
+        "who": "barber",
+        "en": "No problem. I take a break at noon too.",
+        "vi": "Không sao ạ. Trưa em cũng nghỉ một chút.",
+        "phon": "nâu próp-lầm. ai têik ờ bờ-rêik at nun tu"
+      },
+      {
+        "who": "client",
+        "en": "Good. I see many young people coming here now.",
+        "vi": "Tốt. Tôi thấy giờ nhiều bạn trẻ đến tiệm ghê.",
+        "phon": "gút. ai si me-ni dang pi-pồ khăm-ming hia nau"
+      },
+      {
+        "who": "barber",
+        "en": "Yes! Young people love the fade and the undercut.",
+        "vi": "Vâng! Bạn trẻ mê kiểu fade với undercut lắm.",
+        "phon": "dét! dang pi-pồ lấv đờ phây-đờ en đờ ăn-đờ-cắt"
+      },
+      {
+        "who": "client",
+        "en": "And old customers like me? What do we get?",
+        "vi": "Còn khách lớn tuổi như tôi? Được cái gì?",
+        "phon": "en âu-đờ khách-sờ-tờ-mờz laik mi? quát đu quy ghét"
+      },
+      {
+        "who": "barber",
+        "en": "Ha ha! You are a regular. Old customers become family.",
+        "vi": "Ha ha! Anh là khách quen mà. Khách lâu năm thành người nhà.",
+        "phon": "ha ha! diu a ờ ré-ghiu-lờ. âu-đờ khách-sờ-tờ-mờz bi-khăm phe-mờ-li"
+      },
+      {
+        "who": "client",
+        "en": "I like that. See you Friday, same time!",
+        "vi": "Tôi thích câu đó. Thứ Sáu gặp lại, giờ như cũ nhé!",
+        "phon": "ai laik đát. si diu phrai-đây, sêim taim"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Mở cửa\" là:",
+      "options": [
+        "oven",
+        "open",
+        "often",
+        "old"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Sorry, we are ___ now.\" (Tiệm đóng cửa rồi)",
+      "options": [
+        "closed",
+        "cleaned",
+        "clapped",
+        "climbed"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Khách quen\" là:",
+      "options": [
+        "regular food",
+        "old customer",
+        "new customer",
+        "regular customer"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I take a ___ at noon.\" (Nghỉ trưa một chút)",
+      "options": [
+        "bread",
+        "brick",
+        "break",
+        "bike"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "\"Đến trễ\" là:",
+      "options": [
+        "light",
+        "late",
+        "lake",
+        "last"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Anh cần gì ạ?\" nói là:",
+      "options": [
+        "Can I help you?",
+        "Can I call you?",
+        "Can you help me?",
+        "What is this?"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Are you open right now, boss?",
+        "vi": "Giờ này tiệm còn mở không anh?",
+        "phon": "a-ra diu âu-phần rai nau, boss?"
+      },
+      "hint": "Trả giờ mở — phản bề mặt",
+      "options": [
+        {
+          "en": "We open at eight and close at eight.",
+          "vi": "Tiệm mở 8 giờ sáng, đóng 8 giờ tối.",
+          "phon": "quy âu-pần at êit en clâu-zờ at êit",
+          "when": "Khách hỏi giờ mở cửa"
+        },
+        {
+          "en": "Sorry, we are closed now.",
+          "vi": "Xin lỗi, tiệm đóng cửa rồi ạ.",
+          "phon": "so-ri, quy a clâu-zờ nau",
+          "when": "Khách đến muộn"
+        },
+        {
+          "en": "I take a short break at noon.",
+          "vi": "Trưa em nghỉ một chút ạ.",
+          "phon": "ai têik ờ soọc bờ-rêik at nun",
+          "when": "Buổi trưa"
+        }
+      ],
+      "answer": 1,
+      "explain": "Biết giờ mở 8–8 để trả ngay — không để khách đứng ngoài cửa mạo lo."
+    },
+    {
+      "client": {
+        "en": "When do you close today, boss?",
+        "vi": "Tiệm đóng mấy giờ hôm nay anh?",
+        "phon": "uhen đu diu câu-dzét tu-đey, boss?"
+      },
+      "hint": "Giờ đóng — giờ cụ thể",
+      "options": [
+        {
+          "en": "Sorry, we are closed now.",
+          "vi": "Xin lỗi, tiệm đóng cửa rồi ạ.",
+          "phon": "so-ri, quy a clâu-zờ nau",
+          "when": "Khách đến muộn"
+        },
+        {
+          "en": "I take a short break at noon.",
+          "vi": "Trưa em nghỉ một chút ạ.",
+          "phon": "ai têik ờ soọc bờ-rêik at nun",
+          "when": "Buổi trưa"
+        },
+        {
+          "en": "We open at eight and close at eight.",
+          "vi": "Tiệm mở 8 giờ sáng, đóng 8 giờ tối.",
+          "phon": "quy âu-pần at êit en clâu-zờ at êit",
+          "when": "Khách hỏi giờ mở cửa"
+        }
+      ],
+      "answer": 2,
+      "explain": "Trả giờ mở và giờ đóng rõ ràng — khách biết đường mà tới đúng giờ."
+    }
+  ]
+}

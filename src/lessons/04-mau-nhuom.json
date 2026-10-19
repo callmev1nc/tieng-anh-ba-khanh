@@ -1,0 +1,366 @@
+{
+  "id": "04-mau-nhuom",
+  "order": 4,
+  "title": "Tư vấn màu nhuộm",
+  "goal": "Hỏi khách muốn nhuộm màu gì, giải thích tẩy – dưỡng – thời gian – giá – thử dị ứng.",
+  "words": [
+    {
+      "en": "hair color",
+      "vi": "màu nhuộm",
+      "phon": "he cà-lơ",
+      "note": "\"What hair color do you want?\" = Anh muốn nhuộm màu gì ạ?"
+    },
+    {
+      "en": "bleach",
+      "vi": "tẩy tóc",
+      "phon": "bờ-lích",
+      "note": "\"We need to bleach it first\" = Cần tẩy tóc trước đã."
+    },
+    {
+      "en": "toner",
+      "vi": "dưỡng / trung hòa màu",
+      "phon": "tô-nơ",
+      "note": "Sau tẩy, dùng toner để màu đẹp và bớt vàng xỉn."
+    },
+    {
+      "en": "roots",
+      "vi": "chân tóc (tóc mới mọc)",
+      "phon": "rúts",
+      "note": "\"The roots grew out\" = Chân tóc đã mọc dài ra."
+    },
+    {
+      "en": "gray hair",
+      "vi": "tóc bạc",
+      "phon": "grây he",
+      "note": "\"Can you cover my gray hair?\" = Che giúp tôi chỗ tóc bạc."
+    },
+    {
+      "en": "highlight",
+      "vi": "nhấn sáng (đốm sáng)",
+      "phon": "hai-lai",
+      "note": "Nhấn sáng tạo độ sáng cho tóc."
+    },
+    {
+      "en": "brown",
+      "vi": "màu nâu",
+      "phon": "bờ-rao"
+    },
+    {
+      "en": "blonde",
+      "vi": "màu vàng hoe",
+      "phon": "bờ-lông-đờ",
+      "note": "\"I want blonde\" = Tôi muốn nhuộm vàng."
+    },
+    {
+      "en": "allergy test",
+      "vi": "dạy thử dị ứng",
+      "phon": "a-lơ-ji tét",
+      "note": "\"Do an allergy test 48 hours before\" = Thử 48 giờ trước khi nhuộm."
+    },
+    {
+      "en": "retouch",
+      "vi": "nhuộm lại phần chân tóc",
+      "phon": "ri-tớch",
+      "note": "Khách nói: \"I need a retouch.\""
+    }
+  ],
+  "phrases": [
+    {
+      "en": "What color do you want?",
+      "vi": "Anh muốn nhuộm màu gì ạ?",
+      "phon": "quát cà-lơ đu diu quón",
+      "when": "Bắt đầu tư vấn màu"
+    },
+    {
+      "en": "We need to bleach it first.",
+      "vi": "Cần tẩy tóc trước đã.",
+      "phon": "quy nít tu bờ-lích ịt phớt",
+      "when": "Tóc đen muốn lên màu sáng"
+    },
+    {
+      "en": "This color will suit your skin.",
+      "vi": "Màu này hợp với da anh.",
+      "phon": "đít cà-lơ quyu sút yo skin",
+      "when": "Gợi ý màu cho khách"
+    },
+    {
+      "en": "It will take about two hours.",
+      "vi": "Sẽ mất khoảng hai giờ.",
+      "phon": "ịt quyu têch ờ-bao tu ao-ờz",
+      "when": "Báo thời gian trước khi làm"
+    },
+    {
+      "en": "It may damage your hair a little.",
+      "vi": "Tóc có thể hơi hư tổn một chút.",
+      "phon": "ịt mêy đa-mịch yo he ờ lít-tồ",
+      "when": "Nói thật về tác dụng của tẩy"
+    },
+    {
+      "en": "Please do an allergy test 48 hours before.",
+      "vi": "Anh làm thử dị ứng 48 giờ trước khi nhuộm nhé.",
+      "phon": "pliz đu ờn a-lơ-ji tét pho-ti-êit ao-ờz bi-pho",
+      "when": "Bàn về an toàn"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách muốn nhuộm vàng",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hello! What color do you want?",
+        "vi": "Xin chào! Anh muốn nhuộm màu gì ạ?",
+        "phon": "hê-lô! quát cà-lơ đu diu quón"
+      },
+      {
+        "who": "client",
+        "en": "I want blonde. Is it OK?",
+        "vi": "Tôi muốn màu vàng. Được không anh?",
+        "phon": "ai quón bờ-lông-đờ. ịt ô-kê"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, but we need to bleach it first.",
+        "vi": "Được, nhưng cần tẩy tóc trước đã.",
+        "phon": "dét, bớt quy nít tu bờ-lích ịt phớt"
+      },
+      {
+        "who": "client",
+        "en": "Will it damage my hair?",
+        "vi": "Có làm hư tóc tôi không?",
+        "phon": "quyu ịt đa-mịch mai he"
+      },
+      {
+        "who": "barber",
+        "en": "It may damage your hair a little. I'll use a good treatment.",
+        "vi": "Tóc có thể hơi hư một chút. Em sẽ dùng thuốc dưỡng tốt.",
+        "phon": "ịt mêy đa-mịch yo he ờ lít-tồ. ai-ồ diuz ờ gút tri-mần"
+      },
+      {
+        "who": "client",
+        "en": "How long will it take?",
+        "vi": "Mất bao lâu?",
+        "phon": "hao loong quyu ịt têch"
+      },
+      {
+        "who": "barber",
+        "en": "It will take about two hours.",
+        "vi": "Sẽ mất khoảng hai giờ ạ.",
+        "phon": "ịt quyu têch ờ-bao tu ao-ờz"
+      },
+      {
+        "who": "client",
+        "en": "OK. How much is it?",
+        "vi": "Được. Bao nhiêu tiền?",
+        "phon": "ô-kê. hao mớch ịt"
+      },
+      {
+        "who": "barber",
+        "en": "Five hundred thousand. Do an allergy test 48 hours before, please.",
+        "vi": "Năm trăm nghìn ạ. Anh làm thử dị ứng 48 giờ trước nhé.",
+        "phon": "phaiv hăn-đrợt thao-zần. đu ờn a-lơ-ji tét, pliz"
+      },
+      {
+        "who": "client",
+        "en": "No problem. Thank you!",
+        "vi": "Không vấn đề. Cảm ơn!",
+        "phon": "nâu próp-lầm. then-kiu"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Tẩy tóc\" là:",
+      "options": [
+        "bleach",
+        "blow dry",
+        "comb",
+        "trim"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"What ___ do you want?\" (Anh muốn nhuộm màu gì?)",
+      "options": [
+        "cash",
+        "color",
+        "cut",
+        "chair"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tóc bạc\" là:",
+      "options": [
+        "gray hair",
+        "long hair",
+        "wet hair",
+        "dry hair"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"We need to ___ it first.\" (Cần tẩy trước)",
+      "options": [
+        "book",
+        "borrow",
+        "believe",
+        "bleach"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "\"Sẽ mất khoảng hai giờ\" là:",
+      "options": [
+        "Two minutes please",
+        "See you at two",
+        "It costs two dollars",
+        "It will take about two hours"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "\"Làm thử trước khi nhuộm\" gọi là:",
+      "options": [
+        "a haircut",
+        "an allergy test",
+        "a hair wash",
+        "a payment"
+      ],
+      "answer": 1
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "My skin is sensitive. Is the allergy test safe here?",
+        "vi": "Da chị nhạy cảm. Thử dị ứng đây an toàn không?",
+        "phon": "mai xki iz xen-xi-típ. iz đờ a-lờ-chi tét xeych hi-rơ?"
+      },
+      "hint": "An toàn đi trước mọi chuyện màu",
+      "options": [
+        {
+          "en": "We test on your arm first — safety first, ma'am.",
+          "phon": "uy tét ốp diu arm phớt — xey-chi phớt, mầm"
+        },
+        {
+          "en": "Itchy? Just relax, that is normal.",
+          "phon": "ít-tchi? chụp ri-léc, đét iz mô-mần"
+        },
+        {
+          "en": "I mix colors faster to skip the test.",
+          "phon": "ai mix kú-lơ phét-tơ tu xkip đờ tét"
+        }
+      ],
+      "answer": 0,
+      "explain": "Thử dị ứng trước khi nhuộm — việc nhỏ nhưng làm khách nữ tin mình ngay."
+    },
+    {
+      "client": {
+        "en": "Roots only this time. Please save my money.",
+        "vi": "Chỉ nhuộm chân tóc lần này. Tiết kiệm giúp chị.",
+        "phon": "rút âu-nli dis taim. pliz xêch mai pha"
+      },
+      "hint": "Nhuộm đúng chỗ cần thôi",
+      "options": [
+        {
+          "en": "Smart — roots only, and a friendlier price.",
+          "phon": "xmart — rút âu-nli, en ờ phren-li-ờ prai"
+        },
+        {
+          "en": "No. We bleach the whole head today.",
+          "phon": "nâu. ui blích đờ hâu hét tu-đey"
+        },
+        {
+          "en": "Money stays in my dreams now.",
+          "phon": "pha xtey in mai drím nau"
+        }
+      ],
+      "answer": 0,
+      "explain": "Nhuộm đúng chân tóc — tiền ít hơn mà khách thấy mình nghĩ cho túi của họ."
+    },
+    {
+      "client": {
+        "en": "Which shade is best for late summer?",
+        "vi": "Tông nào hợp cuối hè hơn chị?",
+        "phon": "uítch xe-ch iz bet phờ lét tâm-mở?"
+      },
+      "hint": "Câu tư vấn màu đôi",
+      "options": [
+        {
+          "en": "I suggest a light shade — fresh for summer.",
+          "phon": "ai xân-gét ờ lít xe-ch — phrết phờ tâm-mở"
+        },
+        {
+          "en": "Colors have choices. All are crazy.",
+          "phon": "kú-lơ hẹ choi-xít. ô a cờ-rây-zi"
+        },
+        {
+          "en": "Dark light? Light dark? I forgot.",
+          "phon": "dảch lít? lít dảch? ai phơ-gót"
+        }
+      ],
+      "answer": 0,
+      "explain": "Đưa ý kiến rõ ràng + một lý do đơn giản — khách cần lời chốt để quyết."
+    },
+    {
+      "client": {
+        "en": "Can I dye my hair today, boss?",
+        "vi": "Nhuộm luôn hôm nay được không anh?",
+        "phon": "can ai đay mai he tu-đey, boss?"
+      },
+      "hint": "An toàn trước tiên",
+      "options": [
+        {
+          "en": "What color do you want?",
+          "vi": "Anh muốn nhuộm màu gì ạ?",
+          "phon": "quát cà-lơ đu diu quón",
+          "when": "Bắt đầu tư vấn màu"
+        },
+        {
+          "en": "Please do an allergy test 48 hours before.",
+          "vi": "Anh làm thử dị ứng 48 giờ trước khi nhuộm nhé.",
+          "phon": "pliz đu ờn a-lơ-ji tét pho-ti-êit ao-ờz bi-pho",
+          "when": "Bàn về an toàn"
+        },
+        {
+          "en": "We need to bleach it first.",
+          "vi": "Cần tẩy tóc trước đã.",
+          "phon": "quy nít tu bờ-lích ịt phớt",
+          "when": "Tóc đen muốn lên màu sáng"
+        }
+      ],
+      "answer": 1,
+      "explain": "Thử dị ứng 48 giờ trước khi nhuộm — nói làm đầu tiên là chuẩn."
+    },
+    {
+      "client": {
+        "en": "How long will the color take, boss?",
+        "vi": "Nhuộm mất bao lâu vậy anh?",
+        "phon": "hau lông uil đờ kú-lơ tey-k, boss?"
+      },
+      "hint": "Trả thời gian rõ ràng",
+      "options": [
+        {
+          "en": "It will take about two hours.",
+          "vi": "Sẽ mất khoảng hai giờ.",
+          "phon": "ịt quyu têch ờ-bao tu ao-ờz",
+          "when": "Báo thời gian trước khi làm"
+        },
+        {
+          "en": "What color do you want?",
+          "vi": "Anh muốn nhuộm màu gì ạ?",
+          "phon": "quát cà-lơ đu diu quón",
+          "when": "Bắt đầu tư vấn màu"
+        },
+        {
+          "en": "We need to bleach it first.",
+          "vi": "Cần tẩy tóc trước đã.",
+          "phon": "quy nít tu bờ-lích ịt phớt",
+          "when": "Tóc đen muốn lên màu sáng"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Khoảng hai tiếng\" — nói giờ cụ thể để khách Đức to khung được."
+    }
+  ]
+}

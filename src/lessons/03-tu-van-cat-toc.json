@@ -1,0 +1,358 @@
+{
+  "id": "03-tu-van-cat-toc",
+  "order": 3,
+  "title": "Tư vấn kiểu cắt tóc",
+  "goal": "Hỏi khách muốn cắt kiểu gì, mô tả tay nghề, gội sấy, hỏi lại trước khi xong.",
+  "words": [
+    {
+      "en": "style",
+      "vi": "kiểu tóc",
+      "phon": "stai",
+      "note": "\"What style do you want?\" = Anh muốn kiểu gì ạ?"
+    },
+    {
+      "en": "short",
+      "vi": "ngắn",
+      "phon": "soọc"
+    },
+    {
+      "en": "long",
+      "vi": "dài",
+      "phon": "loong"
+    },
+    {
+      "en": "trim",
+      "vi": "cắt tỉa gọn",
+      "phon": "trim",
+      "note": "\"Just a trim\" = Cắt tỉa cho gọn thôi."
+    },
+    {
+      "en": "comb",
+      "vi": "lược",
+      "phon": "khôm"
+    },
+    {
+      "en": "scissors",
+      "vi": "kéo",
+      "phon": "si-zờ",
+      "note": "Kéo cắt tóc."
+    },
+    {
+      "en": "clipper",
+      "vi": "máy cạo / máy tỉa",
+      "phon": "klíp-pơ",
+      "note": "Máy cạo gáy, tỉa hai bên."
+    },
+    {
+      "en": "wash",
+      "vi": "gội đầu",
+      "phon": "quóach",
+      "note": "\"Let me wash your hair first\" = Để em gội trước."
+    },
+    {
+      "en": "blow dry",
+      "vi": "sấy tóc",
+      "phon": "bờ-lâu đrai",
+      "note": "\"I'll blow dry it for you\" = Em sấy cho anh nhé."
+    },
+    {
+      "en": "fade",
+      "vi": "cắt fade (cạo hai bên nhọn dần)",
+      "phon": "phây-đờ",
+      "note": "Kiểu tóc phổ biến ở tiệm nam."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "How do you want your hair?",
+      "vi": "Anh muốn cắt kiểu gì ạ?",
+      "phon": "hao đu diu quón yo he",
+      "when": "Khách ngồi vào ghế"
+    },
+    {
+      "en": "Short on the sides, a little longer on top.",
+      "vi": "Hai bên cắt ngắn, phía trên để dài hơn chút.",
+      "phon": "soọc on đờ saits, ờ lít-tồ loong-gơ on tốp",
+      "when": "Mô tả kiểu tóc"
+    },
+    {
+      "en": "Let me wash your hair first.",
+      "vi": "Để em gội đầu cho anh trước.",
+      "phon": "lét mi quóach yo he phớt",
+      "when": "Trước khi cắt"
+    },
+    {
+      "en": "Is it good? Do you want it shorter?",
+      "vi": "Anh thấy ổn chưa? Anh muốn cắt ngắn thêm không?",
+      "phon": "ịt gút? đu diu quón ịt soọc-tơ",
+      "when": "Sắp xong, hỏi lại khách"
+    },
+    {
+      "en": "I'll blow dry it for you.",
+      "vi": "Em sấy cho anh nhé.",
+      "phon": "ai-ồ bờ-lâu đrai ịt pho diu",
+      "when": "Sau khi cắt"
+    }
+  ],
+  "dialogue": {
+    "title": "Tư vấn kiểu cắt",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hi! How do you want your hair?",
+        "vi": "Chào anh! Anh muốn cắt kiểu gì ạ?",
+        "phon": "hai! hao đu diu quón yo he"
+      },
+      {
+        "who": "client",
+        "en": "Short on the sides, a little longer on top.",
+        "vi": "Hai bên ngắn, phía trên để dài hơn chút.",
+        "phon": "soọc on đờ saits, ờ lít-tồ loong-gơ on tốp"
+      },
+      {
+        "who": "barber",
+        "en": "Do you want a fade?",
+        "vi": "Anh muốn cạo fade hai bên không ạ?",
+        "phon": "đu diu quón ờ phây-đờ"
+      },
+      {
+        "who": "client",
+        "en": "Yes, please.",
+        "vi": "Có, làm đi ạ.",
+        "phon": "dét, pliz"
+      },
+      {
+        "who": "barber",
+        "en": "OK. Let me wash your hair first.",
+        "vi": "Được. Để em gội đầu cho anh trước.",
+        "phon": "ô-kê. lét mi quóach yo he phớt"
+      },
+      {
+        "who": "client",
+        "en": "OK, thank you.",
+        "vi": "Được, cảm ơn.",
+        "phon": "ô-kê, then-kiu"
+      },
+      {
+        "who": "barber",
+        "en": "Is it good? Do you want it shorter?",
+        "vi": "Anh thấy ổn chưa? Cắt ngắn thêm không ạ?",
+        "phon": "ịt gút? đu diu quón ịt soọc-tơ"
+      },
+      {
+        "who": "client",
+        "en": "No, it's perfect.",
+        "vi": "Không, hoàn hảo luôn.",
+        "phon": "nâu, ịts pơ-phịt"
+      },
+      {
+        "who": "barber",
+        "en": "Great! I'll blow dry it for you.",
+        "vi": "Tuyệt vời! Em sấy cho anh nhé.",
+        "phon": "grêi! ai-ồ bờ-lâu đrai ịt pho diu"
+      },
+      {
+        "who": "barber",
+        "en": "Thank you, see you next time!",
+        "vi": "Cảm ơn anh, hẹn gặp lại ạ!",
+        "phon": "then-kiu, si diu nek taim"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Kiểu tóc\" là:",
+      "options": [
+        "style",
+        "color",
+        "time",
+        "price"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"How do you want your ___?\" (Anh muốn cắt kiểu gì?)",
+      "options": [
+        "money",
+        "hair",
+        "time",
+        "seat"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Kéo cắt tóc\" là:",
+      "options": [
+        "comb",
+        "scissors",
+        "clipper",
+        "brush"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Khách nói: \"Short on the sides, ___ on top.\"",
+      "options": [
+        "shorter",
+        "longer",
+        "nothing",
+        "faster"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Let me ___ your hair first.\" (Để em gội trước)",
+      "options": [
+        "watch",
+        "drink",
+        "wash",
+        "wear"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "\"Em sấy cho anh nhé\" là:",
+      "options": [
+        "I'll wash it again",
+        "I'll blow dry it for you",
+        "I'll cut it shorter",
+        "I'll wait for you"
+      ],
+      "answer": 1
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Short on the sides, but keep a little on top.",
+        "vi": "Hai bên gọn, nhưng giữ đỉnh dài chút.",
+        "phon": "xốt ốp đờ sai, bát kíp ờ lí-tu ốp tạp"
+      },
+      "hint": "Mô tả kiểu kiểu nhắc lại cho chắc",
+      "options": [
+        {
+          "en": "Understood — sides short, top a little longer.",
+          "phon": "ần-dờ-xtút — sai-d xốt, tạp ờ lí-tu lông-chờ"
+        },
+        {
+          "en": "I will shave everything to zero.",
+          "phon": "ai uil xêch ev-ri-thin tu di-lâuro"
+        },
+        {
+          "en": "Top? I only like sides.",
+          "phon": "tạp? ai âu-nli mai-k sai"
+        }
+      ],
+      "answer": 0,
+      "explain": "Nhắc lại ý khách bằng một câu gọn — khách nghe đúng là an lòng ngay."
+    },
+    {
+      "client": {
+        "en": "Show me in the mirror before the final trim.",
+        "vi": "Trước lần cắt cuối cho tôi xem gương trước.",
+        "phon": "xâu mi in đờ mi-rờ bi-phờ đờ phán-lê trím"
+      },
+      "hint": "Khách cần thấy trước khi xong",
+      "options": [
+        {
+          "en": "Of course — mirror first, cut after.",
+          "phon": "ốp cốc — mi-rờ phớt, cát áp-tờ"
+        },
+        {
+          "en": "No. I always finish alone.",
+          "phon": "nâu. ai hầm uêch phín-x âu-lâu"
+        },
+        {
+          "en": "The mirror is sleeping now.",
+          "phon": "đờ mi-rờ iz xlíp-đin nau"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Gương trước, cắt sau\" — khách thấy mình tôn trọng sự chủ động của họ."
+    },
+    {
+      "client": {
+        "en": "Is it good? Should I keep it this way?",
+        "vi": "Ra sao rồi? Tôi giữ kiểu này được không?",
+        "phon": "iz et gúch? xu ai kíp et dis uey?"
+      },
+      "hint": "Hỏi trước khi khách rời ghế",
+      "options": [
+        {
+          "en": "You look sharp. Say if you want it shorter.",
+          "phon": "diu lục xáp. xey if diu uốn et xốt-chờ"
+        },
+        {
+          "en": "You do look a bit funny now.",
+          "phon": "diu du lục ờ bít phâ-ni nau"
+        },
+        {
+          "en": "My comb knows better than you.",
+          "phon": "mai cầm nâuch bét-chờ than diu"
+        }
+      ],
+      "answer": 0,
+      "explain": "Khen ngắn gọn và mời góp ý — \"say if you want it shorter\" mở đường sửa nhẹ nhàng."
+    },
+    {
+      "client": {
+        "en": "I want short sides but more on top.",
+        "vi": "Hai bên ngắn nhưng phần đỉnh để dài hơn.",
+        "phon": "ai uốn đờ xál sai-d bạt mô ốp tạp"
+      },
+      "hint": "Yêu cầu kiểu nội bật",
+      "options": [
+        {
+          "en": "Short on the sides, a little longer on top.",
+          "vi": "Hai bên cắt ngắn, phía trên để dài hơn chút.",
+          "phon": "soọc on đờ saits, ờ lít-tồ loong-gơ on tốp",
+          "when": "Mô tả kiểu tóc"
+        },
+        {
+          "en": "How do you want your hair?",
+          "vi": "Anh muốn cắt kiểu gì ạ?",
+          "phon": "hao đu diu quón yo he",
+          "when": "Khách ngồi vào ghế"
+        },
+        {
+          "en": "Let me wash your hair first.",
+          "vi": "Để em gội đầu cho anh trước.",
+          "phon": "lét mi quóach yo he phớt",
+          "when": "Trước khi cắt"
+        }
+      ],
+      "answer": 0,
+      "explain": "Nhắc lại yêu cầu bằng đúng câu mẫu — khách nghe hai lần là chắc."
+    },
+    {
+      "client": {
+        "en": "My hair is wet now, boss. What next?",
+        "vi": "Tóc giờ ướt rồi, tiếp theo làm gì anh?",
+        "phon": "mai he iz uét nau, boss. uáht néch?"
+      },
+      "hint": "Sấy là bước kế tiếp",
+      "options": [
+        {
+          "en": "How do you want your hair?",
+          "vi": "Anh muốn cắt kiểu gì ạ?",
+          "phon": "hao đu diu quón yo he",
+          "when": "Khách ngồi vào ghế"
+        },
+        {
+          "en": "Short on the sides, a little longer on top.",
+          "vi": "Hai bên cắt ngắn, phía trên để dài hơn chút.",
+          "phon": "soọc on đờ saits, ờ lít-tồ loong-gơ on tốp",
+          "when": "Mô tả kiểu tóc"
+        },
+        {
+          "en": "I'll blow dry it for you.",
+          "vi": "Em sấy cho anh nhé.",
+          "phon": "ai-ồ bờ-lâu đrai ịt pho diu",
+          "when": "Sau khi cắt"
+        }
+      ],
+      "answer": 2,
+      "explain": "Gội xong là sấy — nói bước kế tiếp cho khách thấy trọn chu trình."
+    }
+  ]
+}

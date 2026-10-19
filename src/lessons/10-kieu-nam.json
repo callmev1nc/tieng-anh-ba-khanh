@@ -1,0 +1,277 @@
+{
+  "id": "10-kieu-nam",
+  "order": 10,
+  "title": "Kiểu tóc nam & khuôn mặt",
+  "goal": "Nhìn khuôn mặt khách là tư vấn được kiểu: crew cut, undercut, side part, slick back...",
+  "words": [
+    {
+      "en": "round face",
+      "vi": "mặt tròn",
+      "phon": "rao feis",
+      "note": "Mặt tròn nên để hai bên ngắn."
+    },
+    {
+      "en": "square face",
+      "vi": "mặt vuông",
+      "phon": "sờ-que feis",
+      "note": "Mặt vuông hợp kiểu gọn gàng."
+    },
+    {
+      "en": "oval face",
+      "vi": "mặt trái xoan",
+      "phon": "ô-vồ feis",
+      "note": "Mặt trái xoan dễ chọn kiểu nhất."
+    },
+    {
+      "en": "crew cut",
+      "vi": "cắt đầu đinh",
+      "phon": "cru cắt",
+      "note": "Kiểu nam cực ngắn, gọn."
+    },
+    {
+      "en": "buzz cut",
+      "vi": "cạo sát",
+      "phon": "bớz cắt",
+      "note": "Cạo sát da đầu."
+    },
+    {
+      "en": "side part",
+      "vi": "rẽ ngôi lệch",
+      "phon": "sai pạc",
+      "note": "Kiểu lịch sự, công sở."
+    },
+    {
+      "en": "pompadour",
+      "vi": "vuốt cao (hất lên)",
+      "phon": "póm-pờ-đo",
+      "note": "Tóc trên vuốt cao ra sau."
+    },
+    {
+      "en": "undercut",
+      "vi": "cạo dưới, trên để dài",
+      "phon": "ăn-đờ-cắt",
+      "note": "Hai bên cạo sát, trên dài."
+    },
+    {
+      "en": "slick back",
+      "vi": "vuốt ngược ra sau",
+      "phon": "sờ-lích béc",
+      "note": "Dùng gel vuốt hết tóc ra sau."
+    },
+    {
+      "en": "middle part",
+      "vi": "rẽ ngôi giữa",
+      "phon": "mi-đồ pạc",
+      "note": "Kiểu trẻ, phổ biến với bạn trẻ."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "What style suits my face?",
+      "vi": "Kiểu nào hợp với mặt tôi hả anh?",
+      "phon": "quát stai súc mai feis",
+      "when": "Khách hỏi bạn (khách nói)"
+    },
+    {
+      "en": "With a round face, short on the sides looks good.",
+      "vi": "Mặt tròn thì hai bên cắt ngắn là đẹp.",
+      "phon": "quyđ ờ rao feis, soọc on đờ saits lúc gút",
+      "when": "Tư vấn theo khuôn mặt"
+    },
+    {
+      "en": "Do you want the top long or short?",
+      "vi": "Phía trên anh muốn để dài hay ngắn?",
+      "phon": "đu diu quón đờ tốp loong o soọc",
+      "when": "Hỏi ý khách"
+    },
+    {
+      "en": "This style needs styling every day.",
+      "vi": "Kiểu này phải tạo kiểu mỗi ngày đó anh.",
+      "phon": "đít stai nít sờ-tai-ling ev-ri đây",
+      "when": "Nói thật để khách biết"
+    },
+    {
+      "en": "Use some gel and blow dry it up.",
+      "vi": "Dùng chút gel rồi sấy hất lên là được.",
+      "phon": "diuz săm gieo en bờ-lâu đrai ịt ớp",
+      "when": "Hướng dẫn khách tự làm ở nhà"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách hỏi kiểu hợp với mặt",
+    "lines": [
+      {
+        "who": "client",
+        "en": "Hello. What style suits my face?",
+        "vi": "Chào anh. Kiểu nào hợp với mặt tôi?",
+        "phon": "hê-lô. quát stai súc mai feis"
+      },
+      {
+        "who": "barber",
+        "en": "You have a round face. Short on the sides looks good.",
+        "vi": "Anh mặt tròn. Hai bên cắt ngắn là đẹp nhất.",
+        "phon": "diu hèv ờ rao feis. soọc on đờ saits lúc gút"
+      },
+      {
+        "who": "client",
+        "en": "OK. And the top?",
+        "vi": "Được. Còn phía trên?",
+        "phon": "ô-kê. en đờ tốp"
+      },
+      {
+        "who": "barber",
+        "en": "A little longer. Maybe a side part or slick back.",
+        "vi": "Để dài hơn chút. Rẽ ngôi lệch hoặc vuốt ngược cũng đẹp.",
+        "phon": "ờ lít-tồ loong-gơ. mêi-bi ờ sai pạc o sờ-lích béc"
+      },
+      {
+        "who": "client",
+        "en": "I like the slick back. Do you have gel?",
+        "vi": "Tôi thích vuốt ngược. Anh có gel không?",
+        "phon": "ai laik đờ sờ-lích béc. đu diu hèv gieo"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. This style needs styling every day.",
+        "vi": "Có ạ. Kiểu này phải tạo kiểu mỗi ngày đó.",
+        "phon": "dét. đít stai nít sờ-tai-ling ev-ri đây"
+      },
+      {
+        "who": "client",
+        "en": "That's OK. I work in an office.",
+        "vi": "Không sao. Tôi làm văn phòng mà.",
+        "phon": "đát ô-kê. ai quớc in ờn óp-phịt"
+      },
+      {
+        "who": "barber",
+        "en": "Perfect choice. Use gel and blow dry it up.",
+        "vi": "Chuẩn luôn. Dùng gel rồi sấy hất lên nhé.",
+        "phon": "pơ-phịt choi. diuz gieo en bờ-lâu đrai ịt ớp"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Mặt tròn\" là:",
+      "options": [
+        "round face",
+        "road face",
+        "loud face",
+        "rain face"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"What style ___ my face?\" (Kiểu nào hợp mặt tôi?)",
+      "options": [
+        "sits",
+        "suits",
+        "shoots",
+        "sells"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Cạo sát (đầu đinh sát)\" là:",
+      "options": [
+        "buzz cut",
+        "bus cut",
+        "buzz saw",
+        "buzzer"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Rẽ ngôi lệch\" là:",
+      "options": [
+        "side part",
+        "sight part",
+        "side walk",
+        "side dish"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Use some ___ and blow dry it up.\" (Dùng gel sấy hất lên)",
+      "options": [
+        "glue",
+        "gel",
+        "gold",
+        "gum"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Vuốt ngược ra sau\" là:",
+      "options": [
+        "slick back",
+        "sleep back",
+        "slow back",
+        "slip back"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "My face is round. Help me, boss.",
+        "vi": "Mặt tôi tròn. Giúp tôi với.",
+        "phon": "mai phê iz raunh. hep mi, boss"
+      },
+      "hint": "Khuôn mặt tròn",
+      "options": [
+        {
+          "en": "What style suits my face?",
+          "vi": "Kiểu nào hợp với mặt tôi hả anh?",
+          "phon": "quát stai súc mai feis",
+          "when": "Khách hỏi bạn (khách nói)"
+        },
+        {
+          "en": "With a round face, short on the sides looks good.",
+          "vi": "Mặt tròn thì hai bên cắt ngắn là đẹp.",
+          "phon": "quyđ ờ rao feis, soọc on đờ saits lúc gút",
+          "when": "Tư vấn theo khuôn mặt"
+        },
+        {
+          "en": "Do you want the top long or short?",
+          "vi": "Phía trên anh muốn để dài hay ngắn?",
+          "phon": "đu diu quón đờ tốp loong o soọc",
+          "when": "Hỏi ý khách"
+        }
+      ],
+      "answer": 1,
+      "explain": "Mặt tròn thì hai bên ngắn — nguyên tắc tư vấn chuẩn phải thuộc."
+    },
+    {
+      "client": {
+        "en": "This style is beautiful. But what about mornings, boss?",
+        "vi": "Kiểu này đẹp. Nhưng sáng xong anh giữ kiểu thế nào?",
+        "phon": "dis stail iz biu-tí-phun. bát uáht ơ-bâu mơ-nin-ch, boss?"
+      },
+      "hint": "Dedupe kiểu thành daily routine",
+      "options": [
+        {
+          "en": "What style suits my face?",
+          "vi": "Kiểu nào hợp với mặt tôi hả anh?",
+          "phon": "quát stai súc mai feis",
+          "when": "Khách hỏi bạn (khách nói)"
+        },
+        {
+          "en": "With a round face, short on the sides looks good.",
+          "vi": "Mặt tròn thì hai bên cắt ngắn là đẹp.",
+          "phon": "quyđ ờ rao feis, soọc on đờ saits lúc gút",
+          "when": "Tư vấn theo khuôn mặt"
+        },
+        {
+          "en": "This style needs styling every day.",
+          "vi": "Kiểu này phải tạo kiểu mỗi ngày đó anh.",
+          "phon": "đít stai nít sờ-tai-ling ev-ri đây",
+          "when": "Nói thật để khách biết"
+        }
+      ],
+      "answer": 2,
+      "explain": "Warn kiểu cần tạo mỗi ngày — khách cận chưa chuẩn bị sready sẽ nhận lại và chọn kiểu khác."
+    }
+  ]
+}

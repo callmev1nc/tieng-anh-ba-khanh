@@ -1,0 +1,289 @@
+{
+  "id": "15-toc-hu-ton",
+  "order": 15,
+  "title": "Tóc hư tổn & bán sản phẩm",
+  "goal": "Nhận biết tóc khô, xù, giòn, gãy — và giới thiệu dầu dưỡng, mặt nạ tóc cho khách.",
+  "words": [
+    {
+      "en": "damaged",
+      "vi": "hư tổn",
+      "phon": "đa-mịch-đờ",
+      "note": "\"Your hair is a little damaged\" = Tóc anh hơi hư tổn."
+    },
+    {
+      "en": "dry",
+      "vi": "khô",
+      "phon": "đrai",
+      "note": "Tóc khô cần dưỡng."
+    },
+    {
+      "en": "frizzy",
+      "vi": "xù / khô xơ",
+      "phon": "phờ-ri-zi",
+      "note": "Tóc xù bay lên."
+    },
+    {
+      "en": "brittle",
+      "vi": "giòn / yếu",
+      "phon": "bờ-ri-tồ",
+      "note": "Tóc giòn dễ gãy."
+    },
+    {
+      "en": "breakage",
+      "vi": "tóc gãy",
+      "phon": "bờ-rêi-kịch",
+      "note": "\"Too much breakage\" = Tóc gãy nhiều quá."
+    },
+    {
+      "en": "product",
+      "vi": "sản phẩm",
+      "phon": "pró-đớc",
+      "note": "Sản phẩm chăm sóc tóc."
+    },
+    {
+      "en": "oil",
+      "vi": "dầu dưỡng",
+      "phon": "oi-ồ",
+      "note": "\"This hair oil is very good\" = Dầu dưỡng này rất tốt."
+    },
+    {
+      "en": "serum",
+      "vi": "tinh chất dưỡng",
+      "phon": "si-rầm",
+      "note": "Tinh chất bóng mượt."
+    },
+    {
+      "en": "mask",
+      "vi": "mặt nạ tóc / hấp",
+      "phon": "mát-sờ",
+      "note": "\"Use a mask once a week\" = Mỗi tuần ủ mặt nạ một lần."
+    },
+    {
+      "en": "recommend",
+      "vi": "giới thiệu / gợi ý",
+      "phon": "re-cờ-men",
+      "note": "\"I recommend this one\" = Em giới thiệu loại này."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Your hair is a little damaged.",
+      "vi": "Tóc anh hơi hư tổn một chút.",
+      "phon": "yo he ịt ờ lít-tồ đa-mịch-đờ",
+      "when": "Nhận xét tóc cho khách"
+    },
+    {
+      "en": "I recommend this hair oil.",
+      "vi": "Em giới thiệu dầu dưỡng này cho anh.",
+      "phon": "ai re-cờ-men đít he oi-ồ",
+      "when": "Giới thiệu sản phẩm"
+    },
+    {
+      "en": "Use a mask once a week.",
+      "vi": "Mỗi tuần anh ủ mặt nạ một lần nhé.",
+      "phon": "diuz ờ mát-sờ quăn-sờ ờ quy-k",
+      "when": "Hướng dẫn dùng sản phẩm"
+    },
+    {
+      "en": "This serum makes your hair soft and shiny.",
+      "vi": "Tinh chất này cho tóc mềm và bóng.",
+      "phon": "đít si-rầm mêiks yo he sóp-phờ en sai-ni",
+      "when": "Bán hàng"
+    },
+    {
+      "en": "It's only one hundred thousand.",
+      "vi": "Chỉ một trăm nghìn thôi ạ.",
+      "phon": "ịts ôn-li quăn hăn-đrợt thao-zần",
+      "when": "Báo giá sản phẩm"
+    }
+  ],
+  "dialogue": {
+    "title": "Tư vấn dưỡng tóc cho khách",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Your hair is a little damaged and dry.",
+        "vi": "Tóc anh hơi hư tổn và khô một chút.",
+        "phon": "yo he ịt ờ lít-tồ đa-mịch-đờ en đrai"
+      },
+      {
+        "who": "client",
+        "en": "Yes, it's frizzy too. What can I do?",
+        "vi": "Đúng rồi, còn xù nữa. Tôi phải làm sao?",
+        "phon": "dét, ịts phờ-ri-zi tu. quát ken ai đu"
+      },
+      {
+        "who": "barber",
+        "en": "I recommend this hair oil and this serum.",
+        "vi": "Em giới thiệu dầu dưỡng này và tinh chất này.",
+        "phon": "ai re-cờ-men đít he oi-ồ en đít si-rầm"
+      },
+      {
+        "who": "client",
+        "en": "How do I use them?",
+        "vi": "Dùng thế nào vậy anh?",
+        "phon": "hao đu ai diuz đem"
+      },
+      {
+        "who": "barber",
+        "en": "Use a mask once a week. The serum every day.",
+        "vi": "Mỗi tuần ủ mặt nạ một lần. Tinh chất thì dùng mỗi ngày.",
+        "phon": "diuz ờ mát-sờ quăn-sờ ờ quy-k. đờ si-rầm ev-ri đây"
+      },
+      {
+        "who": "client",
+        "en": "OK. And no more bleach?",
+        "vi": "Được. Không tẩy nữa đúng không?",
+        "phon": "ô-kê. en nâu mo bờ-lích"
+      },
+      {
+        "who": "barber",
+        "en": "No bleach for two months. Too much breakage.",
+        "vi": "Hai tháng đừng tẩy nữa. Tóc gãy nhiều quá rồi.",
+        "phon": "nâu bờ-lích pho tu măn-ths. tu mớch bờ-rêi-kịch"
+      },
+      {
+        "who": "client",
+        "en": "OK. How much are the oil and serum?",
+        "vi": "Được. Dầu dưỡng và tinh chất bao nhiêu tiền?",
+        "phon": "ô-kê. hao mớch a đờ oi-ồ en si-rầm"
+      },
+      {
+        "who": "barber",
+        "en": "The oil is one hundred, the serum is one fifty.",
+        "vi": "Dầu dưỡng một trăm, tinh chất một trăm rưỡi ạ.",
+        "phon": "đờ oi-ồ ịt quăn hăn-đrợt, đờ si-rầm ịt quăn phíp-ti"
+      },
+      {
+        "who": "client",
+        "en": "I'll take both. Thank you!",
+        "vi": "Tôi lấy cả hai. Cảm ơn anh!",
+        "phon": "ai-ồ têik bâu-th. then-kiu"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Hư tổn\" là:",
+      "options": [
+        "damaged",
+        "danced",
+        "managed",
+        "married"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Use a ___ once a week.\" (Ủ mặt nạ tóc mỗi tuần)",
+      "options": [
+        "task",
+        "mask",
+        "mark",
+        "milk"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tinh chất dưỡng\" là:",
+      "options": [
+        "serum",
+        "syrup",
+        "serious",
+        "sir rum"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I ___ this hair oil.\" (Em giới thiệu dầu dưỡng này)",
+      "options": [
+        "remind",
+        "recommend",
+        "remember",
+        "repair"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tóc xù\" là:",
+      "options": [
+        "frizzy",
+        "freezy",
+        "fuzzy",
+        "fizzy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Tóc gãy nhiều, bạn khuyên khách:",
+      "options": [
+        "No bleach for two months",
+        "Bleach it now",
+        "Cut it all today",
+        "Dye it red"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "My ends break when I comb, boss.",
+        "vi": "Tóc tôi gãy ngọn khi chải.",
+        "phon": "mai ến brêk uhen ai câm, boss"
+      },
+      "hint": "Tóc gãy ngọn Policía",
+      "options": [
+        {
+          "en": "This serum makes your hair soft and shiny.",
+          "vi": "Tinh chất này cho tóc mềm và bóng.",
+          "phon": "đít si-rầm mêiks yo he sóp-phờ en sai-ni",
+          "when": "Bán hàng"
+        },
+        {
+          "en": "Your hair is a little damaged.",
+          "vi": "Tóc anh hơi hư tổn một chút.",
+          "phon": "yo he ịt ờ lít-tồ đa-mịch-đờ",
+          "when": "Nhận xét tóc cho khách"
+        },
+        {
+          "en": "I recommend this hair oil.",
+          "vi": "Em giới thiệu dầu dưỡng này cho anh.",
+          "phon": "ai re-cờ-men đít he oi-ồ",
+          "when": "Giới thiệu sản phẩm"
+        }
+      ],
+      "answer": 0,
+      "explain": "Tinh chất cho tóc mềm bóng — giải pháp đúng cho tóc yếu cong."
+    },
+    {
+      "client": {
+        "en": "Give me something simple for my dry hair, boss.",
+        "vi": "Cho em món đơn giản cho tóc khô nha.",
+        "phon": "gip mi xâh-đin xim-pâu phờ mai threo he, boss"
+      },
+      "hint": "Sản phẩm dễ dùng",
+      "options": [
+        {
+          "en": "Your hair is a little damaged.",
+          "vi": "Tóc anh hơi hư tổn một chút.",
+          "phon": "yo he ịt ờ lít-tồ đa-mịch-đờ",
+          "when": "Nhận xét tóc cho khách"
+        },
+        {
+          "en": "Use a mask once a week.",
+          "vi": "Mỗi tuần anh ủ mặt nạ một lần nhé.",
+          "phon": "diuz ờ mát-sờ quăn-sờ ờ quy-k",
+          "when": "Hướng dẫn dùng sản phẩm"
+        },
+        {
+          "en": "I recommend this hair oil.",
+          "vi": "Em giới thiệu dầu dưỡng này cho anh.",
+          "phon": "ai re-cờ-men đít he oi-ồ",
+          "when": "Giới thiệu sản phẩm"
+        }
+      ],
+      "answer": 2,
+      "explain": "Dầu dưỡng là sản phẩm đơn giản nhất — người bận sợ gọi em jiang chỉ dùng mỗi dầu là được."
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "id": "16-combo-khuyen-mai",
+  "order": 16,
+  "title": "Combo, khuyến mãi & thẻ thành viên",
+  "goal": "Chào combo, báo giảm giá, mời khách làm thẻ thành viên, nói 'miễn phí', 'tiết kiệm'.",
+  "words": [
+    {
+      "en": "discount",
+      "vi": "giảm giá",
+      "phon": "đít-cao",
+      "note": "\"Ten percent discount\" = Giảm giá 10%."
+    },
+    {
+      "en": "combo",
+      "vi": "gói kết hợp",
+      "phon": "khôm-bô",
+      "note": "\"Cắt + gội combo\" nghe Tây là \"cut and wash combo\"."
+    },
+    {
+      "en": "deal",
+      "vi": "ưu đãi",
+      "phon": "đi-ồ",
+      "note": "\"Today's deal\" = Ưu đãi hôm nay."
+    },
+    {
+      "en": "promotion",
+      "vi": "khuyến mãi",
+      "phon": "prờ-mô-shần"
+    },
+    {
+      "en": "membership card",
+      "vi": "thẻ thành viên",
+      "phon": "mem-bờ-ship kác",
+      "note": "Thẻ tích điểm cho khách quen."
+    },
+    {
+      "en": "special",
+      "vi": "đặc biệt",
+      "phon": "sờ-pe-shồ",
+      "note": "\"Today is special\" = Hôm nay có ưu đãi đặc biệt."
+    },
+    {
+      "en": "percent",
+      "vi": "phần trăm",
+      "phon": "pờ-xen",
+      "note": "\"Twenty percent\" = 20%."
+    },
+    {
+      "en": "free",
+      "vi": "miễn phí",
+      "phon": "phờ-ri",
+      "note": "\"Free wash with any cut\" = Cắt tóc tặng gội."
+    },
+    {
+      "en": "coupon",
+      "vi": "phiếu giảm giá",
+      "phon": "ku-pông",
+      "note": "\"Do you have a coupon?\" = Anh có phiếu giảm giá không?"
+    },
+    {
+      "en": "value",
+      "vi": "giá trị / đáng tiền",
+      "phon": "quen-liu",
+      "note": "\"Good value\" = Đáng tiền lắm."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "We have a combo today.",
+      "vi": "Hôm nay bên em có combo ạ.",
+      "phon": "quy hèv ờ khôm-bô tu-đây",
+      "when": "Chào khách"
+    },
+    {
+      "en": "Ten percent off, just for today.",
+      "vi": "Giảm 10%, chỉ hôm nay thôi ạ.",
+      "phon": "ten pờ-xen ốp, chớst pho tu-đây",
+      "when": "Khuyến mãi"
+    },
+    {
+      "en": "A free wash with any cut.",
+      "vi": "Cắt tóc tặng kèm gội đầu ạ.",
+      "phon": "ờ phờ-ri quóach quyđ e-ni cắt",
+      "when": "Chào combo"
+    },
+    {
+      "en": "Do you have a membership card?",
+      "vi": "Anh có thẻ thành viên chưa ạ?",
+      "phon": "đu diu hèv ờ mem-bờ-ship kác",
+      "when": "Lúc thanh toán"
+    },
+    {
+      "en": "This deal saves you fifty thousand.",
+      "vi": "Ưu đãi này tiết kiệm cho anh năm mươi nghìn đó.",
+      "phon": "đít đi-ồ sêivs diu phíp-ti thao-zần",
+      "when": "Mời khách chốt"
+    }
+  ],
+  "dialogue": {
+    "title": "Chào combo cho khách quen",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Welcome back! We have a combo today.",
+        "vi": "Mừng anh quay lại! Hôm nay có combo ạ.",
+        "phon": "quen-cầm béc! quy hèv ờ khôm-bô tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "What combo?",
+        "vi": "Combo gì vậy anh?",
+        "phon": "quát khôm-bô"
+      },
+      {
+        "who": "barber",
+        "en": "Cut, wash, and beard trim. A free wash with any cut.",
+        "vi": "Cắt, gội, tỉa râu. Cắt tóc là tặng gội luôn.",
+        "phon": "cắt, quóach, en bia-đờ trim. ờ phờ-ri quóach quyđ e-ni cắt"
+      },
+      {
+        "who": "client",
+        "en": "Nice! Is there a discount?",
+        "vi": "Hay quá! Có giảm giá không anh?",
+        "phon": "nais! ịt đe-rờ ờ đít-cao"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. Ten percent off, just for today.",
+        "vi": "Có ạ. Giảm 10%, chỉ hôm nay thôi.",
+        "phon": "dét. ten pờ-xen ốp, chớst pho tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "Great deal. Do you have a coupon for next time?",
+        "vi": "Ưu đãi tốt quá. Có phiếu giảm giá cho lần sau không?",
+        "phon": "grêit đi-ồ. đu diu hèv ờ ku-pông pho nek taim"
+      },
+      {
+        "who": "barber",
+        "en": "Better! Do you have a membership card?",
+        "vi": "Còn hơn thế! Anh có thẻ thành viên chưa?",
+        "phon": "bé-tờ! đu diu hèv ờ mem-bờ-ship kác"
+      },
+      {
+        "who": "client",
+        "en": "No, not yet. How does it work?",
+        "vi": "Chưa có. Thẻ đó dùng thế nào?",
+        "phon": "nâu, nót dét. hao đớz ịt quớc"
+      },
+      {
+        "who": "barber",
+        "en": "Every visit gets points. This deal saves you fifty thousand.",
+        "vi": "Mỗi lần ghé được tích điểm. Ưu đãi này tiết kiệm năm mươi nghìn đó.",
+        "phon": "ev-ri vi-zịt ghét poin-ts. đít đi-ồ sêivs diu phíp-ti thao-zần"
+      },
+      {
+        "who": "client",
+        "en": "Then I'll get one today. Thank you!",
+        "vi": "Vậy làm luôn hôm nay. Cảm ơn anh!",
+        "phon": "đen ai-ồ ghét quăn tu-đây. then-kiu"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Giảm giá\" là:",
+      "options": [
+        "discount",
+        "disco",
+        "count down",
+        "discuss"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"A ___ wash with any cut.\" (Cắt tóc tặng gội)",
+      "options": [
+        "fee",
+        "free",
+        "from",
+        "far"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Thẻ thành viên\" là:",
+      "options": [
+        "membership card",
+        "member food",
+        "number card",
+        "memory card"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Ten ___ off.\" (Giảm 10%)",
+      "options": [
+        "person",
+        "percent",
+        "present",
+        "parent"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Phiếu giảm giá\" là:",
+      "options": [
+        "coupon",
+        "cushion",
+        "couple",
+        "crayon"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Combo cắt + gội\" nói tiếng Anh là:",
+      "options": [
+        "cut and wash combo",
+        "comb and wash",
+        "cut and cash",
+        "cat and dog"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "It is too expensive today, boss.",
+        "vi": "Hôm nay hơi quý quá anh.",
+        "phon": "ét iz tu éc-phên-xíp tu-đey, boss"
+      },
+      "hint": "Giá bị phé chữi",
+      "options": [
+        {
+          "en": "Ten percent off, just for today.",
+          "vi": "Giảm 10%, chỉ hôm nay thôi ạ.",
+          "phon": "ten pờ-xen ốp, chớst pho tu-đây",
+          "when": "Khuyến mãi"
+        },
+        {
+          "en": "We have a combo today.",
+          "vi": "Hôm nay bên em có combo ạ.",
+          "phon": "quy hèv ờ khôm-bô tu-đây",
+          "when": "Chào khách"
+        },
+        {
+          "en": "A free wash with any cut.",
+          "vi": "Cắt tóc tặng kèm gội đầu ạ.",
+          "phon": "ờ phờ-ri quóach quyđ e-ni cắt",
+          "when": "Chào combo"
+        }
+      ],
+      "answer": 0,
+      "explain": " Giảm 10%. chỉ hôm nay — khách thấy thời hạn thì chốt nhanh rồi."
+    },
+    {
+      "client": {
+        "en": "I come here every week, boss. Any deal for me?",
+        "vi": "Tôi tới đây mỗi tuần mà, có ưu đãi gì cho tôi?",
+        "phon": "ai khầm hi-rơ ev-ri uít, boss. mô díl phờ mi?"
+      },
+      "hint": "Khách thường — mời thẻ",
+      "options": [
+        {
+          "en": "We have a combo today.",
+          "vi": "Hôm nay bên em có combo ạ.",
+          "phon": "quy hèv ờ khôm-bô tu-đây",
+          "when": "Chào khách"
+        },
+        {
+          "en": "Do you have a membership card?",
+          "vi": "Anh có thẻ thành viên chưa ạ?",
+          "phon": "đu diu hèv ờ mem-bờ-ship kác",
+          "when": "Lúc thanh toán"
+        },
+        {
+          "en": "Ten percent off, just for today.",
+          "vi": "Giảm 10%, chỉ hôm nay thôi ạ.",
+          "phon": "ten pờ-xen ốp, chớst pho tu-đây",
+          "when": "Khuyến mãi"
+        }
+      ],
+      "answer": 1,
+      "explain": "Hỏi thẻ thành viên — khách chuyên gia cần đến, thẻ đúng lý do để dùng."
+    }
+  ],
+  "numbers": [
+    {
+      "say": "ten percent off",
+      "phon": "ten pơ-xentan ốc",
+      "options": [
+        "-10%",
+        "-9%",
+        "-19%"
+      ],
+      "answer": 0
+    },
+    {
+      "say": "fifty percent off",
+      "phon": "phi-ti pơ-xentan ốc",
+      "options": [
+        "-15%",
+        "-50%",
+        "-5%"
+      ],
+      "answer": 1
+    },
+    {
+      "say": "save you fifty thousand",
+      "phon": "xêch diu phi-ti thâu-dzần",
+      "options": [
+        "tiết kiệm 15.000đ",
+        "tiết kiệm 50.000đ",
+        "tiết kiệm 5.000đ"
+      ],
+      "answer": 1
+    },
+    {
+      "say": "one free wash",
+      "phon": "uân phri uốc",
+      "options": [
+        "tặng 1 lượt gội",
+        "tặng 1 chai nước",
+        "tặng 1 cái ghế"
+      ],
+      "answer": 0
+    }
+  ]
+}

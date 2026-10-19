@@ -1,0 +1,81 @@
+{
+  "id": "37-khach-nu-lich-su",
+  "order": 37,
+  "title": "Khách nữ & lịch sự",
+  "goal": "Phục vụ chị khách mềm mỏng và đúng lễ: mời trước, khen vừa đủ, nói cho cô dâu — khách nữ dễ lấy cảm tình, cũng dễ mất niềm tin.",
+  "words": [
+    { "en": "ma'am", "vi": "quý cô / chị (lịch sự)", "phon": "mầm", "note": "Gọi khách nữ: \"After you, ma'am\" — nhẹ nhàng và đúng lễ." },
+    { "en": "polite", "vi": "lịch sự", "phon": "pơ-lait", "note": "\"Be polite\" = Lịch sự — cả giọng nói lẫn ánh mắt." },
+    { "en": "my pleasure", "vi": "vinh hạnh ạ", "phon": "mai pléc-chơn", "note": "Trả lời \"Thank you\" sang hơn \"you're welcome\"." },
+    { "en": "soft", "vi": "mềm / nhẹ nhàng", "phon": "sáp", "note": "\"Soft and smooth\" = mềm mượt — hai từ bán hàng tóc chuyên nhất." },
+    { "en": "smooth", "vi": "mượt / láng", "phon": "smúch", "note": "\"Your hair is smooth now\" = tóc anh mượt rồi nè." },
+    { "en": "elegant", "vi": "sang / thanh lịch", "phon": "e-li-gần", "note": "Khen kiểu sang: \"You look elegant, ma'am.\" Khen vừa đủ, đừng quá." },
+    { "en": "occasion", "vi": "dịp (lễ)", "phon": "ơ-kây-zờn", "note": "\"What's the occasion?\" = Dịp gì mà thanh lịch thế?" },
+    { "en": "wedding", "vi": "đám cưới", "phon": "uét-đin", "note": "\"A wedding hairstyle\" = kiểu làm cưới — cơ hội tiền tốt." },
+    { "en": "makeup", "vi": "trang điểm", "phon": "mey-cấp", "note": "\"Makeup for the wedding\" = makeup cho đám cưới — biết từ để gợi ý dịch vụ." },
+    { "en": "young lady", "vi": "cô trẻ / chị trẻ", "phon": "yang lây-đi", "note": "Chỉ khách nữ trẻ — dùng khi nhờ em thợ phụ giúp." }
+  ],
+  "phrases": [
+    { "en": "After you, ma'am.", "vi": "Mời chị trước ạ.", "phon": "áp-tơ diu, mầm", "when": "Mở cửa / mời vào ghế — lập tức 8 điểm cảm tình" },
+    { "en": "My pleasure, ma'am.", "vi": "Vinh hạnh cho chị ạ.", "phon": "mai pléc-chơn, mầm", "when": "Khách cảm ơn — sang hơn \"you're welcome\" một bậc" },
+    { "en": "Would you like a cup of tea while you wait?", "vi": "Chị dùng trà trong lúc chờ nhé?", "phon": "uóc diu mai-k ờ cặp ốp ti uai diu uêch?", "when": "Khách nữ chờ — nói nhỏ nhẹ" },
+    { "en": "You look elegant today, ma'am.", "vi": "Hôm nay chị sang quá ạ.", "phon": "diu lúc e-li-gần tu-đey, mầm", "when": "Khen khi khách xinh — khen 1 lần thôi" },
+    { "en": "A soft wave will fit the wedding.", "vi": "Vuốt sóng nhẹ sẽ hợp đám cưới ạ.", "phon": "ờ sáp uây uil fit đờ uét-đin", "when": "Tư vấn kiểconj cho cô dâu" }
+  ],
+  "dialogue": {
+    "title": "Chị khách bận dự cưới",
+    "lines": [
+      { "who": "client", "en": "Excuse me! I have a wedding at six.", "vi": "Xin lỗi! Tối 6 chị có đám cưới.", "phon": "éc-xiu mi! ai hèv ờ uét-đin ết xắc" },
+      { "who": "barber", "en": "No problem, ma'am. Please, after you.", "vi": "Vâng ạ. Mời chị vào trước.", "phon": "nâu prốp-lim, mầm. pliz, áp-tơ diu" },
+      { "who": "client", "en": "Make it elegant but quick, please.", "vi": "Làm sang mà nhanh giúp chị nha.", "phon": "mey-k it e-li-gần bát quíc, pliz" },
+      { "who": "barber", "en": "My pleasure. A soft wave and shine — ten minutes.", "vi": "Dạ vâng. Vuốt sóng nhẹ cho bóng — mười phút ạ.", "phon": "mai pléc-chơn. ờ sáp uây en xain — ten mi-nús" },
+      { "who": "client", "en": "Oh, it fits my dress!", "vi": "Ồ, hợp váy của chị luôn!", "phon": "âu, it fit mai dress!" },
+      { "who": "barber", "en": "You look elegant, ma'am. Perfect for the occasion.", "vi": "Chị sang quá ạ. Vừa hợp dịp luôn.", "phon": "diu lúc e-li-gần, mầm. pơ-fect phờ đờ ơ-kây-zờn" },
+      { "who": "client", "en": "Thank you so much! Coffee for you.", "vi": "Cảm ơn nhiều! Này, mời anh cà phê.", "phon": "then-kiu sâo mực! cố-pi phờ diu" },
+      { "who": "barber", "en": "Kind of you! Thank you, ma'am. Enjoy the wedding.", "vi": "Chị thật tốt! Cảm ơn ạ. Chúc đám cưới vui.", "phon": "kain ốp diu! then-kiu, mầm. en-joi đờ uét-đin" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "Hurry! I'm late for the wedding.", "vi": "Gấp lắm! Chị sắp trễ đám cưới.", "phon": "hani! aim lêch phờ đờ uét-đin" },
+      "hint": "Khách nữ đang gấp gáp — mình giữ bình tĩnh",
+      "options": [
+        { "en": "Don't worry, ma'am. Ten minutes — you'll be perfect.", "phon": "đôn uari, mầm. ten mi-nút — diu-l bi pơ-fect" },
+        { "en": "Why late? Not my problem.", "phon": "uai lêch? nốt mai prốp-lim" },
+        { "en": "Wedding? Cancel it, easy.", "phon": "uét-đin? can-xen-et, i-zi" }
+      ],
+      "answer": 0,
+      "explain": "Trừ lo trước: cam kết giờ cụ thể + an lòng khách — không phân tích ai sai."
+    },
+    {
+      "client": { "en": "That person cut faster. Why are you slow?", "vi": "Tiệm kia làm nhanh hơn. Sao anh làm chậm thế?", "phon": "đét pơ-xơn cút phét-tơ. uai a-r diu slâu?" },
+      "hint": "Thiếu giờ? Nói chất lượng",
+      "options": [
+        { "en": "Slower is safer, ma'am. Quality first.", "phon": "slâu-ờ iz xey-phờ, mầm. cua-lí-ti phớt" },
+        { "en": "I am slow forever, sorry boss.", "phon": "ai em slâu pho-rê-vờ, so-ri boss" },
+        { "en": "Go to that person now!", "phon": "gâu tu kết pơ-xhton nau!" }
+      ],
+      "answer": 0,
+      "explain": "Bình tĩnh nói vì tại sao chậm = cẩn thận chất lượng — khách nữ tin sự chu toàn."
+    },
+    {
+      "client": { "en": "Do I look pretty now?", "vi": "Chị giờ xinh chưa nè?", "phon": "đu ai lúc áp-ti nau?" },
+      "hint": "Câu chốt cảm xúc — đừng lảng tránh",
+      "options": [
+        { "en": "Very elegant, ma'am. Ready for the party.", "phon": "ve-ri e-li-gần, mầm. ráy-đi phờ đờ pa-ti" },
+        { "en": "Same as before, I think.", "phon": "xeym ơn bi-phờ, ai think" },
+        { "en": "Anyone can be pretty with money.", "phon": "ê-ni-uân can bi áp-ti uít ma-ni" }
+      ],
+      "answer": 0,
+      "explain": "Đáp khen vừa đủ + nhắc \"sẵn sàng hết dịp\" — khách mỉm cười, quay lại lần sau."
+    }
+  ],
+  "quiz": [
+    { "q": "Gọi khách nữ lịch sự là:", "options": ["mad dog", "ma'am", "mate", "mask"], "answer": 1 },
+    { "q": "\"Rất vui được phục vụ\" sang trọng là:", "options": ["My pleasure", "My pressure", "My measure", "My price"], "answer": 0 },
+    { "q": "\"Chị sang quá\" đọc là:", "options": ["You look elegant", "You look east", "You like an elegon", "You lock elegant"], "answer": 0 },
+    { "q": "\"Đám cưới\" là:", "options": ["wedding", "waiting", "wanding", "washing"], "answer": 0 },
+    { "q": "Câu mở đầu lịch sự mời khách nữ:", "options": ["Go away", "After you, ma'am", "Lamp after", "After and under"], "answer": 1 },
+    { "q": "\"Trang điểm\" là:", "options": ["makeup", "make up", "make out", "make money"], "answer": 0 }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "34-ky-thuat-xu-huong",
+  "order": 34,
+  "title": "Kỹ thuật & xu hướng mới",
+  "goal": "Nói được các dịch vụ đang hot: taper, line-up, khắc vạch, wolf cut — và chốt giá combo cho khách trẻ.",
+  "words": [
+    { "en": "taper", "vi": "thuôn dần về gáy", "phon": "tê-pờ", "note": "\"Taper at the back\" = thuôn từ gáy lên." },
+    { "en": "line-up", "vi": "chỉnh viền tóc", "phon": "lain ập", "note": "Viền tóc gọn, phẳng, thẳng — dịch vụ chơi lớn với khách trẻ." },
+    { "en": "hair tattoo", "vi": "khắc vạch trên tóc", "phon": "hia te-tô", "note": "\"A small hair tattoo\" = một vạch khắc nhỏ. Dùng máy clipper hoặc dao." },
+    { "en": "razor part", "vi": "vạch dao trên tóc", "phon": "ray-dơ pát", "note": "Vach bằng dao cạo — phai, color và nét." },
+    { "en": "wolf cut", "vi": "kiểu tóc dáng sói", "phon": "uốc-ph cát", "note": "Hợp tóc dày, trẻ trung — trending một thời quanh tiệm." },
+    { "en": "butterfly cut", "vi": "cắt kiểu bướm", "phon": "bát-xờ-flai cát", "note": "Tóc dài tầng — hot với khách nữ." },
+    { "en": "mullet", "vi": "tóc ma-lét (ngắn trước dài sau)", "phon": "ma-lét", "note": "\"Mullet is back\" — khách trẻ quay lại chu kỳ này." },
+    { "en": "salon", "vi": "tiệm / salon", "phon": "sơ-lôn", "note": "\"Our salon\" = tiệm của mình. Nhắc bằng salon nghe sang hơn shop." },
+    { "en": "stylist", "vi": "thợ tạo kiểu / stylist", "phon": "stai-lítt", "note": "\"Our stylist can...\" = thợ của tiệm làm được — giới thiệu tay nghề." },
+    { "en": "beard sculpt", "vi": "điêu khắc râu", "phon": "bi-ét skớp", "note": "Dựng nắn râu từng lớp — thêm tiền, thêm đẳng cấp." }
+  ],
+  "phrases": [
+    { "en": "This style needs a taper with a clean line-up.", "vi": "Kiểu này cần thuôn gáy kèm viền chỉnh sạch.", "phon": "dis stai-l nít ờ tê-pờ uít ờ cin lain-ập", "when": "Tư vấn kiểu nam hiện đại" },
+    { "en": "Want a hair tattoo on the side?", "vi": "Có muốn khắc một vạch bên hông không?", "phon": "uốn ờ hey te-tô lọt đờ-sai?", "when": "Đề nghị dịch vụ thêm" },
+    { "en": "Wolf cut is very popular with young guys.", "vi": "Wolf cut hot lắm với các bạn trẻ đấy.", "phon": "uốc-ph cát iz ve-ri póp-bi-la uít yang gai", "when": "Khách hỏi kiểu đang mốt" },
+    { "en": "Butterfly cut suits long hair best.", "vi": "Butterfly cut hợp tóc dài nhất.", "phon": "bát-xờ-flai cát sust lông hia bet", "when": "Tư vấn khách nữ tóc dài" },
+    { "en": "Our stylist can shape a mullet too.", "vi": "Thợ bên tiệm dựng được ma-lét luôn á.", "phon": "au-ờ stai-lítt can sheip ờ ma-lét tu", "when": "Giới thiệu tay nghề tiệm" }
+  ],
+  "dialogue": {
+    "title": "Khách trẻ muốn kiểu mới",
+    "lines": [
+      { "who": "client", "en": "I saw a wolf cut on the phone. Can you do it?", "vi": "Tôi xem dáng wolf cut trên màn hình nè. Anh cắt được không?", "phon": "ai sâo ờ uốc-ph cát ốp đờ phâu-n. can diu đu it" },
+      { "who": "barber", "en": "Of course! Wolf cut suits your hair — it is thick.", "vi": "Được chứ! Wolf cut hợp tóc anh — tóc anh dày mà.", "phon": "óc-cóc! uốc-ph cát sốt diu hia — it iz thực" },
+      { "who": "client", "en": "Cool! Add a clean line-up, please.", "vi": "Chuẩn! Thêm viền chỉnh sạch giúp tôi.", "phon": "kù! ết ờ cin lain-ập, pliz" },
+      { "who": "barber", "en": "OK. Taper at the back, line-up at the front.", "vi": "OK. Thuôn gáy, chỉnh viền ở trước.", "phon": "ô-kây. tê-pờ ết đờ bét, lain-ập ết đờ phrần" },
+      { "who": "client", "en": "And a hair tattoo for fun?", "vi": "Còn khắc một vạch cho vui nè?", "phon": "en ờ hia te-tô phờ phun" },
+      { "who": "barber", "en": "One small tattoo — cool, not crazy.", "vi": "Một vạch nhỏ thôi — ngầu mà không quá.", "phon": "uân smol te-tô — kù, nốt chữi-đey" },
+      { "who": "client", "en": "How much for all three?", "vi": "Ba cái đó tổng cộng bao nhiêu?", "phon": "hau mâge phờ ol thri" },
+      { "who": "barber", "en": "Three hundred thousand. Best value in the salon.", "vi": "Ba trăm nghìn. Đáng tiền nhất ở đây đấy.", "phon": "thri hân-đờ-it thâu-dzần. bet va-liu in đờ sơ-lôn" },
+      { "who": "client", "en": "Book me next Friday.", "vi": "Chốt cho tôi thứ sáu sau nhé.", "phon": "búc mi néxt phrai-đey" },
+      { "who": "barber", "en": "Next Friday, four o'clock. See you!", "vi": "Thứ sáu sau, bốn giờ. Hẹn gặp!", "phon": "néxt phrai-đey, pho ờ-cóc. si diu!" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "Can you do a razor part like the photo?", "vi": "Anh tạo vạch dao như ảnh này được không?", "phon": "can diu đu ờ ray-dơ pát mái đờ phâu-tô" },
+      "hint": "Khách đưa ảnh trend mới",
+      "options": [
+        { "en": "Sure! Razor part with a beard sculpt to match.", "phon": "sua! ray-dơ pát uít ờ bi-ét skớp tu mét" },
+        { "en": "Razor parts cost zero dong every day.", "phon": "ray-dơ pát cos di-lâu đông ev-ri đey" },
+        { "en": "Bring a credit card first, then we talk.", "phon": "brin ờ cơ-đít cát phit, hẹn ui tác" }
+      ],
+      "answer": 0,
+      "explain": "Nhận rồi đề xuất thêm dịch vụ đi kèm (beard sculpt) — doanh thu tăng mà khách cũng muốn."
+    },
+    {
+      "client": { "en": "My beard is uneven. Fix the shape, not too short.", "vi": "Râu anh lệch. Nắn lại dáng, đừng cắt quá ngắn.", "phon": "mai bi-ét is ân-éc-vân. fix đờ shape, nốt tu xốt" },
+      "hint": "Nguyên tắc với râu: giữ ý khách trước",
+      "options": [
+        { "en": "I'll do a beard sculpt and a light line-up. Not too short.", "phon": "ai-len đu ờ bi-ét skớp en ờ ligh lain-ập. nốt tu xốt" },
+        { "en": "I will shave your beard completely off.", "phon": "ai uơn shev diu bi-ét kơm-plit-li ốc" },
+        { "en": "Sorry, beard is not my job.", "phon": "so-ri, bi-ét is nốt mai chop" }
+      ],
+      "answer": 0,
+      "explain": "Trả lời đúng yêu cầu: nắn dáng, giữ chiều dài — thêm nét chuyên, khỏi bị hiểu là cẩu thả."
+    },
+    {
+      "client": { "en": "Are wolf cuts still trending for girls?", "vi": "Wolf cut còn hot với chị em không?", "phon": "a uốc-ph cuts stìl trend-in pho gris" },
+      "hint": "Câu hỏi về tông mốt giới tính",
+      "options": [
+        { "en": "Yes! Wolf cut and butterfly cut — both very hot now.", "phon": "dét! uốc-ph cát en bát-xờ-flai cát — bâu ve-ri hốt nao" },
+        { "en": "No. Mullet killed everything last year.", "phon": "nâu. ma-lét kiłe ev-ri-thin last dis-yơ" },
+        { "en": "Girls don't cut here, sorry.", "phon": "gris đon cút hia, so-ri" }
+      ],
+      "answer": 0,
+      "explain": "Trả theo trend nhưng mở thêm lựa chọn — khách cảm thấy được tư vấn thật, không ép mua."
+    }
+  ],
+  "quiz": [
+    { "q": "\"line-up\" nghĩa là gì?", "options": ["Chỉnh viền tóc", "Nối tóc", "Đưa ra hàng", "Cạo phẳng gáy"], "answer": 0 },
+    { "q": "Một vạch khắc trên tóc gọi là:", "options": ["hair tomato", "hair tattoo", "hair transplant", "hair drama"], "answer": 1 },
+      { "q": "Kiểu ngắn dần về gáy, thuôn dần:", "options": ["mullet", "taper", "ponytail", "towel"], "answer": 1 },
+    { "q": "\"Wolf cut\" thường hợp tóc:", "options": ["dày", "trọc", "xơ", "trắng"], "answer": 0 },
+    { "q": "Butterfly cut thường hợp:", "options": ["tóc ngắn lì", "tóc dài", "râu quấn", "tóc tím"], "answer": 1 },
+    { "q": "Người tạo kiểu tóc trong tiệm gọi là:", "options": ["barber", "stylist", "client", "cashier"], "answer": 1 },
+    { "q": "Điền: \"Our ___ can shape a mullet too.\"", "options": ["stylist", "shadow", "soda", "shutter"], "answer": 0 }
+  ]
+}

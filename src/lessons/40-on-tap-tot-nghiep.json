@@ -1,0 +1,85 @@
+{
+  "id": "40-on-tap-tot-nghiep",
+  "order": 40,
+  "title": "Ngày 40 — Thi tốt nghiệp",
+  "goal": "Tổng kết 40 ngày: chào, tư vấn, làm kỹ thuật, thu tiền, giữ khách. Xong là nhận chứng nhận 🎓 — và dùng tiếng Anh thật sự với từng khách.",
+  "words": [
+    { "en": "repeat", "vi": "nhắc lại — từ bài 31", "phon": "ri-pít", "note": "Không nghe được thì xin nhắc lại — bình thườnggezì." },
+    { "en": "thirteen", "vi": "13 — bài 32", "phon": "phớt-tiên", "note": "Nhấn cuối. Thumb-rule: dài mà nhấn cuối thì là -teen." },
+    { "en": "sheep", "vi": "con cừu — bài 33", "phon": "sinh-p", "note": "Âm i dài — tóc bồng bềnh như lông cừu." },
+    { "en": "taper", "vi": "thuôn gáy — bài 34", "phon": "tê-pờ", "note": "Dịch vụ nam hot: taper + line-up." },
+    { "en": "lucky money", "vi": "lì xì — bài 35", "phon": "lực-ki ma-ni", "note": "Tết thì lì xì bao đỏ cho các cháu." },
+    { "en": "bundle", "vi": "combo — bài 36", "phon": "băn-đần", "note": "Bán kèm combo + kể chuyện lợi ích." },
+    { "en": "ma'am", "vi": "chị (lịch sự) — bài 37", "phon": "mầm", "note": "Mời trước, khen vừa đủ, gợi ý đám cưới." },
+    { "en": "voucher", "vi": "phiếu giảm giá — bài 38", "phon": "vâu-chớ", "note": "Sai thì đền bằng việc: tặng gội + phiếu lần sau." },
+    { "en": "journey", "vi": "hành trình — bài 39", "phon": "dzợ-ni", "note": "Kể chuyện tiệm: thầy, bằng nghề, ước mơ." },
+    { "en": "craft", "vi": "nghề / tay nghề — bài 39", "phon": "cráp", "note": "Nghề cần năm tháng — mỗi ngày một từ là đủ." }
+  ],
+  "phrases": [
+    { "en": "From today, I speak English with every tourist.", "vi": "Từ hôm nay, khách Tây nào mình cũng chào được.", "phon": "phrần tu-đey, ai spíc English uít ev-ri tuy-rec", "when": "Kết 40 ngày — câu tiên tri của mình" },
+    { "en": "A full service: wash, cut, line-up, blow dry.", "vi": "Trọn gói: gội cắt, viền, sấy.", "phon": "ờ hềch xơ-vich: uốc, cát, lain-ấp, blâu dre", "when": "Nghe khách nói \"the full works\" — làm hết đây" },
+    { "en": "The total is three hundred fifty thousand.", "vi": "Tổng cộng ba trăm năm mươi nghìn.", "phon": "đờ tô-tâu iz thri hân-đờ-it phi-ti thâu-dzần", "when": "Thu tiền chốt — dạy số không nhầm" },
+    { "en": "Thank you, ma'am — see you next week!", "vi": "Cảm ơn chị — tuần sau chờ chị nhé!", "when": "Khách nữ ra về hẹn lại.", "phon": "then-kiu, mầm — xi diu néch uít!" },
+    { "en": "One word a day — that was the journey.", "vi": "Mỗi ngày một từ — hành trình là thế đấy.", "phon": "uân uóh ờ đey — đất uaz đờ dzợ-ni", "when": "Nhắc lại công pháp 40 ngày" }
+  ],
+  "dialogue": {
+    "title": "Ca hoàn chỉnh — khách quen trở lại",
+    "lines": [
+      { "who": "client", "en": "Hello, boss! The usual — and something new?", "vi": "Chào anh Khanh! Như thường lệ — chỉ thêm gì mới ha?", "phon": "hê-lâu, boss! đờ yu-hầu — en something niu?" },
+      { "who": "barber", "en": "Welcome back! Taper, line-up, and a hot towel?", "vi": "Chào mừng quay lại! Thuôn gáy, viền trắng, khăn nóng?", "phon": "quen-cầm bét! tê-pờ, lain-ấp, en ờ hốt tháiu?" },
+      { "who": "client", "en": "Perfect. And the home care bundle too.", "vi": "Chuẩn. Kèm combo dưỡng về nhà luôn.", "phon": "pơ-fect. en đờ hàum kech băn-đần tu" },
+      { "who": "barber", "en": "Bundle for two hundred — wash, oil, serum.", "vi": "Combo hai trăm — gội, dầu, tinh chất.", "phon": "băn-đần phờ tu hân-đờ-it — uốc, ôl, xi-rám" },
+      { "who": "client", "en": "How much all together?", "vi": "Cộng tất cả lại bao nhiêu?", "phon": "hau lắpát tô-pâu où gia-đer?" },
+      { "who": "barber", "en": "Six hundred fifty. Card or cash?", "vi": "Sáu trăm năm mươi. Thẻ hay tiền mặt ạ?", "phon": "xít hân-đờ-it phi-ti. cát ố céc?" },
+      { "who": "client", "en": "Card. And book me for next month.", "vi": "Thẻ nhé. Chốt cho em tháng sau.", "phon": "cét. en búc mi phờ néch mán" },
+      { "who": "barber", "en": "Booked! Same time. Enjoy, ma'am...", "vi": "Chốt rồi! Giờ cũ. Chúc anh vui... ừ từ đấy.", "phon": "búc! xeym taim. en-joy, mầm..." },
+      { "who": "client", "en": "Forty days of English — you did it, boss!", "vi": "40 ngày học tiếng Anh — anh làm được rồi đó!", "phon": "phóc-ti đeyz ốp English — diu did it, boss!" },
+      { "who": "barber", "en": "We did it! One word a day — easy, right?", "vi": "Cả hai mình làm được! Mỗi ngày một từ — nhẹ đúng không?", "phon": "ui did et! uân uóh ờ đey — i-zi, rai?" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "My son gets married next month. Big cut for me?", "vi": "Con trai tôi cưới tháng sau. Anh làm kiểu oách cho tôi nhé?", "phon": "mai xọn get-deऱ mare-đ néch mân. bíg cát phờ mi?" },
+      "hint": "Ngày great nhất của khách — làm trọng",
+      "options": [
+        { "en": "Congratulations! Wedding style plus beard sculpt — my best.", "phon": "cân-grách-biu-lây-chun! uét-đin xtain plus bi-ét skớp — mai best" },
+        { "en": "Marriage? I don't cut families.", "phon": "ma-ri-êche? ai đon cút fam-ma-li" },
+        { "en": "Next month is too far away.", "phon": "néch mân iz tu phà quisar" }
+      ],
+      "answer": 0,
+      "explain": "Chúc mừng + nói gói làm tốt nhất — khách's big day, cứ nói \"my best\" rồi làm cận trọng."
+    },
+    {
+      "client": { "en": "Everything today — the full works!", "vi": "Hôm nay làm trọn gói luôn!", "phon": "ev-ri-thin tu-đey — đờにか hềch uắc!" },
+      "hint": "Khách quen nói tiếng Anh như người bản xứ",
+      "options": [
+        { "en": "Full works: wash, cut, line-up, blow dry — one hour.", "phon": "hềch uắc: uốc, cát, lain-ấp, blâu dre — uân ầu" },
+        { "en": "Full? Only washing exists.", "phon": "hềch? âu-nli uốc-chin éch-xít" },
+        { "en": "The works are for builders.", "phon": "đờ uắc a phờ bịch-lớ" }
+      ],
+      "answer": 0,
+      "explain": "Nói \"the full works\" là thành ngữ olduk — cầm nguồn ngay, vô chưa liệu nào hình."
+    },
+    {
+      "client": { "en": "The total? And how do I pay?", "vi": "Tổng cộng bao nhiêu? Trả kiểu gì?", "phon": "đờ tô-pâu? en hau đu ai pey?" },
+      "hint": "Chốt tiền — không nhầm số lần cuối",
+      "options": [
+        { "en": "Three fifty total — cash, card, or transfer, boss.", "phon": "thri phi-ti tô-pâu — céc, cát, ố trân-x-phờ, boss" },
+        { "en": "Total? It is a mystery number.", "phon": "tô-pâu? et iz ờ mỡ-xy nâhn-bơ" },
+        { "en": "Pay next month, no rush.", "phon": "pey néch mân, nâu ruch" }
+      ],
+      "answer": 0,
+      "explain": "Bakhách phục vụ chốt số trong câu: số tiền + ba cách trả — chốt sạch, không hồi hộp."
+    }
+  ],
+  "quiz": [
+    { "q": "Ba trăm nghìn đọc là:", "options": ["three thousand hundred", "three hundred thousand", "thirty hundred thousand", "three hundreds"], "answer": 1 },
+    { "q": "Gọi khách nữ lịch sự:", "options": ["mate", "ma'am", "man", "many"], "answer": 1 },
+    { "q": "Chỉnh viền tóc là:", "options": ["line-up", "lie down", "laugh out", "lock up"], "answer": 0 },
+    { "q": "Tặng đồ miễn phí tại tiệm:", "options": ["at the house", "off the house", "on the house", "under the house"], "answer": 2 },
+    { "q": "Lì xì dịp Tết:", "options": ["locked money", "lucky money", "lovely money", "lonely money"], "answer": 1 },
+    { "q": "Đền bù khi làm sai:", "options": ["make him out", "make it out", "make it up to you", "make him up"], "answer": 2 },
+    { "q": "Xin nhắc lại khi không nghe rõ:", "options": ["Please renew", "Please repair", "Please repeat", "Please reply"], "answer": 2 },
+    { "q": "Công pháp 40 ngày là:", "options": ["học lúc muốn", "một chữ khó trên năm", "mỗi ngày một từ", "một năm một từ"], "answer": 2 }
+  ]
+}

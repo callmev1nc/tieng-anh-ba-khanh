@@ -1,0 +1,334 @@
+{
+  "id": "02-lich-hen-tien",
+  "order": 2,
+  "title": "Đặt lịch, giờ hẹn & tiền",
+  "goal": "Hỏi lịch hẹn, báo giờ, hỏi giá, chọn tiền mặt hay thẻ.",
+  "words": [
+    {
+      "en": "appointment",
+      "vi": "lịch hẹn",
+      "phon": "ờ-poi-mần",
+      "note": "\"Do you have an appointment?\" = Anh có hẹn trước không ạ?"
+    },
+    {
+      "en": "walk-in",
+      "vi": "khách vãng lai (không hẹn trước)",
+      "phon": "quoc-in",
+      "note": "Khách tự ghé, không đặt lịch."
+    },
+    {
+      "en": "available",
+      "vi": "còn trống / rảnh",
+      "phon": "ờ-vê-lờ-bồ",
+      "note": "\"I'm available at 3\" = 3 giờ em rảnh ạ."
+    },
+    {
+      "en": "today",
+      "vi": "hôm nay",
+      "phon": "tu-đây"
+    },
+    {
+      "en": "tomorrow",
+      "vi": "ngày mai",
+      "phon": "tu-mo-râu"
+    },
+    {
+      "en": "how much?",
+      "vi": "bao nhiêu tiền?",
+      "phon": "hao mớch",
+      "note": "Khách hỏi giá: \"How much is it?\""
+    },
+    {
+      "en": "cash",
+      "vi": "tiền mặt",
+      "phon": "kesh",
+      "note": "\"Cash or card?\" = Anh trả tiền mặt hay thẻ ạ?"
+    },
+    {
+      "en": "card",
+      "vi": "thẻ",
+      "phon": "kác"
+    },
+    {
+      "en": "wait",
+      "vi": "chờ / đợi",
+      "phon": "quây-tờ",
+      "note": "\"Please wait a few minutes\" = Anh chờ em vài phút ạ."
+    },
+    {
+      "en": "minute",
+      "vi": "phút",
+      "phon": "mi-nịt",
+      "note": "\"Five minutes\" = 5 phút."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Do you have an appointment?",
+      "vi": "Anh có đặt lịch trước không ạ?",
+      "phon": "đu diu hèv ờn ờ-poi-mần",
+      "when": "Khách bước vào tiệm"
+    },
+    {
+      "en": "What time works for you?",
+      "vi": "Anh muốn giờ nào ạ?",
+      "phon": "quát taim quớc pho diu",
+      "when": "Xếp lịch cho khách"
+    },
+    {
+      "en": "How much is it?",
+      "vi": "Một lần bao nhiêu tiền ạ?",
+      "phon": "hao mớch ịt",
+      "when": "Khách hỏi giá"
+    },
+    {
+      "en": "Cash or card?",
+      "vi": "Anh trả tiền mặt hay thẻ ạ?",
+      "phon": "kesh o kác",
+      "when": "Lúc thanh toán"
+    },
+    {
+      "en": "Please wait a few minutes.",
+      "vi": "Anh chờ em vài phút ạ.",
+      "phon": "pliz quây-tờ ờ phiu mi-nịts",
+      "when": "Tiệm đang đông"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách ghé không hẹn trước",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hello! Do you have an appointment?",
+        "vi": "Xin chào! Anh có hẹn trước không ạ?",
+        "phon": "hê-lô! đu diu hèv ờn ờ-poi-mần"
+      },
+      {
+        "who": "client",
+        "en": "No, I'm a walk-in. Is that OK?",
+        "vi": "Không, tôi tự ghé thôi. Được không anh?",
+        "phon": "nâu, ai em ờ quoc-in. ịt đát ô-kê"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, please wait a few minutes.",
+        "vi": "Được ạ. Anh chờ em vài phút.",
+        "phon": "dét, pliz quây-tờ ờ phiu mi-nịts"
+      },
+      {
+        "who": "client",
+        "en": "What time is it now?",
+        "vi": "Bây giờ mấy giờ rồi?",
+        "phon": "quát taim ịt nau"
+      },
+      {
+        "who": "barber",
+        "en": "Two o'clock. I'm available now.",
+        "vi": "2 giờ. Em rảnh rồi ạ.",
+        "phon": "tu ờ-clốc. ai em ờ-vê-lờ-bồ nau"
+      },
+      {
+        "who": "client",
+        "en": "How much is a haircut?",
+        "vi": "Cắt tóc bao nhiêu tiền?",
+        "phon": "hao mớch ịt ờ he-cớt"
+      },
+      {
+        "who": "barber",
+        "en": "One hundred thousand. Cash or card?",
+        "vi": "Một trăm nghìn ạ. Tiền mặt hay thẻ?",
+        "phon": "quăn hăn-đrợt thao-zần. kesh o kác"
+      },
+      {
+        "who": "client",
+        "en": "Cash, thank you.",
+        "vi": "Tiền mặt, cảm ơn.",
+        "phon": "kesh, then-kiu"
+      },
+      {
+        "who": "barber",
+        "en": "Thank you, see you next time!",
+        "vi": "Cảm ơn anh, hẹn gặp lại ạ!",
+        "phon": "then-kiu, si diu nek taim"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Bao nhiêu tiền?\" là câu nào?",
+      "options": [
+        "How much is it?",
+        "How are you?",
+        "What time is it?",
+        "Where is it?"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Do you have an ___?\" (Có hẹn trước không?)",
+      "options": [
+        "appointment",
+        "attention",
+        "airport",
+        "animal"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Khách vãng lai, không hẹn trước\" là:",
+      "options": [
+        "a worker",
+        "a waiter",
+        "a walk-in",
+        "a walker"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Điền từ còn thiếu: \"What ___ works for you?\" (Anh muốn giờ nào?)",
+      "options": [
+        "color",
+        "time",
+        "hair",
+        "money"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Ngày mai\" là:",
+      "options": [
+        "today",
+        "yesterday",
+        "tomorrow",
+        "tonight"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Điền từ còn thiếu: \"___ or card?\" (Tiền mặt hay thẻ?)",
+      "options": [
+        "Cut",
+        "Call",
+        "Can",
+        "Cash"
+      ],
+      "answer": 3
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Can I come at five fifteen instead of five?",
+        "vi": "Cho tôi tới 5:15 thay vì 5 giờ được không?",
+        "phon": "can ai khầm ết phaip phi-tiên in-xtep ốp phaip?"
+      },
+      "hint": "Khách xin đổi giờ kín đáo",
+      "options": [
+        {
+          "en": "Sure, five fifteen is OK. See you then.",
+          "phon": "suờ, phaip phi-tiên iz ô-khey. si diu hen"
+        },
+        {
+          "en": "Five? I close the shop at four.",
+          "phon": "phaip? ai câu-dzét đờ xáp ết pho"
+        },
+        {
+          "en": "Numbers make me nervous, sorry.",
+          "phon": "nâhm-bừ meik mi nớ-vờ, sờ-ri"
+        }
+      ],
+      "answer": 0,
+      "explain": "Chấp nhận giờ đổi là chuyện dễ — gật nhanh và hẹn lại giờ đấy."
+    },
+    {
+      "client": {
+        "en": "Cash or card — how do you want it?",
+        "vi": "Tiền mặt hay thẻ — anh muốn kiểu nào?",
+        "phon": "céc ố cét — hau đu diu uốn et?"
+      },
+      "hint": "Có cả hai — nói rõ mà chọn",
+      "options": [
+        {
+          "en": "Both are fine with me, boss.",
+          "phon": "bâu a phai uít mi, boss"
+        },
+        {
+          "en": "Only cash. Money must touch my hand.",
+          "phon": "âu-nli céc. fa mát tết mai hen"
+        },
+        {
+          "en": "The card is in my car. Far away.",
+          "phon": "đờ cét iz in mai ca. phá ơ-uey"
+        }
+      ],
+      "answer": 0,
+      "explain": "Cả hai cách đều nhận — khách chọn gì mình cũng chịu, khỏi làm khó."
+    },
+    {
+      "client": {
+        "en": "How much is the quick blow dry?",
+        "vi": "Sấy nhanh hết bao nhiêu anh?",
+        "phon": "hau mâge iz đờ quíc blâu drê?"
+      },
+      "hint": "Giá nhỏ cũng trả lời trọn câu",
+      "options": [
+        {
+          "en": "Fifty thousand, boss. Five minutes only.",
+          "phon": "phíf-ti thâu-dzần, boss. phaip mi-nút âu-nli"
+        },
+        {
+          "en": "It is free. No, it is not free.",
+          "phon": "et iz phri. nâu, et iz nốt phri"
+        },
+        {
+          "en": "Blow dry prices change daily.",
+          "phon": "blâu drê prainx chein-ch dzây-li"
+        }
+      ],
+      "answer": 0,
+      "explain": "Giá + thời gian cùng một câu — khách thấy thẳng thắn, không bị bùng tiền."
+    }
+  ],
+  "numbers": [
+    {
+      "say": "two hundred thousand dong",
+      "phon": "tu hân-đờ-it thâu-dzần đông",
+      "options": [
+        "20.000đ",
+        "200.000đ",
+        "2.000.000đ"
+      ],
+      "answer": 1
+    },
+    {
+      "say": "half past ten",
+      "phon": "háp past ten",
+      "options": [
+        "10:15",
+        "10:30",
+        "9:30"
+      ],
+      "answer": 1
+    },
+    {
+      "say": "seven o'clock",
+      "phon": "se-vơn ờ-cốc",
+      "options": [
+        "7:00",
+        "7:15",
+        "17:00"
+      ],
+      "answer": 0
+    },
+    {
+      "say": "fifteen minutes",
+      "phon": "phi-tiên mí-nút",
+      "options": [
+        "15 phút",
+        "50 phút",
+        "5 phút"
+      ],
+      "answer": 0
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "38-lam-chua-on",
+  "order": 38,
+  "title": "Khi làm chưa ổn",
+  "goal": "Sai thì nói đúng cách: nhận lỗi một lần, đền bằng việc cụ thể, hẹn ngày sửa — giữ khách dù tóc chưa ưng ý.",
+  "words": [
+    { "en": "apologize", "vi": "xin lỗi (chính thức)", "phon": "ơ-pố-lơ-giaiz", "note": "\"I apologize\" = Tôi xin lỗi — nghiêm túc hơn \"sorry\"." },
+    { "en": "my mistake", "vi": "lỗi của tôi", "phon": "mai mi-xteik", "note": "Nói nhanh gọn: \"It's my mistake.\" Không đổ cho máy móc." },
+    { "en": "adjust", "vi": "chỉnh lại", "phon": "ơ-cháut", "note": "\"Let me adjust it\" = Để tôi chỉnh lại — từ vàng khi khách chưa vừa ý." },
+    { "en": "on the house", "vi": "tặng (miễn phí)", "phon": "ốp đờ hàuch", "note": "\"This wash is on the house\" = Lượt gội này em tặng — đền bù chuẩn teú đàn." },
+    { "en": "voucher", "vi": "phiếu giảm giá", "phon": "vâu-chớ", "note": "\"A voucher for the next visit\" = phiếu cho lần sau." },
+    { "en": "next visit", "vi": "lần đến sau", "phon": "néch vi-đít", "note": "Cách giữ khách sau sự cố: nói về LẦN SAU, không chỉ hôm nay." },
+    { "en": "promise", "vi": "hứa", "phon": "prốp-mít", "note": "\"I promise\" = Em hứa — nói cẩn thận, nói trước được mới hứa." },
+    { "en": "free wash", "vi": "gội miễn phí", "phon": "phri uốc", "note": "\"One free wash for you\" = Một lượt gội tặng anh." },
+    { "en": "make it up", "vi": "đền bù", "phon": "mey-k it áp", "note": "\"I'll make it up to you\" = Em sẽ đền cho anh — đãi votre chu đáo." },
+    { "en": "calm", "vi": "bình tĩnh", "phon": "cam", "note": "\"Please stay calm\" = Quý khách bình tĩnh — nói nhỏ, chậm rãi." }
+  ],
+  "phrases": [
+    { "en": "I'm sorry. It's my mistake. Let me adjust it.", "vi": "Xin lỗi. Lỗi của em. Để em chỉnh lại.", "phon": "aim sờ-ri. éts mai mi-xteik. let mi ơ-cháut et", "when": "Công thức ba câu khi bị chê — nhận lỗi trong một hơi" },
+    { "en": "This wash is on the house today.", "vi": "Lượt gội này em tặng ở đây.", "phon": "dis uốc iz ốp đờ hàuch tu-đey", "when": "Đền bằng việc, không phải lời" },
+    { "en": "Here is a voucher for your next visit.", "vi": "Phiếu giảm giá cho lần sau của anh đây.", "phon": "hia iz ờ vâu-chớ phờ diu néch vi-đít", "when": "Kết thúc sự cố nhẹ nhàng" },
+    { "en": "I promise it will look better tomorrow.", "vi": "Em hứa ngày mai tóc sẽ nhìn tốt hơn.", "phon": "ai prốp-mít it uil lục bét-chờ tu-mo-râu", "when": "Khi sợ khách đi ngay — hứa có lối thoát" },
+    { "en": "Please stay calm. I will make it up to you.", "vi": "Quý khách bình tĩnh. Em sẽ đền cho anh.", "phon": "pliz xtey cam. ai uil mey-k it áp tu diu", "when": "Khách đang bực — giọng nhẹ, rất chậm" }
+  ],
+  "dialogue": {
+    "title": "Fade bên trái quá ngắn",
+    "lines": [
+      { "who": "client", "en": "This cut is too short on the left!", "vi": "Bên trái cắt quá ngắn rồi anh!", "phon": "dis cát iz tu xốt ốp đờ left!" },
+      { "who": "barber", "en": "You are right. I'm sorry — it's my mistake.", "vi": "Anh nói đúng. Xin lỗi — lỗi của em.", "phon": "diu a rai. aim sờ-ri — éts mai mi-xteik" },
+      { "who": "client", "en": "I have a meeting tomorrow morning!", "vi": "Mai em làm việc sáng sớm đấy!", "phon": "ai hèv ờ mi-tin tu-mo-râu mău-đin!" },
+      { "who": "barber", "en": "Stay calm. Ten minutes — I will adjust it.", "vi": "Bình tĩnh nha. Mười phút — em chỉnh lại ngay.", "phon": "xtey cam. ten mi-nút — ai uil ơ-cháut et" },
+      { "who": "barber", "en": "Sorry again. This wash is on the house.", "vi": "Xin lỗi lần nữa. Lượt gội này em tặng.", "phon": "sờ-ri ơ-gen. dis uốc iz ốp đờ hàuch" },
+      { "who": "client", "en": "Well... it does look better now.", "vi": "Khìa... nhìn giờ còn tốt hơn trước.", "phon": "uèn... et dớz lục bét-chờ nau" },
+      { "who": "barber", "en": "A voucher for next visit, too.", "vi": "Có cả phiếu giảm giá cho lần sau nè.", "phon": "ờ vâu-chớ phờ néch vi-đít, tu" },
+      { "who": "client", "en": "OK. You fixed it fast. Thanks.", "vi": "Được đấy. Anh xử lý nhanh lắm. Cảm ơn.", "phon": "ô-khey. diu fík-sch ít fác. then-kiu" },
+      { "who": "barber", "en": "Thank you for your patience. See you soon.", "vi": "Cảm ơn anh đã kiên nhẫn. Hẹn gặp lại.", "phon": "then-kiu phờ diu pey-xần. si diu xun" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "The color came out too orange!", "vi": "Màu nhuộm ra cam quá!", "phon": "đờ kà-lờ kem aut tu ốp-rinch!" },
+      "hint": "Lỗi màu — sớ rych có máy chỉnh",
+      "options": [
+        { "en": "You are right. I'll tone it down right now — no charge.", "phon": "diu a rai. ai-len tâu-n it đàun rai nau — nâu chà-rgb" },
+        { "en": "Orange is beautiful every time.", "phon": "ốp-rinch iz biu-ti-phun ev-ri taim" },
+        { "en": "Your hair chose that color.", "phon": "diu hey châu đờ kờ-lờ" }
+      ],
+      "answer": 0,
+      "explain": "Nhận lỗi + giải pháp tức thì + miễn phí — khách cảm thấy được quan tâm hơn bị cãi."
+    },
+    {
+      "client": { "en": "You cut my friend's hair better!", "vi": "Anh cắt tóc bạn em xịn hơn!", "phon": "diu cát mai phen ơ hey bét-chờ!" },
+      "hint": "So sánh ra khiến khách khó chịu",
+      "options": [
+        { "en": "Sorry — every head is different. Let me make yours better.", "phon": "sờ-ri — ev-ri hét iz mi-panh. let mi meyk diu pêrra bét-chờ" },
+        { "en": "Friends pay double next time.", "phon": "phẹn pey đâu-bu néch taim" },
+        { "en": "Cutting is the same everywhere.", "phon": "cát-tin iz đờ xeym ev-rioca" }
+      ],
+      "answer": 0,
+      "explain": "Không cãi nhau cân bằng + chủ động đề xuất chỉnh — khách thấy mình SERIOUS với sản phẩm của mình."
+    },
+    {
+      "client": { "en": "I waited half past an hour!", "vi": "Em chờ hơn nửa tiếng rồi đấy!", "phon": "ai uêch-đe et háp past đờ âu-ờ ai hè lít" },
+      "hint": "Khách bỏ giờ chờ — đừng viện lý do dài",
+      "options": [
+        { "en": "I'm so sorry. Your cut comes first now — it's on the house.", "phon": "aim sâo sờ-ri. diu cát git phớt nau — éts ốp đờ hàuch" },
+        { "en": "Waiting is normal in salons, relax.", "phon": "uêch-đin iz mô-mần in sa-lớn. ri-lốc" },
+        { "en": "Then you waited a long half.", "phon": "hên diu uêch-đe et ờ lông háp" }
+      ],
+      "answer": 0,
+      "explain": "Nhận lỗi một câu + làm ngay + tặng dịch vụ — câu trả lời dứt điểm nhất cho khách chờ lâu."
+    }
+  ],
+  "quiz": [
+    { "q": "\"Lỗi của tôi\" nói gọn:", "options": ["my mistakate", "my mistake", "my minute", "my escape"], "answer": 1 },
+    { "q": "\"Chỉnh lại\" khi khách chưa ưng:", "options": ["adjust", "adopt", "add up", "a duct"], "answer": 0 },
+    { "q": "\"Tặng miễn phí\" thành ngữ là:", "options": ["at the house", "off the house", "on the house", "up the house"], "answer": 2 },
+    { "q": "\"Đền bù cho bạn\" là:", "options": ["make him out", "make it out", "make him up", "make it up to you"], "answer": 3 },
+    { "q": "\"Phiếu giảm giá\" là:", "options": ["vowel", "voucher", "visa", "voucherine"], "answer": 1 },
+    { "q": "Thứ tự hợp lý khi bị chê:", "options": ["Cãi lại, rồi sửa", "Nghe chê, nhận lỗi, đền cụ thể", "Trả tiền và bỏ khách", "Đợi khách bỏ đi"], "answer": 1 }
+  ]
+}

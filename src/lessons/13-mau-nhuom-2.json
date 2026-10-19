@@ -1,0 +1,287 @@
+{
+  "id": "13-mau-nhuom-2",
+  "order": 13,
+  "title": "Màu nhuộm nâng cao: balayage, ombre, tông tro",
+  "goal": "Nhuộm che tóc bạc, chuyển màu đậm–nhạt, tông tro, trộn thuốc và giải thích cho khách.",
+  "words": [
+    {
+      "en": "balayage",
+      "vi": "màu chuyển tầng (vẽ tay)",
+      "phon": "ba-lê-yaz",
+      "note": "Kỹ thuật nhuộm chuyển màu tự nhiên."
+    },
+    {
+      "en": "ombre",
+      "vi": "chuyển màu đậm tới nhạt",
+      "phon": "om-brê",
+      "note": "Trên đậm, dưới nhạt dần."
+    },
+    {
+      "en": "light",
+      "vi": "sáng",
+      "phon": "lait",
+      "note": "\"A light shade\" = Tông màu sáng."
+    },
+    {
+      "en": "dark",
+      "vi": "tối / đậm",
+      "phon": "đác"
+    },
+    {
+      "en": "shade",
+      "vi": "tông màu",
+      "phon": "sêi-đờ",
+      "note": "\"Which shade do you like?\" = Anh thích tông nào?"
+    },
+    {
+      "en": "ashy",
+      "vi": "màu tro",
+      "phon": "a-shi",
+      "note": "Tông tro sang, đang hot."
+    },
+    {
+      "en": "red",
+      "vi": "đỏ",
+      "phon": "rét",
+      "note": "Màu đỏ rất nổi."
+    },
+    {
+      "en": "black",
+      "vi": "đen",
+      "phon": "bờ-lách"
+    },
+    {
+      "en": "cover",
+      "vi": "che phủ",
+      "phon": "cớ-vờ",
+      "note": "\"This will cover your gray hair\" = Màu này che được tóc bạc."
+    },
+    {
+      "en": "mix",
+      "vi": "trộn thuốc",
+      "phon": "mích",
+      "note": "\"I'll mix the color now\" = Em trộn thuốc nhé."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Do you want a light or dark shade?",
+      "vi": "Anh muốn tông sáng hay tối?",
+      "phon": "đu diu quón ờ lait o đác sêi-đờ",
+      "when": "Chọn tông màu"
+    },
+    {
+      "en": "Balayage is very popular now.",
+      "vi": "Balayage đang rất thịnh hành.",
+      "phon": "ba-lê-yaz ịt ve-ri póp-piu-lờ nau",
+      "when": "Gợi ý cho khách trẻ"
+    },
+    {
+      "en": "This ashy tone will cover your gray hair.",
+      "vi": "Tông tro này sẽ che được tóc bạc.",
+      "phon": "đít a-shi tôn quyu cớ-vờ yo grây he",
+      "when": "Khách muốn che tóc bạc"
+    },
+    {
+      "en": "I'll mix the color now. It takes ten minutes.",
+      "vi": "Em trộn thuốc nhé. Khoảng mười phút thôi.",
+      "phon": "ai-ồ mích đờ cà-lơ nau. ịt têiks ten mi-nịts",
+      "when": "Chuẩn bị thuốc"
+    },
+    {
+      "en": "Do you want it a little darker?",
+      "vi": "Anh muốn đậm hơn chút không?",
+      "phon": "đu diu quón ịt ờ lít-tồ đác-cờ",
+      "when": "Sau khi xem màu thử"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách muốn che tóc bạc bằng tông tro",
+    "lines": [
+      {
+        "who": "client",
+        "en": "My gray hair is too much now. Can you cover it?",
+        "vi": "Tóc bạc của tôi giờ nhiều quá. Che giúp tôi được không?",
+        "phon": "mai grây he ịt tu mớch nau. ken diu cớ-vờ ịt"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, of course. Do you want a light or dark shade?",
+        "vi": "Được ạ. Anh muốn tông sáng hay tối?",
+        "phon": "dét, ốp coọc. đu diu quón ờ lait o đác sêi-đờ"
+      },
+      {
+        "who": "client",
+        "en": "Dark. But not too black. Maybe ashy?",
+        "vi": "Tối. Nhưng đừng đen quá. Màu tro được không?",
+        "phon": "đác. bớt nót tu bờ-lách. mêi-bi a-shi"
+      },
+      {
+        "who": "barber",
+        "en": "Ashy is good. This ashy tone will cover your gray hair.",
+        "vi": "Tro đẹp đó. Tông tro này che được tóc bạc.",
+        "phon": "a-shi ịt gút. đít a-shi tôn quyu cớ-vờ yo grây he"
+      },
+      {
+        "who": "client",
+        "en": "What about my roots? They are white.",
+        "vi": "Còn chân tóc tôi? Nó bạc trắng rồi.",
+        "phon": "quát ờ-bao mai rúts? đêi a quait"
+      },
+      {
+        "who": "barber",
+        "en": "We mix a stronger color for the roots. Then a toner after.",
+        "vi": "Mình trộn màu đậm hơn cho chân tóc. Rồi dùng dưỡng màu sau.",
+        "phon": "quy mích ờ sờ-troong-gờ cà-lơ pho đờ rúts. đen ờ tô-nơ áp-phờ"
+      },
+      {
+        "who": "client",
+        "en": "OK. How much is it?",
+        "vi": "Được. Bao nhiêu tiền?",
+        "phon": "ô-kê. hao mớch ịt"
+      },
+      {
+        "who": "barber",
+        "en": "Two hundred and fifty for the full color and toner.",
+        "vi": "Trọn gói màu và dưỡng màu là hai trăm năm mươi ạ.",
+        "phon": "tu hăn-đrợt en phíp-ti pho đờ phun cà-lơ en tô-nơ"
+      },
+      {
+        "who": "client",
+        "en": "OK. And next time?",
+        "vi": "Được. Còn lần sau thì sao?",
+        "phon": "ô-kê. en nek taim"
+      },
+      {
+        "who": "barber",
+        "en": "Next time, just a retouch on the roots. Very fast.",
+        "vi": "Lần sau chỉ nhuộm lại chân tóc thôi. Nhanh lắm.",
+        "phon": "nek taim, chớst ờ ri-tớch on đờ rúts. ve-ri phát"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Màu chuyển tầng (vẽ tay)\" là:",
+      "options": [
+        "balayage",
+        "ballad",
+        "baggage",
+        "balance"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"This ___ tone will cover your gray hair.\" (Tông tro)",
+      "options": [
+        "ashy",
+        "happy",
+        "hungry",
+        "aging"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Chuyển màu đậm tới nhạt\" là:",
+      "options": [
+        "ombre",
+        "umbrella",
+        "amber",
+        "combo"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I'll ___ the color now.\" (Em trộn thuốc)",
+      "options": [
+        "fix",
+        "mix",
+        "six",
+        "max"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Che phủ (tóc bạc)\" là:",
+      "options": [
+        "cover",
+        "cook",
+        "carry",
+        "color"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Tông màu sáng\" là:",
+      "options": [
+        "a dark shade",
+        "a light shade",
+        "a night shade",
+        "a lamp shade"
+      ],
+      "answer": 1
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "I have a lot of gray hair, boss.",
+        "vi": "Tôi bị tóc bạc nhiều quá anh.",
+        "phon": "ai hèp ờ lot ố gretch he, boss"
+      },
+      "hint": "Tóc bạc đường tròn",
+      "options": [
+        {
+          "en": "Do you want a light or dark shade?",
+          "vi": "Anh muốn tông sáng hay tối?",
+          "phon": "đu diu quón ờ lait o đác sêi-đờ",
+          "when": "Chọn tông màu"
+        },
+        {
+          "en": "Balayage is very popular now.",
+          "vi": "Balayage đang rất thịnh hành.",
+          "phon": "ba-lê-yaz ịt ve-ri póp-piu-lờ nau",
+          "when": "Gợi ý cho khách trẻ"
+        },
+        {
+          "en": "This ashy tone will cover your gray hair.",
+          "vi": "Tông tro này sẽ che được tóc bạc.",
+          "phon": "đít a-shi tôn quyu cớ-vờ yo grây he",
+          "when": "Khách muốn che tóc bạc"
+        }
+      ],
+      "answer": 2,
+      "explain": "Tông tro che bạc chuẩn nhất — nói cụ thể là khách theo sống chay."
+    },
+    {
+      "client": {
+        "en": "The color pot looks busy. How long, boss?",
+        "vi": "Hộp màu nhìn phức tạp quá. Bao lâu rồi anh?",
+        "phon": "đờ kú-lơ pốt lục bi-chi. hau lông, boss?"
+      },
+      "hint": "Trộn màu vẫn cần IMI",
+      "options": [
+        {
+          "en": "I'll mix the color now. It takes ten minutes.",
+          "vi": "Em trộn thuốc nhé. Khoảng mười phút thôi.",
+          "phon": "ai-ồ mích đờ cà-lơ nau. ịt têiks ten mi-nịts",
+          "when": "Chuẩn bị thuốc"
+        },
+        {
+          "en": "Do you want a light or dark shade?",
+          "vi": "Anh muốn tông sáng hay tối?",
+          "phon": "đu diu quón ờ lait o đác sêi-đờ",
+          "when": "Chọn tông màu"
+        },
+        {
+          "en": "Balayage is very popular now.",
+          "vi": "Balayage đang rất thịnh hành.",
+          "phon": "ba-lê-yaz ịt ve-ri póp-piu-lờ nau",
+          "when": "Gợi ý cho khách trẻ"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Trộn thuốc 10 phút\" — con số nhỏ nhưng khòng làm khách mất kiên nhẫn."
+    }
+  ]
+}

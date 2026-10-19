@@ -1,0 +1,83 @@
+{
+  "id": "36-ban-hang-bang-chuyen",
+  "order": 36,
+  "title": "Bán hàng bằng chuyện",
+  "goal": "Bán dầu gội, dầu dưỡng, serum bằng lợi ích và câu chuyện — khách mua vì thấy hợp tóc mình, không phải vì nghe giá.",
+  "words": [
+    { "en": "try", "vi": "dùng thử", "phon": "trai", "note": "\"Try it on your hand\" = Thử lên tay đi ạ." },
+    { "en": "smell", "vi": "mùi / thơm", "phon": "smen", "note": "\"It smells good\" = Nó thơm đấy. Ngửi trước khi mua là kinh nghiệm vàng." },
+    { "en": "shine", "vi": "bóng / lên bóng", "phon": "xain", "note": "\"Gives your hair shine\" = Cho tóc lên bóng." },
+    { "en": "ingredients", "vi": "thành phần", "phon": "in-gri-di-ần", "note": "\"Natural ingredients\" = thành phần thiên nhiên — khách nữ để ý câu này." },
+    { "en": "bundle", "vi": "combo / mua kèm", "phon": "băn-đần", "note": "\"Take the bundle\" = Lấy combo — gội + dưỡng + serum." },
+    { "en": "gift", "vi": "quà tặng", "phon": "gift", "note": "\"A small gift for you\" = Quà nhỏ cho anh ạ." },
+    { "en": "sample", "vi": "mẫu thử / gói nhỏ", "phon": "xăm-phân", "note": "Cho khách mang gói thử về nhà dùng." },
+    { "en": "result", "vi": "kết quả", "phon": "ri-zợt", "note": "\"Two weeks, you see results\" = Hai tuần anh thấy khác." },
+    { "en": "worth", "vi": "đáng (tiền)", "phon": "uợt", "note": "\"Worth it\" = Đáng tiền — câu chốt mạnh nhất." },
+    { "en": "stock", "vi": "hàng tồn / còn hàng", "phon": "xtốc", "note": "\"In stock\" = còn hàng. \"Out of stock\" = hết hàng." }
+  ],
+  "phrases": [
+    { "en": "Try it now — just a little on your hand.", "vi": "Anh dùng thử đi — tí xíu thôi trên tay.", "phon": "trai it nao — chót ờ lí-tu ốp diu hen", "when": "Mời khách dùng thử" },
+    { "en": "Smell it — very soft, not too strong.", "vi": "Ngửi đi — thơm nhẹ, không gắt.", "phon": "smen it — ve-ri sáp, nốt tu trong", "when": "Giới thiệu mùi sản phẩm" },
+    { "en": "This is our best bundle: oil plus serum.", "vi": "Đây là combo bán chạy: dầu kèm tinh chất.", "phon": "dis iz au-ờ best băn-đần: ôl plus xi-rám", "when": "Đề nghị combo" },
+    { "en": "You will see results in two weeks.", "vi": "Hai tuần anh sẽ thấy khác.", "phon": "diu uil si ri-zợt in tu uít", "when": "Cam kết dịu dàng, không phóng đại" },
+    { "en": "It's a little gift for you.", "vi": "Quà nhỏ cho anh ạ.", "phon": "éts ờ lí-tu gift phờ diu", "when": "Tặng quà giữ khách" }
+  ],
+  "dialogue": {
+    "title": "Khách tóc khô — bán dầu dưỡng",
+    "lines": [
+      { "who": "client", "en": "My hair is so dry. What product do you use?", "vi": "Tóc em khô lắm. Anh dùng sản phẩm nào vậy?", "phon": "mai hey iz sâo drê. uốc prốp-đắc đu diu úch?" },
+      { "who": "barber", "en": "First, try this oil on your hand.", "vi": "Trước tiên, em thử lên tay cái dầu này.", "phon": "phớt, trai dis ôl ốp diu hen" },
+      { "who": "client", "en": "Wow, it smells nice!", "vi": "Ồ, thơm đấy!", "phon": "uâu, it smen naich!" },
+      { "who": "barber", "en": "Right? Natural ingredients. No strong perfume.", "vi": "Thấy chưa? Thành phần thiên nhiên, không phấn gắt.", "phon": "rai? vá-char-rảnh in-gri-di-ần. nâu trong pơ-phù" },
+      { "who": "client", "en": "Is it expensive?", "vi": "Đắt không anh?", "phon": "iz it éc-phên-xíp?" },
+      { "who": "barber", "en": "Two hundred. Worth it — soft hair for two weeks.", "vi": "Hai trăm thôi. Đáng tiền — tóc mềm hai tuần.", "phon": "tu hân-đờ-it. uợt et — sáp hey phờ tu uít" },
+      { "who": "client", "en": "OK, one bottle!", "vi": "Rồi, một chai!", "phon": "ô-khey, uân bồ-tâu!" },
+      { "who": "barber", "en": "Bundle it with shampoo? You save fifty.", "vi": "Mua kèm dầu gội luôn? Em tiết kiệm cho anh năm mươi.", "phon": "băn-đần et uít xam-pu? diu xêch phíf-ti" },
+      { "who": "client", "en": "Deal! And a free sample too?", "vi": "Chốt! Kèm gói thử tặng luôn ha?", "phon": "dí! en ờ phri xăm-phân tu?" },
+      { "who": "barber", "en": "Of course — a small gift for my best customer.", "vi": "Chứ sao nữa — quà nhỏ cho khách ruột nè.", "phon": "ốp cốc — ờ xmall gift phờ mai best cú-tờ-mờ" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "Is this serum good?", "vi": "Serum này tốt không anh?", "phon": "iz dis xi-rám gú?" },
+      "hint": "Câu chốt có hay không là nhờ cách đáp",
+      "options": [
+        { "en": "My mom uses it — her hair is soft now. Try it.", "phon": "mai môm yu-chét et — he hey iz sáp nao. trai it" },
+        { "en": "It costs two fifty. Nothing else to say.", "phon": "et côs tu phi-ti. thâu-dzần. nâu nothing ẻch tu xey" },
+        { "en": "It is made in 2020 year.", "phon": "et iz mey-ch in twen-ti tu" }
+      ],
+      "answer": 0,
+      "explain": "Chuyện thật của người thân (hoặc chính mình) bán tốt hơn mọi con số — khách tin người, không tin tờ quảng cáo."
+    },
+    {
+      "client": { "en": "Why do I need a hair oil?", "vi": "Tại sao em cần dầu dưỡng?", "phon": "uai đu ai nít đờ hey ôl?" },
+      "hint": "Điểm đúng nỗi lo trước, lợi ích sau",
+      "options": [
+        { "en": "Your ends are dry — oil keeps them soft.", "phon": "diu ến a dre — ôl kíp them xắp" },
+        { "en": "Because all customers buy it.", "phon": "bi-khô ôl cú-tờ-mờ bai et" },
+        { "en": "No reason. It is just for smell.", "phon": "nâu ri-zần. et iz chụp phờ smen" }
+      ],
+      "answer": 0,
+      "explain": "Chỉ đúng vấn đề của khách (đuôi tóc khô) rồi nói lợi ích — thuyết phục tự nhiên, không cần ép."
+    },
+    {
+      "client": { "en": "Is the bundle cheaper?", "vi": "Combo rẻ hơn không anh?", "phon": "iz đờ băn-đần chi-cờ-pờ?" },
+      "hint": "Khách đang chốt — đừng phức tạp thêm",
+      "options": [
+        { "en": "The bundle saves fifty thousand and a free mask.", "phon": "đờ băn-đần xêch phíf-ti thâu-dzần en ờ phri mát" },
+        { "en": "No. Same price. Buy separate, better.", "phon": "nâu. xeym prai. baik xe-pa-rết, bét-tờ" },
+        { "en": "Bundles are for rich clients only.", "phon": "băn-đần a phờ ruch cú-tờ-mờ âu-nli" }
+      ],
+      "answer": 0,
+      "explain": "Nói con số tiết kiệm + quà kèm — khách chốt ngay vì thấy đáng."
+    }
+  ],
+  "quiz": [
+    { "q": "\"Mời khách dùng thử\" là câu:", "options": ["Try it", "Fry it", "Dry it", "Signs it"], "answer": 0 },
+    { "q": "\"Thành phần\" tiếng Anh là:", "options": ["ingredients", "ingredner", "inward", "impress"], "answer": 0 },
+    { "q": "\"Đáng tiền\" nói gọn là:", "options": ["Worst it", "Worth it", "Work it", "Want it"], "answer": 1 },
+    { "q": "\"Hết hàng\" là:", "options": ["in stock", "out of stock", "with stock", "am stock"], "answer": 1 },
+    { "q": "\"Kết quả\" là:", "options": ["result", "reserve", "resume", "return"], "answer": 0 },
+    { "q": "Cách bán tốt nhất theo bài học:", "options": ["Nói giá trước, chốt luôn", "Kể chuyện lợi ích rồi mời dùng thử", "Bắt khách mua ngay không hỏi", "Khách phải mua kèm luôn"], "answer": 1 }
+  ]
+}

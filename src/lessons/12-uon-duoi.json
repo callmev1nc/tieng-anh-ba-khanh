@@ -1,0 +1,282 @@
+{
+  "id": "12-uon-duoi",
+  "order": 12,
+  "title": "Uốn, duỗi, hấp dầu",
+  "goal": "Giải thích uốn/duỗi/ép: thời gian, nhiệt độ, dưỡng bảo vệ, giữ được bao lâu.",
+  "words": [
+    {
+      "en": "perm",
+      "vi": "uốn tóc",
+      "phon": "pơm",
+      "note": "\"Do you want a perm?\" = Chị muốn uốn tóc không?"
+    },
+    {
+      "en": "straighten",
+      "vi": "duỗi thẳng",
+      "phon": "sờ-trây-tần",
+      "note": "Duỗi tóc thẳng ra."
+    },
+    {
+      "en": "curling iron",
+      "vi": "máy uốn (kẹp uốn)",
+      "phon": "cớ-ling ai-ởn",
+      "note": "Nóng lắm, cẩn thận."
+    },
+    {
+      "en": "flat iron",
+      "vi": "máy ép / máy duỗi",
+      "phon": "phờ-lát ai-ởn",
+      "note": "Kẹp thẳng tóc."
+    },
+    {
+      "en": "treatment",
+      "vi": "hấp dầu / dưỡng tóc",
+      "phon": "trít-mần",
+      "note": "Hấp dầu cho tóc mềm."
+    },
+    {
+      "en": "keratin",
+      "vi": "keratin (chất dưỡng tóc)",
+      "phon": "kê-ra-tin",
+      "note": "Dưỡng keratin nổi tiếng cho tóc hư."
+    },
+    {
+      "en": "heat protectant",
+      "vi": "dưỡng bảo vệ nhiệt",
+      "phon": "hít prờ-téc-tần",
+      "note": "Xịt trước khi dùng máy nóng."
+    },
+    {
+      "en": "trim the ends",
+      "vi": "tỉa đuôi tóc",
+      "phon": "trim đờ en-zờ"
+    },
+    {
+      "en": "grow",
+      "vi": "mọc / dài ra",
+      "phon": "grâu",
+      "note": "\"It will grow back\" = Nó sẽ mọc lại."
+    },
+    {
+      "en": "natural",
+      "vi": "tự nhiên",
+      "phon": "ná-chờ-rồ",
+      "note": "\"Your natural hair is nice\" = Tóc tự nhiên của chị đẹp."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Do you want a perm or straighten?",
+      "vi": "Chị muốn uốn hay duỗi?",
+      "phon": "đu diu quón ờ pơm o sờ-trây-tần",
+      "when": "Tư vấn kiểu tóc"
+    },
+    {
+      "en": "A perm takes about three hours.",
+      "vi": "Uốn mất khoảng ba tiếng ạ.",
+      "phon": "ờ pơm têiks ờ-bao sờ-ri ao-ờz",
+      "when": "Báo thời gian"
+    },
+    {
+      "en": "The curling iron is hot, be careful.",
+      "vi": "Máy uốn nóng đó, cẩn thận nha.",
+      "phon": "đờ cớ-ling ai-ởn ịt hót, bi ke-rờ-phồ",
+      "when": "Nhắc khách (nhất là trẻ nhỏ)"
+    },
+    {
+      "en": "I'll use a heat protectant first.",
+      "vi": "Em xịt dưỡng bảo vệ nhiệt trước nhé.",
+      "phon": "ai-ồ diuz ờ hít prờ-téc-tần phớt",
+      "when": "Trước khi dùng máy nóng"
+    },
+    {
+      "en": "It looks natural, very nice.",
+      "vi": "Trông tự nhiên lắm, đẹp đó.",
+      "phon": "ịt lúc ná-chờ-rồ, ve-ri nais",
+      "when": "Khen sau khi uốn/duỗi"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách muốn uốn xoăn lọn",
+    "lines": [
+      {
+        "who": "client",
+        "en": "I want a perm. Soft curls, not too much.",
+        "vi": "Tôi muốn uốn. Xoăn nhẹ thôi, đừng xoăn quá.",
+        "phon": "ai quón ờ pơm. sóp-phờ cớ-ồz, nót tu mớch"
+      },
+      {
+        "who": "barber",
+        "en": "OK. Soft curls look natural.",
+        "vi": "Được. Xoăn nhẹ trông tự nhiên lắm.",
+        "phon": "ô-kê. sóp-phờ cớ-ồz lúc ná-chờ-rồ"
+      },
+      {
+        "who": "client",
+        "en": "How long does it take?",
+        "vi": "Mất bao lâu vậy anh?",
+        "phon": "hao loong đớz ịt têik"
+      },
+      {
+        "who": "barber",
+        "en": "A perm takes about three hours.",
+        "vi": "Uốn mất khoảng ba tiếng ạ.",
+        "phon": "ờ pơm têiks ờ-bao sờ-ri ao-ờz"
+      },
+      {
+        "who": "client",
+        "en": "OK. Will it damage my hair?",
+        "vi": "Được. Có làm hư tóc không?",
+        "phon": "ô-kê. quyu ịt đa-mịch mai he"
+      },
+      {
+        "who": "barber",
+        "en": "A little. I'll use a heat protectant and keratin.",
+        "vi": "Hơi một chút. Em xịt dưỡng bảo vệ nhiệt và dùng keratin.",
+        "phon": "ờ lít-tồ. ai-ồ diuz ờ hít prờ-téc-tần en kê-ra-tin"
+      },
+      {
+        "who": "client",
+        "en": "Good. And after that, can I use a flat iron at home?",
+        "vi": "Tốt quá. Sau đó tôi dùng máy ép ở nhà được không?",
+        "phon": "gút. en áp-phờ đát, ken ai diuz ờ phờ-lát ai-ởn at hôm"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, but not every day. Trim the ends every six weeks.",
+        "vi": "Được, nhưng đừng dùng mỗi ngày. Sáu tuần tỉa đuôi tóc một lần nhé.",
+        "phon": "dét, bớt nót ev-ri đây. trim đờ en-zờ ev-ri sích quyks"
+      },
+      {
+        "who": "client",
+        "en": "Thanks! I like it natural like this.",
+        "vi": "Cảm ơn! Tôi thích để tự nhiên như vầy.",
+        "phon": "thenks! ai laik ịt ná-chờ-rồ laik đít"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Uốn tóc\" là:",
+      "options": [
+        "perm",
+        "permut",
+        "palm",
+        "pump"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I'll use a heat ___ first.\" (Dưỡng bảo vệ nhiệt)",
+      "options": [
+        "protect",
+        "protectant",
+        "project",
+        "poster"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Máy ép / máy duỗi\" là:",
+      "options": [
+        "flat iron",
+        "fat iron",
+        "flat tire",
+        "fly iron"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"A perm takes about three ___.\" (Mất khoảng 3 tiếng)",
+      "options": [
+        "days",
+        "hours",
+        "hair",
+        "o'clock"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tự nhiên\" là:",
+      "options": [
+        "natural",
+        "nation",
+        "natureal",
+        "neutral"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Tỉa đuôi tóc\" là:",
+      "options": [
+        "trim the ends",
+        "trip the ends",
+        "train the ends",
+        "tree the ends"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "My hair is too straight. Can you give it waves?",
+        "vi": "Tóc tôi quá thẳng. Uốn cho chút sóng được không?",
+        "phon": "mai he iz tu xtrét. can diu lip et uêch?"
+      },
+      "hint": "Chọn uốn hay duỗi",
+      "options": [
+        {
+          "en": "A perm takes about three hours.",
+          "vi": "Uốn mất khoảng ba tiếng ạ.",
+          "phon": "ờ pơm têiks ờ-bao sờ-ri ao-ờz",
+          "when": "Báo thời gian"
+        },
+        {
+          "en": "Do you want a perm or straighten?",
+          "vi": "Chị muốn uốn hay duỗi?",
+          "phon": "đu diu quón ờ pơm o sờ-trây-tần",
+          "when": "Tư vấn kiểu tóc"
+        },
+        {
+          "en": "The curling iron is hot, be careful.",
+          "vi": "Máy uốn nóng đó, cẩn thận nha.",
+          "phon": "đờ cớ-ling ai-ởn ịt hót, bi ke-rờ-phồ",
+          "when": "Nhắc khách (nhất là trẻ nhỏ)"
+        }
+      ],
+      "answer": 1,
+      "explain": "Hỏi rõ uốn hay duỗi trước nhất định Công ' kỹ técnica."
+    },
+    {
+      "client": {
+        "en": "I am scared the iron will burn me, boss.",
+        "vi": "Em sợ máy nóng dính da lắm.",
+        "phon": "ai em scare đờ ải-rơn uil bưn mi, boss"
+      },
+      "hint": "San an công cụ nóng",
+      "options": [
+        {
+          "en": "Do you want a perm or straighten?",
+          "vi": "Chị muốn uốn hay duỗi?",
+          "phon": "đu diu quón ờ pơm o sờ-trây-tần",
+          "when": "Tư vấn kiểu tóc"
+        },
+        {
+          "en": "I'll use a heat protectant first.",
+          "vi": "Em xịt dưỡng bảo vệ nhiệt trước nhé.",
+          "phon": "ai-ồ diuz ờ hít prờ-téc-tần phớt",
+          "when": "Trước khi dùng máy nóng"
+        },
+        {
+          "en": "A perm takes about three hours.",
+          "vi": "Uốn mất khoảng ba tiếng ạ.",
+          "phon": "ờ pơm têiks ờ-bao sờ-ri ao-ờz",
+          "when": "Báo thời gian"
+        }
+      ],
+      "answer": 1,
+      "explain": "Xịt bảo vệ nhiệt trước — nói ra luôn, khách nghe xong bằng yên tâm."
+    }
+  ]
+}

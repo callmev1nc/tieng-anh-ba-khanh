@@ -1,0 +1,6 @@
+[
+  { "id": "07-on-tap-1", "client": { "en": "Hello, quick trim today, boss.", "vi": "Xin chào, hôm nay chỉ tỉa gọn thôi.", "phon": "hê-lâu, quíc trím tu-đey, boss" }, "hint": "Ôn tuần 1 — chào + hỏi lịch", "choose": 0, "answer": 2, "explain": "Chào vui + mời ghế trước — sau đó mới hỏi lịch hẹn." },
+  { "id": "14-on-tap-2", "client": { "en": "Shave and grey color today, please.", "vi": "Cạo râu và nhuộm tóc bạc hôm nay nhé.", "phon": "xêch en grét kú-lơ tu-đey, pliz" }, "hint": "Ôn tuần 2 — gội + cạo + màu", "choose": 1, "answer": 1, "explain": "Hỏi cạo kèm luôn là cách gói dịch vụ nhanh nhất." },
+  { "id": "21-on-tap-3", "client": { "en": "The cut is not what I wanted, sorry.", "vi": "Kiểu cắt không như ý tôi, xin lỗi anh.", "phon": "đờ cát iz nốt uého ai uốn-tít, sờ-ri" }, "hint": "Ôn tuần 3 — khiếu nại", "choose": 3, "answer": 0, "explain": "Làm lại miễn phí là câu giữ khách đầu tiên khi bị chê." },
+  { "id": "30-on-tap-cuoi", "client": { "en": "Full visit today — wash, cut, beard, all.", "vi": "Trọn bộ hôm nay — gội, cắt, râu luôn.", "phon": "hềch vi-đít tu-đey — uốc, cát, bi-ét, ôl" }, "hint": "Tổng duyệt — cả ngày đầy đủ", "choose": 4, "answer": 2, "explain": "Kết thúc bằng hẹn lịch lần sau — vòng đời khách của mình khép trọn." }
+]

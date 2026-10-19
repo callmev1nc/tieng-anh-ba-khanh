@@ -1,0 +1,94 @@
+{
+  "id": "31-khong-hieu-phai-lam-gi",
+  "order": 31,
+  "title": "Không hiểu phải làm gì",
+  "goal": "Lỡ không nghe ra khách nói gì thì xử lý tử tế: xin nhắc lại, xin nói chậm, xin đánh vần — không lúng túng, khách vẫn thấy chuyên nghiệp.",
+  "words": [
+    { "en": "repeat", "vi": "nhắc lại", "phon": "ri-pít", "note": "\"Please repeat\" = Anh nhắc lại giúp tôi. Câu cứu cánh số 1." },
+    { "en": "understand", "vi": "hiểu", "phon": "ần-đờ-xten", "note": "\"I don't understand\" = Tôi chưa hiểu — nói thẳng cũng không sao." },
+    { "en": "one moment", "vi": "chờ một chút", "phon": "uân mâu-mần", "note": "Câu mua thời gian thần thánh: \"One moment, please.\"" },
+    { "en": "translate", "vi": "dịch", "phon": "trền-x-lây", "note": "\"I'll translate it\" = Để tôi dịch ra ạ." },
+    { "en": "write", "vi": "viết / ghi ra", "phon": "rái", "note": "Nghe không được thì xin ghi ra: \"Can I write it down?\"" },
+    { "en": "easy", "vi": "dễ thôi", "phon": "i-zi", "note": "Trấn an khách (và chính mình): \"It's easy. No problem.\"" },
+    { "en": "difficult", "vi": "khó", "phon": "đi-fi-khần", "note": "\"It's difficult for me\" = Cái này khó với tôi — nói thật lòng." },
+    { "en": "word", "vi": "từ", "phon": "uờ-đ", "note": "\"Which word?\" = Từ nào ạ? Khi bị chặn giữa câu." },
+    { "en": "spell", "vi": "đánh vần", "phon": "spen", "note": "\"Can you spell it?\" = Anh đánh vần giúp tôi. Đắt giá với tên kiểu tóc, tên màu nhuộm." },
+    { "en": "show", "vi": "chỉ cho xem", "phon": "sâo", "note": "\"Show me the photo\" = Anh chỉ ảnh đi ạ. Cách thoát nhanh nhất khỏi từ khó." }
+  ],
+  "phrases": [
+    { "en": "Sorry, I don't understand. Please say it again.", "vi": "Xin lỗi, tôi chưa hiểu. Anh nói lại giúp tôi ạ.", "phon": "so-ri, ai đờn ần-đờ-xten. pliz sây ết ờ-gen", "when": "Khách vừa nói một câu mình hổng chữ" },
+    { "en": "Can you speak slowly, please?", "vi": "Anh nói chậm giúp tôi nhé?", "phon": "can diu spíc sâu-cli, pliz", "when": "Khách nói quá nhanh" },
+    { "en": "Can you spell it, please?", "vi": "Anh đánh vần giúp tôi nhé?", "phon": "can diu spen ết, pliz", "when": "Không rõ tên kiểu tóc hay tên màu" },
+    { "en": "One moment, please. I'll ask my friend.", "vi": "Chờ một chút ạ. Tôi nhờ bạn giúp.", "phon": "uân mâu-mần, pliz. ai-len ahen mai fwen", "when": "Cần nhờ người dịch hộ" },
+    { "en": "Can you show me the photo?", "vi": "Anh chỉ tôi bức ảnh được không ạ?", "phon": "can diu sâo mi đờ phâu-tô", "when": "Mô tả kiểu tóc khó — ảnh là vua" }
+  ],
+  "dialogue": {
+    "title": "Khách nói nhanh quá — xử lý thế nào?",
+    "lines": [
+      { "who": "client", "en": "Could you give me a layered cut, quick and sharp?", "vi": "Cho tôi kiểu layer, nhanh và gọn nhé.", "phon": "củ điu vi mi ờ lây-dơ cút, quíc en xáp" },
+      { "who": "barber", "en": "Sorry? Can you speak slowly, please?", "vi": "Xin lỗi? Anh nói chậm giúp tôi nhé?", "phon": "so-ri? can diu spíc sâu-cli, pliz" },
+      { "who": "client", "en": "Oh sorry. Layer cut, please.", "vi": "Ồ xin lỗi. Cắt layer giúp tôi.", "phon": "âu so-ri. lây-dơ cút, pliz" },
+      { "who": "barber", "en": "Layer — I understand now. One moment, please.", "vi": "Layer — giờ tôi hiểu rồi. Chờ một chút ạ.", "phon": "lây-dơ — ai ần-đờ-xten nao. uân mâu-mần, pliz" },
+      { "who": "barber", "en": "Can you show me the photo?", "vi": "Anh chỉ tôi ảnh được không ạ?", "phon": "can diu sâo mi đờ phâu-tô" },
+      { "who": "client", "en": "Sure, here you go.", "vi": "Được chứ, đây.", "phon": "suờ, hia diu gâu" },
+      { "who": "barber", "en": "Thank you. Easy. I can do it.", "vi": "Cảm ơn. Dễ thôi. Làm được ạ.", "phon": "then-kiu. i-zi. ai can đu ết" },
+      { "who": "client", "en": "Great! Keep it a little longer on top.", "vi": "Tốt! Giữ phần đỉnh dài một chút nhá.", "phon": "ghét! kíp ết ờ lí-tự lông-gơ ốp tóp" },
+      { "who": "barber", "en": "No problem. If I don't understand, I'll just ask.", "vi": "Được ạ. Nếu chưa hiểu thì tôi hỏi lại thôi.", "phon": "nâu prốp-líp. if ai đờn ần-đờ-xten, ai chót ahen" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "Gimme a two fade, number one on the sides.", "vi": "Cho tôi fade hai, hàng một ở hai bên.", "phon": "gí-mi ờ tu phây-đờ, nâm-bừ uân ốp đờ sai-d" },
+      "hint": "Clipper talk — khách thạo tiếng nói rất nhanh",
+      "options": [
+        { "en": "Sorry, can you say it again, please?", "phon": "so-ri, can diu say cết ờ-gen, pliz" },
+        { "en": "I don't want a haircut today.", "phon": "ai đờn uốn ờ hey-cút tu-đây" },
+        { "en": "Here is your number one.", "phon": "hia ờ diu nâm-bừ uân" }
+      ],
+      "answer": 0,
+      "explain": "Không nghe rõ thì xin nhắc lại — khách nói nhanh là chuyện thường, giọng cởi mở khiến khách chậm lại ngay."
+    },
+    {
+      "client": { "en": "Do you know 'texturizing'?", "vi": "Anh biết 'texturizing' không?", "phon": "đu diu nâu tex-chơ-rái-zin" },
+      "hint": "Từ chưa từng nghe trong đời",
+      "options": [
+        { "en": "Can you spell it, please?", "phon": "can diu spen ết, pliz" },
+        { "en": "Yes, I know everything.", "phon": "dét, ai nâu ev-ri-thin" },
+        { "en": "Maybe. Come back tomorrow.", "phon": "mây-bì. khầm bắt tu-mâ-đâu" }
+      ],
+      "answer": 0,
+      "explain": "Xin đánh vần hoặc xin ảnh — cách an toàn và trông chuyên nghiệp nhất."
+    },
+    {
+      "client": { "en": "Sorry, do you speak English?", "vi": "Xin lỗi, anh nói tiếng Anh được không?", "phon": "so-ri, đu diu spíc íng-lít" },
+      "hint": "Câu mở đầu quen thuộc của khách Tây",
+      "options": [
+        { "en": "I'm learning English. Please speak slowly.", "phon": "aim lịch-nin íng-lít. pliz spíc sâu-cli" },
+        { "en": "Sorry, no English. Go home.", "phon": "so-ri, nâu íng-lít. gâu hềm" },
+        { "en": "What do you want for dinner?", "phon": "uột đu diu uốn phờ đi-na" }
+      ],
+      "answer": 0,
+      "explain": "Không giỏi vẫn đón nhận vui vẻ — \"I'm learning English\" làm khách kiên nhẫn với mình ngay lập tức."
+    },
+    {
+      "client": { "en": "Quick question: cut or wash first?", "vi": "Hỏi nhanh: cắt trước hay gội trước?", "phon": "quíc quét-s sừn: cút ố uy-ch phớt" },
+      "hint": "Nói rút ruột, nghe khó",
+      "options": [
+        { "en": "One moment, please. I'll wash your hair first.", "phon": "uân mâu-mần, pliz. ai uy-ch diu hia phớt" },
+        { "en": "Two hundred thousand dong.", "phon": "tu hân-đờ-it thâu-zần đông" },
+        { "en": "My hair is dry too.", "phon": "mai hey ờ đrai tu" }
+      ],
+      "answer": 0,
+      "explain": "\"One moment, please\" mua thời gian — rồi trả lời gọn: gội trước."
+    }
+  ],
+  "quiz": [
+    { "q": "\"Anh nhắc lại giúp tôi\" là câu nào?", "options": ["Please repeat", "Please repair it", "Please reply me", "Please renew it"], "answer": 0 },
+    { "q": "\"Tôi chưa hiểu\" tiếng Anh là:", "options": ["I don't want it", "I don't hear you", "I don't understand", "I don't like it"], "answer": 2 },
+    { "q": "Khách nói nhanh quá, bạn nói:", "options": ["Go home, boss", "Can you speak slowly, please?", "What time is it?", "Goodbye"], "answer": 1 },
+    { "q": "Điền từ: \"Can you ___ it?\" (đánh vần cho tôi)", "options": ["spell", "sell", "spill", "sit"], "answer": 0 },
+    { "q": "\"One moment, please\" nghĩa là:", "options": ["Mau lên nào", "Chờ một chút nhé", "Cắt một phần", "Ngồi một lúc"], "answer": 1 },
+    { "q": "\"It's easy\" nghĩa là gì?", "options": ["Nó khó đấy", "Dễ thôi ạ", "Nó đổi đi", "Nó đấy à"], "answer": 1 },
+    { "q": "Nghe không rõ tên kiểu tóc — câu hợp lý nhất:", "options": ["Can you spell it?", "Can you smell it?", "Can you sell it?", "Can you shell it?"], "answer": 0 }
+  ]
+}

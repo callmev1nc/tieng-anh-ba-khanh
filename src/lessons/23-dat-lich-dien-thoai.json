@@ -1,0 +1,283 @@
+{
+  "id": "23-dat-lich-dien-thoai",
+  "order": 23,
+  "title": "Đặt lịch qua điện thoại",
+  "goal": "Nghe điện thoại khách gọi đặt lịch: xác nhận, báo kín lịch, giữ máy, nhắn tin địa chỉ.",
+  "words": [
+    {
+      "en": "call",
+      "vi": "gọi điện",
+      "phon": "khoo",
+      "note": "\"Call me tomorrow\" = Mai anh gọi cho em nhé."
+    },
+    {
+      "en": "phone",
+      "vi": "điện thoại",
+      "phon": "phôn",
+      "note": "\"What's your phone number?\" = Số điện thoại anh là gì ạ?"
+    },
+    {
+      "en": "text",
+      "vi": "nhắn tin",
+      "phon": "tếch-sờ",
+      "note": "\"Text me the time\" = Anh nhắn tin giờ cho em."
+    },
+    {
+      "en": "message",
+      "vi": "tin nhắn",
+      "phon": "mé-sịch",
+      "note": "\"I got your message\" = Em nhận được tin nhắn rồi."
+    },
+    {
+      "en": "answer",
+      "vi": "trả lời / nghe máy",
+      "phon": "en-sờ",
+      "note": "\"I can't answer now\" = Em đang bận không nghe được."
+    },
+    {
+      "en": "busy",
+      "vi": "đông / bận",
+      "phon": "bi-zi",
+      "note": "\"We are busy today\" = Hôm nay tiệm đông."
+    },
+    {
+      "en": "fully booked",
+      "vi": "kín lịch",
+      "phon": "phu-li búc-tờ",
+      "note": "\"Sorry, we are fully booked\" = Xin lỗi, kín lịch hết rồi."
+    },
+    {
+      "en": "slot",
+      "vi": "khung giờ",
+      "phon": "sờ-lót",
+      "note": "\"I have a slot at four\" = 4 giờ em còn chỗ."
+    },
+    {
+      "en": "hold",
+      "vi": "giữ máy / chờ máy",
+      "phon": "hâu-đờ",
+      "note": "\"Please hold a moment\" = Anh giữ máy chút."
+    },
+    {
+      "en": "confirm",
+      "vi": "xác nhận",
+      "phon": "khăn-phơm",
+      "note": "\"I confirm your booking\" = Em xác nhận lịch hẹn."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Hello, this is Khanh's salon.",
+      "vi": "Xin chào, đây là tiệm của Khanh ạ.",
+      "phon": "hê-lô, đít ịt Khanh-sờ sa-lông",
+      "when": "Nghe điện thoại"
+    },
+    {
+      "en": "Please hold a moment.",
+      "vi": "Anh giữ máy chút nhé.",
+      "phon": "pliz hâu-đờ ờ mô-mần",
+      "when": "Cần kiểm tra lịch"
+    },
+    {
+      "en": "Sorry, we are fully booked today.",
+      "vi": "Xin lỗi, hôm nay kín lịch hết rồi.",
+      "phon": "so-ri, quy a phu-li búc-tờ tu-đây",
+      "when": "Hết chỗ"
+    },
+    {
+      "en": "I have a slot at four o'clock.",
+      "vi": "Bốn giờ em còn một khung trống ạ.",
+      "phon": "ai hèv ờ sờ-lót at pho ờ-clốc",
+      "when": "Chốt giờ hẹn"
+    },
+    {
+      "en": "Can you text me? I'll confirm.",
+      "vi": "Anh nhắn tin cho em nhé. Em xác nhận lại.",
+      "phon": "ken diu tếch-sờ mi? ai-ồ khăn-phơm",
+      "when": "Kết thúc cuộc gọi"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách gọi điện đặt lịch",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hello, this is Khanh's salon.",
+        "vi": "Xin chào, đây là tiệm của Khanh ạ.",
+        "phon": "hê-lô, đít ịt Khanh-sờ sa-lông"
+      },
+      {
+        "who": "client",
+        "en": "Hi! Can I book a haircut for tomorrow?",
+        "vi": "Chào anh! Mai tôi đặt lịch cắt tóc được không?",
+        "phon": "hai! ken ai búc ờ he-cớt pho tu-mo-râu"
+      },
+      {
+        "who": "barber",
+        "en": "Sure. Morning or afternoon?",
+        "vi": "Được ạ. Anh đi buổi sáng hay buổi chiều?",
+        "phon": "so-ờ. mo-ning o áp-phờ-nun"
+      },
+      {
+        "who": "client",
+        "en": "Afternoon. Around three?",
+        "vi": "Buổi chiều. Khoảng 3 giờ?",
+        "phon": "áp-phờ-nun. ờ-rao sờ-ri"
+      },
+      {
+        "who": "barber",
+        "en": "Please hold a moment... Sorry, three is fully booked. I have a slot at four.",
+        "vi": "Anh giữ máy chút... Xin lỗi, 3 giờ kín rồi. 4 giờ em còn chỗ ạ.",
+        "phon": "pliz hâu-đờ ờ mô-mần... so-ri, sờ-ri ịt phu-li búc-tờ. ai hèv ờ sờ-lót at pho"
+      },
+      {
+        "who": "client",
+        "en": "Four is OK. What's your address?",
+        "vi": "4 giờ được. Địa chỉ tiệm anh ở đâu?",
+        "phon": "pho ịt ô-kê. quát-sờ yo a-đrét"
+      },
+      {
+        "who": "barber",
+        "en": "Can you text me? I'll send the address. I'll confirm your booking.",
+        "vi": "Anh nhắn tin cho em nhé? Em gửi địa chỉ. Em sẽ xác nhận lịch.",
+        "phon": "ken diu tếch-sờ mi? ai-ồ sen đờ a-đrét. ai-ồ khăn-phơm yo búc-king"
+      },
+      {
+        "who": "client",
+        "en": "OK, I'm sending a message now. Is that OK?",
+        "vi": "Được, tôi đang nhắn tin đây. Được chưa anh?",
+        "phon": "ô-kê, ai em sen-đing ờ mé-sịch nau. ịt đát ô-kê"
+      },
+      {
+        "who": "barber",
+        "en": "I got your message. Booking confirmed for four o'clock. Thank you!",
+        "vi": "Em nhận được tin nhắn rồi. Xác nhận lịch 4 giờ ạ. Cảm ơn anh!",
+        "phon": "ai ghót yo mé-sịch. búc-king khăn-phơm-đờ pho pho ờ-clốc. then-kiu"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Gọi điện\" là:",
+      "options": [
+        "call",
+        "fall",
+        "cold",
+        "tall"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Please ___ a moment.\" (Giữ máy chút)",
+      "options": [
+        "hold",
+        "hole",
+        "hall",
+        "hard"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Kín lịch\" là:",
+      "options": [
+        "fully booked",
+        "full food",
+        "fully cooked",
+        "fully busy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I have a ___ at four.\" (4 giờ còn khung trống)",
+      "options": [
+        "slow",
+        "slot",
+        "stop",
+        "shot"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Nhắn tin\" là:",
+      "options": [
+        "text",
+        "test",
+        "taxi",
+        "textile"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Kết thúc cuộc gọi đặt lịch, bạn nói:",
+      "options": [
+        "Booking confirmed, thank you",
+        "Goodbye forever",
+        "No time",
+        "Call me never"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Can I come in tomorrow morning?",
+        "vi": "Mai sáng tôi qua được không?",
+        "phon": "can ai khầm in tu-mo-râu mip-cơn?"
+      },
+      "hint": "Điện thoại — trả giờ thật rõ ràng",
+      "options": [
+        {
+          "en": "I have a slot at four o'clock.",
+          "vi": "Bốn giờ em còn một khung trống ạ.",
+          "phon": "ai hèv ờ sờ-lót at pho ờ-clốc",
+          "when": "Chốt giờ hẹn"
+        },
+        {
+          "en": "Hello, this is Khanh's salon.",
+          "vi": "Xin chào, đây là tiệm của Khanh ạ.",
+          "phon": "hê-lô, đít ịt Khanh-sờ sa-lông",
+          "when": "Nghe điện thoại"
+        },
+        {
+          "en": "Please hold a moment.",
+          "vi": "Anh giữ máy chút nhé.",
+          "phon": "pliz hâu-đờ ờ mô-mần",
+          "when": "Cần kiểm tra lịch"
+        }
+      ],
+      "answer": 0,
+      "explain": "Nói ngay khung giờ trống — khách đặt được, mình không bị trống máy."
+    },
+    {
+      "client": {
+        "en": "Wait — what is your address again, boss?",
+        "vi": "Khoan — địa chỉ tiệm ở đâu nhỉ anh?",
+        "phon": "uêch — uáht iz đờ huy akey addr-city, boss?"
+      },
+      "hint": "Nhận tin nhắn địa điểm",
+      "options": [
+        {
+          "en": "Hello, this is Khanh's salon.",
+          "vi": "Xin chào, đây là tiệm của Khanh ạ.",
+          "phon": "hê-lô, đít ịt Khanh-sờ sa-lông",
+          "when": "Nghe điện thoại"
+        },
+        {
+          "en": "Please hold a moment.",
+          "vi": "Anh giữ máy chút nhé.",
+          "phon": "pliz hâu-đờ ờ mô-mần",
+          "when": "Cần kiểm tra lịch"
+        },
+        {
+          "en": "Can you text me? I'll confirm.",
+          "vi": "Anh nhắn tin cho em nhé. Em xác nhận lại.",
+          "phon": "ken diu tếch-sờ mi? ai-ồ khăn-phơm",
+          "when": "Kết thúc cuộc gọi"
+        }
+      ],
+      "answer": 2,
+      "explain": "Mời khách nhắn tin — sau đó confirm = cách chuyên nghiệp nhất trên điện thoại."
+    }
+  ]
+}

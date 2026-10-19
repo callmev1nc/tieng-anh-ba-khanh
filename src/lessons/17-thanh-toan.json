@@ -1,0 +1,331 @@
+{
+  "id": "17-thanh-toan",
+  "order": 17,
+  "title": "Thanh toán, tip & hẹn lần sau",
+  "goal": "Tính tiền, thối tiền, xin tip, chuyển khoản, và hẹn lịch cho lần sau.",
+  "words": [
+    {
+      "en": "tip",
+      "vi": "tiền tip",
+      "phon": "típ",
+      "note": "Khách Tây thường để tip."
+    },
+    {
+      "en": "change",
+      "vi": "tiền thừa",
+      "phon": "chêin-gờ",
+      "note": "\"Here is your change\" = Tiền thừa của anh đây ạ."
+    },
+    {
+      "en": "receipt",
+      "vi": "hóa đơn",
+      "phon": "ri-sít",
+      "note": "\"Do you want a receipt?\" = Anh có lấy hóa đơn không?"
+    },
+    {
+      "en": "total",
+      "vi": "tổng cộng",
+      "phon": "tô-tồ",
+      "note": "\"The total is...\" = Tổng cộng là..."
+    },
+    {
+      "en": "price",
+      "vi": "giá",
+      "phon": "prai-sờ",
+      "note": "\"Our price is fair\" = Giá bên em hợp lý."
+    },
+    {
+      "en": "pay",
+      "vi": "trả tiền",
+      "phon": "pêi",
+      "note": "\"You can pay here\" = Anh trả tiền ở đây."
+    },
+    {
+      "en": "transfer",
+      "vi": "chuyển khoản",
+      "phon": "sờ-tranh-phờ",
+      "note": "\"Bank transfer is OK\" = Chuyển khoản cũng được."
+    },
+    {
+      "en": "book",
+      "vi": "đặt lịch",
+      "phon": "búc",
+      "note": "\"Book for next week?\" = Đặt lịch tuần sau nhé?"
+    },
+    {
+      "en": "next time",
+      "vi": "lần sau",
+      "phon": "nek taim",
+      "note": "\"See you next time!\" = Hẹn gặp lần sau!"
+    },
+    {
+      "en": "wallet",
+      "vi": "ví",
+      "phon": "quó-lịt",
+      "note": "\"I forgot my wallet\" = Tôi quên ví rồi."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "The total is two hundred thousand.",
+      "vi": "Tổng cộng là hai trăm nghìn ạ.",
+      "phon": "đờ tô-tồ ịt tu hăn-đrợt thao-zần",
+      "when": "Tính tiền"
+    },
+    {
+      "en": "Here is your change.",
+      "vi": "Tiền thừa của anh đây ạ.",
+      "phon": "hia ịt yo chêin-gờ",
+      "when": "Thối tiền"
+    },
+    {
+      "en": "Do you want a receipt?",
+      "vi": "Anh có lấy hóa đơn không?",
+      "phon": "đu diu quón ờ ri-sít",
+      "when": "Thanh toán xong"
+    },
+    {
+      "en": "You can pay by cash, card, or transfer.",
+      "vi": "Anh trả tiền mặt, thẻ, hay chuyển khoản đều được.",
+      "phon": "diu ken pêi bai kesh, kác, o sờ-tranh-phờ",
+      "when": "Giải thích cách trả"
+    },
+    {
+      "en": "Do you want to book for next time?",
+      "vi": "Anh có muốn đặt lịch lần sau luôn không?",
+      "phon": "đu diu quón tu búc pho nek taim",
+      "when": "Tiễn khách"
+    }
+  ],
+  "dialogue": {
+    "title": "Thanh toán và hẹn lần sau",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "All done! The total is two hundred thousand.",
+        "vi": "Xong hết rồi ạ! Tổng cộng hai trăm nghìn.",
+        "phon": "o đăn! đờ tô-tồ ịt tu hăn-đrợt thao-zần"
+      },
+      {
+        "who": "client",
+        "en": "Can I pay by card?",
+        "vi": "Tôi trả bằng thẻ được không?",
+        "phon": "ken ai pêi bai kác"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. Cash, card, or bank transfer, all OK.",
+        "vi": "Được ạ. Tiền mặt, thẻ, hay chuyển khoản đều được.",
+        "phon": "dét. kesh, kác, o beng sờ-tranh-phờ, o ô-kê"
+      },
+      {
+        "who": "client",
+        "en": "OK, here is my card. Do you want a tip on the card too?",
+        "vi": "Được, thẻ của tôi đây. Tip luôn vào thẻ được không anh?",
+        "phon": "ô-kê, hia ịt mai kác. đu diu quón ờ típ on đờ kác tu"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, thank you very much!",
+        "vi": "Được ạ, cảm ơn anh nhiều!",
+        "phon": "dét, then-kiu ve-ri mớch"
+      },
+      {
+        "who": "client",
+        "en": "Do you want a receipt? For my company.",
+        "vi": "Anh có lấy hóa đơn không? Cho công ty tôi ấy.",
+        "phon": "đu diu quón ờ ri-sít? pho mai khăm-pờ-ni"
+      },
+      {
+        "who": "barber",
+        "en": "Here is your receipt.",
+        "vi": "Hóa đơn của anh đây ạ.",
+        "phon": "hia ịt yo ri-sít"
+      },
+      {
+        "who": "barber",
+        "en": "Do you want to book for next time?",
+        "vi": "Anh có muốn đặt lịch lần sau luôn không?",
+        "phon": "đu diu quón tu búc pho nek taim"
+      },
+      {
+        "who": "client",
+        "en": "Yes. Same time next week?",
+        "vi": "Có. Tuần sau cùng giờ này nhé?",
+        "phon": "dét. sêim taim nek quy-k"
+      },
+      {
+        "who": "barber",
+        "en": "Perfect. See you next week!",
+        "vi": "Chuẩn luôn. Hẹn gặp tuần sau!",
+        "phon": "pơ-phịt. si diu nek quy-k"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Tiền tip\" là:",
+      "options": [
+        "tip",
+        "trip",
+        "top",
+        "tap"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Here is your ___.\" (Tiền thừa của anh đây)",
+      "options": [
+        "charge",
+        "change",
+        "chance",
+        "chair"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Hóa đơn\" là:",
+      "options": [
+        "receipt",
+        "receive",
+        "recite",
+        "reset"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Do you want to ___ for next time?\" (Đặt lịch lần sau)",
+      "options": [
+        "cook",
+        "look",
+        "book",
+        "took"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "\"Chuyển khoản\" là:",
+      "options": [
+        "bank transfer",
+        "bank travel",
+        "bank train",
+        "bank tree"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Tổng cộng\" là:",
+      "options": [
+        "total",
+        "turtle",
+        "towel",
+        "table"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "I only have card. Is that OK?",
+        "vi": "Tôi chỉ có thẻ thôi. Được không anh?",
+        "phon": "ai âu-nli hèp cét. iz đết ô-khey?"
+      },
+      "hint": "Thẻ chỉ vậy — đừng ph]] https",
+      "options": [
+        {
+          "en": "The total is two hundred thousand.",
+          "vi": "Tổng cộng là hai trăm nghìn ạ.",
+          "phon": "đờ tô-tồ ịt tu hăn-đrợt thao-zần",
+          "when": "Tính tiền"
+        },
+        {
+          "en": "You can pay by cash, card, or transfer.",
+          "vi": "Anh trả tiền mặt, thẻ, hay chuyển khoản đều được.",
+          "phon": "diu ken pêi bai kesh, kác, o sờ-tranh-phờ",
+          "when": "Giải thích cách trả"
+        },
+        {
+          "en": "Here is your change.",
+          "vi": "Tiền thừa của anh đây ạ.",
+          "phon": "hia ịt yo chêin-gờ",
+          "when": "Thối tiền"
+        }
+      ],
+      "answer": 1,
+      "explain": "Bộ truyền đầy đủ ba cách trả tiền — không cần chờ khách hỏi lại."
+    },
+    {
+      "client": {
+        "en": "Here is five hundred, boss.",
+        "vi": "Nay năm trăm đây anh.",
+        "phon": "hia iz phaip hân-đờ-it, boss"
+      },
+      "hint": "Trả thô — trả tiền thừa",
+      "options": [
+        {
+          "en": "The total is two hundred thousand.",
+          "vi": "Tổng cộng là hai trăm nghìn ạ.",
+          "phon": "đờ tô-tồ ịt tu hăn-đrợt thao-zần",
+          "when": "Tính tiền"
+        },
+        {
+          "en": "Do you want a receipt?",
+          "vi": "Anh có lấy hóa đơn không?",
+          "phon": "đu diu quón ờ ri-sít",
+          "when": "Thanh toán xong"
+        },
+        {
+          "en": "Here is your change.",
+          "vi": "Tiền thừa của anh đây ạ.",
+          "phon": "hia ịt yo chêin-gờ",
+          "when": "Thối tiền"
+        }
+      ],
+      "answer": 2,
+      "explain": "Tiền thừa giao tay — câu nào cũng nói và SMILE khi khách nhận."
+    }
+  ],
+  "numbers": [
+    {
+      "say": "the total is three hundred",
+      "phon": "đờ tô-pâu iz thri hân-đờ-it",
+      "options": [
+        "300.000đ",
+        "3.000.000đ",
+        "30.000đ"
+      ],
+      "answer": 0
+    },
+    {
+      "say": "your change is fifty thousand",
+      "phon": "diu chein-ch iz phi-ti thâu-dzần",
+      "options": [
+        "tiền thừa 15.000đ",
+        "tiền thừa 50.000đ",
+        "tiền thừa 500.000đ"
+      ],
+      "answer": 1
+    },
+    {
+      "say": "card or cash",
+      "phon": "cét ố céc",
+      "options": [
+        "thẻ hay tiền mặt",
+        "together bắt chước",
+        "cắt đều được"
+      ],
+      "answer": 0
+    },
+    {
+      "say": "see you at half past eight",
+      "phon": "xi diu ết háp past éch",
+      "options": [
+        "8:08",
+        "8:30",
+        "7:30"
+      ],
+      "answer": 1
+    }
+  ]
+}

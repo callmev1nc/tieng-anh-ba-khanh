@@ -1,0 +1,283 @@
+{
+  "id": "22-khach-tay",
+  "order": 22,
+  "title": "Đón khách Tây & nói câu an tâm",
+  "goal": "Chào buổi sáng/chiều, nhận ra khách du lịch lần đầu, làm khách thấy thoải mái.",
+  "words": [
+    {
+      "en": "good morning",
+      "vi": "chào buổi sáng",
+      "phon": "gút mo-ning",
+      "note": "Dùng tới 12 giờ trưa."
+    },
+    {
+      "en": "good afternoon",
+      "vi": "chào buổi chiều",
+      "phon": "gút áp-phờ-nun",
+      "note": "Dùng từ 12 giờ trưa tới 6 giờ tối."
+    },
+    {
+      "en": "first time",
+      "vi": "lần đầu",
+      "phon": "phớt taim",
+      "note": "\"Is this your first time here?\" = Lần đầu anh đến đây à?"
+    },
+    {
+      "en": "come here",
+      "vi": "đến đây",
+      "phon": "khăm hia",
+      "note": "\"Come here, please\" = Anh lại đây ạ."
+    },
+    {
+      "en": "friendly",
+      "vi": "thân thiện",
+      "phon": "phờ-ren-đờ-li",
+      "note": "\"Our shop is friendly\" = Tiệm mình thân thiện."
+    },
+    {
+      "en": "comfortable",
+      "vi": "thoải mái",
+      "phon": "khăm-phớt-tờ-bồ",
+      "note": "\"Please feel comfortable\" = Anh cứ thoải mái."
+    },
+    {
+      "en": "relax",
+      "vi": "thư giãn",
+      "phon": "ri-lách-sờ",
+      "note": "\"Relax, take your time\" = Anh cứ thư giãn."
+    },
+    {
+      "en": "enjoy",
+      "vi": "thích / thưởng thức",
+      "phon": "en-choi",
+      "note": "\"Enjoy your coffee\" = Mời anh dùng cà phê."
+    },
+    {
+      "en": "tourist",
+      "vi": "khách du lịch",
+      "phon": "to-rịt-sờ",
+      "note": "\"Tourists love this style\" = Khách Tây thích kiểu này."
+    },
+    {
+      "en": "speak slowly",
+      "vi": "nói chậm",
+      "phon": "sờ-pích sờ-lâu-li",
+      "note": "\"Please speak slowly\" = Anh nói chậm giúp em."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Good morning! Welcome to my shop.",
+      "vi": "Chào buổi sáng! Mời anh vào tiệm.",
+      "phon": "gút mo-ning! quen-cầm tu mai sóp",
+      "when": "Trước 12 giờ"
+    },
+    {
+      "en": "Is this your first time here?",
+      "vi": "Lần đầu anh đến đây à?",
+      "phon": "ịt đít yo phớt taim hia",
+      "when": "Khách mới"
+    },
+    {
+      "en": "Please feel comfortable.",
+      "vi": "Anh cứ thoải mái nhé.",
+      "phon": "pliz phiu khăm-phớt-tờ-bồ",
+      "when": "Khách có vẻ lo"
+    },
+    {
+      "en": "Relax. I'll take care of your hair.",
+      "vi": "Anh cứ thư giãn. Để em lo tóc cho anh.",
+      "phon": "ri-lách-sờ. ai-ồ têik ke-ờ ộp yo he",
+      "when": "Trấn an khách"
+    },
+    {
+      "en": "Please speak slowly. Thank you!",
+      "vi": "Anh nói chậm giúp em nhé. Cảm ơn anh!",
+      "phon": "pliz sờ-pích sờ-lâu-li. then-kiu",
+      "when": "Khách nói nhanh quá"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách Tây lần đầu ghé tiệm",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Good morning! Welcome to my shop.",
+        "vi": "Chào buổi sáng! Mời anh vào tiệm.",
+        "phon": "gút mo-ning! quen-cầm tu mai sóp"
+      },
+      {
+        "who": "client",
+        "en": "Good morning! Is this your first time open?",
+        "vi": "Chào buổi sáng! Tiệm mới mở à anh?",
+        "phon": "gút mo-ning! ịt đít yo phớt taim âu-pần"
+      },
+      {
+        "who": "barber",
+        "en": "No, I'm open many years. Is this your first time here?",
+        "vi": "Không, em mở lâu rồi. Lần đầu anh đến đây à?",
+        "phon": "nâu, ai em âu-pần me-ni yi-ờz. ịt đít yo phớt taim hia"
+      },
+      {
+        "who": "client",
+        "en": "Yes, I'm a tourist. I just arrived.",
+        "vi": "Đúng vậy, tôi là khách du lịch. Tôi mới tới.",
+        "phon": "dét, ai em ờ to-rịt-sờ. ai chớst ờ-rai-vờ-đờ"
+      },
+      {
+        "who": "barber",
+        "en": "Welcome! Please come here. Relax.",
+        "vi": "Mừng anh! Anh lại đây ạ. Cứ thư giãn.",
+        "phon": "quen-cầm! pliz khăm hia. ri-lách-sờ"
+      },
+      {
+        "who": "client",
+        "en": "Thank you. Your shop is very friendly and comfortable.",
+        "vi": "Cảm ơn. Tiệm anh thân thiện và thoải mái quá.",
+        "phon": "then-kiu. yo sóp ịt ve-ri phờ-ren-đờ-li en khăm-phớt-tờ-bồ"
+      },
+      {
+        "who": "barber",
+        "en": "Enjoy your coffee. Please speak slowly, my English is OK.",
+        "vi": "Mời anh dùng cà phê. Anh nói chậm giúp em, tiếng Anh em được cơ bản thôi.",
+        "phon": "en-choi yo có-phi. pliz sờ-pích sờ-lâu-li, mai ing-lích ịt ô-kê"
+      },
+      {
+        "who": "client",
+        "en": "Of course. You are doing great!",
+        "vi": "Đương nhiên rồi. Anh nói tốt mà!",
+        "phon": "ốp coọc. diu a đu-ing grêit"
+      },
+      {
+        "who": "barber",
+        "en": "Thank you! Now, how do you want your hair?",
+        "vi": "Cảm ơn anh! Giờ anh muốn cắt kiểu gì ạ?",
+        "phon": "then-kiu! nau, hao đu diu quón yo he"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Buổi sáng bạn chào:",
+      "options": [
+        "Good morning",
+        "Good night",
+        "Good bye",
+        "Good luck"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Is this your ___ time here?\" (Lần đầu đến đây?)",
+      "options": [
+        "fist",
+        "first",
+        "fast",
+        "fourth"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Thoải mái\" là:",
+      "options": [
+        "comfortable",
+        "come for table",
+        "comfort food",
+        "company"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khách nói nhanh quá, bạn nói:",
+      "options": [
+        "Please speak slowly",
+        "Please go home",
+        "No English",
+        "Stop talking"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Khách du lịch\" là:",
+      "options": [
+        "tourist",
+        "turnist",
+        "tallest",
+        "tennis"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"___, I'll take care of your hair.\" (Cứ thư giãn)",
+      "options": [
+        "Relax",
+        "Run",
+        "Reply",
+        "Repeat"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Hi, I am new here in this street.",
+        "vi": "Chào anh, tôi mới đến khu đây.",
+        "phon": "ha, ai em niu hi-rơ ít dis trét"
+      },
+      "hint": "Khách Tây lần đầu",
+      "options": [
+        {
+          "en": "Good morning! Welcome to my shop.",
+          "vi": "Chào buổi sáng! Mời anh vào tiệm.",
+          "phon": "gút mo-ning! quen-cầm tu mai sóp",
+          "when": "Trước 12 giờ"
+        },
+        {
+          "en": "Please feel comfortable.",
+          "vi": "Anh cứ thoải mái nhé.",
+          "phon": "pliz phiu khăm-phớt-tờ-bồ",
+          "when": "Khách có vẻ lo"
+        },
+        {
+          "en": "Is this your first time here?",
+          "vi": "Lần đầu anh đến đây à?",
+          "phon": "ịt đít yo phớt taim hia",
+          "when": "Khách mới"
+        }
+      ],
+      "answer": 2,
+      "explain": "Hỏi lại lần đầu rồi mới tư vấn — khách sớm thấy mình quan tâm."
+    },
+    {
+      "client": {
+        "en": "Good morning, boss. Lovely day today!",
+        "vi": "Chào buổi sáng anh. Hôm nay trời đẹp quá!",
+        "phon": "gút móp-nin, boss. lăn-vlee đey tu-đey!"
+      },
+      "hint": "Chào buổi sáng ch shock tiếng Việt",
+      "options": [
+        {
+          "en": "Good morning! Welcome to my shop.",
+          "vi": "Chào buổi sáng! Mời anh vào tiệm.",
+          "phon": "gút mo-ning! quen-cầm tu mai sóp",
+          "when": "Trước 12 giờ"
+        },
+        {
+          "en": "Is this your first time here?",
+          "vi": "Lần đầu anh đến đây à?",
+          "phon": "ịt đít yo phớt taim hia",
+          "when": "Khách mới"
+        },
+        {
+          "en": "Please feel comfortable.",
+          "vi": "Anh cứ thoải mái nhé.",
+          "phon": "pliz phiu khăm-phớt-tờ-bồ",
+          "when": "Khách có vẻ lo"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Good morning\" + chào mời — câu chào cách đúng kiến thức và ngoại giao."
+    }
+  ]
+}

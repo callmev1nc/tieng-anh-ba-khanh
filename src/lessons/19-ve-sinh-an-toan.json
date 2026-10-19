@@ -1,0 +1,283 @@
+{
+  "id": "19-ve-sinh-an-toan",
+  "order": 19,
+  "title": "Vệ sinh, an toàn & sơ cứu",
+  "goal": "Nói với khách về đồ sạch, khử trùng, găng tay, khẩu trang — và xử lý khi có sự cố nhỏ.",
+  "words": [
+    {
+      "en": "clean",
+      "vi": "sạch / làm sạch",
+      "phon": "clin",
+      "note": "\"I clean the tools first\" = Em vệ sinh dụng cụ trước."
+    },
+    {
+      "en": "sanitize",
+      "vi": "khử trùng",
+      "phon": "sa-nờ-taizờ",
+      "note": "Phun khử trùng ghế, bàn."
+    },
+    {
+      "en": "disinfect",
+      "vi": "sát khuẩn",
+      "phon": "đít-in-phéct",
+      "note": "\"I disinfect every tool\" = Dụng cụ nào em cũng sát khuẩn."
+    },
+    {
+      "en": "gloves",
+      "vi": "găng tay",
+      "phon": "glấvz",
+      "note": "\"These gloves are new\" = Găng tay mới nguyên."
+    },
+    {
+      "en": "face mask",
+      "vi": "khẩu trang",
+      "phon": "phêis mát-sờk",
+      "note": "Đeo khi nhuộm tóc."
+    },
+    {
+      "en": "first aid",
+      "vi": "sơ cứu",
+      "phon": "phớt-ờ êi-đờ",
+      "note": "\"We have a first aid box\" = Tiệm có hộp sơ cứu."
+    },
+    {
+      "en": "burn",
+      "vi": "bỏng / vết bỏng",
+      "phon": "bơn",
+      "note": "Sấy quá gần dễ làm khách bỏng."
+    },
+    {
+      "en": "cut",
+      "vi": "vết cắt / đứt tay",
+      "phon": "cắt",
+      "note": "\"A small cut\" = Vết cắt nhỏ thôi."
+    },
+    {
+      "en": "safety",
+      "vi": "an toàn",
+      "phon": "sêi-phờ-ti",
+      "note": "\"Safety first\" = An toàn là trên hết."
+    },
+    {
+      "en": "tool",
+      "vi": "dụng cụ",
+      "phon": "tu-ồ",
+      "note": "Dao, kéo, tông đơ đều là tool."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "I always clean the tools first.",
+      "vi": "Em luôn vệ sinh dụng cụ trước.",
+      "phon": "ai o-quêis clin đờ tu-ồz phớt",
+      "when": "Khách hỏi về vệ sinh"
+    },
+    {
+      "en": "Please wear a face mask.",
+      "vi": "Anh đeo khẩu trang giúp em nhé.",
+      "phon": "pliz que-ờ ờ phêis mát-sờk",
+      "when": "Khi nhuộm hoặc xịt thuốc"
+    },
+    {
+      "en": "Don't worry, the gloves are new.",
+      "vi": "Anh đừng lo, găng tay mới mà.",
+      "phon": "đôn quơ-ri, đờ glấvz a niu",
+      "when": "Khách ngại vệ sinh"
+    },
+    {
+      "en": "The blade is sharp. Safety first.",
+      "vi": "Lưỡi dao sắc lắm. An toàn là trên hết.",
+      "phon": "đờ bờ-lêi-đờ ịt sờ-sháp. sêi-phờ-ti phớt",
+      "when": "Trước khi cạo"
+    },
+    {
+      "en": "We have a first aid box here.",
+      "vi": "Tiệm có sẵn hộp sơ cứu ở đây ạ.",
+      "phon": "quy hèv ờ phớt-ờ êi-đờ bóks hia",
+      "when": "Có sự cố nhỏ"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách hỏi về vệ sinh dụng cụ",
+    "lines": [
+      {
+        "who": "client",
+        "en": "Do you clean the tools after every client?",
+        "vi": "Anh có vệ sinh dụng cụ sau mỗi khách không?",
+        "phon": "đu diu clin đờ tu-ồz áp-phờ ev-ri clai-ần"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. I clean and disinfect every tool.",
+        "vi": "Có ạ. Em vệ sinh và sát khuẩn mọi dụng cụ.",
+        "phon": "dét. ai clin en đít-in-phéct ev-ri tu-ồ"
+      },
+      {
+        "who": "client",
+        "en": "Good. And the gloves?",
+        "vi": "Tốt quá. Còn găng tay?",
+        "phon": "gút. en đờ glấvz"
+      },
+      {
+        "who": "barber",
+        "en": "New gloves for every client. And I wear a face mask when I dye hair.",
+        "vi": "Mỗi khách là găng mới ạ. Nhuộm tóc thì em đeo khẩu trang.",
+        "phon": "niu glấvz pho ev-ri clai-ần. en ai que-ờ ờ phêis mát-sờk quen ai đai he"
+      },
+      {
+        "who": "client",
+        "en": "I like that. Safety first!",
+        "vi": "Tôi thích vậy đó. An toàn là trên hết!",
+        "phon": "ai laik đát. sêi-phờ-ti phớt"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. The blade is sharp, but I am careful.",
+        "vi": "Vâng. Lưỡi dao sắc, nhưng em cẩn thận mà.",
+        "phon": "dét. đờ bờ-lêi-đờ ịt sờ-sháp, bớt ai em ke-rờ-phồ"
+      },
+      {
+        "who": "client",
+        "en": "Do you have a first aid box?",
+        "vi": "Có hộp sơ cứu không anh?",
+        "phon": "đu diu hèv ờ phớt-ờ êi-đờ bóks"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. For a small cut or a burn, I can help fast.",
+        "vi": "Có ạ. Vết cắt nhỏ hay bỏng nhẹ là em xử lý nhanh được.",
+        "phon": "dét. pho ờ sờ-mo cắt o ờ bơn, ai ken hép phát"
+      },
+      {
+        "who": "client",
+        "en": "Perfect. Now I feel safe here.",
+        "vi": "Tuyệt. Giờ tôi thấy yên tâm ở tiệm rồi.",
+        "phon": "pơ-phịt. nau ai phiu sêif hia"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Khử trùng\" là:",
+      "options": [
+        "sanitize",
+        "sunrise",
+        "size",
+        "silent"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I disinfect every ___.\" (Sát khuẩn mọi dụng cụ)",
+      "options": [
+        "tall",
+        "tool",
+        "towel",
+        "rule"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Găng tay\" là:",
+      "options": [
+        "gloves",
+        "glasses",
+        "grapes",
+        "golf"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Please wear a face ___.\" (Đeo khẩu trang)",
+      "options": [
+        "basket",
+        "mask",
+        "mark",
+        "task"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Hộp sơ cứu\" là:",
+      "options": [
+        "first aid box",
+        "fast eat box",
+        "first day box",
+        "fish and box"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"An toàn là trên hết\" nói là:",
+      "options": [
+        "Safety first",
+        "Safety last",
+        "Selling fast",
+        "Sit down first"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Your tools look a little dirty, sorry.",
+        "vi": "Dụng cụ nhìn hơi dơ, xin lỗi anh nói thẳng.",
+        "phon": "diu túc lục ờ lí-tu đơち, sờ-ri"
+      },
+      "hint": "vem Grup c>' Vệ sinh",
+      "options": [
+        {
+          "en": "I always clean the tools first.",
+          "vi": "Em luôn vệ sinh dụng cụ trước.",
+          "phon": "ai o-quêis clin đờ tu-ồz phớt",
+          "when": "Khách hỏi về vệ sinh"
+        },
+        {
+          "en": "Please wear a face mask.",
+          "vi": "Anh đeo khẩu trang giúp em nhé.",
+          "phon": "pliz que-ờ ờ phêis mát-sờk",
+          "when": "Khi nhuộm hoặc xịt thuốc"
+        },
+        {
+          "en": "Don't worry, the gloves are new.",
+          "vi": "Anh đừng lo, găng tay mới mà.",
+          "phon": "đôn quơ-ri, đờ glấvz a niu",
+          "when": "Khách ngại vệ sinh"
+        }
+      ],
+      "answer": 0,
+      "explain": "Luôn vệ sinh dụng cụ trước — nói thường trực làm khách tin hét."
+    },
+    {
+      "client": {
+        "en": "Is that blade new, boss?",
+        "vi": "Lưỡi dao đó sạch mới hả anh?",
+        "phon": "iz đết blêch niu, boss?"
+      },
+      "hint": "Dao — an toàn đường miệng",
+      "options": [
+        {
+          "en": "The blade is sharp. Safety first.",
+          "vi": "Lưỡi dao sắc lắm. An toàn là trên hết.",
+          "phon": "đờ bờ-lêi-đờ ịt sờ-sháp. sêi-phờ-ti phớt",
+          "when": "Trước khi cạo"
+        },
+        {
+          "en": "I always clean the tools first.",
+          "vi": "Em luôn vệ sinh dụng cụ trước.",
+          "phon": "ai o-quêis clin đờ tu-ồz phớt",
+          "when": "Khách hỏi về vệ sinh"
+        },
+        {
+          "en": "Please wear a face mask.",
+          "vi": "Anh đeo khẩu trang giúp em nhé.",
+          "phon": "pliz que-ờ ờ phêis mát-sờk",
+          "when": "Khi nhuộm hoặc xịt thuốc"
+        }
+      ],
+      "answer": 0,
+      "explain": "Dao sạch sắc + an toàn trước hết — trả nó làm khách thấy nhanh rồi ghế."
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "27-before-after",
+  "order": 27,
+  "title": "Before/After & xin đánh giá",
+  "goal": "Chụp ảnh trước–sau, đăng trang tiệm, xin 5 sao, xin khách theo dõi và phản hồi.",
+  "words": [
+    {
+      "en": "photo",
+      "vi": "ảnh / chụp ảnh",
+      "phon": "phô-tô",
+      "note": "\"Can I take a photo?\" = Em chụp ảnh nhé?"
+    },
+    {
+      "en": "before",
+      "vi": "trước (khi làm)",
+      "phon": "bi-pho",
+      "note": "Ảnh \"before\" là ảnh lúc chưa làm."
+    },
+    {
+      "en": "after",
+      "vi": "sau (khi làm)",
+      "phon": "áp-phờ",
+      "note": "Ảnh \"after\" là ảnh sau khi xong."
+    },
+    {
+      "en": "review",
+      "vi": "đánh giá",
+      "phon": "ri-viu",
+      "note": "\"Please leave a review\" = Anh đánh giá giúp em nhé."
+    },
+    {
+      "en": "stars",
+      "vi": "sao (đánh giá)",
+      "phon": "sờ-taz",
+      "note": "\"Five stars\" = Năm sao."
+    },
+    {
+      "en": "comment",
+      "vi": "bình luận",
+      "phon": "khó-men",
+      "note": "\"Leave a comment\" = Để lại bình luận."
+    },
+    {
+      "en": "share",
+      "vi": "chia sẻ",
+      "phon": "se-ờ",
+      "note": "\"Share my page\" = Chia sẻ trang của tiệm nhé."
+    },
+    {
+      "en": "follow",
+      "vi": "theo dõi",
+      "phon": "phó-lâu",
+      "note": "\"Follow my page\" = Theo dõi trang tiệm em nhé."
+    },
+    {
+      "en": "page",
+      "vi": "trang (Facebook...)",
+      "phon": "pêi-chờ",
+      "note": "Trang của tiệm trên mạng."
+    },
+    {
+      "en": "feedback",
+      "vi": "phản hồi",
+      "phon": "phít-béc",
+      "note": "\"Any feedback?\" = Anh có góp ý gì không?"
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Can I take a before and after photo?",
+      "vi": "Em chụp ảnh trước sau nhé anh?",
+      "phon": "ken ai têik ờ bi-pho en áp-phờ phô-tô",
+      "when": "Trước và sau khi làm"
+    },
+    {
+      "en": "Your hair looks great now!",
+      "vi": "Tóc anh giờ đẹp quá!",
+      "phon": "yo he lúc grêit nau",
+      "when": "Khoe ảnh after"
+    },
+    {
+      "en": "Please leave a review, five stars!",
+      "vi": "Anh đánh giá 5 sao giúp em nhé!",
+      "phon": "pliz liv ờ ri-viu, phaiv sờ-taz",
+      "when": "Khách hài lòng"
+    },
+    {
+      "en": "Follow my page for new styles.",
+      "vi": "Theo dõi trang em để xem kiểu mới nhé.",
+      "phon": "phó-lâu mai pêi-chờ pho niu sờ-tail-zờ",
+      "when": "Tiễn khách"
+    },
+    {
+      "en": "Any feedback for me?",
+      "vi": "Anh có góp ý gì cho em không?",
+      "phon": "e-ni phít-béc pho mi",
+      "when": "Muốn nghe góp ý"
+    }
+  ],
+  "dialogue": {
+    "title": "Chụp ảnh before/after và xin review",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "All done! Your hair looks great now!",
+        "vi": "Xong rồi! Tóc anh giờ đẹp quá!",
+        "phon": "o đăn! yo he lúc grêit nau"
+      },
+      {
+        "who": "client",
+        "en": "Wow, I love it! Thank you.",
+        "vi": "Oa, tôi thích quá! Cảm ơn anh.",
+        "phon": "quao, ai lấv ịt! then-kiu"
+      },
+      {
+        "who": "barber",
+        "en": "Can I take a before and after photo for my page?",
+        "vi": "Em chụp ảnh trước–sau đăng trang tiệm nhé?",
+        "phon": "ken ai têik ờ bi-pho en áp-phờ phô-tô pho mai pêi-chờ"
+      },
+      {
+        "who": "client",
+        "en": "Sure! But no face, please.",
+        "vi": "Được! Nhưng đừng chụp mặt nhé.",
+        "phon": "so-ờ! bớt nâu phêis, pliz"
+      },
+      {
+        "who": "barber",
+        "en": "No face, no problem. Just the hair.",
+        "vi": "Không mặt, không sao ạ. Chỉ chụp tóc thôi.",
+        "phon": "nâu phêis, nâu próp-lầm. chớst đờ he"
+      },
+      {
+        "who": "client",
+        "en": "Nice. Where do you post the photos?",
+        "vi": "Hay đó. Anh đăng ảnh ở đâu?",
+        "phon": "nais. que-rờ đu diu pốt đờ phô-tôz"
+      },
+      {
+        "who": "barber",
+        "en": "On my page. Please follow and share!",
+        "vi": "Trên trang của em. Anh theo dõi và chia sẻ giúp nhé!",
+        "phon": "on mai pêi-chờ. pliz phó-lâu en se-ờ"
+      },
+      {
+        "who": "client",
+        "en": "I will. And I'll leave a review.",
+        "vi": "Tôi sẽ làm. Và tôi để lại đánh giá luôn.",
+        "phon": "ai quyu. en ai-ồ liv ờ ri-viu"
+      },
+      {
+        "who": "barber",
+        "en": "Five stars? Your comment helps my shop a lot!",
+        "vi": "Năm sao nhé? Bình luận của anh giúp tiệm em nhiều lắm!",
+        "phon": "phaiv sờ-taz? yo khó-men héps mai sóp ờ lót"
+      },
+      {
+        "who": "client",
+        "en": "Five stars, done! Any feedback from me? Your coffee is great.",
+        "vi": "Năm sao, xong! Tôi góp ý một câu: cà phê ngon.",
+        "phon": "phaiv sờ-taz, đăn! e-ni phít-béc phrôm mi? yo có-phi ịt grêit"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Ảnh trước khi làm\" là:",
+      "options": [
+        "after photo",
+        "before photo",
+        "before food",
+        "birthday photo"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Please leave a ___, five stars!\" (Đánh giá 5 sao)",
+      "options": [
+        "review",
+        "renew",
+        "repeat",
+        "remove"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Theo dõi trang\" là:",
+      "options": [
+        "fall on the page",
+        "fold the page",
+        "find the page",
+        "follow the page"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Can I take a ___?\" (Chụp ảnh nhé?)",
+      "options": [
+        "phone",
+        "piano",
+        "photo",
+        "photo copy"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "\"Bình luận\" là:",
+      "options": [
+        "command",
+        "comment",
+        "cement",
+        "combat"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Chia sẻ\" là:",
+      "options": [
+        "share",
+        "chair",
+        "sure",
+        "short"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "I love the new look, boss!",
+        "vi": "Kiểu mới đẹp quá anh!",
+        "phon": "ai lốp đờ niu lục, boss!"
+      },
+      "hint": "Khách khen — rroot đúng lượt",
+      "options": [
+        {
+          "en": "Please leave a review, five stars!",
+          "vi": "Anh đánh giá 5 sao giúp em nhé!",
+          "phon": "pliz liv ờ ri-viu, phaiv sờ-taz",
+          "when": "Khách hài lòng"
+        },
+        {
+          "en": "Can I take a before and after photo?",
+          "vi": "Em chụp ảnh trước sau nhé anh?",
+          "phon": "ken ai têik ờ bi-pho en áp-phờ phô-tô",
+          "when": "Trước và sau khi làm"
+        },
+        {
+          "en": "Your hair looks great now!",
+          "vi": "Tóc anh giờ đẹp quá!",
+          "phon": "yo he lúc grêit nau",
+          "when": "Khoe ảnh after"
+        }
+      ],
+      "answer": 0,
+      "explain": "Khách vui vào lúc xin đánh giá — hỏi nhanh một câu, khách cười mà cho luôn."
+    },
+    {
+      "client": {
+        "en": "Could you take one photo now, boss?",
+        "vi": "Chụp cho tôi một tấm giờ được không anh?",
+        "phon": "cú đu tey-k uân phâu-têe nau, boss?"
+      },
+      "hint": "Formal ảnh trước sau",
+      "options": [
+        {
+          "en": "Can I take a before and after photo?",
+          "vi": "Em chụp ảnh trước sau nhé anh?",
+          "phon": "ken ai têik ờ bi-pho en áp-phờ phô-tô",
+          "when": "Trước và sau khi làm"
+        },
+        {
+          "en": "Your hair looks great now!",
+          "vi": "Tóc anh giờ đẹp quá!",
+          "phon": "yo he lúc grêit nau",
+          "when": "Khoe ảnh after"
+        },
+        {
+          "en": "Please leave a review, five stars!",
+          "vi": "Anh đánh giá 5 sao giúp em nhé!",
+          "phon": "pliz liv ờ ri-viu, phaiv sờ-taz",
+          "when": "Khách hài lòng"
+        }
+      ],
+      "answer": 1,
+      "explain": "Khen ảnh sau — sau đó xin đánh giá khi khách đang vui nhất."
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "id": "28-small-talk-2",
+  "order": 28,
+  "title": "Small talk nâng cao & giữ khách quen",
+  "goal": "Kể chuyện cười, nhớ khách cũ, nói thường ngày/luôn luôn/thỉnh thoảng — giữ khách quay lại.",
+  "words": [
+    {
+      "en": "interesting",
+      "vi": "thú vị",
+      "phon": "in-tờ-rés-tinh",
+      "note": "\"That's interesting!\" = Hay đó!"
+    },
+    {
+      "en": "laugh",
+      "vi": "cười",
+      "phon": "láp-phờ",
+      "note": "\"You make me laugh\" = Anh làm tôi cười hoài."
+    },
+    {
+      "en": "story",
+      "vi": "câu chuyện",
+      "phon": "sờ-to-ri",
+      "note": "\"Tell me a story\" = Kể chuyện đi anh."
+    },
+    {
+      "en": "usually",
+      "vi": "thường ngày",
+      "phon": "diu-ju-ờ-li",
+      "note": "\"I usually come on Friday\" = Tôi thường đến thứ Sáu."
+    },
+    {
+      "en": "always",
+      "vi": "luôn luôn",
+      "phon": "o-quêis",
+      "note": "\"You always look great\" = Anh lúc nào cũng đẹp trai."
+    },
+    {
+      "en": "sometimes",
+      "vi": "thỉnh thoảng",
+      "phon": "săm-taims",
+      "note": "\"Sometimes I come late\" = Thỉnh thoảng tôi đến muộn."
+    },
+    {
+      "en": "remember",
+      "vi": "nhớ",
+      "phon": "ri-mem-bờ",
+      "note": "\"I remember you!\" = Em nhớ anh rồi!"
+    },
+    {
+      "en": "forget",
+      "vi": "quên",
+      "phon": "phờ-ghét",
+      "note": "\"Don't forget your bag\" = Đừng quên túi nhé anh."
+    },
+    {
+      "en": "favorite",
+      "vi": "yêu thích nhất",
+      "phon": "phê-vờ-rịt",
+      "note": "\"My favorite style\" = Kiểu tôi thích nhất."
+    },
+    {
+      "en": "hope",
+      "vi": "hy vọng",
+      "phon": "hâu-phờ",
+      "note": "\"I hope to see you soon\" = Mong sớm gặp anh."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "I remember you! Welcome back.",
+      "vi": "Em nhớ anh rồi! Mừng anh quay lại.",
+      "phon": "ai ri-mem-bờ diu! quen-cầm béc",
+      "when": "Khách quen vào tiệm"
+    },
+    {
+      "en": "How is your wife? How are the kids?",
+      "vi": "Chị nhà và các cháu khỏe không anh?",
+      "phon": "hao ịt yo quaif? hao a đờ kít-sờ",
+      "when": "Khách thân"
+    },
+    {
+      "en": "You always make me laugh!",
+      "vi": "Anh lúc nào cũng làm em cười!",
+      "phon": "diu o-quêis mêik mi láp-phờ",
+      "when": "Đang nói chuyện vui"
+    },
+    {
+      "en": "I hope to see you next week.",
+      "vi": "Em mong tuần sau gặp lại anh.",
+      "phon": "ai hâu-phờ tu si diu nek quy-k",
+      "when": "Tiễn khách"
+    },
+    {
+      "en": "Don't forget your umbrella.",
+      "vi": "Anh đừng quên ô nhé.",
+      "phon": "đôn phờ-ghét yo ờm-bờ-re-lờ",
+      "when": "Trời mưa, khách ra về"
+    }
+  ],
+  "dialogue": {
+    "title": "Nói chuyện với khách quen",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "I remember you! Welcome back.",
+        "vi": "Em nhớ anh rồi! Mừng anh quay lại.",
+        "phon": "ai ri-mem-bờ diu! quen-cầm béc"
+      },
+      {
+        "who": "client",
+        "en": "Good memory! How are you?",
+        "vi": "Trí nhớ tốt ghê! Anh khỏe không?",
+        "phon": "gút mem-mờ-ri! hao a diu"
+      },
+      {
+        "who": "barber",
+        "en": "Very well, thank you. How is your wife? How are the kids?",
+        "vi": "Em khỏe, cảm ơn anh. Chị nhà với các cháu thế nào?",
+        "phon": "ve-ri quél, then-kiu. hao ịt yo quaif? hao a đờ kít-sờ"
+      },
+      {
+        "who": "client",
+        "en": "All good! The boys play soccer every weekend now.",
+        "vi": "Đều khỏe! Tụi nhỏ giờ cuối tuần nào cũng đá bóng.",
+        "phon": "o gút! đờ boiz plêi sóc-cờ ev-ri quy-k-en nau"
+      },
+      {
+        "who": "barber",
+        "en": "That's interesting! Do you watch them play?",
+        "vi": "Hay quá! Anh có đi xem tụi nó đá không?",
+        "phon": "đát in-tờ-rés-tinh! đu diu quoách đem plêi"
+      },
+      {
+        "who": "client",
+        "en": "Always! I never miss a game. It's my favorite thing.",
+        "vi": "Lúc nào cũng đi! Không bỏ trận nào. Đó là sở thích nhất của tôi.",
+        "phon": "o-quêis! ai ne-vờ mít-sờ ờ ghêim. ịts mai phê-vờ-rịt thình"
+      },
+      {
+        "who": "barber",
+        "en": "Sometimes I take my son too. He is small, but he runs a lot!",
+        "vi": "Thỉnh thoảng em cũng dẫn con trai đi. Bé tí mà chạy khỏe lắm!",
+        "phon": "săm-taims ai têik mai sần tu. hi ịt sờ-mo, bớt hi răn-zờ ờ lót"
+      },
+      {
+        "who": "client",
+        "en": "Ha ha! You always make me laugh. Same style today.",
+        "vi": "Ha ha! Anh lúc nào cũng làm tôi cười. Hôm nay cắt như cũ nhé.",
+        "phon": "ha ha! diu o-quêis mêik mi láp-phờ. sêim stai tu-đây"
+      },
+      {
+        "who": "barber",
+        "en": "OK. And don't forget your umbrella. Maybe rain later!",
+        "vi": "Được ạ. Anh đừng quên ô nhé. Lát nữa có thể mưa đó!",
+        "phon": "ô-kê. en đôn phờ-ghét yo ờm-bờ-re-lờ. mêi-bi rêin lêi-tờ"
+      },
+      {
+        "who": "client",
+        "en": "Thanks for the tip! I hope to see you next week.",
+        "vi": "Cảm ơn đã nhắc! Mong tuần sau gặp lại anh.",
+        "phon": "thenks pho đờ típ! ai hâu-phờ tu si diu nek quy-k"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Thú vị\" là:",
+      "options": [
+        "in the morning",
+        "interesting",
+        "internet",
+        "entering"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I ___ you! Welcome back.\" (Nhớ anh rồi)",
+      "options": [
+        "remember",
+        "remind",
+        "report",
+        "remove"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Luôn luôn\" là:",
+      "options": [
+        "all ways",
+        "alone",
+        "already",
+        "always"
+      ],
+      "answer": 3
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Don't ___ your umbrella.\" (Đừng quên ô)",
+      "options": [
+        "forgive",
+        "format",
+        "forget",
+        "forbid"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "\"Thỉnh thoảng\" là:",
+      "options": [
+        "sometime",
+        "sometimes",
+        "some time",
+        "summertime"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Yêu thích nhất\" là:",
+      "options": [
+        "favorite",
+        "flavor",
+        "fever",
+        "future"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Long time, no see, boss!",
+        "vi": "Lâu quá không gặp, anh Khanh!",
+        "phon": "lông taim, nâu xi, boss!"
+      },
+      "hint": "Nhớ mặt khách quen",
+      "options": [
+        {
+          "en": "How is your wife? How are the kids?",
+          "vi": "Chị nhà và các cháu khỏe không anh?",
+          "phon": "hao ịt yo quaif? hao a đờ kít-sờ",
+          "when": "Khách thân"
+        },
+        {
+          "en": "I remember you! Welcome back.",
+          "vi": "Em nhớ anh rồi! Mừng anh quay lại.",
+          "phon": "ai ri-mem-bờ diu! quen-cầm béc",
+          "when": "Khách quen vào tiệm"
+        },
+        {
+          "en": "You always make me laugh!",
+          "vi": "Anh lúc nào cũng làm em cười!",
+          "phon": "diu o-quêis mêik mi láp-phờ",
+          "when": "Đang nói chuyện vui"
+        }
+      ],
+      "answer": 1,
+      "explain": "'Em nhớ anh rồi' — câu mở đầu thân nhất có thể, khách mension ngay."
+    },
+    {
+      "client": {
+        "en": "My wife waits outside, boss.",
+        "vi": "Vợ tôi đang chờ ngoài đó anh à.",
+        "phon": "mai uaich uêch aut-xai, boss"
+      },
+      "hint": "Nhắc về gia đình khách",
+      "options": [
+        {
+          "en": "I remember you! Welcome back.",
+          "vi": "Em nhớ anh rồi! Mừng anh quay lại.",
+          "phon": "ai ri-mem-bờ diu! quen-cầm béc",
+          "when": "Khách quen vào tiệm"
+        },
+        {
+          "en": "How is your wife? How are the kids?",
+          "vi": "Chị nhà và các cháu khỏe không anh?",
+          "phon": "hao ịt yo quaif? hao a đờ kít-sờ",
+          "when": "Khách thân"
+        },
+        {
+          "en": "You always make me laugh!",
+          "vi": "Anh lúc nào cũng làm em cười!",
+          "phon": "diu o-quêis mêik mi láp-phờ",
+          "when": "Đang nói chuyện vui"
+        }
+      ],
+      "answer": 1,
+      "explain": "Hỏi thăm vợ con — khách quen thấy mình nhớ chuyện nhà họ, cảm tình tăng vọt."
+    }
+  ]
+}

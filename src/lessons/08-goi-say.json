@@ -1,0 +1,347 @@
+{
+  "id": "08-goi-say",
+  "order": 8,
+  "title": "Gội đầu & sấy tóc",
+  "goal": "Nói chuyện với khách suốt lúc gội: nước nóng/lạnh, mát-xa, gàu, lau khô, sấy.",
+  "words": [
+    {
+      "en": "shampoo",
+      "vi": "gội đầu / dầu gội",
+      "phon": "sam-pu",
+      "note": "\"I'll shampoo your hair now\" = Giờ em gội đầu cho anh."
+    },
+    {
+      "en": "rinse",
+      "vi": "xả nước",
+      "phon": "rin-sờ",
+      "note": "\"I'll rinse it now\" = Em xả nước nhé."
+    },
+    {
+      "en": "warm",
+      "vi": "ấm",
+      "phon": "quoom",
+      "note": "\"Warm water is better for hair\" = Nước ấm tốt cho tóc hơn."
+    },
+    {
+      "en": "cold",
+      "vi": "lạnh",
+      "phon": "câu-đờ"
+    },
+    {
+      "en": "hot",
+      "vi": "nóng",
+      "phon": "hót",
+      "note": "\"Too hot?\" = Nóng quá không anh?"
+    },
+    {
+      "en": "massage",
+      "vi": "mát-xa",
+      "phon": "ma-saz-zờ",
+      "note": "\"I'll massage your scalp\" = Em mát-xa da đầu cho anh."
+    },
+    {
+      "en": "scalp",
+      "vi": "da đầu",
+      "phon": "sờ-ken"
+    },
+    {
+      "en": "dandruff",
+      "vi": "gàu",
+      "phon": "đen-đrớp",
+      "note": "\"This shampoo helps with dandruff\" = Dầu gội này trị gàu."
+    },
+    {
+      "en": "towel dry",
+      "vi": "lau khô bằng khăn",
+      "phon": "tau-ồ đrai",
+      "note": "Lau khô trước khi sấy."
+    },
+    {
+      "en": "hairspray",
+      "vi": "keo xịt tóc",
+      "phon": "he-sờ-prây",
+      "note": "Xịt giữ nếp sau khi tạo kiểu."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Is the water warm enough?",
+      "vi": "Nước ấm vậy đủ chưa anh?",
+      "phon": "ịt đờ quó-tờ quoom i-nớp",
+      "when": "Vừa mở nước"
+    },
+    {
+      "en": "Close your eyes, please.",
+      "vi": "Anh nhắm mắt lại nhé.",
+      "phon": "clâu-zờ yo ais, pliz",
+      "when": "Khi gội đầu"
+    },
+    {
+      "en": "I'll massage your scalp now.",
+      "vi": "Giờ em mát-xa da đầu cho anh nhé.",
+      "phon": "ai-ồ ma-saz-zờ yo sờ-ken nau",
+      "when": "Lúc gội"
+    },
+    {
+      "en": "I'll towel dry it, then blow dry.",
+      "vi": "Em lau khô bằng khăn rồi sấy.",
+      "phon": "ai-ồ tau-ồ đrai ịt, đen bờ-lâu đrai",
+      "when": "Trước khi sấy"
+    },
+    {
+      "en": "You have a little dandruff.",
+      "vi": "Anh có hơi gàu một chút.",
+      "phon": "diu hèv ờ lít-tồ đen-đrớp",
+      "when": "Nói khéo với khách"
+    }
+  ],
+  "dialogue": {
+    "title": "Gội đầu cho khách",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Now I'll shampoo your hair. Is the water hot?",
+        "vi": "Giờ em gội đầu cho anh. Nước nóng không ạ?",
+        "phon": "nau ai-ồ sam-pu yo he. ịt đờ quó-tờ hót"
+      },
+      {
+        "who": "client",
+        "en": "It's OK. A little warmer, please.",
+        "vi": "Được. Ấm hơn chút nữa nhé.",
+        "phon": "ịts ô-kê. ờ lít-tồ quoom-mờ, pliz"
+      },
+      {
+        "who": "barber",
+        "en": "OK. Close your eyes, please.",
+        "vi": "Vâng. Anh nhắm mắt nhé.",
+        "phon": "ô-kê. clâu-zờ yo ais, pliz"
+      },
+      {
+        "who": "barber",
+        "en": "I'll massage your scalp now. Is it good?",
+        "vi": "Giờ em mát-xa da đầu nhé. Có thoải mái không anh?",
+        "phon": "ai-ồ ma-saz-zờ yo sờ-ken nau. ịt gút"
+      },
+      {
+        "who": "client",
+        "en": "Very good. I like it.",
+        "vi": "Rất thoải mái. Tôi thích lắm.",
+        "phon": "ve-ri gút. ai laik ịt"
+      },
+      {
+        "who": "barber",
+        "en": "You have a little dandruff. Use this shampoo.",
+        "vi": "Anh hơi có gàu. Dùng dầu gội này nhé.",
+        "phon": "diu hèv ờ lít-tồ đen-đrớp. diuz đít sam-pu"
+      },
+      {
+        "who": "barber",
+        "en": "I'll rinse it now, then towel dry.",
+        "vi": "Em xả nước rồi lau khô bằng khăn.",
+        "phon": "ai-ồ rin-sờ ịt nau, đen tau-ồ đrai"
+      },
+      {
+        "who": "barber",
+        "en": "Done! Now I'll blow dry your hair.",
+        "vi": "Xong rồi! Giờ em sấy tóc cho anh nhé.",
+        "phon": "đăn! nau ai-ồ bờ-lâu đrai yo he"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Gội đầu\" là:",
+      "options": [
+        "shampoo",
+        "shampool",
+        "shadow",
+        "shower"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I'll ___ it now.\" (Em xả nước nhé)",
+      "options": [
+        "rice",
+        "rinse",
+        "ride",
+        "ring"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Nước ấm\" là:",
+      "options": [
+        "cold water",
+        "warm water",
+        "hot oil",
+        "iced tea"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I'll ___ your scalp now.\" (Em mát-xa da đầu)",
+      "options": [
+        "massage",
+        "message",
+        "manage",
+        "marry"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Gàu\" là:",
+      "options": [
+        "dandruff",
+        "bamboo",
+        "yellow",
+        "pillow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Trước khi sấy, bạn:",
+      "options": [
+        "towel dry it",
+        "eat it",
+        "wash the floor",
+        "close the shop"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "The water is too hot. Can you make it cooler?",
+        "vi": "Nước nóng quá. Làm mát lại giúp tôi.",
+        "phon": "đờ uay-ớt iz tu hót. can diu meyk et cult?"
+      },
+      "hint": "Khách than nước nóng",
+      "options": [
+        {
+          "en": "Cooler now — in two seconds you feel better.",
+          "phon": "cun-tờ nao — in tu xế-xơn diu phít bét-chờ"
+        },
+        {
+          "en": "Hot is normal for washing. Relax, boss.",
+          "phon": "hót iz mô-mần phờ uốc-xin. ri-lé, boss"
+        },
+        {
+          "en": "I like hot like fire too.",
+          "phon": "ai mai-k hót mai-k phai-rơ tu"
+        }
+      ],
+      "answer": 0,
+      "explain": "Đổi ngay + cam kết cảm giác — khách thấy mình nghe từng nhu cầu nhỏ."
+    },
+    {
+      "client": {
+        "en": "I have dandruff, boss. It comes back often.",
+        "vi": "Em bị gàu, anh à. Hay nổi lại lắm.",
+        "phon": "ai hèp đren-phờ, boss. et khầm bét âp ô-phần"
+      },
+      "hint": "Chuyện gàu — khách nói thật lòng",
+      "options": [
+        {
+          "en": "I see it. A special shampoo helps — regular each week.",
+          "phon": "ai xi et. ờ xpe-xân xam-pu hep — rết-giu-lơ étch uít"
+        },
+        {
+          "en": "Dandruff is food for the hair. Eat more.",
+          "phon": "đren-phờ iz phút phờ đờ he. ết mô"
+        },
+        {
+          "en": "I shave your head then no scalp problems.",
+          "phon": "ai xêch diu hét hên nâu xgep prốp-lim"
+        }
+      ],
+      "answer": 0,
+      "explain": "Gợi ý dầu gội trị gàu dùng đều — tư vấn thật tay nghề, khách nhớ mình lâu."
+    },
+    {
+      "client": {
+        "en": "Please do a small scalp massage. It relaxes me.",
+        "vi": "Mát-xa da đầu tí cho tôi với, thư giãn lắm.",
+        "phon": "pliz đu ờ xmall xgep mey-xa. et ri-lé mi"
+      },
+      "hint": "Mời khách mát-xa cái đầu",
+      "options": [
+        {
+          "en": "My pleasure — head massage, five slow minutes.",
+          "phon": "mai pléc-chơn — hét mey-xa, phaip slâu mi-nút"
+        },
+        {
+          "en": "Massage? I only count money.",
+          "phon": "mey-xa? ai âu-nli cãnt pha"
+        },
+        {
+          "en": "I will do a big heavy slap, enjoy.",
+          "phon": "ai uil du ờ bíg hé-vi slé, en-joi"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Năm phút chậm rãi\" — hẹn giờ + cam kết tay lì_relaxed, khách gội xong cảm thấy tiền đáng."
+    },
+    {
+      "client": {
+        "en": "The scalp massage feels great, boss.",
+        "vi": "Massage da đầu sướng lắm, anh ạ.",
+        "phon": "đờ xgep mey-xa phít 챗reak, boss"
+      },
+      "hint": "Quan tâm đến cảm giác khách",
+      "options": [
+        {
+          "en": "Is the water warm enough?",
+          "vi": "Nước ấm vậy đủ chưa anh?",
+          "phon": "ịt đờ quó-tờ quoom i-nớp",
+          "when": "Vừa mở nước"
+        },
+        {
+          "en": "I'll towel dry it, then blow dry.",
+          "vi": "Em lau khô bằng khăn rồi sấy.",
+          "phon": "ai-ồ tau-ồ đrai ịt, đen bờ-lâu đrai",
+          "when": "Trước khi sấy"
+        },
+        {
+          "en": "Close your eyes, please.",
+          "vi": "Anh nhắm mắt lại nhé.",
+          "phon": "clâu-zờ yo ais, pliz",
+          "when": "Khi gội đầu"
+        }
+      ],
+      "answer": 1,
+      "explain": "Chuyển bước tiếp: lau khô rồi sấy — luồng làm việc mượt mà nhất."
+    },
+    {
+      "client": {
+        "en": "The shampoo stings my eyes a little, boss.",
+        "vi": "Dầu gội hơi chảy vào mắt em.",
+        "phon": "đờ xam-phu xting mai ải ờ lí-lu, boss"
+      },
+      "hint": "An toàn đôi mắt",
+      "options": [
+        {
+          "en": "Close your eyes, please.",
+          "vi": "Anh nhắm mắt lại nhé.",
+          "phon": "clâu-zờ yo ais, pliz",
+          "when": "Khi gội đầu"
+        },
+        {
+          "en": "Is the water warm enough?",
+          "vi": "Nước ấm vậy đủ chưa anh?",
+          "phon": "ịt đờ quó-tờ quoom i-nớp",
+          "when": "Vừa mở nước"
+        },
+        {
+          "en": "I'll massage your scalp now.",
+          "vi": "Giờ em mát-xa da đầu cho anh nhé.",
+          "phon": "ai-ồ ma-saz-zờ yo sờ-ken nau",
+          "when": "Lúc gội"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Nhắm mắt lại giúp anh\" — đoán đúng gấp, nhanh gọn."
+    }
+  ]
+}

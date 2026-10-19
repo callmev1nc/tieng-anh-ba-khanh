@@ -1,0 +1,353 @@
+{
+  "id": "05-dung-cu-tiem",
+  "order": 5,
+  "title": "Dụng cụ & đồ nghề trong tiệm",
+  "goal": "Gọi tên khăn, áo choàng, gương, ghế, máy sấy, dao cạo... và mời khách chuẩn bị trước khi cắt.",
+  "words": [
+    {
+      "en": "towel",
+      "vi": "khăn",
+      "phon": "tau-ồ",
+      "note": "\"Here is a clean towel\" = Khăn sạch đây ạ."
+    },
+    {
+      "en": "cape",
+      "vi": "áo choàng",
+      "phon": "kêip",
+      "note": "Áo choàng khách mặc khi cắt."
+    },
+    {
+      "en": "mirror",
+      "vi": "gương",
+      "phon": "mi-rờ",
+      "note": "\"Look in the mirror\" = Anh nhìn gương xem."
+    },
+    {
+      "en": "chair",
+      "vi": "ghế",
+      "phon": "che-ờ",
+      "note": "Ghế cắt tóc, lên xuống được."
+    },
+    {
+      "en": "sink",
+      "vi": "bồn rửa / chậu gội",
+      "phon": "sink",
+      "note": "Chỗ gội đầu cho khách."
+    },
+    {
+      "en": "conditioner",
+      "vi": "dầu xả",
+      "phon": "cờn-đi-sờ-nơ",
+      "note": "Sau khi gội, xả cho tóc mềm."
+    },
+    {
+      "en": "brush",
+      "vi": "bàn chải tóc",
+      "phon": "bờ-rớsh"
+    },
+    {
+      "en": "razor",
+      "vi": "dao cạo",
+      "phon": "rê-zờ",
+      "note": "Dao cạo thủ công."
+    },
+    {
+      "en": "shaver",
+      "vi": "máy cạo điện",
+      "phon": "sêi-vờ"
+    },
+    {
+      "en": "hair dryer",
+      "vi": "máy sấy tóc",
+      "phon": "he đrai-ờ",
+      "note": "Máy sấy cầm tay."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Please put on the cape.",
+      "vi": "Anh mặc áo choàng nhé.",
+      "phon": "pliz pút on đờ kêip",
+      "when": "Khách vừa ngồi xuống"
+    },
+    {
+      "en": "I'll get you a clean towel.",
+      "vi": "Em lấy khăn sạch cho anh.",
+      "phon": "ai-ồ ghét diu ờ clin tau-ồ",
+      "when": "Trước khi gội"
+    },
+    {
+      "en": "Let me adjust the chair.",
+      "vi": "Để em chỉnh lại ghế.",
+      "phon": "lét mi ờ-chớst đờ che-ờ",
+      "when": "Khách ngồi chưa thoải mái"
+    },
+    {
+      "en": "The mirror is in front of you.",
+      "vi": "Gương ở ngay trước mặt anh.",
+      "phon": "đờ mi-rờ ịt in phrớn-tờ ốp diu",
+      "when": "Chỉ gương cho khách"
+    },
+    {
+      "en": "Is the water too hot?",
+      "vi": "Nước có nóng quá không anh?",
+      "phon": "ịt đờ quó-tờ tu hót",
+      "when": "Đang gội đầu"
+    }
+  ],
+  "dialogue": {
+    "title": "Chuẩn bị trước khi cắt",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hello! Please, sit down.",
+        "vi": "Xin chào! Mời anh ngồi.",
+        "phon": "hê-lô! pliz, sít-đao"
+      },
+      {
+        "who": "client",
+        "en": "Thank you. Where is the mirror?",
+        "vi": "Cảm ơn. Gương ở đâu vậy?",
+        "phon": "then-kiu. que-rờ ịt đờ mi-rờ"
+      },
+      {
+        "who": "barber",
+        "en": "The mirror is in front of you.",
+        "vi": "Gương ở ngay trước mặt anh.",
+        "phon": "đờ mi-rờ ịt in phrớn-tờ ốp diu"
+      },
+      {
+        "who": "barber",
+        "en": "Please put on the cape.",
+        "vi": "Anh mặc áo choàng nhé.",
+        "phon": "pliz pút on đờ kêip"
+      },
+      {
+        "who": "client",
+        "en": "OK. Do you have a clean towel?",
+        "vi": "Được. Có khăn sạch không anh?",
+        "phon": "ô-kê. đu diu hèv ờ clin tau-ồ"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, here is a clean towel.",
+        "vi": "Có, khăn sạch đây ạ.",
+        "phon": "dét, hia ịt ờ clin tau-ồ"
+      },
+      {
+        "who": "barber",
+        "en": "Let me adjust the chair.",
+        "vi": "Để em chỉnh lại ghế.",
+        "phon": "lét mi ờ-chớst đờ che-ờ"
+      },
+      {
+        "who": "client",
+        "en": "Great, thank you!",
+        "vi": "Tốt quá, cảm ơn!",
+        "phon": "grêit, then-kiu"
+      },
+      {
+        "who": "barber",
+        "en": "Now I'll wash your hair at the sink.",
+        "vi": "Giờ em gội đầu cho anh ở chậu nhé.",
+        "phon": "nau ai-ồ quóach yo he at đờ sink"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Khăn\" là:",
+      "options": [
+        "towel",
+        "cape",
+        "mirror",
+        "chair"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Please put on the ___.\" (Anh mặc áo choàng nhé)",
+      "options": [
+        "chair",
+        "cape",
+        "sink",
+        "brush"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Gương\" là:",
+      "options": [
+        "brush",
+        "sink",
+        "mirror",
+        "shaver"
+      ],
+      "answer": 2
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I'll get you a clean ___.\" (Em lấy khăn sạch)",
+      "options": [
+        "razor",
+        "towel",
+        "chair",
+        "dryer"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Máy sấy tóc\" là:",
+      "options": [
+        "hair dryer",
+        "shaver",
+        "razor",
+        "sink"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khách ngồi chưa thoải mái, bạn nói:",
+      "options": [
+        "Let me adjust the chair",
+        "Let me cut your hair",
+        "Please go home",
+        "The water is hot"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "What is this big black cloth on me?",
+        "vi": "Lớp vải đen to này bên tôi là gì vậy?",
+        "phon": "uác iz dis bíg blét-clau ốp mi?"
+      },
+      "hint": "Giải thích đồ nghề cho khách mới",
+      "options": [
+        {
+          "en": "It is the cape — it keeps hair off your clothes.",
+          "phon": "it iz đờ khep — it kíps he ốp diu clâu-tờ"
+        },
+        {
+          "en": "It is a rain coat. For raining.",
+          "phon": "it iz ờ rein coche. phờ rên-in"
+        },
+        {
+          "en": "It smells like barber soap.",
+          "phon": "it smen mai-k bá-bờ sâup"
+        }
+      ],
+      "answer": 0,
+      "explain": "Mỗi dụng cụ dành một câu ngắn — khách mới nghe xong thấy tiệm có quy củ."
+    },
+    {
+      "client": {
+        "en": "Is the sink water cold? I hate cold washes.",
+        "vi": "Nước ở gội có lạnh không? Tôi ghét gội nước lạnh.",
+        "phon": "iz đờ xách uay-ớt coud? ai hêch coud uốc-x."
+      },
+      "hint": "An tâm trước khi gội",
+      "options": [
+        {
+          "en": "Warm only. Tell me if it is too hot.",
+          "phon": "uorm âu-nli. ten mi if et iz tu hót"
+        },
+        {
+          "en": "Cold today. Winter mood special.",
+          "phon": "coud tu-đey. uin-đờ mu special"
+        },
+        {
+          "en": "The sink drinks all the water.",
+          "phon": "đờ xích drink ô đờ uay-ớt"
+        }
+      ],
+      "answer": 0,
+      "explain": "Nước ấm luôn được mời khách tự cảm — nói trước là văn hóa gội đầu tử tế."
+    },
+    {
+      "client": {
+        "en": "May I choose the chair by the window?",
+        "vi": "Cho tôi chọn ghế gần cửa sổ thôi phẩy?",
+        "phon": "mey ai chuz đờ chê bi đờ uin-đâu?"
+      },
+      "hint": "Câu nhỏ nhưng quyền năng khách",
+      "options": [
+        {
+          "en": "Of course. That chair has the best light.",
+          "phon": "ốp cốc. đát chea hèp đờ best laít"
+        },
+        {
+          "en": "No. Red chair is for barbers only.",
+          "phon": "nâu. red chea iz phờ bá-bờ âu-nli"
+        },
+        {
+          "en": "Chairs cost five hundred here.",
+          "phon": "chész côxt phaip hân-đờ-it hia-rơ"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Cứ chọn\" — khách ngồi ghế thích là ngồi khai giáng ổn cả ca."
+    },
+    {
+      "client": {
+        "en": "My neck itches under this cloth.",
+        "vi": "Cổ tôi ngứa dưới tấm áo choàng này.",
+        "phon": "mai néch ét-chế ần-đờ dis clau"
+      },
+      "hint": "Khó chịu nhỏ — xử ngay",
+      "options": [
+        {
+          "en": "Please put on the cape.",
+          "vi": "Anh mặc áo choàng nhé.",
+          "phon": "pliz pút on đờ kêip",
+          "when": "Khách vừa ngồi xuống"
+        },
+        {
+          "en": "Let me adjust the chair.",
+          "vi": "Để em chỉnh lại ghế.",
+          "phon": "lét mi ờ-chớst đờ che-ờ",
+          "when": "Khách ngồi chưa thoải mái"
+        },
+        {
+          "en": "I'll get you a clean towel.",
+          "vi": "Em lấy khăn sạch cho anh.",
+          "phon": "ai-ồ ghét diu ờ clin tau-ồ",
+          "when": "Trước khi gội"
+        }
+      ],
+      "answer": 2,
+      "explain": "Lấy khăn mới là giải pháp trước tiên — việc nhỏ nhanh gọn."
+    },
+    {
+      "client": {
+        "en": "The chair is a little low, boss.",
+        "vi": "Ghế hơi thấp quá anh.",
+        "phon": "đờ chea iz ờ lí-tu lâu, boss"
+      },
+      "hint": "Chỉnh ghế ngay",
+      "options": [
+        {
+          "en": "Please put on the cape.",
+          "vi": "Anh mặc áo choàng nhé.",
+          "phon": "pliz pút on đờ kêip",
+          "when": "Khách vừa ngồi xuống"
+        },
+        {
+          "en": "Let me adjust the chair.",
+          "vi": "Để em chỉnh lại ghế.",
+          "phon": "lét mi ờ-chớst đờ che-ờ",
+          "when": "Khách ngồi chưa thoải mái"
+        },
+        {
+          "en": "I'll get you a clean towel.",
+          "vi": "Em lấy khăn sạch cho anh.",
+          "phon": "ai-ồ ghét diu ờ clin tau-ồ",
+          "when": "Trước khi gội"
+        }
+      ],
+      "answer": 1,
+      "explain": "\"Để em chỉnh ghế\" — khách thấy mình chăm từng chi tiết nhỏ."
+    }
+  ]
+}

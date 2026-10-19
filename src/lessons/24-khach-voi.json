@@ -1,0 +1,283 @@
+{
+  "id": "24-khach-voi",
+  "order": 24,
+  "title": "Khách vội & tiệm đông",
+  "goal": "Xử lý khách đang gấp và tiệm đông người: xếp hàng, xin chờ, hứa làm nhanh, hẹn lát quay lại.",
+  "words": [
+    {
+      "en": "in a hurry",
+      "vi": "đang gấp / vội",
+      "phon": "in ờ hơ-ri",
+      "note": "\"Are you in a hurry?\" = Anh đang gấp à?"
+    },
+    {
+      "en": "quick",
+      "vi": "nhanh",
+      "phon": "quy-k",
+      "note": "\"I'll be quick\" = Em làm nhanh cho anh."
+    },
+    {
+      "en": "slow",
+      "vi": "chậm",
+      "phon": "sờ-lâu",
+      "note": "\"Slow down\" = Từ từ thôi."
+    },
+    {
+      "en": "line",
+      "vi": "hàng đợi",
+      "phon": "lain",
+      "note": "\"You are next in line\" = Tới lượt anh rồi."
+    },
+    {
+      "en": "crowded",
+      "vi": "đông người",
+      "phon": "crao-địt",
+      "note": "\"It's crowded today\" = Hôm nay đông quá."
+    },
+    {
+      "en": "patient",
+      "vi": "kiên nhẫn",
+      "phon": "pêi-shần",
+      "note": "\"Please be patient\" = Anh kiên nhẫn chút nhé."
+    },
+    {
+      "en": "priority",
+      "vi": "ưu tiên",
+      "phon": "prai-o-rờ-ti",
+      "note": "\"Old people have priority\" = Người già được ưu tiên."
+    },
+    {
+      "en": "rush",
+      "vi": "làm gấp / gấp rút",
+      "phon": "rớsh",
+      "note": "\"No rush\" = Không gấp đâu anh."
+    },
+    {
+      "en": "soon",
+      "vi": "sớm / sắp",
+      "phon": "sun",
+      "note": "\"I'll be done soon\" = Em sắp xong rồi."
+    },
+    {
+      "en": "later",
+      "vi": "lát nữa / muộn hơn",
+      "phon": "lêi-tờ",
+      "note": "\"Come back later\" = Lát nữa anh quay lại nhé."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Are you in a hurry?",
+      "vi": "Anh đang gấp lắm à?",
+      "phon": "a diu in ờ hơ-ri",
+      "when": "Khách có vẻ vội"
+    },
+    {
+      "en": "It's crowded today. Please be patient.",
+      "vi": "Hôm nay đông quá. Anh kiên nhẫn chút nhé.",
+      "phon": "ịts crao-địt tu-đây. pliz bi pêi-shần",
+      "when": "Tiệm đông"
+    },
+    {
+      "en": "No rush. I'll be quick.",
+      "vi": "Anh không gấp thì em làm nhanh cho anh.",
+      "phon": "nâu rớsh. ai-ồ bi quy-k",
+      "when": "Trấn an khách"
+    },
+    {
+      "en": "You are next in line.",
+      "vi": "Tới lượt anh rồi ạ.",
+      "phon": "diu a nek in lain",
+      "when": "Gọi khách đang chờ"
+    },
+    {
+      "en": "Can you come back later? Two hours.",
+      "vi": "Anh lát nữa quay lại được không? Khoảng hai tiếng nữa.",
+      "phon": "ken diu khăm béc lêi-tờ? tu ao-ờz",
+      "when": "Hết chỗ, hẹn quay lại"
+    }
+  ],
+  "dialogue": {
+    "title": "Giờ cao điểm: khách vội chen vào",
+    "lines": [
+      {
+        "who": "client",
+        "en": "Hi! I'm in a hurry. Can you cut my hair now?",
+        "vi": "Chào anh! Tôi đang gấp. Cắt tóc cho tôi luôn được không?",
+        "phon": "hai! ai em in ờ hơ-ri. ken diu cắt mai he nau"
+      },
+      {
+        "who": "barber",
+        "en": "It's crowded today. There is one person before you.",
+        "vi": "Hôm nay đông quá. Còn một người trước anh ạ.",
+        "phon": "ịts crao-địt tu-đây. đe-rờ ịt quăn pơ-sần bi-pho diu"
+      },
+      {
+        "who": "client",
+        "en": "How long is the wait?",
+        "vi": "Phải chờ bao lâu vậy?",
+        "phon": "hao loong ịt đờ quây-tờ"
+      },
+      {
+        "who": "barber",
+        "en": "Ten minutes. Please be patient, or come back later.",
+        "vi": "Mười phút thôi. Anh kiên nhẫn chút, hoặc lát nữa quay lại cũng được.",
+        "phon": "ten mi-nịts. pliz bi pêi-shần, o khăm béc lêi-tờ"
+      },
+      {
+        "who": "client",
+        "en": "OK, I'll wait. But please be quick.",
+        "vi": "Được, tôi chờ. Nhưng anh làm nhanh giúp nhé.",
+        "phon": "ô-kê, ai-ồ quây-tờ. bớt pliz bi quy-k"
+      },
+      {
+        "who": "barber",
+        "en": "No rush worries. I'll be quick and clean. You are next in line.",
+        "vi": "Anh yên tâm. Em làm nhanh mà kỹ. Tới lượt anh ngay đây.",
+        "phon": "nâu rớsh quơ-riz. ai-ồ bi quy-k en clin. diu a nek in lain"
+      },
+      {
+        "who": "client",
+        "en": "Thanks. Please, don't cut too much.",
+        "vi": "Cảm ơn. Đừng cắt nhiều quá nhé.",
+        "phon": "thenks. pliz, đôn cắt tu mớch"
+      },
+      {
+        "who": "barber",
+        "en": "OK, just a trim. I'll be done soon.",
+        "vi": "Được, tỉa gọn thôi. Em sắp xong ngay.",
+        "phon": "ô-kê, chớst ờ trim. ai-ồ bi đăn sun"
+      },
+      {
+        "who": "client",
+        "en": "Perfect, I can still catch my bus. Thank you!",
+        "vi": "Tuyệt, vẫn kịp chuyến xe. Cảm ơn anh!",
+        "phon": "pơ-phịt, ai ken sờ-tiu khách mai bớs. then-kiu"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Đang gấp\" là:",
+      "options": [
+        "in a hurry",
+        "in a bus",
+        "in a house",
+        "in a minute"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Please be ___.\" (Kiên nhẫn chút)",
+      "options": [
+        "patient",
+        "payment",
+        "parent",
+        "painting"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Hàng đợi\" là:",
+      "options": [
+        "line",
+        "lion",
+        "lane",
+        "lime"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"You are next in ___.\" (Tới lượt anh)",
+      "options": [
+        "love",
+        "line",
+        "lunch",
+        "life"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Đông người\" là:",
+      "options": [
+        "crowded",
+        "cloudy",
+        "crown",
+        "crawling"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Tiệm đông, bạn đề nghị khách:",
+      "options": [
+        "Come back later",
+        "Go away forever",
+        "Pay double",
+        "Stand outside"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "I only have ten free minutes, boss.",
+        "vi": "Tôi chỉ có mười phút trống thôi.",
+        "phon": "ai âu-nli hèp ten phi giân mức dừng"
+      },
+      "hint": "Khách gấp: hứa nhanh",
+      "options": [
+        {
+          "en": "Are you in a hurry?",
+          "vi": "Anh đang gấp lắm à?",
+          "phon": "a diu in ờ hơ-ri",
+          "when": "Khách có vẻ vội"
+        },
+        {
+          "en": "It's crowded today. Please be patient.",
+          "vi": "Hôm nay đông quá. Anh kiên nhẫn chút nhé.",
+          "phon": "ịts crao-địt tu-đây. pliz bi pêi-shần",
+          "when": "Tiệm đông"
+        },
+        {
+          "en": "No rush. I'll be quick.",
+          "vi": "Anh không gấp thì em làm nhanh cho anh.",
+          "phon": "nâu rớsh. ai-ồ bi quy-k",
+          "when": "Trấn an khách"
+        }
+      ],
+      "answer": 2,
+      "explain": "'Không gấp mà em làm nhanh' — giữ khách vội cũng vẫn thanh lịch."
+    },
+    {
+      "client": {
+        "en": "Am I far from my turn, boss?",
+        "vi": "Tới em còn lâu không anh?",
+        "phon": "eme ai pha v Lê mai tành, boss?"
+      },
+      "hint": "Khách đứng chờ — trả giờ nensed",
+      "options": [
+        {
+          "en": "You are next in line.",
+          "vi": "Tới lượt anh rồi ạ.",
+          "phon": "diu a nek in lain",
+          "when": "Gọi khách đang chờ"
+        },
+        {
+          "en": "Are you in a hurry?",
+          "vi": "Anh đang gấp lắm à?",
+          "phon": "a diu in ờ hơ-ri",
+          "when": "Khách có vẻ vội"
+        },
+        {
+          "en": "It's crowded today. Please be patient.",
+          "vi": "Hôm nay đông quá. Anh kiên nhẫn chút nhé.",
+          "phon": "ịts crao-địt tu-đây. pliz bi pêi-shần",
+          "when": "Tiệm đông"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Tới lượt anh rồi\" — bố khách đứng, không cứ để khách chờ mà tự tin trông chờ."
+    }
+  ]
+}

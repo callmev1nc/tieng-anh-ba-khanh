@@ -1,0 +1,283 @@
+{
+  "id": "25-khach-kho-tinh",
+  "order": 25,
+  "title": "Khách đổi ý & khách khó tính",
+  "goal": "Khi khách chưa chắc, đổi ý giữa chừng: hỏi lại, đưa gợi ý, giữ bình tĩnh và vui vẻ.",
+  "words": [
+    {
+      "en": "change my mind",
+      "vi": "đổi ý",
+      "phon": "chêin mai main",
+      "note": "\"I changed my mind\" = Tôi đổi ý rồi."
+    },
+    {
+      "en": "not sure",
+      "vi": "chưa chắc",
+      "phon": "nót so-ờ",
+      "note": "\"I'm not sure yet\" = Tôi chưa chắc."
+    },
+    {
+      "en": "exactly",
+      "vi": "chính xác",
+      "phon": "ích-dách-li",
+      "note": "\"Exactly!\" = Chuẩn luôn!"
+    },
+    {
+      "en": "maybe",
+      "vi": "có thể / có lẽ",
+      "phon": "mêi-bi",
+      "note": "\"Maybe shorter?\" = Hay là ngắn hơn chút?"
+    },
+    {
+      "en": "prefer",
+      "vi": "thích hơn (chọn cái hơn)",
+      "phon": "pri-phớ",
+      "note": "\"I prefer it short\" = Tôi thích ngắn hơn."
+    },
+    {
+      "en": "opinion",
+      "vi": "ý kiến",
+      "phon": "ờ-pin-nhần",
+      "note": "\"In my opinion...\" = Theo ý em thì..."
+    },
+    {
+      "en": "different",
+      "vi": "khác",
+      "phon": "đíp-phờ-rần",
+      "note": "\"A different style\" = Kiểu khác."
+    },
+    {
+      "en": "same",
+      "vi": "giống / như cũ",
+      "phon": "sêim",
+      "note": "\"Same as last time\" = Như lần trước."
+    },
+    {
+      "en": "suggestion",
+      "vi": "gợi ý",
+      "phon": "sờ-ghés-chần",
+      "note": "\"One suggestion...\" = Em gợi ý một chút..."
+    },
+    {
+      "en": "decide",
+      "vi": "quyết định",
+      "phon": "đi-sai-đờ",
+      "note": "\"Take your time to decide\" = Anh cứ từ từ quyết định."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Are you sure about the length?",
+      "vi": "Anh chắc chắn về độ dài chưa?",
+      "phon": "a diu so-ờ ờ-bao đờ leng-th",
+      "when": "Trước khi cắt"
+    },
+    {
+      "en": "Take your time to decide.",
+      "vi": "Anh cứ từ từ quyết định.",
+      "phon": "têik yo taim tu đi-sai-đờ",
+      "when": "Khách chưa chắc"
+    },
+    {
+      "en": "In my opinion, this one looks better.",
+      "vi": "Theo em thì kiểu này đẹp hơn.",
+      "phon": "in mai ờ-pin-nhần, đít quăn lúc bé-tờ",
+      "when": "Đưa ý kiến"
+    },
+    {
+      "en": "A different style? No problem.",
+      "vi": "Đổi kiểu khác à? Không sao đâu anh.",
+      "phon": "ờ đíp-phờ-rần stai? nâu próp-lầm",
+      "when": "Khách đổi ý"
+    },
+    {
+      "en": "Same as last time?",
+      "vi": "Như lần trước hả anh?",
+      "phon": "sêim en lást taim",
+      "when": "Khách quen"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách đổi ý giữa chừng",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "How do you want it today? Same as last time?",
+        "vi": "Hôm nay anh muốn thế nào? Như lần trước không?",
+        "phon": "hao đu diu quón ịt tu-đây? sêim en lást taim"
+      },
+      {
+        "who": "client",
+        "en": "I'm not sure. Maybe something different.",
+        "vi": "Tôi chưa chắc. Có lẽ đổi kiểu khác.",
+        "phon": "ai em nót so-ờ. mêi-bi săm-thing đíp-phờ-rần"
+      },
+      {
+        "who": "barber",
+        "en": "OK. In my opinion, shorter on the sides looks good. One suggestion?",
+        "vi": "Được. Theo em thì hai bên ngắn chút là đẹp. Em gợi ý một chút nhé?",
+        "phon": "ô-kê. in mai ờ-pin-nhần, soọc-tơ on đờ saits lúc gút. quăn sờ-ghés-chần"
+      },
+      {
+        "who": "client",
+        "en": "OK. But not too short. I prefer medium.",
+        "vi": "Được. Nhưng đừng ngắn quá. Tôi thích vừa vừa.",
+        "phon": "ô-kê. bớt nót tu soọc. ai pri-phớ mi-đi-ầm"
+      },
+      {
+        "who": "barber",
+        "en": "Medium. Got it. Take your time to decide.",
+        "vi": "Vừa vừa. Em hiểu rồi. Anh cứ từ từ quyết định.",
+        "phon": "mi-đi-ầm. ghót ịt. têik yo taim tu đi-sai-đờ"
+      },
+      {
+        "who": "client",
+        "en": "Wait... I changed my mind. Short, like the photos.",
+        "vi": "Khoan... Tôi đổi ý rồi. Ngắn như trong ảnh này.",
+        "phon": "quêit... ai chêin-đờ mai main. soọc, laik đờ phô-tôz"
+      },
+      {
+        "who": "barber",
+        "en": "No problem. A different style, same price.",
+        "vi": "Không sao ạ. Đổi kiểu khác giá vẫn vậy.",
+        "phon": "nâu próp-lầm. ờ đíp-phờ-rần stai, sêim prai-sờ"
+      },
+      {
+        "who": "client",
+        "en": "Exactly, thank you for being calm.",
+        "vi": "Chuẩn rồi, cảm ơn anh đã vui vẻ.",
+        "phon": "ích-dách-li, then-kiu pho bi-ing kham"
+      },
+      {
+        "who": "barber",
+        "en": "No problem at all. Now I start, OK?",
+        "vi": "Không có gì đâu ạ. Giờ em bắt đầu nhé?",
+        "phon": "nâu próp-lầm at o. nau ai sờ-tát, ô-kê"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Đổi ý\" là:",
+      "options": [
+        "change my mind",
+        "change my hair",
+        "change my shirt",
+        "charge my mind"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"I'm ___ sure yet.\" (Tôi chưa chắc)",
+      "options": [
+        "no",
+        "not",
+        "now",
+        "note"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Chính xác / chuẩn luôn\" là:",
+      "options": [
+        "Exactly",
+        "Extract",
+        "Exit",
+        "Extra"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Take your time to ___.\" (Từ từ quyết định)",
+      "options": [
+        "decide",
+        "divide",
+        "drive",
+        "dance"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Gợi ý\" là:",
+      "options": [
+        "suggestion",
+        "question",
+        "station",
+        "section"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Như lần trước\" nói là:",
+      "options": [
+        "Same as last time",
+        "Some of last time",
+        "Same last letter",
+        "Send last time"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "This style or that one? I cannot decide.",
+        "vi": "Kiểu này hay kiểu kia? Không biết chốt kiểu nào.",
+        "phon": "dis stail ố đết uân? ai cienes tu de-xad"
+      },
+      "hint": "Khách tính tiền giữa hai kiểu",
+      "options": [
+        {
+          "en": "Are you sure about the length?",
+          "vi": "Anh chắc chắn về độ dài chưa?",
+          "phon": "a diu so-ờ ờ-bao đờ leng-th",
+          "when": "Trước khi cắt"
+        },
+        {
+          "en": "In my opinion, this one looks better.",
+          "vi": "Theo em thì kiểu này đẹp hơn.",
+          "phon": "in mai ờ-pin-nhần, đít quăn lúc bé-tờ",
+          "when": "Đưa ý kiến"
+        },
+        {
+          "en": "Take your time to decide.",
+          "vi": "Anh cứ từ từ quyết định.",
+          "phon": "têik yo taim tu đi-sai-đờ",
+          "when": "Khách chưa chắc"
+        }
+      ],
+      "answer": 1,
+      "explain": "Đưa ý kiến rõ ràng cùng một kiểu — khách cần người quyết cho khỏi lơ ^^. "
+    },
+    {
+      "client": {
+        "en": "Give me the usual, boss, I trust you.",
+        "vi": "Kiểu cũ anh ơi, anh cứ làm.",
+        "phon": "gip mi diu yu-hầu, boss, ok"
+      },
+      "hint": "Kiểu hôm trước — lặp lại",
+      "options": [
+        {
+          "en": "Are you sure about the length?",
+          "vi": "Anh chắc chắn về độ dài chưa?",
+          "phon": "a diu so-ờ ờ-bao đờ leng-th",
+          "when": "Trước khi cắt"
+        },
+        {
+          "en": "Same as last time?",
+          "vi": "Như lần trước hả anh?",
+          "phon": "sêim en lást taim",
+          "when": "Khách quen"
+        },
+        {
+          "en": "Take your time to decide.",
+          "vi": "Anh cứ từ từ quyết định.",
+          "phon": "têik yo taim tu đi-sai-đờ",
+          "when": "Khách chưa chắc"
+        }
+      ],
+      "answer": 1,
+      "explain": "Như lần trước — khách cần cảm giác mình nhớ tay nghề người từng cùng."
+    }
+  ]
+}

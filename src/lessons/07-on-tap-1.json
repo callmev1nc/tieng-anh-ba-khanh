@@ -1,0 +1,273 @@
+{
+  "id": "07-on-tap-1",
+  "order": 7,
+  "title": "Ngày 7 — Ôn tập tuần đầu",
+  "goal": "Không học từ mới. Chơi lại 10 từ của tuần đầu + hội thoại khách quay lại tiệm lần 2.",
+  "words": [
+    {
+      "en": "welcome",
+      "vi": "mời vào / chào mừng",
+      "phon": "quen-cầm",
+      "note": "Ôn lại bài 01."
+    },
+    {
+      "en": "appointment",
+      "vi": "lịch hẹn",
+      "phon": "ờ-poi-mần",
+      "note": "Ôn lại bài 02."
+    },
+    {
+      "en": "how much?",
+      "vi": "bao nhiêu tiền?",
+      "phon": "hao mớch",
+      "note": "Ôn lại bài 02."
+    },
+    {
+      "en": "cash",
+      "vi": "tiền mặt",
+      "phon": "kesh",
+      "note": "Ôn lại bài 02."
+    },
+    {
+      "en": "scissors",
+      "vi": "kéo",
+      "phon": "si-zờ",
+      "note": "Ôn lại bài 03."
+    },
+    {
+      "en": "wash",
+      "vi": "gội đầu",
+      "phon": "quóach",
+      "note": "Ôn lại bài 03."
+    },
+    {
+      "en": "towel",
+      "vi": "khăn",
+      "phon": "tau-ồ",
+      "note": "Ôn lại bài 05."
+    },
+    {
+      "en": "mirror",
+      "vi": "gương",
+      "phon": "mi-rờ",
+      "note": "Ôn lại bài 05."
+    },
+    {
+      "en": "curly",
+      "vi": "tóc xoăn",
+      "phon": "cớ-li",
+      "note": "Ôn lại bài 06."
+    },
+    {
+      "en": "thick",
+      "vi": "dày",
+      "phon": "thích",
+      "note": "Ôn lại bài 06."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Hello! Welcome, please have a seat.",
+      "vi": "Xin chào! Mời anh vào, mời ngồi ạ.",
+      "phon": "hê-lô! quen-cầm, pliz hèv ờ sít",
+      "when": "Đón khách"
+    },
+    {
+      "en": "Do you have an appointment?",
+      "vi": "Anh có đặt lịch trước không ạ?",
+      "phon": "đu diu hèv ờn ờ-poi-mần",
+      "when": "Khách vào tiệm"
+    },
+    {
+      "en": "How do you want your hair?",
+      "vi": "Anh muốn cắt kiểu gì ạ?",
+      "phon": "hao đu diu quón yo he",
+      "when": "Bắt đầu cắt"
+    },
+    {
+      "en": "Please put on the cape.",
+      "vi": "Anh mặc áo choàng nhé.",
+      "phon": "pliz pút on đờ kêip",
+      "when": "Trước khi cắt"
+    },
+    {
+      "en": "How much is it?",
+      "vi": "Bao nhiêu tiền ạ?",
+      "phon": "hao mớch ịt",
+      "when": "Lúc tính tiền"
+    }
+  ],
+  "dialogue": {
+    "title": "Khách quay lại tiệm lần hai",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Hello! Welcome back!",
+        "vi": "Xin chào! Mừng anh quay lại!",
+        "phon": "hê-lô! quen-cầm béc"
+      },
+      {
+        "who": "client",
+        "en": "Hi! Do you have an appointment at three?",
+        "vi": "Chào! Có lịch hẹn 3 giờ không anh?",
+        "phon": "hai! đu diu hèv ờn ờ-poi-mần at sờ-ri"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, I have your name. Please have a seat.",
+        "vi": "Có, em có tên anh rồi. Mời anh ngồi.",
+        "phon": "dét, ai hèv yo nêim. pliz hèv ờ sít"
+      },
+      {
+        "who": "client",
+        "en": "Thank you. My hair is very thick now.",
+        "vi": "Cảm ơn. Tóc tôi giờ dày quá.",
+        "phon": "then-kiu. mai he ịt ve-ri thích nau"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. I'll wash it first, then use the scissors.",
+        "vi": "Vâng. Em gội trước, rồi dùng kéo tỉa.",
+        "phon": "dét. ai-ồ quóach ịt phớt, đen diuz đờ si-zờ"
+      },
+      {
+        "who": "client",
+        "en": "OK. Is the water warm?",
+        "vi": "Được. Nước ấm không anh?",
+        "phon": "ô-kê. ịt đờ quó-tờ quoom"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, warm water. Here is a clean towel.",
+        "vi": "Vâng, nước ấm. Khăn sạch đây ạ.",
+        "phon": "dét, quoom quó-tờ. hia ịt ờ clin tau-ồ"
+      },
+      {
+        "who": "barber",
+        "en": "Now, look at the mirror. How much is it? One hundred thousand.",
+        "vi": "Giờ anh nhìn gương nhé. Tiền là một trăm nghìn ạ.",
+        "phon": "nau, lúc at đờ mi-rờ. hao mớch ịt? quăn hăn-đrợt thao-zần"
+      },
+      {
+        "who": "client",
+        "en": "Cash. Thank you very much!",
+        "vi": "Tiền mặt. Cảm ơn anh nhiều!",
+        "phon": "kesh. then-kiu ve-ri mớch"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Khách quay lại tiệm, bạn nói:",
+      "options": [
+        "Welcome back!",
+        "Go away!",
+        "How much?",
+        "Cash or card?"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Please have a ___.\" (Mời anh ngồi)",
+      "options": [
+        "seat",
+        "sit",
+        "shot",
+        "story"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Tóc dày\" là:",
+      "options": [
+        "thin hair",
+        "thick hair",
+        "curly hair",
+        "bald head"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Do you have an ___ at three?\" (Lịch hẹn 3 giờ?)",
+      "options": [
+        "attention",
+        "appointment",
+        "apple",
+        "answer"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Nước ấm\" gọi là:",
+      "options": [
+        "cold water",
+        "warm water",
+        "ice water",
+        "hot soup"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "Khách trả tiền mặt, bạn nói:",
+      "options": [
+        "Thank you very much!",
+        "No, no money!",
+        "Please wait!",
+        "Where is your card?"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Kéo\" là:",
+      "options": [
+        "scissors",
+        "sissors",
+        "sizer",
+        "shadow"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Gương\" là:",
+      "options": [
+        "minor",
+        "mirror",
+        "mister",
+        "winner"
+      ],
+      "answer": 1
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "Hello, quick trim today, boss.",
+        "vi": "Xin chào, hôm nay chỉ tỉa gọn thôi.",
+        "phon": "hê-lâu, quíc trím tu-đey, boss"
+      },
+      "hint": "Ôn tuần 1 — chào + hỏi lịch",
+      "options": [
+        {
+          "en": "Do you have an appointment?",
+          "vi": "Anh có đặt lịch trước không ạ?",
+          "phon": "đu diu hèv ờn ờ-poi-mần",
+          "when": "Khách vào tiệm"
+        },
+        {
+          "en": "How do you want your hair?",
+          "vi": "Anh muốn cắt kiểu gì ạ?",
+          "phon": "hao đu diu quón yo he",
+          "when": "Bắt đầu cắt"
+        },
+        {
+          "en": "Hello! Welcome, please have a seat.",
+          "vi": "Xin chào! Mời anh vào, mời ngồi ạ.",
+          "phon": "hê-lô! quen-cầm, pliz hèv ờ sít",
+          "when": "Đón khách"
+        }
+      ],
+      "answer": 2,
+      "explain": "Chào vui + mời ghế trước — sau đó mới hỏi lịch hẹn."
+    }
+  ]
+}

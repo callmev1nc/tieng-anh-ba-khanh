@@ -1,0 +1,347 @@
+{
+  "id": "06-mo-ta-toc",
+  "order": 6,
+  "title": "Mô tả mái tóc",
+  "goal": "Nhìn tóc khách là nói được: xoăn, thẳng, dày, mỏng, hói, tóc mái, đuôi ngựa...",
+  "words": [
+    {
+      "en": "curly",
+      "vi": "tóc xoăn",
+      "phon": "cớ-li",
+      "note": "\"Is your hair naturally curly?\" = Tóc anh tự nhiên xoăn à?"
+    },
+    {
+      "en": "straight",
+      "vi": "tóc thẳng",
+      "phon": "sờ-trây-tờ"
+    },
+    {
+      "en": "wavy",
+      "vi": "tóc gợn sóng",
+      "phon": "quêi-vi",
+      "note": "Không xoăn hẳn, không thẳng hẳn."
+    },
+    {
+      "en": "thick",
+      "vi": "dày",
+      "phon": "thích",
+      "note": "\"Your hair is very thick\" = Tóc anh rất dày."
+    },
+    {
+      "en": "thin",
+      "vi": "mỏng / thưa",
+      "phon": "thin"
+    },
+    {
+      "en": "hairline",
+      "vi": "đường chân tóc",
+      "phon": "he-lain",
+      "note": "Chỗ tóc mọc sát trán."
+    },
+    {
+      "en": "bald",
+      "vi": "hói",
+      "phon": "boo-đờ",
+      "note": "\"You are a little bald here\" — nói khéo với khách."
+    },
+    {
+      "en": "shoulder-length",
+      "vi": "dài tới vai",
+      "phon": "sâu-đờ-len",
+      "note": "Kiểu tóc dài chấm vai."
+    },
+    {
+      "en": "bangs",
+      "vi": "tóc mái",
+      "phon": "beng-zờ",
+      "note": "\"Do you want bangs?\" = Anh muốn để tóc mái không?"
+    },
+    {
+      "en": "ponytail",
+      "vi": "tóc buộc đuôi ngựa",
+      "phon": "pô-ni-têu",
+      "note": "Khách nữ buộc tóc kiểu này."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "Is your hair naturally curly?",
+      "vi": "Tóc anh tự nhiên xoăn vậy à?",
+      "phon": "ịt yo he ná-chờ-rờ-li cớ-li",
+      "when": "Bắt đầu tư vấn"
+    },
+    {
+      "en": "Your hair is thick, I'll thin it a little.",
+      "vi": "Tóc anh dày, em tỉa mỏng bớt chút nhé.",
+      "phon": "yo he ịt thích, ai-ồ thin ịt ờ lít-tồ",
+      "when": "Tóc dày, nhiều"
+    },
+    {
+      "en": "How many centimeters off the top?",
+      "vi": "Cắt phía trên bớt mấy phân ạ?",
+      "phon": "hao me-ni xen-ti-mi-tờz óp đờ tốp",
+      "when": "Hỏi khách muốn cắt ngắn bao nhiêu"
+    },
+    {
+      "en": "Do you want bangs?",
+      "vi": "Anh/chị muốn để tóc mái không?",
+      "phon": "đu diu quón beng-zờ",
+      "when": "Khách nữ tư vấn mái"
+    },
+    {
+      "en": "You have a nice hairline.",
+      "vi": "Chân tóc anh đẹp đó.",
+      "phon": "diu hèv ờ nais he-lain",
+      "when": "Khen khách cho vui"
+    }
+  ],
+  "dialogue": {
+    "title": "Tóc dày, khách muốn giữ dài tới vai",
+    "lines": [
+      {
+        "who": "client",
+        "en": "I want to keep it shoulder-length.",
+        "vi": "Tôi muốn giữ dài tới vai.",
+        "phon": "ai quón tu kip ịt sâu-đờ-len"
+      },
+      {
+        "who": "barber",
+        "en": "OK. Your hair is thick, I'll thin it a little.",
+        "vi": "Được. Tóc anh dày, em tỉa mỏng bớt chút nhé.",
+        "phon": "ô-kê. yo he ịt thích, ai-ồ thin ịt ờ lít-tồ"
+      },
+      {
+        "who": "client",
+        "en": "Yes, please. Is my hair straight or wavy?",
+        "vi": "Vâng. Tóc tôi thẳng hay gợn sóng vậy anh?",
+        "phon": "dét, pliz. ịt mai he sờ-trây-tờ o quêi-vi"
+      },
+      {
+        "who": "barber",
+        "en": "A little wavy. Very nice.",
+        "vi": "Hơi gợn sóng. Đẹp mà.",
+        "phon": "ờ lít-tồ quêi-vi. ve-ri nais"
+      },
+      {
+        "who": "client",
+        "en": "Do you see split ends?",
+        "vi": "Anh thấy tóc chẻ ngọn không?",
+        "phon": "đu diu si sờ-plít en-zờ"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, I'll trim the ends too.",
+        "vi": "Có, em tỉa luôn phần đuôi tóc.",
+        "phon": "dét, ai-ồ trim đờ en-zờ tu"
+      },
+      {
+        "who": "client",
+        "en": "Great. And my bangs?",
+        "vi": "Tốt quá. Còn tóc mái của tôi?",
+        "phon": "grêit. en mai beng-zờ"
+      },
+      {
+        "who": "barber",
+        "en": "We keep the bangs. It suits you.",
+        "vi": "Mình giữ tóc mái. Hợp với anh/chị lắm.",
+        "phon": "quy kip đờ beng-zờ. ịt sút diu"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "\"Tóc xoăn\" là:",
+      "options": [
+        "curly",
+        "straight",
+        "wavy",
+        "bald"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Your hair is ___, I'll thin it a little.\" (Tóc dày)",
+      "options": [
+        "thin",
+        "thick",
+        "short",
+        "sad"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Tóc mái\" là:",
+      "options": [
+        "ponytail",
+        "bangs",
+        "hairline",
+        "roots"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Dài tới vai\" là:",
+      "options": [
+        "shoulder-length",
+        "very long",
+        "short cut",
+        "long nose"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"Is your hair naturally ___?\" (Tóc tự nhiên xoăn à?)",
+      "options": [
+        "curly",
+        "clean",
+        "cold",
+        "crazy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Tóc buộc đuôi ngựa\" là:",
+      "options": [
+        "a ponytail",
+        "a horse tail",
+        "a pigtail",
+        "a bowl cut"
+      ],
+      "answer": 0
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "My hair is thick and curly. Help me, boss.",
+        "vi": "Tóc em dày và xoăn lắm. Giúp em với.",
+        "phon": "mai hey iz thực en cớ-li. hep mi, boss"
+      },
+      "hint": "Khách mô tả tóc dày xoăn",
+      "options": [
+        {
+          "en": "Thick and curly — I know a good cut for that.",
+          "phon": "thực en cớ-li — ai nâu ờ gút cát phờ đét"
+        },
+        {
+          "en": "That is a hair crime, my friend.",
+          "phon": "đát iz ờ he cờ-rain, mai phren"
+        },
+        {
+          "en": "I cannot touch curly hair, sorry.",
+          "phon": "ai cê-nót tách cớ-li he, sờ-ri"
+        }
+      ],
+      "answer": 0,
+      "explain": "Nhận mô tả và chốt \"có kiểu hợp cho tóc đó\" — khách nghe tự tin liền ngồi ghế."
+    },
+    {
+      "client": {
+        "en": "Only trim the ends. Keep my length for the wedding next month.",
+        "vi": "Chỉ tỉa ngọn thôi. Giữ độ dài cho đám cưới tháng sau.",
+        "phon": "âun-li trím đờ ến. kíp mai lench phờ đờ uét-đin néch mạn"
+      },
+      "hint": "Giữ dài, tỉa nhẹ",
+      "options": [
+        {
+          "en": "Ends only — one centimeter and nothing more.",
+          "phon": "ến âu-nli — uân xen-ti-mít-tơ en nâh-đing mô"
+        },
+        {
+          "en": "I will cut it all very short.",
+          "phon": "ai uil cát et ô ve-ri xốt"
+        },
+        {
+          "en": "Weddings are boring, stay home.",
+          "phon": "uét-đin a bơ-ring, xtey hô"
+        }
+      ],
+      "answer": 0,
+      "explain": "\"Một xăng ti chỉ ngọn\" — con số cụ thể làm khách tin là mình không phá chiều dài."
+    },
+    {
+      "client": {
+        "en": "Do I need a ponytail or a bun for sport? Suggest one.",
+        "vi": "Đi tập nên để tóc buộc ngựa hay búi tốt hơn?",
+        "phon": "đu ai nít ờ pô-ni-tếu ố ờ băn phờ x-po? xân-gét uân"
+      },
+      "hint": "Khách hỏi tư vấn kiểu dễ",
+      "options": [
+        {
+          "en": "A bun — it never falls during sport.",
+          "phon": "ờ băn — it né-vờ phons du-rin xpo"
+        },
+        {
+          "en": "A ponytail. No, two ponytails. No, none.",
+          "phon": "ờ pô-ni-téch. nâu, tu pô-ni-téchs. nâu, nạ"
+        },
+        {
+          "en": "Sport? I only comb hair.",
+          "phon": "xpo? ai âu-nli cầm he"
+        }
+      ],
+      "answer": 0,
+      "explain": "Gợi ý một kiểu chắc chắn + lý do phía sau — khách cần người quyết giúp khi còn mơ hồ."
+    },
+    {
+      "client": {
+        "en": "My hair is a bit thick. What can you do?",
+        "vi": "Tóc em hơi dày. Anh làm gì được không?",
+        "phon": "mai hey iz ờ bít thực. uá can đu đu?"
+      },
+      "hint": "Tóc dày — xem xét tỉa mỏng",
+      "options": [
+        {
+          "en": "Your hair is thick, I'll thin it a little.",
+          "vi": "Tóc anh dày, em tỉa mỏng bớt chút nhé.",
+          "phon": "yo he ịt thích, ai-ồ thin ịt ờ lít-tồ",
+          "when": "Tóc dày, nhiều"
+        },
+        {
+          "en": "Is your hair naturally curly?",
+          "vi": "Tóc anh tự nhiên xoăn vậy à?",
+          "phon": "ịt yo he ná-chờ-rờ-li cớ-li",
+          "when": "Bắt đầu tư vấn"
+        },
+        {
+          "en": "How many centimeters off the top?",
+          "vi": "Cắt phía trên bớt mấy phân ạ?",
+          "phon": "hao me-ni xen-ti-mi-tờz óp đờ tốp",
+          "when": "Hỏi khách muốn cắt ngắn bao nhiêu"
+        }
+      ],
+      "answer": 0,
+      "explain": "Tỉa mỏng bớt là giải pháp đúng cho tóc dày — khách nghe hiểu ngay."
+    },
+    {
+      "client": {
+        "en": "Just a little off the top, boss.",
+        "vi": "Phía trên cứ bớt tí thôi anh.",
+        "phon": "chụp ờ lí-tu ốc đờ tếp, boss"
+      },
+      "hint": "Đo lường cụ thể",
+      "options": [
+        {
+          "en": "Is your hair naturally curly?",
+          "vi": "Tóc anh tự nhiên xoăn vậy à?",
+          "phon": "ịt yo he ná-chờ-rờ-li cớ-li",
+          "when": "Bắt đầu tư vấn"
+        },
+        {
+          "en": "Your hair is thick, I'll thin it a little.",
+          "vi": "Tóc anh dày, em tỉa mỏng bớt chút nhé.",
+          "phon": "yo he ịt thích, ai-ồ thin ịt ờ lít-tồ",
+          "when": "Tóc dày, nhiều"
+        },
+        {
+          "en": "How many centimeters off the top?",
+          "vi": "Cắt phía trên bớt mấy phân ạ?",
+          "phon": "hao me-ni xen-ti-mi-tờz óp đờ tốp",
+          "when": "Hỏi khách muốn cắt ngắn bao nhiêu"
+        }
+      ],
+      "answer": 2,
+      "explain": "Hỏi mấy xăng cả hai phía — câu chuyên nghiệp để chốt chiều dài."
+    }
+  ]
+}

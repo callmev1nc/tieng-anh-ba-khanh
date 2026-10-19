@@ -1,0 +1,83 @@
+{
+  "id": "35-tet-cao-diem",
+  "order": 35,
+  "title": "Mùa Tết & cao điểm",
+  "goal": "Trả lời khách Tây về Tết: nghỉ mấy ngày, giá mùa cao điểm, lì xì, chúc mừng — tự nhiên như nói chuyện thường.",
+  "words": [
+    { "en": "Tet", "vi": "Tết Nguyên Đán", "phon": "Tét", "note": "Nhiều người Tây biết chữ này — \"It's Tet time\" là hiểu ngay." },
+    { "en": "lucky money", "vi": "lì xì", "phon": "lực-ki ma-ni", "note": "\"Lucky money in red envelopes\" = lì xì bao đỏ." },
+    { "en": "relatives", "vi": "họ hàng", "phon": "ri-la-típ", "note": "\"Visit my relatives\" = về thăm họ hàng." },
+    { "en": "feast", "vi": "cỗ / mâm cỗ", "phon": "phít", "note": "\"A big Tet feast\" = mâm cỗ Tết to." },
+    { "en": "spring", "vi": "mùa xuân", "phon": "spring", "note": "Sau Tết là xuân — \"spring festival\" ai cũng hiểu." },
+    { "en": "visit", "vi": "đi thăm", "phon": "vi-đít", "note": "\"Come visit us!\" = Mời ghé chơi nha." },
+    { "en": "fireworks", "vi": "pháo hoa", "phon": "phai-ờ-uặc", "note": "\"Fireworks at midnight\" = pháo hoa nửa đêm giao thừa." },
+    { "en": "peak", "vi": "đỉnh / cao điểm", "phon": "pít", "note": "\"Peak season\" = mùa cao điểm — đông, đặt giờ trước sẽ đỡ chờ." },
+    { "en": "overtime", "vi": "tăng ca", "phon": "âu-vờ-taim", "note": "\"Work overtime\" = tăng ca — chuyện miệng ngày Tết nào cũng có." },
+    { "en": "rest day", "vi": "ngày nghỉ", "phon": "rét đey", "note": "\"We have two rest days\" = Nghỉ hai ngày." }
+  ],
+  "phrases": [
+    { "en": "Our salon closes for three days at Tet.", "vi": "Tiệm mình nghỉ ba ngày dịp Tết.", "phon": "au-ờ sa-lon cờ-lâu-dzét phờ thri đey ết Tét", "when": "Khách hỏi lịch nghỉ Tết" },
+    { "en": "Happy New Year! This is lucky money for the kids.", "vi": "Chúc mừng năm mới! Đây lì xì cho các cháu.", "phon": "hặp niu di-rơ! dis iz lực-ki ma-ni phờ đờ kit", "when": "Tặng lì xì cho con nhỏ của khách" },
+    { "en": "We go home to visit relatives.", "vi": "Mình về quê thăm họ hàng.", "phon": "ui gâu hàum tu vi-đít ri-la-típ", "when": "Kể chuyện cuối năm" },
+    { "en": "It's busier and a little more expensive before Tet.", "vi": "Trước Tết đông hơn và đắt hơn chút.", "phon": "éts bi-di-rơ en mô éc-phên-xíp bi-phờ Tét", "when": "Trả giá thật mùa cao điểm" },
+    { "en": "There are fireworks at midnight on New Year's Eve.", "vi": "Có pháo hoa nửa đêm giao thừa đấy.", "phon": "dea phai-ờ-uặc ết mít-nai ốp niu di-rơ ệch", "when": "Kể về đêm giao thừa" }
+  ],
+  "dialogue": {
+    "title": "Khách Tây hỏi về Tết",
+    "lines": [
+      { "who": "client", "en": "Is Tet a big holiday here?", "vi": "Tết là dịp lễ lớn ở đây phải không?", "phon": "iz Tét ờ bíg hô-li-đê hi-rơ?" },
+      { "who": "barber", "en": "Yes, the biggest! Families go home and visit relatives.", "vi": "Đúng, lớn nhất đấy! Ai cũng về quê thăm họ hàng.", "phon": "dét, đờ bi-giest! fam-i-li gâu hàum en vi-đít ri-la-típ" },
+      { "who": "client", "en": "How many days do you close?", "vi": "Tiệm nghỉ mấy ngày?", "phon": "hau men-ni đey đu diu cờ-lâu-dzét" },
+      { "who": "barber", "en": "Three rest days. Then we work overtime — very busy.", "vi": "Ba ngày nghỉ. Sau đó tăng ca — đông lắm.", "phon": "thri rét đey. hâu ui uắc âu-vờ-taim — ve-ri bi-đi" },
+      { "who": "client", "en": "Can I get a haircut before Tet?", "vi": "Cho tôi cắt tóc trước Tết được không?", "phon": "can ai gét ờ hey-cút bi-phờ Tét?" },
+      { "who": "barber", "en": "Yes! It's peak season — please book early.", "vi": "Được! Cao điểm rồi — anh đặt sớm ạ.", "phon": "dét! éts pít si-dzần — pliz búc ơ-li" },
+      { "who": "client", "en": "Deal. Do people give lucky money at Tet?", "vi": "Chốt. Dịp Tết người ta lì xì không?", "phon": "dí. đu pi-pồ lip lực-ki ma-ni ết Tét?" },
+      { "who": "barber", "en": "Yes, in red envelopes. Kids love it!", "vi": "Có, lì xì bao đỏ. Bọn trẻ khoái lắm!", "phon": "dét, in ret en-vơ-loáp. kit lốp ét!" },
+      { "who": "client", "en": "Happy New Year soon, boss!", "vi": "Sớm mừng năm mới nhé anh!", "phon": "hặp niu di-rơ xun, boss!" },
+      { "who": "barber", "en": "Happy New Year! A big feast and fireworks too.", "vi": "Mừng năm mới! Cỗ to và còn pháo hoa nữa.", "phon": "hặp niu di-rơ! ờ bíg phít en phai-ờ-uặc tu" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "What days are you closed for Tet?", "vi": "Tết bên anh nghỉ những ngày nào?", "phon": "uốc đeyz a-ra diu câu-dzét phờ Tét?" },
+      "hint": "Câu hỏi cuối năm rất thường gặp",
+      "options": [
+        { "en": "We close for three days, then back to work.", "phon": "ui cờ-lâu-dzét phờ thri đey, hâu bét tu uắc" },
+        { "en": "We are closed forever, sorry.", "phon": "ui a cờ-lâu-dzét phờ-rê-vờ, so-ri" },
+        { "en": "Closed? Book a table first.", "phon": "cờ-lâu-dzét? búc ờ tey-bờ phít" }
+      ],
+      "answer": 0,
+      "explain": "Nói rõ số ngày nghỉ rồi mời hẹn lại sau Tết — khách biết đường, mình giữ nguồn khách."
+    },
+    {
+      "client": { "en": "Is it busier and more expensive before Tet?", "vi": "Trước Tết đông hơn và giá cao hơn không?", "phon": "iz et bi-di-rơ en mô él-phen-síp bi-phờ Tét?" },
+      "hint": "Trả giá thật, không nói quá",
+      "options": [
+        { "en": "A little more. Peak season — book early, please.", "phon": "ờ lí-tu mô. pít si-dzần — pliz búc ơ-li" },
+        { "en": "Everything is free before Tet!", "phon": "ev-ri-thin iz phri bi-phờ Tét!" },
+        { "en": "Peak? Our town is empty.", "phon": "pít? au-ờ taun iz em-ti" }
+      ],
+      "answer": 0,
+      "explain": "Thành thật một chút tăng giá + mời đặt sớm — khách thấy minh bạch, không bỏ đi."
+    },
+    {
+      "client": { "en": "Happy New Year! Any plans?", "vi": "Mừng năm mới! Có kế hoạch gì không?", "phon": "hặp niu di-rơ! mô plan?" },
+      "hint": "Nhận chúc rồi kể chuyện vui",
+      "options": [
+        { "en": "A big feast, fireworks, and visiting relatives!", "phon": "ờ bíg phít, phai-ờ-uặc, en vi-đít-in ri-la-típ!" },
+        { "en": "No plan. The shop will burn down.", "phon": "nâu plan. đờ xáp uil bun dâun." },
+        { "en": "Fireworks are for kids only.", "phon": "phai-ờ-uặc a phờ kit âu-nli." }
+      ],
+      "answer": 0,
+      "explain": "Nhận lời chúc bằng chuyện kế hoạch của mình — khách Tây rất thích được nghe cách ăn Tết của người Việt."
+    }
+  ],
+  "quiz": [
+    { "q": "\"Lì xì\" tiếng Anh là:", "options": ["lazy money", "lucky money", "locked money", "lonely money"], "answer": 1 },
+    { "q": "\"Mâm cỗ lớn\" là:", "options": ["A big feast", "A big fist", "A big fast", "A big first"], "answer": 0 },
+    { "q": "\"Mùa cao điểm\" là:", "options": ["low season", "peak season", "kid season", "pink season"], "answer": 1 },
+    { "q": "\"Tăng ca\" là:", "options": ["work overseas", "work overtime", "rest overtime", "walk overtime"], "answer": 1 },
+    { "q": "Nửa đêm giao thừa có gì:", "options": ["Savings coupons", "Fireworks", "Haircuts", "Discounts"], "answer": 1 },
+    { "q": "\"Tiệm nghỉ ba ngày\" đọc là:", "options": ["We close for three days", "We close in three ways", "We close for free days", "We lose three days"], "answer": 0 }
+  ]
+}

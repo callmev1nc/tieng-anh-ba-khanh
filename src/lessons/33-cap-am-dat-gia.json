@@ -1,0 +1,83 @@
+{
+  "id": "33-cap-am-dat-gia",
+  "order": 33,
+  "title": "Cặp âm đắt giá",
+  "goal": "Nắm 5 cặp âm gây hiểu sai kinh điển: ship–sheep, walk–work, three–tree, live–leave, sit–seat. Nói nhầm là ra chuyện cười.",
+  "words": [
+    { "en": "ship", "vi": "con tàu", "phon": "síp", "note": "Âm i NGẮN, môi hơi tròn. Đọc nhanh." },
+    { "en": "sheep", "vi": "con cừu", "phon": "sinh-p", "note": "Âm i DÀI, môi cười. Kéo dài âm 'i' thì thành cừu." },
+    { "en": "walk", "vi": "đi bộ", "phon": "uốc", "note": "Chữ L CÂM — đọc là 'uốc'. Không có l gì trong miệng." },
+    { "en": "work", "vi": "làm việc", "phon": "uờ-k", "note": "Âm ơ dài, môi tròn — khác walk chỉ một cục phát âm." },
+    { "en": "three", "vi": "số 3", "phon": "thri", "note": "Đầu lưỡi chạm hàm răng trên — thè lưỡi ra, đừng đọc trơn." },
+    { "en": "tree", "vi": "cái cây", "phon": "tri", "note": "Đọc trơn 'tri' như tiếng Việt — KHÔNG thè lưỡi." },
+    { "en": "live", "vi": "sống / ở", "phon": "líp", "note": "Âm i ngắn. \"I live here\" = Tôi ở đây." },
+    { "en": "leave", "vi": "rời đi", "phon": "líp (dài)", "note": "Âm i dài, kéo hơi. \"I leave at six\" = 6 giờ tôi đi." },
+    { "en": "sit", "vi": "ngồi", "phon": "sít", "note": "Âm i ngắn — 'sít' gọn lỏn." },
+    { "en": "seat", "vi": "chỗ ngồi / ghế", "phon": "sít (dài)", "note": "Âm i dài — nghe như 'síttt'. Sit là hành động, seat là chỗ." }
+  ],
+  "phrases": [
+    { "en": "Please take a seat. Don't just stand there.", "vi": "Mời anh ngồi. Đừng đứng đấy mãi.", "phon": "pliz tay-k ờ sít (dài). đônt chát-xten đia", "when": "Mời khách ngồi — nói đúng seat để khách không cười" },
+    { "en": "I work here. Every day I walk to work.", "vi": "Tôi làm tại đây. Ngày nào cũng đi bộ tới chỗ làm.", "phon": "ai uờ-k hia. ev-ri đey ai uốc tu uờ-k", "when": "Small talk — cặp walk/work làm khách tấm tắc" },
+    { "en": "It takes three minutes, I promise.", "vi": "Ba phút thoi, anh hứa luôn.", "phon": "ét teys thri mí-nít, ai prô-mít", "when": "Three phải thè lưỡi, đừng đọc trơn 'tri'" },
+    { "en": "I live five minutes away.", "vi": "Nhà tôi cách đây năm phút.", "phon": "ai líp phaip mí-nít ơ-uey", "when": "Live ngắn gọn — đừng kéo dài thành leave" },
+    { "en": "Don't leave your phone on the mirror.", "vi": "Đừng bỏ điện thoại lên gương nhé.", "phon": "đon líp diu phâu-n ơn đờ mí-rơ", "when": "Khách vứt đồ lung tung — nói nhẹ nhàng" }
+  ],
+  "dialogue": {
+    "title": "Cặp âm khiến khách cười — và cách sửa",
+    "lines": [
+      { "who": "client", "en": "Where do you work, boss?", "vi": "Anh làm ở đâu vậy?", "phon": "ua đu diu uờ-k, boss" },
+      { "who": "barber", "en": "I work here. And I walk to work — not far.", "vi": "Tôi làm tại đây. Tôi đi bộ đi làm luôn — không xa.", "phon": "ai uờ-k hia. en ai uốc tu uờ-k — nốt pha" },
+      { "who": "client", "en": "Nice! And where do you live?", "vi": "Hay! Nhà anh ở đâu?", "phon": "nai! en ua đu diu líp" },
+      { "who": "barber", "en": "I live five minutes away. So I leave home at seven.", "vi": "Nhà tôi cách năm phút. Nên 7 giờ rời nhà.", "phon": "ai líp phaip mí-nít ơ-uey. sô ai líp (dài) hềm ết sev-ơn" },
+      { "who": "client", "en": "Cool. Can I take a seat?", "vi": "Được. Cho tôi ngồi nha?", "phon": "kù. can ai tayk ờ sít (dài)" },
+      { "who": "barber", "en": "Of course. Sit here — best seat in the shop.", "vi": "Rồi. Ngồi đây — ghế đẹp nhất tiệm.", "phon": "ốc-cóc. sít hia — be-t sít (dài) in đờ sấp" },
+      { "who": "client", "en": "Three minutes for a trim, right?", "vi": "Ba phút cho chỉnh gọn, đúng không?", "phon": "thri mí-nít pha ờ trím, rai?" },
+      { "who": "barber", "en": "Three minutes! No tree included.", "vi": "Ba phút! Không tặng cây nha anh.", "phon": "thri mí-nít! nâu tri in-clu-đih" },
+      { "who": "client", "en": "Haha, got it — three, not tree.", "vi": "Ha ha hiểu rồi — three chứ không phải tree.", "phon": "ha-ha, gót ét — thri, nốt tri" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "I want my hair like a ship.", "vi": "Tôi muốn tóc như... con tàu ạ?", "phon": "ai uốn mai hey mái k ờ síp" },
+      "hint": "Khách nói nhầm cặp âm — đừng cười chê",
+      "options": [
+        { "en": "A sheep! Bouncy like wool — I got you, boss.", "phon": "ờ sinh-p! bâu-xlây mái uù..." },
+        { "en": "Boats are for rivers, not for your head.", "phon": "bâu-t a pha ri-vơ, nốt pha diu hét" },
+        { "en": "Sorry, I don't cut ships today.", "phon": "so-ri, ai đon cút chíp tuđây" }
+      ],
+      "answer": 0,
+      "explain": "Đúng ý khách (tóc bồng như lông cừu) nhưng lại vui vẻ cà khịa nhẹ — khách cười và tin mình."
+    },
+    {
+      "client": { "en": "Can I sit two minutes? I have to leave soon.", "vi": "Cho tôi ngồi hai phút, tôi sắp phải đi.", "phon": "can ai sít tu mí-nít? ai hèp tu lip (dài) sun" },
+      "hint": "Hai cặp âm trong một câu",
+      "options": [
+        { "en": "Sit down, please. Ten minutes — you can leave on time.", "phon": "sít đao, pliz. ten mí-nít — diu can lip (dài) ơn taim" },
+        { "en": "You live here every weekend?", "phon": "diu líp hia ev-ri uíc-ến" },
+        { "en": "I sit too. I also leave.", "phon": "ai sít tu. ai ok-lâu lip (dài)" }
+      ],
+      "answer": 0,
+      "explain": "Trả lời trúng cả hai ý khách: cho ngồi ngay + hứa làm nhanh để khách rời đúng giờ."
+    },
+    {
+      "client": { "en": "I work all week. My head needs a quick fix.", "vi": "Tôi làm việc cả tuần. Đầu cần đổi nhanh gọn.", "phon": "ai uờ-k o uíc. mai hét nít dờ ờ quíc fix" },
+      "hint": "walk/work + speed",
+      "options": [
+        { "en": "Ten minutes, clean and sharp — perfect for a working man.", "phon": "ten mí-nít, cin en xáp — pa-fit pha ờ uờ-king men" },
+        { "en": "Walk first, work later. Let's talk weather.", "phon": "uốc phít, uờ-k lây-tơ. let s tạc uea-đơ" },
+        { "en": "Shipping is free for haircuts today.", "phon": "sinh-ping ơ fri pho hey-cut tuđay" }
+      ],
+      "answer": 0,
+      "explain": "Gọi đúng 'working man' + cam kết thời gian — khách thấy mình hiểu họ."
+    }
+  ],
+  "quiz": [
+    { "q": "\"Đi bộ\" đọc là:", "options": ["Walk", "Work", "Wall", "Week"], "answer": 0 },
+    { "q": "\"Làm việc\" là:", "options": ["Walk", "Week", "Work", "Word"], "answer": 2 },
+    { "q": "Con số 3 đọc chuẩn là:", "options": ["Tree", "Three", "Twee", "Treat"], "answer": 1 },
+    { "q": "\"Sống, ở\" (động từ) là:", "options": ["Leave", "Live", "Lift", "Lip"], "answer": 1 },
+    { "q": "\"Rời đi\" là:", "options": ["Lift", "Lip", "Leave", "Live"], "answer": 2 },
+    { "q": "\"Mời anh ngồi\" câu tự nhiên nhất:", "options": ["Take a walk", "Take a sheep", "Take a seat", "Take a ship"], "answer": 2 },
+    { "q": "Khách đề cập 'lông cừu bồng bềnh' — từ đúng là:", "options": ["Ship (con tàu)", "Sheep (con cừu)", "Shape (dáng)", "Shop (tiệm)"], "answer": 1 }
+  ]
+}

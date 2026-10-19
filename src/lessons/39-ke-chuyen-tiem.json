@@ -1,0 +1,82 @@
+{
+  "id": "39-ke-chuyen-tiem",
+  "order": 39,
+  "title": "Kể chuyện tiệm mình",
+  "goal": "Kể về tiệm bằng tiếng Anh: mở từ năm nào, học nghề với thầy nào, mơ về sau — khách nghe xong muốn quay lại và giới thiệu bạn bè.",
+  "words": [
+    { "en": "journey", "vi": "hành trình", "phon": "dzợ-ni", "note": "\"My journey\" = hành trình của mình — mở đầu mọi câu chuyện nghề." },
+    { "en": "mentor", "vi": "thầy dạy nghề", "phon": "mên-tơ", "note": "\"My mentor taught me\" = thầy tôi dạy — mỗi thợ giỏi đều có một thầy." },
+    { "en": "license", "vi": "bằng / giấy phép", "phon": "lai-xần", "note": "\"I got my license in 2015\" = thi đỗ bằng nghề 2015." },
+    { "en": "assistant", "vi": "thợ phụ", "phon": "ơ-xi-xtần", "note": "\"I started as an assistant\" = bắt đầu làm thợ phụ — câu chuyện rất thật." },
+    { "en": "proud", "vi": "tự hào", "phon": "prau", "note": "\"I'm proud of it\" = Em tự hào về điều đó — nói chậm, từ ngữ rất nhấn." },
+    { "en": "dream", "vi": "ước mơ", "phon": "drím", "note": "\"My dream is...\" = Ước của em là... — khách Tây thích nghe ước mơ thật." },
+    { "en": "craft", "vi": "nghề / tay nghề", "phon": "cráp", "note": "\"The craft takes years\" = nghề cần năm tháng — nói với khách cũng hiểu." },
+    { "en": "future", "vi": "tương lai", "phon": "phiu-chờ", "note": "\"In the future\" = sau này — nhẹ nhàng, dễ dùng." },
+    { "en": "support", "vi": "ủng hộ / hỗ trợ", "phon": "xơ-páo", "note": "\"Thank you for your support\" = Cảm ơn anh đã ủng hộ tiệm." },
+    { "en": "neighborhood", "vi": "xóm / khu dân cư", "phon": "nây-bờ-hu", "note": "\"Our neighborhood shop\" = tiệm trong xóm — ấm áp và rất đúng." }
+  ],
+  "phrases": [
+    { "en": "I started this shop eight years ago.", "vi": "Mình mở tiệm này được 8 năm rồi.", "phon": "ai xtát-it dis xáp éch di-rơ ếch-âm", "when": "Khách hỏi \"làm bao lâu rồi?\"" },
+    { "en": "My mentor taught me everything.", "vi": "Thầy dạy mình từ đầu đến cuối.", "phon": "mai mên-tơ tát-mi ev-ri-thin", "when": "Kể chuyện lúc học nghề" },
+    { "en": "I got my license in 2015.", "vi": "Bằng nghề mình thi đỗ năm 2015.", "phon": "ai gót mai lai-xần in tu-thâu-zần ờ nai-xteen", "when": "Chứng tỏ tay nghề thật" },
+    { "en": "My dream is to teach young barbers.", "vi": "Ước của mình là dạy nghề cho thợ trẻ.", "phon": "mai drím iz tu tít yang bát-bợ", "when": "Câu chốt cảm động nhất" },
+    { "en": "Thank you for your support, neighbor.", "vi": "Cảm ơn anh đã ủng hộ, anh hàng xóm.", "phon": "then-kiu phờ diu xơ-páo, nây-bờ", "when": "Khủ khách quen trong xóm" }
+  ],
+  "dialogue": {
+    "title": "Khách mới hỏi chuyện nghề",
+    "lines": [
+      { "who": "client", "en": "How long have you worked here, boss?", "vi": "Anh làm nghề bao lâu rồi vậy?", "phon": "hau lông hèp diu uắc hi-rơ, boss?" },
+      { "who": "barber", "en": "Ten years. I started as a young assistant.", "vi": "Mười năm. Bắt đầu là em thợ phụ.", "phon": "ten di-rơ. ai xtát-it ờ ờ young ơ-xi-xtần" },
+      { "who": "client", "en": "Who taught you?", "vi": "Ai dạy anh thế?", "phon": "hu tát diu?" },
+      { "who": "barber", "en": "My uncle. A great mentor with a sharp eye.", "vi": "Bác mình. Thầy tuyệt vời, mắt tinh lắm.", "phon": "mai ân-kâu. ờ gretch mên-tơ uít ờ xáp ại" },
+      { "who": "client", "en": "Nice. This shop feels friendly.", "vi": "Hay đấy. Tiệm mình thấy thân thiện ghê.", "phon": "naich. dis xáp phích phren-đly" },
+      { "who": "barber", "en": "I'm proud of it. My dream is to teach young barbers.", "vi": "Mình tự hào lắm. Ước là dạy nghề cho thợ trẻ.", "phon": "aim prau ốp et. mai drím iz tu tít yang bát-bợ" },
+      { "who": "client", "en": "You will do it! Kids here need you.", "vi": "Anh làm được thôi! Bọn trẻ mấy đây cần anh mà.", "phon": "diu uil đu et! kit hi-rơ nít diu" },
+      { "who": "barber", "en": "With your support, we get there.", "vi": "Có anh ủng hộ thì chắc chắn tới ngày đó.", "phon": "uít diu xơ-páo, ui get đ-e" },
+      { "who": "client", "en": "Deal. Now cut quick, I'll listen more!", "vi": "Chốt. Giờ cắt nhanh đi, để anh kể chuyện tiếp!", "phon": "dí. nau cút quíc, ai-len lít-xơn mô!" }
+    ]
+  },
+  "situations": [
+    {
+      "client": { "en": "Did you go to barber school?", "vi": "Anh có học trường nghề không?", "phon": "đi-diu gâu tu bát-bờ xkul?" },
+      "hint": "Câu mở câu chuyện nghề dễ nhất",
+      "options": [
+        { "en": "Yes — three years, and my license in 2015.", "phon": "dét — thri di-rơ, en mai lai-xần inême tu-thâu-zần nai-xteen" },
+        { "en": "No school. Hair grows alone.", "phon": "nâu xcul. hey gâu-râu âu-lâu" },
+        { "en": "Barber school is for kids.", "phon": "bát-bờ xcul iz phờ kit" }
+      ],
+      "answer": 0,
+      "explain": "Kể thật: học mấy năm + đỗ bằng năm nào — câu ngắn nhưng mạnh, khách tin tay nghề."
+    },
+    {
+      "client": { "en": "Is this your own shop?", "vi": "Tiệm này của riêng anh à?", "phon": "iz dis diu âu xáp?" },
+      "hint": "Khách đang tò mò về chủ tiệm",
+      "options": [
+        { "en": "Yes, my own — I opened it eight years ago.", "phon": "dét, mai âu — ai âu-phần it éch di-rơ ếch-âm" },
+        { "en": "No idea. Ask the mirror.", "phon": "nâu ại-di. ahen: đờ mi-rờ" },
+        { "en": "I'm only the passenger here.", "phon": "aim âu-nli đờ pát-xyn-chờ" }
+      ],
+      "answer": 0,
+      "explain": "Tự hào nói chuyện mở tiệm — khách cảm thấy đang giao dịch với CHỦ tiệm, tin hơn."
+    },
+    {
+      "client": { "en": "You are very skilled. Any advice for me?", "vi": "Anh tay nghề cao ghê. Có gợi ý nào không?", "phon": "diu a we-ri xi-kanh. mô mia phờ mi?" },
+      "hint": "Cảm ơn rồi nói chuyện nghề",
+      "options": [
+        { "en": "Practice daily — the craft grows in your hands.", "phon": "p loving pho Daily — đờ cráp gâu-râu in diu hen" },
+        { "en": "Advice? Charge more always.", "phon": "mia? chà-rgb mô âu-uey" },
+        { "en": "Craft? Buy a machine, done.", "phon": "cráp? baik ờ ma-xin, chụp" }
+      ],
+      "answer": 0,
+      "explain": "Chia sẻ thật tâm về nghề — lời khuyên thật tạo cảm tình, khách quay lại kể bạn bè."
+    }
+  ],
+  "quiz": [
+    { "q": "\"Hành trình\" là:", "options": ["jacket", "journey", "jungle", "jury"], "answer": 1 },
+    { "q": "Người dạy nghề mình là:", "options": ["mentor", "menstrual", "monster", "message"], "answer": 0 },
+    { "q": "\"Bằng hành nghề\" là:", "options": ["licence plate", "license", "leisure", "lesson"], "answer": 1 },
+    { "q": "\"Thợ phụ\" là:", "options": ["assassin", "assistant", "associate", "aunt"], "answer": 1 },
+    { "q": "\"Em tự hào về điều này\" đọc là:", "options": ["I'm loud of it", "I'm proud of it", "I'm proud off it", "I'm port of it"], "answer": 1 },
+    { "q": "\"Nhờ anh ủng hộ\" là:", "options": ["Thank you for your support", "Thank you for your souvenir", "Think you for your support", "Thank you in your soporte"], "answer": 0 }
+  ]
+}

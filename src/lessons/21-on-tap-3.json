@@ -1,0 +1,279 @@
+{
+  "id": "21-on-tap-3",
+  "order": 21,
+  "title": "Ngày 21 — Ôn tập dịch vụ & bán hàng",
+  "goal": "Không học từ mới. Ôn lại: dưỡng tóc, combo, thanh toán, khiếu nại, vệ sinh, small talk.",
+  "words": [
+    {
+      "en": "discount",
+      "vi": "giảm giá",
+      "phon": "đít-cao",
+      "note": "Ôn lại bài 16."
+    },
+    {
+      "en": "deal",
+      "vi": "ưu đãi",
+      "phon": "đi-ồ",
+      "note": "Ôn lại bài 16."
+    },
+    {
+      "en": "tip",
+      "vi": "tiền tip",
+      "phon": "típ",
+      "note": "Ôn lại bài 17."
+    },
+    {
+      "en": "receipt",
+      "vi": "hóa đơn",
+      "phon": "ri-sít",
+      "note": "Ôn lại bài 17."
+    },
+    {
+      "en": "refund",
+      "vi": "hoàn tiền",
+      "phon": "ri-phăn-đờ",
+      "note": "Ôn lại bài 18."
+    },
+    {
+      "en": "remake",
+      "vi": "làm lại",
+      "phon": "ri-mêik",
+      "note": "Ôn lại bài 18."
+    },
+    {
+      "en": "sanitize",
+      "vi": "khử trùng",
+      "phon": "sa-nờ-taizờ",
+      "note": "Ôn lại bài 19."
+    },
+    {
+      "en": "gloves",
+      "vi": "găng tay",
+      "phon": "glấvz",
+      "note": "Ôn lại bài 19."
+    },
+    {
+      "en": "weather",
+      "vi": "thời tiết",
+      "phon": "quê-đờ",
+      "note": "Ôn lại bài 20."
+    },
+    {
+      "en": "coffee",
+      "vi": "cà phê",
+      "phon": "có-phi",
+      "note": "Ôn lại bài 20."
+    }
+  ],
+  "phrases": [
+    {
+      "en": "I recommend this hair oil.",
+      "vi": "Em giới thiệu dầu dưỡng này.",
+      "phon": "ai re-cờ-men đít he oi-ồ",
+      "when": "Bán sản phẩm"
+    },
+    {
+      "en": "Ten percent off, just for today.",
+      "vi": "Giảm 10%, chỉ hôm nay thôi.",
+      "phon": "ten pờ-xen ốp, chớst pho tu-đây",
+      "when": "Khuyến mãi"
+    },
+    {
+      "en": "Do you want a receipt?",
+      "vi": "Anh có lấy hóa đơn không?",
+      "phon": "đu diu quón ờ ri-sít",
+      "when": "Thanh toán"
+    },
+    {
+      "en": "We can remake it, no charge.",
+      "vi": "Bên em làm lại, không tính tiền.",
+      "phon": "quy ken ri-mêik ịt, nâu chạc",
+      "when": "Khách chưa hài lòng"
+    }
+  ],
+  "dialogue": {
+    "title": "Cuối tuần đông khách: combo, tip và hẹn lại",
+    "lines": [
+      {
+        "who": "barber",
+        "en": "Welcome back! How is the weather today?",
+        "vi": "Mừng anh quay lại! Hôm nay thời tiết thế nào?",
+        "phon": "quen-cầm béc! hao ịt đờ quê-đờ tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "A little hot. The shop is busy today!",
+        "vi": "Hơi nóng. Tiệm đông ghê!",
+        "phon": "ờ lít-tồ hót. đờ sóp ịt bi-zi tu-đây"
+      },
+      {
+        "who": "barber",
+        "en": "Yes, weekend is always busy. Today we have a combo.",
+        "vi": "Vâng, cuối tuần lúc nào cũng đông. Hôm nay có combo ạ.",
+        "phon": "dét, quy-k-en ịt o-quêis bi-zi. tu-đây quy hèv ờ khôm-bô"
+      },
+      {
+        "who": "client",
+        "en": "Nice. Cut, wash, and beard trim again?",
+        "vi": "Hay đó. Lại cắt, gội, với tỉa râu à?",
+        "phon": "nais. cắt, quóach, en bia-đờ trim ờ-ghen"
+      },
+      {
+        "who": "barber",
+        "en": "Yes! Ten percent off, just for today.",
+        "vi": "Đúng ạ! Giảm 10%, chỉ hôm nay thôi.",
+        "phon": "dét! ten pờ-xen ốp, chớst pho tu-đây"
+      },
+      {
+        "who": "client",
+        "en": "Deal! And my hair is dry. Do you have the hair oil?",
+        "vi": "Chốt! Tóc tôi đang khô. Có dầu dưỡng không?",
+        "phon": "đi-ồ! en mai he ịt đrai. đu diu hèv đờ he oi-ồ"
+      },
+      {
+        "who": "barber",
+        "en": "Yes. I recommend this one. Use a mask once a week too.",
+        "vi": "Có ạ. Em giới thiệu loại này. Mỗi tuần ủ mặt nạ một lần nữa nhé.",
+        "phon": "dét. ai re-cờ-men đít quăn. diuz ờ mát-sờ quăn-sờ ờ quy-k tu"
+      },
+      {
+        "who": "client",
+        "en": "OK. And clean tools? Last time I saw new gloves.",
+        "vi": "Được. Còn dụng cụ sạch chứ? Lần trước tôi thấy găng mới.",
+        "phon": "ô-kê. en clin tu-ồz? lást taim ai só niu glấvz"
+      },
+      {
+        "who": "barber",
+        "en": "Every time. I sanitize after every client.",
+        "vi": "Lần nào cũng vậy ạ. Khách nào xong em cũng khử trùng.",
+        "phon": "ev-ri taim. ai sa-nờ-taizờ áp-phờ ev-ri clai-ần"
+      },
+      {
+        "who": "barber",
+        "en": "The total is two hundred and fifty. Tip is up to you.",
+        "vi": "Tổng cộng hai trăm rưỡi ạ. Tip bao nhiêu cũng quý.",
+        "phon": "đờ tô-tồ ịt tu hăn-đrợt en phíp-ti. típ ịt ớp tu diu"
+      },
+      {
+        "who": "client",
+        "en": "Here is three hundred, keep the change. Do you want a receipt? No, I am fine.",
+        "vi": "Đây ba trăm, thối lại bao nhiêu cũng được. Hóa đơn à? Thôi khỏi.",
+        "phon": "hia ịt sờ-ri hăn-đrợt, kip đờ chêin-gờ. đu diu quón ờ ri-sít? nâu, ai em phain"
+      }
+    ]
+  },
+  "quiz": [
+    {
+      "q": "Điền từ còn thiếu: \"Ten ___ off, just for today.\"",
+      "options": [
+        "percent",
+        "person",
+        "pancake",
+        "pencil"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Tiền tip\" là:",
+      "options": [
+        "tip",
+        "top",
+        "tap",
+        "toy"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khách không hài lòng, bạn nói:",
+      "options": [
+        "We can remake it, no charge",
+        "Pay more money",
+        "Go home now",
+        "I don't know"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Khử trùng\" là:",
+      "options": [
+        "sanitize",
+        "sandwich",
+        "sad",
+        "size"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Điền từ còn thiếu: \"How is the ___ today?\" (Thời tiết)",
+      "options": [
+        "water",
+        "weather",
+        "waiter",
+        "winner"
+      ],
+      "answer": 1
+    },
+    {
+      "q": "\"Hóa đơn\" là:",
+      "options": [
+        "receipt",
+        "recipe",
+        "respect",
+        "repeat"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "Khách đưa 300, bill 250, tiền thừa gọi là:",
+      "options": [
+        "the change",
+        "the chance",
+        "the choice",
+        "the charge"
+      ],
+      "answer": 0
+    },
+    {
+      "q": "\"Găng tay\" là:",
+      "options": [
+        "glass",
+        "gloves",
+        "grass",
+        "glue"
+      ],
+      "answer": 1
+    }
+  ],
+  "situations": [
+    {
+      "client": {
+        "en": "The cut is not what I wanted, sorry.",
+        "vi": "Kiểu cắt không như ý tôi, xin lỗi anh.",
+        "phon": "đờ cát iz nốt uého ai uốn-tít, sờ-ri"
+      },
+      "hint": "Ôn tuần 3 — khiếu nại",
+      "options": [
+        {
+          "en": "We can remake it, no charge.",
+          "vi": "Bên em làm lại, không tính tiền.",
+          "phon": "quy ken ri-mêik ịt, nâu chạc",
+          "when": "Khách chưa hài lòng"
+        },
+        {
+          "en": "I recommend this hair oil.",
+          "vi": "Em giới thiệu dầu dưỡng này.",
+          "phon": "ai re-cờ-men đít he oi-ồ",
+          "when": "Bán sản phẩm"
+        },
+        {
+          "en": "Ten percent off, just for today.",
+          "vi": "Giảm 10%, chỉ hôm nay thôi.",
+          "phon": "ten pờ-xen ốp, chớst pho tu-đây",
+          "when": "Khuyến mãi"
+        }
+      ],
+      "answer": 0,
+      "explain": "Làm lại miễn phí là câu giữ khách đầu tiên khi bị chê."
+    }
+  ]
+}
